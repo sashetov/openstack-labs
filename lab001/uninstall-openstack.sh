@@ -1,0 +1,30 @@
+#!/bin/bash
+yum -y remove\
+  openvswitch-devel\
+  openvswitch-ovn-vtep\
+  openvswitch-ovn-central\
+  openvswitch\
+  openvswitch-ovn-docker\
+  openvswitch-ovn-host\
+  openvswitch-kmod\
+  openvswitch-ovn-common\
+  mysql-community-server\
+  mysql-community-client\
+  openstack-keystone\
+  httpd\
+  mod_wsgi\
+  openstack-utils\
+  python-openstackclient\
+  openstack-glance\
+  openstack-nova-api\
+  openstack-nova-conductor\
+  openstack-nova-console\
+  openstack-nova-novncproxy\
+  openstack-nova-scheduler\
+  rabbitmq-server\
+  openstack-nova-compute\
+  openstack-neutron\
+  openstack-neutron-ml2\
+  openstack-neutron-openvswitch\
+  openstack-neutron-linuxbridge\
+  ebtables

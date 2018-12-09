@@ -1,0 +1,36 @@
+2017-02-09 08:32:09.081 25065 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 08:32:09.081 25065 INFO neutron.common.config [-] /bin/neutron-ns-metadata-proxy version 9.1.1
+2017-02-09 08:32:09.094 25076 INFO neutron.agent.linux.daemon [-] Process runs with uid/gid: 989/986
+2017-02-09 08:32:09.095 25076 INFO neutron.wsgi [-] (25076) wsgi starting up on http://0.0.0.0:9697
+2017-02-09 14:02:01.406 31772 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 14:02:01.406 31772 INFO neutron.common.config [-] /bin/neutron-ns-metadata-proxy version 9.1.1
+2017-02-09 14:02:01.421 31780 INFO neutron.agent.linux.daemon [-] Process runs with uid/gid: 989/986
+2017-02-09 14:02:01.422 31780 INFO neutron.wsgi [-] (31780) wsgi starting up on http://0.0.0.0:9697
+2017-02-09 15:11:37.862 7826 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 15:11:37.863 7826 INFO neutron.common.config [-] /bin/neutron-ns-metadata-proxy version 9.1.1
+2017-02-09 15:11:37.881 7834 INFO neutron.agent.linux.daemon [-] Process runs with uid/gid: 989/986
+2017-02-09 15:11:37.882 7834 INFO neutron.wsgi [-] (7834) wsgi starting up on http://0.0.0.0:9697
+2017-02-09 15:32:46.207 7868 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 15:32:46.208 7868 INFO neutron.common.config [-] /bin/neutron-ns-metadata-proxy version 9.1.1
+2017-02-09 15:32:46.221 7935 INFO neutron.agent.linux.daemon [-] Process runs with uid/gid: 989/986
+2017-02-09 15:32:46.222 7935 INFO neutron.wsgi [-] (7935) wsgi starting up on http://0.0.0.0:9697
+2017-02-09 16:11:38.566 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:11:38] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.469826
+2017-02-09 16:11:41.330 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:11:41] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.455296
+2017-02-09 16:11:44.793 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:11:44] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.266334
+2017-02-09 16:11:48.291 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:11:48] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.164589
+2017-02-09 16:11:51.888 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:11:51] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.301250
+2017-02-09 16:11:54.561 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:11:54] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.494076
+2017-02-09 16:11:58.056 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:11:58] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.292354
+2017-02-09 16:12:01.590 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:12:01] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.135226
+2017-02-09 16:12:04.136 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:12:04] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.330035
+2017-02-09 16:12:06.518 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:12:06] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.183401
+2017-02-09 16:12:10.084 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:12:10] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.309919
+2017-02-09 16:12:13.691 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:12:13] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.224587
+2017-02-09 16:12:16.262 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:12:16] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.365865
+2017-02-09 16:12:19.010 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:12:19] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.495686
+2017-02-09 16:12:21.952 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:12:21] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.675656
+2017-02-09 16:12:25.449 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:12:25] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.200524
+2017-02-09 16:12:28.333 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:12:28] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.685523
+2017-02-09 16:12:30.973 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:12:30] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.434949
+2017-02-09 16:12:34.145 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:12:34] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.847432
+2017-02-09 16:12:36.847 7935 INFO neutron.wsgi [-] 192.168.2.6 - - [09/Feb/2017 16:12:36] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.436671

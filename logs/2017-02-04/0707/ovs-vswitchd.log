@@ -1,0 +1,159 @@
+2017-02-04T07:03:40.189Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2017-02-04T07:03:40.201Z|00002|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 0
+2017-02-04T07:03:40.201Z|00003|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 1
+2017-02-04T07:03:40.201Z|00004|ovs_numa|INFO|Discovered 2 NUMA nodes and 40 CPU cores
+2017-02-04T07:03:40.201Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2017-02-04T07:03:40.244Z|00006|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2017-02-04T07:03:40.337Z|00007|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2017-02-04T07:03:40.337Z|00008|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 1
+2017-02-04T07:03:40.338Z|00009|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2017-02-04T07:03:40.338Z|00010|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2017-02-04T07:03:40.338Z|00011|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2017-02-04T07:03:40.338Z|00012|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2017-02-04T07:03:40.338Z|00013|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2017-02-04T07:03:40.338Z|00014|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2017-02-04T07:03:40.338Z|00015|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2017-02-04T07:03:40.599Z|00001|ofproto_dpif_upcall(handler1)|INFO|received packet on unassociated datapath port 0
+2017-02-04T07:03:40.618Z|00016|bridge|INFO|bridge br-ex: added interface eno1 on port 1
+2017-02-04T07:03:40.624Z|00017|bridge|INFO|bridge br-ex: added interface br-ex on port 65534
+2017-02-04T07:03:40.624Z|00018|bridge|INFO|bridge br-ex: added interface phy-br-ex on port 2
+2017-02-04T07:03:40.691Z|00019|bridge|INFO|bridge br-int: added interface qg-a6bbc680-f0 on port 6
+2017-02-04T07:03:40.698Z|00020|bridge|INFO|bridge br-int: added interface qr-2e39d198-16 on port 5
+2017-02-04T07:03:40.698Z|00021|bridge|INFO|bridge br-int: added interface patch-tun on port 2
+2017-02-04T07:03:40.703Z|00022|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:03:40.709Z|00023|bridge|INFO|bridge br-int: added interface br-int on port 65534
+2017-02-04T07:03:40.790Z|00024|bridge|INFO|bridge br-int: added interface tapabd6765f-3e on port 3
+2017-02-04T07:03:40.790Z|00025|bridge|INFO|bridge br-int: added interface int-br-ex on port 1
+2017-02-04T07:03:40.797Z|00026|bridge|INFO|bridge br-int: added interface qr-8f512736-11 on port 4
+2017-02-04T07:03:40.798Z|00027|bridge|INFO|bridge br-tun: added interface patch-int on port 1
+2017-02-04T07:03:40.803Z|00028|bridge|INFO|bridge br-tun: added interface br-tun on port 65534
+2017-02-04T07:03:40.804Z|00029|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-04T07:03:40.804Z|00030|connmgr|INFO|br-ex: added service controller "punix:/var/run/openvswitch/br-ex.mgmt"
+2017-02-04T07:03:40.804Z|00031|bridge|INFO|bridge br-int: using datapath ID 000062ba3ac9f74a
+2017-02-04T07:03:40.804Z|00032|connmgr|INFO|br-int: added service controller "punix:/var/run/openvswitch/br-int.mgmt"
+2017-02-04T07:03:40.804Z|00033|bridge|INFO|bridge br-tun: using datapath ID 0000fa2857679349
+2017-02-04T07:03:40.805Z|00034|connmgr|INFO|br-tun: added service controller "punix:/var/run/openvswitch/br-tun.mgmt"
+2017-02-04T07:03:40.813Z|00035|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:03:40.816Z|00036|bridge|INFO|ovs-vswitchd (Open vSwitch) 2.6.1
+2017-02-04T07:03:41.380Z|00037|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:03:45.774Z|00038|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:03:45.852Z|00039|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:03:48.009Z|00040|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-04T07:03:48.016Z|00041|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-04T07:03:48.023Z|00042|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-04T07:03:48.054Z|00043|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-04T07:03:48.064Z|00044|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-04T07:03:48.072Z|00045|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-04T07:03:48.092Z|00046|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-04T07:03:48.101Z|00047|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-04T07:03:48.718Z|00048|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:03:50.224Z|00049|memory|INFO|347320 kB peak resident set size after 10.0 seconds
+2017-02-04T07:03:50.224Z|00050|memory|INFO|handlers:29 ports:12 revalidators:11 rules:28 udpif keys:3
+2017-02-04T07:03:59.018Z|00051|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:00.504Z|00052|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:00.509Z|00053|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:00.516Z|00054|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:00.520Z|00055|bridge|INFO|bridge br-int: added interface tapabd6765f-3e on port 7
+2017-02-04T07:04:00.525Z|00056|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:00.643Z|00057|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:00.693Z|00058|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:00.693Z|00059|netdev_linux|WARN|tapabd6765f-3e: removing policing failed: No such device
+2017-02-04T07:04:00.701Z|00060|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on tapabd6765f-3e device failed: No such device
+2017-02-04T07:04:00.711Z|00061|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on tapabd6765f-3e device failed: No such device
+2017-02-04T07:04:05.712Z|00062|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:05.712Z|00063|netdev_linux|WARN|tapabd6765f-3e: removing policing failed: No such device
+2017-02-04T07:04:05.718Z|00064|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:05.726Z|00065|bridge|INFO|bridge br-int: added interface qr-2e39d198-16 on port 8
+2017-02-04T07:04:05.730Z|00066|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:05.737Z|00067|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:05.747Z|00068|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:05.776Z|00069|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:05.776Z|00070|netdev_linux|WARN|qr-2e39d198-16: removing policing failed: No such device
+2017-02-04T07:04:05.782Z|00071|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qr-2e39d198-16 device failed: No such device
+2017-02-04T07:04:05.790Z|00072|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qr-2e39d198-16 device failed: No such device
+2017-02-04T07:04:05.903Z|00073|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:05.903Z|00074|netdev_linux|WARN|qr-2e39d198-16: removing policing failed: No such device
+2017-02-04T07:04:05.909Z|00075|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:05.919Z|00076|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:05.924Z|00077|bridge|INFO|bridge br-int: added interface qr-8f512736-11 on port 9
+2017-02-04T07:04:05.929Z|00078|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:06.050Z|00079|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:06.080Z|00080|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:06.081Z|00081|netdev_linux|WARN|qr-8f512736-11: removing policing failed: No such device
+2017-02-04T07:04:06.087Z|00082|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qr-8f512736-11 device failed: No such device
+2017-02-04T07:04:06.096Z|00083|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qr-8f512736-11 device failed: No such device
+2017-02-04T07:04:06.199Z|00084|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:06.199Z|00085|netdev_linux|WARN|qr-8f512736-11: removing policing failed: No such device
+2017-02-04T07:04:06.205Z|00086|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:06.217Z|00087|bridge|INFO|bridge br-int: added interface qg-a6bbc680-f0 on port 10
+2017-02-04T07:04:06.222Z|00088|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:06.227Z|00089|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:06.353Z|00090|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:06.384Z|00091|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:04:06.384Z|00092|netdev_linux|WARN|qg-a6bbc680-f0: removing policing failed: No such device
+2017-02-04T07:04:06.391Z|00093|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qg-a6bbc680-f0 device failed: No such device
+2017-02-04T07:04:06.400Z|00094|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qg-a6bbc680-f0 device failed: No such device
+2017-02-04T07:05:11.862Z|00095|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-04T07:05:11.876Z|00096|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-04T07:05:11.885Z|00097|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-04T07:05:11.895Z|00098|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:05:11.896Z|00099|netdev_linux|WARN|qg-a6bbc680-f0: removing policing failed: No such device
+2017-02-04T07:05:12.028Z|00100|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.036Z|00101|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-04T07:05:12.036Z|00102|ofp_util|INFO| pre: in_port=7,nw_proto=58,tp_src=136
+2017-02-04T07:05:12.036Z|00103|ofp_util|INFO|post: in_port=7
+2017-02-04T07:05:12.036Z|00104|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.044Z|00105|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.051Z|00106|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.059Z|00107|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.068Z|00108|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:05:12.185Z|00109|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.193Z|00110|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-04T07:05:12.193Z|00111|ofp_util|INFO| pre: in_port=9,nw_proto=58,tp_src=136
+2017-02-04T07:05:12.193Z|00112|ofp_util|INFO|post: in_port=9
+2017-02-04T07:05:12.194Z|00113|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.202Z|00114|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.209Z|00115|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.217Z|00116|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.226Z|00117|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:05:12.345Z|00118|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.353Z|00119|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-04T07:05:12.353Z|00120|ofp_util|INFO| pre: in_port=8,nw_proto=58,tp_src=136
+2017-02-04T07:05:12.353Z|00121|ofp_util|INFO|post: in_port=8
+2017-02-04T07:05:12.354Z|00122|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.362Z|00123|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.370Z|00124|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.378Z|00125|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.387Z|00126|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:05:12.504Z|00127|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.513Z|00128|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-04T07:05:12.513Z|00129|ofp_util|INFO| pre: in_port=10,nw_proto=58,tp_src=136
+2017-02-04T07:05:12.513Z|00130|ofp_util|INFO|post: in_port=10
+2017-02-04T07:05:12.513Z|00131|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.522Z|00132|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.530Z|00133|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.538Z|00134|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:12.546Z|00135|bridge|WARN|could not open network device tap2582bb1a-4f (No such device)
+2017-02-04T07:05:14.116Z|00136|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.123Z|00137|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-04T07:05:14.123Z|00138|ofp_util|INFO| pre: in_port=7,nw_proto=58,tp_src=136
+2017-02-04T07:05:14.123Z|00139|ofp_util|INFO|post: in_port=7
+2017-02-04T07:05:14.124Z|00140|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.131Z|00141|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.139Z|00142|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.147Z|00143|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.155Z|00144|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.163Z|00145|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.170Z|00146|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.178Z|00147|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.185Z|00148|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.193Z|00149|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.200Z|00150|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.208Z|00151|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.215Z|00152|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.223Z|00153|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.231Z|00154|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.240Z|00155|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.248Z|00156|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.256Z|00157|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-04T07:05:14.263Z|00158|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)

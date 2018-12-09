@@ -1,0 +1,344 @@
+2017-02-09 07:43:46.966 14631 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-09 07:43:47.065 14631 INFO nova.virt.driver [req-c3ddc3d7-bc27-4274-9d1c-b93fbb208d83 - - - - -] Loading compute driver 'libvirt.LibvirtDriver'
+2017-02-09 07:43:47.245 14631 INFO os_vif [req-c3ddc3d7-bc27-4274-9d1c-b93fbb208d83 - - - - -] Loaded VIF plugin class '<class 'vif_plug_ovs.ovs.OvsPlugin'>' with name 'ovs'
+2017-02-09 07:43:47.247 14631 INFO os_vif [req-c3ddc3d7-bc27-4274-9d1c-b93fbb208d83 - - - - -] Loaded VIF plugin class '<class 'vif_plug_linux_bridge.linux_bridge.LinuxBridgePlugin'>' with name 'linux_bridge'
+2017-02-09 07:43:47.269 14631 INFO os_brick.initiator.connectors.disco [req-c3ddc3d7-bc27-4274-9d1c-b93fbb208d83 - - - - -] Init DISCO connector
+2017-02-09 07:43:47.270 14631 WARNING os_brick.initiator.connectors.remotefs [req-c3ddc3d7-bc27-4274-9d1c-b93fbb208d83 - - - - -] Connection details not present. RemoteFsClient may not initialize properly.
+2017-02-09 07:43:47.360 14631 INFO nova.service [-] Starting compute node (version 14.0.2-1.el7)
+2017-02-09 07:43:47.383 14631 INFO nova.virt.libvirt.driver [-] Connection event '1' reason 'None'
+2017-02-09 07:43:47.429 14631 INFO nova.virt.libvirt.host [req-5611e8e2-ac56-4ff4-a941-7d01a2a097d6 - - - - -] Libvirt host capabilities <capabilities>
+
+  <host>
+    <uuid>37353532-3538-435a-3336-313335344145</uuid>
+    <cpu>
+      <arch>x86_64</arch>
+      <model>Haswell-noTSX</model>
+      <vendor>Intel</vendor>
+      <topology sockets='1' cores='10' threads='2'/>
+      <feature name='vme'/>
+      <feature name='ds'/>
+      <feature name='acpi'/>
+      <feature name='ss'/>
+      <feature name='ht'/>
+      <feature name='tm'/>
+      <feature name='pbe'/>
+      <feature name='dtes64'/>
+      <feature name='monitor'/>
+      <feature name='ds_cpl'/>
+      <feature name='vmx'/>
+      <feature name='smx'/>
+      <feature name='est'/>
+      <feature name='tm2'/>
+      <feature name='xtpr'/>
+      <feature name='pdcm'/>
+      <feature name='dca'/>
+      <feature name='osxsave'/>
+      <feature name='f16c'/>
+      <feature name='rdrand'/>
+      <feature name='arat'/>
+      <feature name='tsc_adjust'/>
+      <feature name='cmt'/>
+      <feature name='xsaveopt'/>
+      <feature name='pdpe1gb'/>
+      <feature name='abm'/>
+      <feature name='invtsc'/>
+      <pages unit='KiB' size='4'/>
+      <pages unit='KiB' size='2048'/>
+      <pages unit='KiB' size='1048576'/>
+    </cpu>
+    <power_management>
+      <suspend_mem/>
+    </power_management>
+    <migration_features>
+      <live/>
+      <uri_transports>
+        <uri_transport>tcp</uri_transport>
+        <uri_transport>rdma</uri_transport>
+      </uri_transports>
+    </migration_features>
+    <topology>
+      <cells num='2'>
+        <cell id='0'>
+          <memory unit='KiB'>66980172</memory>
+          <pages unit='KiB' size='4'>16745043</pages>
+          <pages unit='KiB' size='2048'>0</pages>
+          <pages unit='KiB' size='1048576'>0</pages>
+          <distances>
+            <sibling id='0' value='10'/>
+            <sibling id='1' value='21'/>
+          </distances>
+          <cpus num='20'>
+            <cpu id='0' socket_id='0' core_id='0' siblings='0,20'/>
+            <cpu id='1' socket_id='0' core_id='1' siblings='1,21'/>
+            <cpu id='2' socket_id='0' core_id='2' siblings='2,22'/>
+            <cpu id='3' socket_id='0' core_id='3' siblings='3,23'/>
+            <cpu id='4' socket_id='0' core_id='4' siblings='4,24'/>
+            <cpu id='5' socket_id='0' core_id='8' siblings='5,25'/>
+            <cpu id='6' socket_id='0' core_id='9' siblings='6,26'/>
+            <cpu id='7' socket_id='0' core_id='10' siblings='7,27'/>
+            <cpu id='8' socket_id='0' core_id='11' siblings='8,28'/>
+            <cpu id='9' socket_id='0' core_id='12' siblings='9,29'/>
+            <cpu id='20' socket_id='0' core_id='0' siblings='0,20'/>
+            <cpu id='21' socket_id='0' core_id='1' siblings='1,21'/>
+            <cpu id='22' socket_id='0' core_id='2' siblings='2,22'/>
+            <cpu id='23' socket_id='0' core_id='3' siblings='3,23'/>
+            <cpu id='24' socket_id='0' core_id='4' siblings='4,24'/>
+            <cpu id='25' socket_id='0' core_id='8' siblings='5,25'/>
+            <cpu id='26' socket_id='0' core_id='9' siblings='6,26'/>
+            <cpu id='27' socket_id='0' core_id='10' siblings='7,27'/>
+            <cpu id='28' socket_id='0' core_id='11' siblings='8,28'/>
+            <cpu id='29' socket_id='0' core_id='12' siblings='9,29'/>
+          </cpus>
+        </cell>
+        <cell id='1'>
+          <memory unit='KiB'>67108864</memory>
+          <pages unit='KiB' size='4'>16777216</pages>
+          <pages unit='KiB' size='2048'>0</pages>
+          <pages unit='KiB' size='1048576'>0</pages>
+          <distances>
+            <sibling id='0' value='21'/>
+            <sibling id='1' value='10'/>
+          </distances>
+          <cpus num='20'>
+            <cpu id='10' socket_id='1' core_id='0' siblings='10,30'/>
+            <cpu id='11' socket_id='1' core_id='1' siblings='11,31'/>
+            <cpu id='12' socket_id='1' core_id='2' siblings='12,32'/>
+            <cpu id='13' socket_id='1' core_id='3' siblings='13,33'/>
+            <cpu id='14' socket_id='1' core_id='4' siblings='14,34'/>
+            <cpu id='15' socket_id='1' core_id='8' siblings='15,35'/>
+            <cpu id='16' socket_id='1' core_id='9' siblings='16,36'/>
+            <cpu id='17' socket_id='1' core_id='10' siblings='17,37'/>
+            <cpu id='18' socket_id='1' core_id='11' siblings='18,38'/>
+            <cpu id='19' socket_id='1' core_id='12' siblings='19,39'/>
+            <cpu id='30' socket_id='1' core_id='0' siblings='10,30'/>
+            <cpu id='31' socket_id='1' core_id='1' siblings='11,31'/>
+            <cpu id='32' socket_id='1' core_id='2' siblings='12,32'/>
+            <cpu id='33' socket_id='1' core_id='3' siblings='13,33'/>
+            <cpu id='34' socket_id='1' core_id='4' siblings='14,34'/>
+            <cpu id='35' socket_id='1' core_id='8' siblings='15,35'/>
+            <cpu id='36' socket_id='1' core_id='9' siblings='16,36'/>
+            <cpu id='37' socket_id='1' core_id='10' siblings='17,37'/>
+            <cpu id='38' socket_id='1' core_id='11' siblings='18,38'/>
+            <cpu id='39' socket_id='1' core_id='12' siblings='19,39'/>
+          </cpus>
+        </cell>
+      </cells>
+    </topology>
+    <secmodel>
+      <model>none</model>
+      <doi>0</doi>
+    </secmodel>
+    <secmodel>
+      <model>dac</model>
+      <doi>0</doi>
+      <baselabel type='kvm'>+107:+107</baselabel>
+      <baselabel type='qemu'>+107:+107</baselabel>
+    </secmodel>
+  </host>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name='i686'>
+      <wordsize>32</wordsize>
+      <emulator>/usr/bin/qemu-system-i386</emulator>
+      <machine maxCpus='255'>pc-i440fx-2.0</machine>
+      <machine canonical='pc-i440fx-2.0' maxCpus='255'>pc</machine>
+      <machine maxCpus='255'>pc-0.12</machine>
+      <machine maxCpus='255'>pc-1.3</machine>
+      <machine maxCpus='255'>pc-q35-1.6</machine>
+      <machine maxCpus='255'>pc-q35-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.6</machine>
+      <machine maxCpus='255'>pc-i440fx-1.7</machine>
+      <machine maxCpus='255'>pc-0.11</machine>
+      <machine maxCpus='255'>pc-0.10</machine>
+      <machine maxCpus='255'>pc-1.2</machine>
+      <machine maxCpus='1'>isapc</machine>
+      <machine maxCpus='255'>pc-q35-1.4</machine>
+      <machine maxCpus='255'>pc-0.15</machine>
+      <machine maxCpus='255'>pc-0.14</machine>
+      <machine maxCpus='255'>pc-i440fx-1.5</machine>
+      <machine maxCpus='255'>pc-q35-2.0</machine>
+      <machine canonical='pc-q35-2.0' maxCpus='255'>q35</machine>
+      <machine maxCpus='255'>pc-i440fx-1.4</machine>
+      <machine maxCpus='255'>pc-1.1</machine>
+      <machine maxCpus='255'>pc-q35-1.7</machine>
+      <machine maxCpus='255'>pc-1.0</machine>
+      <machine maxCpus='255'>pc-0.13</machine>
+      <domain type='qemu'/>
+      <domain type='kvm'>
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+        <machine maxCpus='240'>pc-i440fx-rhel7.0.0</machine>
+        <machine canonical='pc-i440fx-rhel7.0.0' maxCpus='240'>pc</machine>
+        <machine maxCpus='240'>rhel6.0.0</machine>
+        <machine maxCpus='240'>rhel6.1.0</machine>
+        <machine maxCpus='240'>rhel6.2.0</machine>
+        <machine maxCpus='240'>rhel6.3.0</machine>
+        <machine maxCpus='240'>rhel6.4.0</machine>
+        <machine maxCpus='240'>rhel6.5.0</machine>
+        <machine maxCpus='240'>rhel6.6.0</machine>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default='on' toggle='no'/>
+      <acpi default='on' toggle='yes'/>
+      <apic default='on' toggle='no'/>
+      <pae/>
+      <nonpae/>
+    </features>
+  </guest>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name='x86_64'>
+      <wordsize>64</wordsize>
+      <emulator>/usr/bin/qemu-system-x86_64</emulator>
+      <machine maxCpus='255'>pc-i440fx-2.0</machine>
+      <machine canonical='pc-i440fx-2.0' maxCpus='255'>pc</machine>
+      <machine maxCpus='255'>pc-1.3</machine>
+      <machine maxCpus='255'>pc-0.12</machine>
+      <machine maxCpus='255'>pc-q35-1.6</machine>
+      <machine maxCpus='255'>pc-q35-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.6</machine>
+      <machine maxCpus='255'>pc-i440fx-1.7</machine>
+      <machine maxCpus='255'>pc-0.11</machine>
+      <machine maxCpus='255'>pc-1.2</machine>
+      <machine maxCpus='255'>pc-0.10</machine>
+      <machine maxCpus='1'>isapc</machine>
+      <machine maxCpus='255'>pc-q35-1.4</machine>
+      <machine maxCpus='255'>pc-0.15</machine>
+      <machine maxCpus='255'>pc-0.14</machine>
+      <machine maxCpus='255'>pc-i440fx-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.4</machine>
+      <machine maxCpus='255'>pc-q35-2.0</machine>
+      <machine canonical='pc-q35-2.0' maxCpus='255'>q35</machine>
+      <machine maxCpus='255'>pc-1.1</machine>
+      <machine maxCpus='255'>pc-q35-1.7</machine>
+      <machine maxCpus='255'>pc-1.0</machine>
+      <machine maxCpus='255'>pc-0.13</machine>
+      <domain type='qemu'/>
+      <domain type='kvm'>
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+        <machine maxCpus='240'>pc-i440fx-rhel7.0.0</machine>
+        <machine canonical='pc-i440fx-rhel7.0.0' maxCpus='240'>pc</machine>
+        <machine maxCpus='240'>rhel6.0.0</machine>
+        <machine maxCpus='240'>rhel6.1.0</machine>
+        <machine maxCpus='240'>rhel6.2.0</machine>
+        <machine maxCpus='240'>rhel6.3.0</machine>
+        <machine maxCpus='240'>rhel6.4.0</machine>
+        <machine maxCpus='240'>rhel6.5.0</machine>
+        <machine maxCpus='240'>rhel6.6.0</machine>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default='on' toggle='no'/>
+      <acpi default='on' toggle='yes'/>
+      <apic default='on' toggle='no'/>
+    </features>
+  </guest>
+
+</capabilities>
+
+2017-02-09 07:43:47.573 14631 INFO oslo.privsep.daemon [req-5611e8e2-ac56-4ff4-a941-7d01a2a097d6 - - - - -] Running privsep helper: ['sudo', 'nova-rootwrap', '/etc/nova/rootwrap.conf', 'privsep-helper', '--config-file', '/usr/share/nova/nova-dist.conf', '--config-file', '/etc/nova/nova.conf', '--privsep_context', 'vif_plug_ovs.privsep.vif_plug', '--privsep_sock_path', '/tmp/tmpjadGGR/privsep.sock']
+2017-02-09 07:43:48.321 14631 INFO oslo.privsep.daemon [req-5611e8e2-ac56-4ff4-a941-7d01a2a097d6 - - - - -] Spawned new privsep daemon via rootwrap
+2017-02-09 07:43:48.323 14631 INFO oslo.privsep.daemon [-] privsep daemon starting
+2017-02-09 07:43:48.323 14631 INFO oslo.privsep.daemon [-] privsep process running with uid/gid: 0/0
+2017-02-09 07:43:48.324 14631 INFO oslo.privsep.daemon [-] privsep process running with capabilities (eff/prm/inh): CAP_NET_ADMIN/CAP_NET_ADMIN/none
+2017-02-09 07:43:48.324 14631 INFO oslo.privsep.daemon [-] privsep daemon running as pid 15366
+2017-02-09 07:43:48.441 14631 INFO os_vif [req-5611e8e2-ac56-4ff4-a941-7d01a2a097d6 - - - - -] Successfully plugged vif VIFOpenVSwitch(active=True,address=fa:16:3e:10:a7:60,bridge_name='br-int',has_traffic_filtering=True,id=57eafe39-74bf-406f-abc0-ec905390161d,network=Network(584d9ef6-3673-4cd5-beb9-87b3158d953a),plugin='ovs',port_profile=VIFPortProfileBase,preserve_on_delete=False,vif_name='tap57eafe39-74')
+2017-02-09 07:43:48.695 14631 WARNING nova.compute.monitors [req-5611e8e2-ac56-4ff4-a941-7d01a2a097d6 - - - - -] Excluding nova.compute.monitors.cpu monitor virt_driver. Not in the list of enabled monitors (CONF.compute_monitors).
+2017-02-09 07:43:48.696 14631 INFO nova.compute.resource_tracker [req-5611e8e2-ac56-4ff4-a941-7d01a2a097d6 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:43:49.244 14631 WARNING nova.scheduler.client.report [req-5611e8e2-ac56-4ff4-a941-7d01a2a097d6 - - - - -] No authentication information found for placement API. Optional use of placement API for reporting is now disabled.
+2017-02-09 07:43:49.407 14631 INFO nova.compute.resource_tracker [req-5611e8e2-ac56-4ff4-a941-7d01a2a097d6 - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:43:49.408 14631 INFO nova.compute.resource_tracker [req-5611e8e2-ac56-4ff4-a941-7d01a2a097d6 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:43:49.479 14631 INFO nova.compute.resource_tracker [req-5611e8e2-ac56-4ff4-a941-7d01a2a097d6 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:44:07.741 14631 INFO nova.compute.manager [-] [instance: efca1ee1-f6dd-4aea-b584-775c7b2de29b] During _sync_instance_power_state the DB power_state (1) does not match the vm_power_state from the hypervisor (4). Updating power_state in the DB to match the hypervisor.
+2017-02-09 07:44:07.862 14631 WARNING nova.compute.manager [-] [instance: efca1ee1-f6dd-4aea-b584-775c7b2de29b] Instance shutdown by itself. Calling the stop API. Current vm_state: active, current task_state: None, original DB power_state: 1, current VM power_state: 4
+2017-02-09 07:44:08.203 14631 INFO nova.compute.manager [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] [instance: efca1ee1-f6dd-4aea-b584-775c7b2de29b] Instance is already powered off in the hypervisor when stop is called.
+2017-02-09 07:44:08.322 14631 INFO nova.virt.libvirt.driver [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] [instance: efca1ee1-f6dd-4aea-b584-775c7b2de29b] Instance already shutdown.
+2017-02-09 07:44:08.331 14631 INFO nova.virt.libvirt.driver [-] [instance: efca1ee1-f6dd-4aea-b584-775c7b2de29b] Instance destroyed successfully.
+2017-02-09 07:44:47.104 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:44:48.069 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:44:48.070 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:44:48.147 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:45:55.135 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:45:56.037 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:45:56.038 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:45:56.083 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:46:57.415 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:46:58.247 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:46:58.247 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:46:58.333 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:47:49.136 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:47:50.007 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:47:50.008 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:47:50.064 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:48:49.147 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:48:50.058 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:48:50.059 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:48:50.120 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:49:49.149 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:49:50.017 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:49:50.018 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:49:50.061 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:50:51.076 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:50:51.982 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:50:51.982 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:50:52.036 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:51:52.132 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:51:53.045 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:51:53.046 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:51:53.101 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:52:54.072 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:52:54.969 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:52:54.969 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:52:55.013 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:53:47.035 14631 INFO nova.compute.manager [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Updating bandwidth usage cache
+2017-02-09 07:53:47.098 14631 INFO nova.compute.manager [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Bandwidth usage not supported by hypervisor.
+2017-02-09 07:53:55.066 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:53:55.946 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:53:55.947 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:53:55.986 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:54:55.071 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:54:55.964 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:54:55.964 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:54:56.016 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:55:57.074 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:55:57.940 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:55:57.941 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:55:57.981 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:56:59.075 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:56:59.959 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:56:59.960 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:57:00.011 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:57:59.070 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:57:59.929 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:57:59.930 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:57:59.992 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 07:59:00.916 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 07:59:01.769 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 07:59:01.770 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 07:59:01.831 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 08:00:00.793 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 08:00:01.607 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 08:00:01.608 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 08:00:01.652 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 08:01:01.831 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 08:01:02.666 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 08:01:02.667 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 08:01:02.720 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 08:02:02.803 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 08:02:03.624 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 08:02:03.624 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 08:02:03.663 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 08:03:03.073 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 08:03:03.913 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 08:03:03.914 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 08:03:03.972 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-09 08:04:03.065 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-09 08:04:03.891 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-09 08:04:03.892 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=39GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-09 08:04:03.944 14631 INFO nova.compute.resource_tracker [req-f520423f-ddd8-43ed-a44f-35c0f686bfbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com

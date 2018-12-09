@@ -1,0 +1,31 @@
+170205 09:44:51 mysqld_safe Logging to '/var/log/mysqld.log'.
+170205 09:44:51 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql/data/
+2017-02-05 09:44:51 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-02-05 09:44:51 0 [Note] /usr/sbin/mysqld (mysqld 5.6.35) starting as process 11761 ...
+2017-02-05 09:44:51 11761 [Warning] Buffered warning: Changed limits: max_open_files: 1024 (requested 5000)
+
+2017-02-05 09:44:51 11761 [Warning] Buffered warning: Changed limits: max_connections: 214 (requested 500)
+
+2017-02-05 09:44:51 11761 [Warning] Buffered warning: Changed limits: table_open_cache: 400 (requested 2000)
+
+2017-02-05 09:44:51 11761 [Note] Plugin 'FEDERATED' is disabled.
+2017-02-05 09:44:51 11761 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-02-05 09:44:51 11761 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-02-05 09:44:51 11761 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-02-05 09:44:51 11761 [Note] InnoDB: Memory barrier is not used
+2017-02-05 09:44:51 11761 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-02-05 09:44:51 11761 [Note] InnoDB: Using Linux native AIO
+2017-02-05 09:44:51 11761 [Note] InnoDB: Using CPU crc32 instructions
+2017-02-05 09:44:51 11761 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-02-05 09:44:51 11761 [Note] InnoDB: Completed initialization of buffer pool
+2017-02-05 09:44:51 11761 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-02-05 09:44:51 11761 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-02-05 09:44:51 11761 [Note] InnoDB: Waiting for purge to start
+2017-02-05 09:44:51 11761 [Note] InnoDB: 5.6.35 started; log sequence number 120083377
+2017-02-05 09:44:51 11761 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-02-05 09:44:51 11761 [Note] IPv6 is available.
+2017-02-05 09:44:51 11761 [Note]   - '::' resolves to '::';
+2017-02-05 09:44:51 11761 [Note] Server socket created on IP: '::'.
+2017-02-05 09:44:51 11761 [Note] Event Scheduler: Loaded 0 events
+2017-02-05 09:44:51 11761 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.6.35'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)

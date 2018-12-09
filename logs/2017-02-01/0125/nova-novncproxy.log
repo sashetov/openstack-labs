@@ -1,0 +1,47 @@
+2017-02-01 00:13:39.302 12713 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:13:39.303 12713 INFO nova.console.websocketproxy [-] WebSocket server settings:
+2017-02-01 00:13:39.303 12713 INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+2017-02-01 00:13:39.303 12713 INFO nova.console.websocketproxy [-]   - Flash security policy server
+2017-02-01 00:13:39.303 12713 INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+2017-02-01 00:13:39.304 12713 INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+2017-02-01 00:13:39.304 12713 INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None
+2017-02-01 00:13:45.929 12713 INFO nova.console.websocketproxy [-] In exit
+2017-02-01 00:14:06.242 14449 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:14:06.243 14449 INFO nova.console.websocketproxy [-] WebSocket server settings:
+2017-02-01 00:14:06.243 14449 INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+2017-02-01 00:14:06.243 14449 INFO nova.console.websocketproxy [-]   - Flash security policy server
+2017-02-01 00:14:06.243 14449 INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+2017-02-01 00:14:06.243 14449 INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+2017-02-01 00:14:06.244 14449 INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None
+2017-02-01 00:16:45.825 14449 INFO nova.console.websocketproxy [-] In exit
+2017-02-01 00:20:13.480 15903 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:20:13.480 15903 INFO nova.console.websocketproxy [-] WebSocket server settings:
+2017-02-01 00:20:13.481 15903 INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+2017-02-01 00:20:13.481 15903 INFO nova.console.websocketproxy [-]   - Flash security policy server
+2017-02-01 00:20:13.481 15903 INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+2017-02-01 00:20:13.481 15903 INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+2017-02-01 00:20:13.481 15903 INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None
+2017-02-01 00:21:26.378 15903 INFO nova.console.websocketproxy [-] In exit
+2017-02-01 00:23:05.143 18667 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:23:05.143 18667 INFO nova.console.websocketproxy [-] WebSocket server settings:
+2017-02-01 00:23:05.143 18667 INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+2017-02-01 00:23:05.144 18667 INFO nova.console.websocketproxy [-]   - Flash security policy server
+2017-02-01 00:23:05.144 18667 INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+2017-02-01 00:23:05.144 18667 INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+2017-02-01 00:23:05.144 18667 INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None
+2017-02-01 00:27:45.259 18667 INFO nova.console.websocketproxy [-] In exit
+2017-02-01 00:36:01.343 4731 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:36:01.343 4731 INFO nova.console.websocketproxy [-] WebSocket server settings:
+2017-02-01 00:36:01.344 4731 INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+2017-02-01 00:36:01.344 4731 INFO nova.console.websocketproxy [-]   - Flash security policy server
+2017-02-01 00:36:01.344 4731 INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+2017-02-01 00:36:01.344 4731 INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+2017-02-01 00:36:01.345 4731 INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None
+2017-02-01 00:45:52.108 4731 INFO nova.console.websocketproxy [-] In exit
+2017-02-01 01:00:34.917 4728 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 01:00:34.918 4728 INFO nova.console.websocketproxy [-] WebSocket server settings:
+2017-02-01 01:00:34.918 4728 INFO nova.console.websocketproxy [-]   - Listen on 0.0.0.0:6080
+2017-02-01 01:00:34.919 4728 INFO nova.console.websocketproxy [-]   - Flash security policy server
+2017-02-01 01:00:34.919 4728 INFO nova.console.websocketproxy [-]   - Web server (no directory listings). Web root: /usr/share/novnc
+2017-02-01 01:00:34.919 4728 INFO nova.console.websocketproxy [-]   - No SSL/TLS support (no cert file)
+2017-02-01 01:00:34.919 4728 INFO nova.console.websocketproxy [-]   - proxying from 0.0.0.0:6080 to None:None

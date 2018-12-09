@@ -1,0 +1,1026 @@
+2017-02-09T08:28:44.471Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2017-02-09T08:28:44.476Z|00002|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 0
+2017-02-09T08:28:44.476Z|00003|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 1
+2017-02-09T08:28:44.476Z|00004|ovs_numa|INFO|Discovered 2 NUMA nodes and 40 CPU cores
+2017-02-09T08:28:44.476Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2017-02-09T08:28:44.476Z|00006|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2017-02-09T08:28:44.506Z|00007|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2017-02-09T08:28:44.506Z|00008|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 1
+2017-02-09T08:28:44.506Z|00009|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2017-02-09T08:28:44.507Z|00010|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2017-02-09T08:28:44.507Z|00011|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2017-02-09T08:28:44.507Z|00012|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2017-02-09T08:28:44.507Z|00013|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2017-02-09T08:28:44.507Z|00014|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2017-02-09T08:28:44.507Z|00015|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2017-02-09T08:28:44.910Z|00001|ofproto_dpif_upcall(handler1)|INFO|received packet on unassociated datapath port 0
+2017-02-09T08:28:44.919Z|00016|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on tap54f55381-74 device failed: No such device
+2017-02-09T08:28:44.930Z|00017|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qg-64d35bd2-23 device failed: No such device
+2017-02-09T08:28:44.942Z|00018|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qr-19718a44-ed device failed: No such device
+2017-02-09T08:28:44.953Z|00019|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qr-eb7549e6-f7 device failed: No such device
+2017-02-09T08:28:44.957Z|00020|bridge|INFO|bridge br-ex: added interface eno1 on port 1
+2017-02-09T08:28:44.957Z|00021|bridge|INFO|bridge br-ex: added interface br-ex on port 65534
+2017-02-09T08:28:44.957Z|00022|bridge|INFO|bridge br-ex: added interface phy-br-ex on port 2
+2017-02-09T08:28:44.957Z|00023|bridge|INFO|bridge br-int: added interface tap54f55381-74 on port 28
+2017-02-09T08:28:44.961Z|00024|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on tap54f55381-74 device failed: No such device
+2017-02-09T08:28:44.961Z|00025|bridge|INFO|bridge br-int: added interface br-int on port 65534
+2017-02-09T08:28:44.961Z|00026|bridge|INFO|bridge br-int: added interface qg-64d35bd2-23 on port 31
+2017-02-09T08:28:44.965Z|00027|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qg-64d35bd2-23 device failed: No such device
+2017-02-09T08:28:44.965Z|00028|bridge|INFO|bridge br-int: added interface int-br-ex on port 1
+2017-02-09T08:28:44.965Z|00029|bridge|INFO|bridge br-int: added interface patch-tun on port 2
+2017-02-09T08:28:44.965Z|00030|bridge|INFO|bridge br-int: added interface qr-19718a44-ed on port 29
+2017-02-09T08:28:44.968Z|00031|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qr-19718a44-ed device failed: No such device
+2017-02-09T08:28:44.968Z|00032|bridge|INFO|bridge br-int: added interface qr-eb7549e6-f7 on port 30
+2017-02-09T08:28:44.972Z|00033|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qr-eb7549e6-f7 device failed: No such device
+2017-02-09T08:28:44.972Z|00034|bridge|INFO|bridge br-tun: added interface patch-int on port 1
+2017-02-09T08:28:44.972Z|00035|bridge|INFO|bridge br-tun: added interface br-tun on port 65534
+2017-02-09T08:28:44.974Z|00036|bridge|INFO|bridge ovs-br0: added interface vxlan1 on port 1
+2017-02-09T08:28:44.974Z|00037|bridge|INFO|bridge ovs-br0: added interface ovs-br0 on port 65534
+2017-02-09T08:28:44.975Z|00038|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-09T08:28:44.975Z|00039|connmgr|INFO|br-ex: added service controller "punix:/var/run/openvswitch/br-ex.mgmt"
+2017-02-09T08:28:44.975Z|00040|bridge|INFO|bridge br-int: using datapath ID 00009668e5b36346
+2017-02-09T08:28:44.975Z|00041|netdev_linux|WARN|tap54f55381-74: removing policing failed: No such device
+2017-02-09T08:28:44.975Z|00042|netdev_linux|WARN|qg-64d35bd2-23: removing policing failed: No such device
+2017-02-09T08:28:44.975Z|00043|netdev_linux|WARN|qr-eb7549e6-f7: removing policing failed: No such device
+2017-02-09T08:28:44.975Z|00044|netdev_linux|WARN|qr-19718a44-ed: removing policing failed: No such device
+2017-02-09T08:28:44.975Z|00045|connmgr|INFO|br-int: added service controller "punix:/var/run/openvswitch/br-int.mgmt"
+2017-02-09T08:28:44.975Z|00046|bridge|INFO|bridge br-tun: using datapath ID 0000eecee18c8643
+2017-02-09T08:28:44.975Z|00047|connmgr|INFO|br-tun: added service controller "punix:/var/run/openvswitch/br-tun.mgmt"
+2017-02-09T08:28:44.975Z|00048|bridge|INFO|bridge ovs-br0: using datapath ID 0000ce18b52bc641
+2017-02-09T08:28:44.976Z|00049|connmgr|INFO|ovs-br0: added service controller "punix:/var/run/openvswitch/ovs-br0.mgmt"
+2017-02-09T08:28:45.108Z|00050|bridge|INFO|ovs-vswitchd (Open vSwitch) 2.6.1
+2017-02-09T08:28:54.620Z|00051|memory|INFO|348120 kB peak resident set size after 10.1 seconds
+2017-02-09T08:28:54.620Z|00052|memory|INFO|handlers:29 ports:14 revalidators:11 rules:17 udpif keys:3
+2017-02-09T08:30:26.122Z|00053|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T08:30:26.128Z|00054|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T08:30:26.133Z|00055|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T08:30:26.163Z|00056|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T08:30:26.173Z|00057|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T08:30:26.179Z|00058|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T08:30:26.201Z|00059|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-09T08:30:26.208Z|00060|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T08:30:33.026Z|00061|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T08:30:33.044Z|00062|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T08:30:33.051Z|00063|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T08:30:33.075Z|00064|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.083Z|00065|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T08:30:33.083Z|00066|ofp_util|INFO| pre: in_port=30,nw_proto=58,tp_src=136
+2017-02-09T08:30:33.083Z|00067|ofp_util|INFO|post: in_port=30
+2017-02-09T08:30:33.083Z|00068|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.091Z|00069|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.099Z|00070|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.107Z|00071|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.115Z|00072|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.123Z|00073|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T08:30:33.123Z|00074|ofp_util|INFO| pre: in_port=29,nw_proto=58,tp_src=136
+2017-02-09T08:30:33.123Z|00075|ofp_util|INFO|post: in_port=29
+2017-02-09T08:30:33.123Z|00076|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.133Z|00077|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.142Z|00078|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.149Z|00079|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.157Z|00080|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.164Z|00081|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T08:30:33.165Z|00082|ofp_util|INFO| pre: in_port=31,nw_proto=58,tp_src=136
+2017-02-09T08:30:33.165Z|00083|ofp_util|INFO|post: in_port=31
+2017-02-09T08:30:33.165Z|00084|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.174Z|00085|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.183Z|00086|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.189Z|00087|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.196Z|00088|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.205Z|00089|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T08:30:33.205Z|00090|ofp_util|INFO| pre: in_port=28,nw_proto=58,tp_src=136
+2017-02-09T08:30:33.205Z|00091|ofp_util|INFO|post: in_port=28
+2017-02-09T08:30:33.205Z|00092|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.213Z|00093|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.219Z|00094|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:30:33.226Z|00095|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.274Z|00096|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.282Z|00097|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T08:31:33.282Z|00098|ofp_util|INFO| pre: in_port=30,nw_proto=58,tp_src=136
+2017-02-09T08:31:33.282Z|00099|ofp_util|INFO|post: in_port=30
+2017-02-09T08:31:33.283Z|00100|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.291Z|00101|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.299Z|00102|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.308Z|00103|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.316Z|00104|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.323Z|00105|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T08:31:33.323Z|00106|ofp_util|INFO| pre: in_port=29,nw_proto=58,tp_src=136
+2017-02-09T08:31:33.323Z|00107|ofp_util|INFO|post: in_port=29
+2017-02-09T08:31:33.324Z|00108|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.332Z|00109|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.339Z|00110|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.347Z|00111|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.355Z|00112|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.363Z|00113|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.371Z|00114|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.379Z|00115|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.388Z|00116|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.397Z|00117|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.405Z|00118|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.413Z|00119|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.421Z|00120|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T08:31:33.429Z|00121|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:19:34.162Z|00122|bridge|INFO|bridge br-tun: added interface vxlan0 on port 2
+2017-02-09T13:19:34.181Z|00123|bridge|INFO|bridge br-tun: added interface tepi0 on port 3
+2017-02-09T13:25:18.004Z|00124|bridge|INFO|bridge br-ex: using datapath ID 0000667ccd41ca4c
+2017-02-09T13:25:19.254Z|00125|bridge|INFO|bridge br-ex: added interface eno1 on port 3
+2017-02-09T13:25:19.255Z|00126|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-09T13:34:33.542Z|00127|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:34:33.549Z|00128|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:34:33.556Z|00129|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:34:33.578Z|00130|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:34:33.588Z|00131|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:34:33.595Z|00132|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:34:33.614Z|00133|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-09T13:34:33.622Z|00134|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:42.738Z|00135|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:42.753Z|00136|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:42.761Z|00137|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:42.784Z|00138|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.792Z|00139|ofp_util|INFO|Dropped 2 log messages in last 18309 seconds (most recently, 18309 seconds ago) due to excessive rate
+2017-02-09T13:36:42.792Z|00140|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T13:36:42.792Z|00141|ofp_util|INFO| pre: in_port=30,nw_proto=58,tp_src=136
+2017-02-09T13:36:42.792Z|00142|ofp_util|INFO|post: in_port=30
+2017-02-09T13:36:42.793Z|00143|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.801Z|00144|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.809Z|00145|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.817Z|00146|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.826Z|00147|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.834Z|00148|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T13:36:42.834Z|00149|ofp_util|INFO| pre: in_port=29,nw_proto=58,tp_src=136
+2017-02-09T13:36:42.834Z|00150|ofp_util|INFO|post: in_port=29
+2017-02-09T13:36:42.834Z|00151|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.842Z|00152|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.850Z|00153|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.864Z|00154|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.875Z|00155|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.883Z|00156|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T13:36:42.883Z|00157|ofp_util|INFO| pre: in_port=31,nw_proto=58,tp_src=136
+2017-02-09T13:36:42.883Z|00158|ofp_util|INFO|post: in_port=31
+2017-02-09T13:36:42.883Z|00159|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.891Z|00160|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.899Z|00161|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.907Z|00162|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.916Z|00163|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.925Z|00164|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T13:36:42.925Z|00165|ofp_util|INFO| pre: in_port=28,nw_proto=58,tp_src=136
+2017-02-09T13:36:42.925Z|00166|ofp_util|INFO|post: in_port=28
+2017-02-09T13:36:42.925Z|00167|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.934Z|00168|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.942Z|00169|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:42.950Z|00170|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:46.658Z|00171|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:46.665Z|00172|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:46.671Z|00173|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:46.692Z|00174|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:46.701Z|00175|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:46.708Z|00176|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:46.724Z|00177|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-09T13:36:46.732Z|00178|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:47.929Z|00179|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:47.944Z|00180|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:47.952Z|00181|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:36:47.974Z|00182|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:47.981Z|00183|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T13:36:47.981Z|00184|ofp_util|INFO| pre: in_port=30,nw_proto=58,tp_src=136
+2017-02-09T13:36:47.981Z|00185|ofp_util|INFO|post: in_port=30
+2017-02-09T13:36:47.982Z|00186|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:47.988Z|00187|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:47.995Z|00188|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.001Z|00189|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.009Z|00190|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.015Z|00191|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.021Z|00192|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.028Z|00193|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.037Z|00194|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.045Z|00195|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.051Z|00196|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.058Z|00197|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.065Z|00198|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.072Z|00199|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.080Z|00200|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.087Z|00201|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.095Z|00202|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.102Z|00203|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:36:48.110Z|00204|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:00.855Z|00205|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:00.863Z|00206|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:00.870Z|00207|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:00.893Z|00208|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:00.902Z|00209|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:00.909Z|00210|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:00.930Z|00211|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-09T13:39:00.939Z|00212|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:02.457Z|00213|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:02.472Z|00214|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:02.481Z|00215|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:02.505Z|00216|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.513Z|00217|ofp_util|INFO|Dropped 3 log messages in last 134 seconds (most recently, 134 seconds ago) due to excessive rate
+2017-02-09T13:39:02.513Z|00218|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T13:39:02.513Z|00219|ofp_util|INFO| pre: in_port=30,nw_proto=58,tp_src=136
+2017-02-09T13:39:02.513Z|00220|ofp_util|INFO|post: in_port=30
+2017-02-09T13:39:02.514Z|00221|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.522Z|00222|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.530Z|00223|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.538Z|00224|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.547Z|00225|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.554Z|00226|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T13:39:02.554Z|00227|ofp_util|INFO| pre: in_port=29,nw_proto=58,tp_src=136
+2017-02-09T13:39:02.555Z|00228|ofp_util|INFO|post: in_port=29
+2017-02-09T13:39:02.555Z|00229|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.563Z|00230|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.572Z|00231|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.580Z|00232|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.588Z|00233|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.596Z|00234|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.604Z|00235|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.612Z|00236|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.620Z|00237|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.629Z|00238|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.637Z|00239|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.646Z|00240|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.654Z|00241|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:02.662Z|00242|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:07.899Z|00243|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:07.908Z|00244|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:07.916Z|00245|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:07.939Z|00246|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:07.950Z|00247|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:07.958Z|00248|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:07.978Z|00249|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-09T13:39:07.985Z|00250|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:09.539Z|00251|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:09.591Z|00252|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:09.599Z|00253|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:39:09.626Z|00254|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.634Z|00255|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.643Z|00256|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.651Z|00257|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.659Z|00258|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.668Z|00259|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.677Z|00260|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.685Z|00261|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.693Z|00262|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.702Z|00263|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.710Z|00264|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.719Z|00265|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.727Z|00266|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.735Z|00267|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.743Z|00268|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.753Z|00269|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.762Z|00270|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.770Z|00271|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.778Z|00272|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:39:09.786Z|00273|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T13:50:48.817Z|00001|ofproto_dpif_upcall(handler242)|INFO|received packet on unassociated datapath port 4
+2017-02-09T13:51:35.283Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2017-02-09T13:51:35.287Z|00002|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 0
+2017-02-09T13:51:35.287Z|00003|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 1
+2017-02-09T13:51:35.287Z|00004|ovs_numa|INFO|Discovered 2 NUMA nodes and 40 CPU cores
+2017-02-09T13:51:35.288Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2017-02-09T13:51:35.288Z|00006|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2017-02-09T13:51:35.294Z|00007|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2017-02-09T13:51:35.294Z|00008|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 1
+2017-02-09T13:51:35.294Z|00009|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2017-02-09T13:51:35.294Z|00010|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2017-02-09T13:51:35.294Z|00011|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2017-02-09T13:51:35.294Z|00012|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2017-02-09T13:51:35.294Z|00013|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2017-02-09T13:51:35.294Z|00014|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2017-02-09T13:51:35.294Z|00015|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2017-02-09T13:51:35.448Z|00001|ofproto_dpif_upcall(handler1)|INFO|received packet on unassociated datapath port 4
+2017-02-09T13:51:35.448Z|00002|ofproto_dpif_upcall(handler1)|INFO|received packet on unassociated datapath port 4
+2017-02-09T13:51:35.448Z|00003|ofproto_dpif_upcall(handler1)|INFO|received packet on unassociated datapath port 4
+2017-02-09T13:51:35.448Z|00004|ofproto_dpif_upcall(handler1)|INFO|received packet on unassociated datapath port 4
+2017-02-09T13:51:35.524Z|00005|ofproto_dpif_upcall(handler1)|INFO|received packet on unassociated datapath port 4
+2017-02-09T13:51:35.598Z|00016|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on tap54f55381-74 device failed: No such device
+2017-02-09T13:51:35.606Z|00017|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qg-64d35bd2-23 device failed: No such device
+2017-02-09T13:51:35.613Z|00018|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qr-19718a44-ed device failed: No such device
+2017-02-09T13:51:35.621Z|00019|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qr-eb7549e6-f7 device failed: No such device
+2017-02-09T13:51:35.624Z|00020|bridge|INFO|bridge br-tun: added interface patch-int on port 1
+2017-02-09T13:51:35.624Z|00021|bridge|INFO|bridge br-tun: added interface br-tun on port 65534
+2017-02-09T13:51:35.624Z|00022|bridge|INFO|bridge br-int: added interface tap54f55381-74 on port 28
+2017-02-09T13:51:35.627Z|00023|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on tap54f55381-74 device failed: No such device
+2017-02-09T13:51:35.627Z|00024|bridge|INFO|bridge br-int: added interface br-int on port 65534
+2017-02-09T13:51:35.627Z|00025|bridge|INFO|bridge br-int: added interface qg-64d35bd2-23 on port 31
+2017-02-09T13:51:35.629Z|00026|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qg-64d35bd2-23 device failed: No such device
+2017-02-09T13:51:35.629Z|00027|bridge|INFO|bridge br-int: added interface int-br-ex on port 1
+2017-02-09T13:51:35.629Z|00028|bridge|INFO|bridge br-int: added interface patch-tun on port 2
+2017-02-09T13:51:35.629Z|00029|bridge|INFO|bridge br-int: added interface qr-19718a44-ed on port 29
+2017-02-09T13:51:35.632Z|00030|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qr-19718a44-ed device failed: No such device
+2017-02-09T13:51:35.632Z|00031|bridge|INFO|bridge br-int: added interface qr-eb7549e6-f7 on port 30
+2017-02-09T13:51:35.634Z|00032|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qr-eb7549e6-f7 device failed: No such device
+2017-02-09T13:51:35.634Z|00033|bridge|INFO|bridge br-ex: added interface eno1 on port 1
+2017-02-09T13:51:35.635Z|00034|bridge|INFO|bridge br-ex: added interface br-ex on port 65534
+2017-02-09T13:51:35.635Z|00035|bridge|INFO|bridge br-ex: added interface phy-br-ex on port 2
+2017-02-09T13:51:35.635Z|00036|bridge|INFO|bridge br-tun: using datapath ID 0000eecee18c8643
+2017-02-09T13:51:35.635Z|00037|connmgr|INFO|br-tun: added service controller "punix:/var/run/openvswitch/br-tun.mgmt"
+2017-02-09T13:51:35.635Z|00038|bridge|INFO|bridge br-int: using datapath ID 00009668e5b36346
+2017-02-09T13:51:35.635Z|00039|netdev_linux|WARN|tap54f55381-74: removing policing failed: No such device
+2017-02-09T13:51:35.635Z|00040|netdev_linux|WARN|qg-64d35bd2-23: removing policing failed: No such device
+2017-02-09T13:51:35.635Z|00041|netdev_linux|WARN|qr-eb7549e6-f7: removing policing failed: No such device
+2017-02-09T13:51:35.635Z|00042|netdev_linux|WARN|qr-19718a44-ed: removing policing failed: No such device
+2017-02-09T13:51:35.635Z|00043|connmgr|INFO|br-int: added service controller "punix:/var/run/openvswitch/br-int.mgmt"
+2017-02-09T13:51:35.635Z|00044|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-09T13:51:35.635Z|00045|connmgr|INFO|br-ex: added service controller "punix:/var/run/openvswitch/br-ex.mgmt"
+2017-02-09T13:51:35.640Z|00046|bridge|INFO|ovs-vswitchd (Open vSwitch) 2.6.1
+2017-02-09T13:51:45.642Z|00047|memory|INFO|347324 kB peak resident set size after 10.4 seconds
+2017-02-09T13:51:45.642Z|00048|memory|INFO|handlers:29 ports:12 revalidators:11 rules:12 udpif keys:11
+2017-02-09T13:54:16.254Z|00049|bridge|INFO|bridge br-ex: using datapath ID 0000667ccd41ca4c
+2017-02-09T13:54:19.535Z|00050|bridge|INFO|bridge br-ex: added interface eno1 on port 3
+2017-02-09T13:54:19.536Z|00051|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-09T13:57:47.139Z|00052|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:57:47.146Z|00053|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:57:47.153Z|00054|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:57:47.177Z|00055|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:57:47.188Z|00056|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:57:47.195Z|00057|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T13:57:47.214Z|00058|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-09T13:57:47.221Z|00059|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:00:28.560Z|00060|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:00:28.570Z|00061|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:00:28.578Z|00062|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:00:28.610Z|00063|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:00:28.622Z|00064|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:00:28.629Z|00065|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:00:28.650Z|00066|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-09T14:00:28.656Z|00067|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:00:30.288Z|00068|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:00:30.300Z|00069|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:00:30.309Z|00070|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:00:30.331Z|00071|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.337Z|00072|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T14:00:30.337Z|00073|ofp_util|INFO| pre: in_port=30,nw_proto=58,tp_src=136
+2017-02-09T14:00:30.337Z|00074|ofp_util|INFO|post: in_port=30
+2017-02-09T14:00:30.338Z|00075|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.344Z|00076|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.354Z|00077|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.362Z|00078|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.370Z|00079|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.377Z|00080|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T14:00:30.377Z|00081|ofp_util|INFO| pre: in_port=29,nw_proto=58,tp_src=136
+2017-02-09T14:00:30.377Z|00082|ofp_util|INFO|post: in_port=29
+2017-02-09T14:00:30.377Z|00083|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.384Z|00084|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.395Z|00085|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.402Z|00086|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.410Z|00087|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.418Z|00088|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T14:00:30.418Z|00089|ofp_util|INFO| pre: in_port=31,nw_proto=58,tp_src=136
+2017-02-09T14:00:30.418Z|00090|ofp_util|INFO|post: in_port=31
+2017-02-09T14:00:30.418Z|00091|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.426Z|00092|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.434Z|00093|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.441Z|00094|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.451Z|00095|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.459Z|00096|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T14:00:30.459Z|00097|ofp_util|INFO| pre: in_port=28,nw_proto=58,tp_src=136
+2017-02-09T14:00:30.459Z|00098|ofp_util|INFO|post: in_port=28
+2017-02-09T14:00:30.459Z|00099|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.467Z|00100|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.474Z|00101|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:30.483Z|00102|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.470Z|00103|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.479Z|00104|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T14:00:32.479Z|00105|ofp_util|INFO| pre: in_port=30,nw_proto=58,tp_src=136
+2017-02-09T14:00:32.479Z|00106|ofp_util|INFO|post: in_port=30
+2017-02-09T14:00:32.479Z|00107|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.487Z|00108|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.494Z|00109|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.502Z|00110|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.509Z|00111|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.517Z|00112|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.525Z|00113|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.532Z|00114|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.539Z|00115|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.548Z|00116|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.555Z|00117|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.563Z|00118|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.571Z|00119|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.578Z|00120|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.586Z|00121|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.594Z|00122|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.601Z|00123|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.610Z|00124|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:00:32.618Z|00125|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:13:02.648Z|00126|bridge|INFO|bridge br-ex: using datapath ID 0000667ccd41ca4c
+2017-02-09T14:13:03.851Z|00127|bridge|INFO|bridge br-ex: added interface eno1 on port 4
+2017-02-09T14:13:03.852Z|00128|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-09T14:18:00.315Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2017-02-09T14:18:00.319Z|00002|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 0
+2017-02-09T14:18:00.319Z|00003|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 1
+2017-02-09T14:18:00.319Z|00004|ovs_numa|INFO|Discovered 2 NUMA nodes and 40 CPU cores
+2017-02-09T14:18:00.319Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2017-02-09T14:18:00.319Z|00006|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2017-02-09T14:18:00.324Z|00007|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2017-02-09T14:18:00.324Z|00008|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 1
+2017-02-09T14:18:00.324Z|00009|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2017-02-09T14:18:00.324Z|00010|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2017-02-09T14:18:00.324Z|00011|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2017-02-09T14:18:00.324Z|00012|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2017-02-09T14:18:00.324Z|00013|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2017-02-09T14:18:00.324Z|00014|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2017-02-09T14:18:00.324Z|00015|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2017-02-09T14:18:00.756Z|00001|ofproto_dpif_upcall(handler9)|INFO|received packet on unassociated datapath port 4
+2017-02-09T14:18:00.766Z|00001|ofproto_dpif_upcall(handler1)|INFO|received packet on unassociated datapath port 0
+2017-02-09T14:18:00.773Z|00016|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on tap54f55381-74 device failed: No such device
+2017-02-09T14:18:00.780Z|00017|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qg-64d35bd2-23 device failed: No such device
+2017-02-09T14:18:00.789Z|00018|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qr-19718a44-ed device failed: No such device
+2017-02-09T14:18:00.796Z|00019|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qr-eb7549e6-f7 device failed: No such device
+2017-02-09T14:18:00.799Z|00020|bridge|INFO|bridge br-tun: added interface patch-int on port 1
+2017-02-09T14:18:00.799Z|00021|bridge|INFO|bridge br-tun: added interface br-tun on port 65534
+2017-02-09T14:18:00.799Z|00022|bridge|INFO|bridge br-int: added interface tap54f55381-74 on port 28
+2017-02-09T14:18:00.802Z|00023|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on tap54f55381-74 device failed: No such device
+2017-02-09T14:18:00.802Z|00024|bridge|INFO|bridge br-int: added interface br-int on port 65534
+2017-02-09T14:18:00.802Z|00025|bridge|INFO|bridge br-int: added interface qg-64d35bd2-23 on port 31
+2017-02-09T14:18:00.805Z|00026|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qg-64d35bd2-23 device failed: No such device
+2017-02-09T14:18:00.805Z|00027|bridge|INFO|bridge br-int: added interface int-br-ex on port 1
+2017-02-09T14:18:00.805Z|00028|bridge|INFO|bridge br-int: added interface patch-tun on port 2
+2017-02-09T14:18:00.805Z|00029|bridge|INFO|bridge br-int: added interface qr-19718a44-ed on port 29
+2017-02-09T14:18:00.808Z|00030|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qr-19718a44-ed device failed: No such device
+2017-02-09T14:18:00.808Z|00031|bridge|INFO|bridge br-int: added interface qr-eb7549e6-f7 on port 30
+2017-02-09T14:18:00.810Z|00032|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qr-eb7549e6-f7 device failed: No such device
+2017-02-09T14:18:00.811Z|00033|bridge|INFO|bridge br-ex: added interface eno1 on port 4
+2017-02-09T14:18:00.811Z|00034|bridge|INFO|bridge br-ex: added interface br-ex on port 65534
+2017-02-09T14:18:00.811Z|00035|bridge|INFO|bridge br-ex: added interface phy-br-ex on port 2
+2017-02-09T14:18:00.811Z|00036|bridge|INFO|bridge br-tun: using datapath ID 0000eecee18c8643
+2017-02-09T14:18:00.811Z|00037|connmgr|INFO|br-tun: added service controller "punix:/var/run/openvswitch/br-tun.mgmt"
+2017-02-09T14:18:00.811Z|00038|bridge|INFO|bridge br-int: using datapath ID 00009668e5b36346
+2017-02-09T14:18:00.811Z|00039|netdev_linux|WARN|tap54f55381-74: removing policing failed: No such device
+2017-02-09T14:18:00.811Z|00040|netdev_linux|WARN|qg-64d35bd2-23: removing policing failed: No such device
+2017-02-09T14:18:00.811Z|00041|netdev_linux|WARN|qr-eb7549e6-f7: removing policing failed: No such device
+2017-02-09T14:18:00.811Z|00042|netdev_linux|WARN|qr-19718a44-ed: removing policing failed: No such device
+2017-02-09T14:18:00.811Z|00043|connmgr|INFO|br-int: added service controller "punix:/var/run/openvswitch/br-int.mgmt"
+2017-02-09T14:18:00.812Z|00044|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-09T14:18:00.812Z|00045|connmgr|INFO|br-ex: added service controller "punix:/var/run/openvswitch/br-ex.mgmt"
+2017-02-09T14:18:00.816Z|00046|bridge|INFO|ovs-vswitchd (Open vSwitch) 2.6.1
+2017-02-09T14:18:10.323Z|00047|memory|INFO|347312 kB peak resident set size after 10.0 seconds
+2017-02-09T14:18:10.323Z|00048|memory|INFO|handlers:29 ports:12 revalidators:11 rules:12 udpif keys:5
+2017-02-09T14:18:34.368Z|00049|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:18:34.375Z|00050|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:18:34.382Z|00051|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:18:34.415Z|00052|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:18:34.429Z|00053|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:18:34.437Z|00054|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:18:34.462Z|00055|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-09T14:18:34.471Z|00056|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:18:36.290Z|00057|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:18:36.304Z|00058|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:18:36.312Z|00059|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T14:18:36.337Z|00060|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.346Z|00061|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T14:18:36.346Z|00062|ofp_util|INFO| pre: in_port=30,nw_proto=58,tp_src=136
+2017-02-09T14:18:36.346Z|00063|ofp_util|INFO|post: in_port=30
+2017-02-09T14:18:36.346Z|00064|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.354Z|00065|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.362Z|00066|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.369Z|00067|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.377Z|00068|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.385Z|00069|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T14:18:36.385Z|00070|ofp_util|INFO| pre: in_port=29,nw_proto=58,tp_src=136
+2017-02-09T14:18:36.385Z|00071|ofp_util|INFO|post: in_port=29
+2017-02-09T14:18:36.385Z|00072|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.393Z|00073|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.401Z|00074|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.409Z|00075|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.417Z|00076|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.425Z|00077|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T14:18:36.425Z|00078|ofp_util|INFO| pre: in_port=31,nw_proto=58,tp_src=136
+2017-02-09T14:18:36.425Z|00079|ofp_util|INFO|post: in_port=31
+2017-02-09T14:18:36.425Z|00080|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.433Z|00081|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.441Z|00082|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.449Z|00083|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.457Z|00084|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.465Z|00085|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T14:18:36.465Z|00086|ofp_util|INFO| pre: in_port=28,nw_proto=58,tp_src=136
+2017-02-09T14:18:36.465Z|00087|ofp_util|INFO|post: in_port=28
+2017-02-09T14:18:36.465Z|00088|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.473Z|00089|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.481Z|00090|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:36.488Z|00091|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.090Z|00092|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.098Z|00093|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T14:18:38.098Z|00094|ofp_util|INFO| pre: in_port=30,nw_proto=58,tp_src=136
+2017-02-09T14:18:38.098Z|00095|ofp_util|INFO|post: in_port=30
+2017-02-09T14:18:38.098Z|00096|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.106Z|00097|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.115Z|00098|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.122Z|00099|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.131Z|00100|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.140Z|00101|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.148Z|00102|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.155Z|00103|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.163Z|00104|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.171Z|00105|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.180Z|00106|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.188Z|00107|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.196Z|00108|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.204Z|00109|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.213Z|00110|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.221Z|00111|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.228Z|00112|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.236Z|00113|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T14:18:38.244Z|00114|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:03:17.122Z|00115|bridge|INFO|bridge br-ex: using datapath ID 0000667ccd41ca4c
+2017-02-09T15:03:18.339Z|00116|bridge|INFO|bridge br-ex: added interface eno1 on port 5
+2017-02-09T15:03:18.339Z|00117|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-09T15:07:28.473Z|00001|ofproto_dpif_xlate(handler126)|WARN|bridge br-int: received packet on unknown port 1
+2017-02-09T15:07:28.518Z|00001|ofproto_dpif_xlate(handler149)|WARN|bridge br-int: received packet on unknown port 1
+2017-02-09T15:09:46.142Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2017-02-09T15:09:46.153Z|00002|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 0
+2017-02-09T15:09:46.153Z|00003|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 1
+2017-02-09T15:09:46.153Z|00004|ovs_numa|INFO|Discovered 2 NUMA nodes and 40 CPU cores
+2017-02-09T15:09:46.153Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2017-02-09T15:09:46.182Z|00006|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2017-02-09T15:09:46.269Z|00007|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2017-02-09T15:09:46.269Z|00008|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 1
+2017-02-09T15:09:46.269Z|00009|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2017-02-09T15:09:46.269Z|00010|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2017-02-09T15:09:46.269Z|00011|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2017-02-09T15:09:46.269Z|00012|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2017-02-09T15:09:46.269Z|00013|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2017-02-09T15:09:46.269Z|00014|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2017-02-09T15:09:46.269Z|00015|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2017-02-09T15:09:46.539Z|00001|ofproto_dpif_upcall(handler1)|INFO|received packet on unassociated datapath port 0
+2017-02-09T15:09:46.541Z|00016|bridge|INFO|bridge br-tun: added interface patch-int on port 1
+2017-02-09T15:09:46.584Z|00017|bridge|INFO|bridge br-tun: added interface br-tun on port 65534
+2017-02-09T15:09:46.591Z|00018|bridge|INFO|bridge br-int: added interface br-int on port 65534
+2017-02-09T15:09:46.591Z|00019|bridge|INFO|bridge br-int: added interface int-br-ex on port 1
+2017-02-09T15:09:46.591Z|00020|bridge|INFO|bridge br-int: added interface patch-tun on port 2
+2017-02-09T15:09:46.624Z|00021|bridge|INFO|bridge br-ex: added interface eno1 on port 5
+2017-02-09T15:09:46.630Z|00022|bridge|INFO|bridge br-ex: added interface br-ex on port 65534
+2017-02-09T15:09:46.630Z|00023|bridge|INFO|bridge br-ex: added interface phy-br-ex on port 2
+2017-02-09T15:09:46.630Z|00024|bridge|INFO|bridge br-tun: using datapath ID 0000eecee18c8643
+2017-02-09T15:09:46.631Z|00025|connmgr|INFO|br-tun: added service controller "punix:/var/run/openvswitch/br-tun.mgmt"
+2017-02-09T15:09:46.631Z|00026|bridge|INFO|bridge br-int: using datapath ID 00009668e5b36346
+2017-02-09T15:09:46.631Z|00027|connmgr|INFO|br-int: added service controller "punix:/var/run/openvswitch/br-int.mgmt"
+2017-02-09T15:09:46.631Z|00028|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-09T15:09:46.631Z|00029|connmgr|INFO|br-ex: added service controller "punix:/var/run/openvswitch/br-ex.mgmt"
+2017-02-09T15:09:46.640Z|00030|bridge|INFO|ovs-vswitchd (Open vSwitch) 2.6.1
+2017-02-09T15:09:51.590Z|00031|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:09:51.596Z|00032|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:09:51.602Z|00033|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:09:51.633Z|00034|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:09:51.644Z|00035|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:09:51.656Z|00036|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:09:51.674Z|00037|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-09T15:09:51.683Z|00038|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:09:56.305Z|00039|memory|INFO|347284 kB peak resident set size after 10.2 seconds
+2017-02-09T15:09:56.305Z|00040|memory|INFO|handlers:29 ports:8 revalidators:11 rules:28 udpif keys:5
+2017-02-09T15:11:36.003Z|00041|bridge|INFO|bridge br-int: added interface qr-19718a44-ed on port 3
+2017-02-09T15:11:36.158Z|00042|netdev_linux|WARN|qr-19718a44-ed: removing policing failed: No such device
+2017-02-09T15:11:36.164Z|00043|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qr-19718a44-ed device failed: No such device
+2017-02-09T15:11:36.172Z|00044|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qr-19718a44-ed device failed: No such device
+2017-02-09T15:11:36.297Z|00045|bridge|INFO|bridge br-int: added interface qr-eb7549e6-f7 on port 4
+2017-02-09T15:11:36.298Z|00046|netdev_linux|WARN|qr-19718a44-ed: removing policing failed: No such device
+2017-02-09T15:11:36.352Z|00047|netdev_linux|WARN|qr-eb7549e6-f7: removing policing failed: No such device
+2017-02-09T15:11:36.359Z|00048|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qr-eb7549e6-f7 device failed: No such device
+2017-02-09T15:11:36.367Z|00049|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qr-eb7549e6-f7 device failed: No such device
+2017-02-09T15:11:36.464Z|00050|bridge|INFO|bridge br-int: added interface qg-64d35bd2-23 on port 5
+2017-02-09T15:11:36.464Z|00051|netdev_linux|WARN|qr-eb7549e6-f7: removing policing failed: No such device
+2017-02-09T15:11:36.630Z|00052|netdev_linux|WARN|qg-64d35bd2-23: removing policing failed: No such device
+2017-02-09T15:11:36.638Z|00053|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qg-64d35bd2-23 device failed: No such device
+2017-02-09T15:11:36.647Z|00054|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qg-64d35bd2-23 device failed: No such device
+2017-02-09T15:11:42.449Z|00055|bridge|INFO|bridge br-int: added interface tap54f55381-74 on port 6
+2017-02-09T15:11:42.449Z|00056|netdev_linux|WARN|qg-64d35bd2-23: removing policing failed: No such device
+2017-02-09T15:11:42.615Z|00057|netdev_linux|WARN|tap54f55381-74: removing policing failed: No such device
+2017-02-09T15:11:42.622Z|00058|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on tap54f55381-74 device failed: No such device
+2017-02-09T15:11:42.630Z|00059|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on tap54f55381-74 device failed: No such device
+2017-02-09T15:11:58.321Z|00060|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:11:58.336Z|00061|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:11:58.344Z|00062|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:11:58.351Z|00063|netdev_linux|WARN|tap54f55381-74: removing policing failed: No such device
+2017-02-09T15:11:58.494Z|00064|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.502Z|00065|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:11:58.502Z|00066|ofp_util|INFO| pre: in_port=4,nw_proto=58,tp_src=136
+2017-02-09T15:11:58.502Z|00067|ofp_util|INFO|post: in_port=4
+2017-02-09T15:11:58.502Z|00068|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.510Z|00069|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.518Z|00070|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.525Z|00071|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.644Z|00072|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.652Z|00073|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:11:58.652Z|00074|ofp_util|INFO| pre: in_port=3,nw_proto=58,tp_src=136
+2017-02-09T15:11:58.652Z|00075|ofp_util|INFO|post: in_port=3
+2017-02-09T15:11:58.652Z|00076|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.661Z|00077|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.670Z|00078|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.678Z|00079|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.803Z|00080|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.812Z|00081|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:11:58.812Z|00082|ofp_util|INFO| pre: in_port=5,nw_proto=58,tp_src=136
+2017-02-09T15:11:58.812Z|00083|ofp_util|INFO|post: in_port=5
+2017-02-09T15:11:58.812Z|00084|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.820Z|00085|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.828Z|00086|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.836Z|00087|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.962Z|00088|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.970Z|00089|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:11:58.970Z|00090|ofp_util|INFO| pre: in_port=6,nw_proto=58,tp_src=136
+2017-02-09T15:11:58.970Z|00091|ofp_util|INFO|post: in_port=6
+2017-02-09T15:11:58.970Z|00092|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.977Z|00093|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.985Z|00094|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:11:58.992Z|00095|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.431Z|00096|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.438Z|00097|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:12:00.438Z|00098|ofp_util|INFO| pre: in_port=4,nw_proto=58,tp_src=136
+2017-02-09T15:12:00.438Z|00099|ofp_util|INFO|post: in_port=4
+2017-02-09T15:12:00.438Z|00100|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.444Z|00101|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.451Z|00102|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.458Z|00103|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.466Z|00104|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.473Z|00105|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.479Z|00106|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.487Z|00107|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.495Z|00108|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.504Z|00109|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.512Z|00110|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.519Z|00111|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.526Z|00112|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.534Z|00113|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.542Z|00114|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.550Z|00115|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.557Z|00116|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.565Z|00117|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:12:00.573Z|00118|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:23:50.520Z|00119|bridge|INFO|bridge br-ex: using datapath ID 0000667ccd41ca4c
+2017-02-09T15:23:51.734Z|00120|bridge|INFO|bridge br-ex: added interface eno1 on port 1
+2017-02-09T15:23:51.734Z|00121|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-09T15:32:30.035Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2017-02-09T15:32:30.047Z|00002|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 0
+2017-02-09T15:32:30.047Z|00003|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 1
+2017-02-09T15:32:30.047Z|00004|ovs_numa|INFO|Discovered 2 NUMA nodes and 40 CPU cores
+2017-02-09T15:32:30.048Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2017-02-09T15:32:30.084Z|00006|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2017-02-09T15:32:30.168Z|00007|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2017-02-09T15:32:30.169Z|00008|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 1
+2017-02-09T15:32:30.169Z|00009|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2017-02-09T15:32:30.169Z|00010|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2017-02-09T15:32:30.169Z|00011|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2017-02-09T15:32:30.169Z|00012|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2017-02-09T15:32:30.169Z|00013|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2017-02-09T15:32:30.169Z|00014|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2017-02-09T15:32:30.169Z|00015|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2017-02-09T15:32:30.393Z|00001|ofproto_dpif_upcall(handler1)|INFO|received packet on unassociated datapath port 0
+2017-02-09T15:32:30.394Z|00016|bridge|INFO|bridge br-tun: added interface patch-int on port 1
+2017-02-09T15:32:30.428Z|00017|bridge|INFO|bridge br-tun: added interface br-tun on port 65534
+2017-02-09T15:32:30.434Z|00018|bridge|INFO|bridge br-int: added interface tap54f55381-74 on port 6
+2017-02-09T15:32:30.474Z|00019|bridge|INFO|bridge br-int: added interface br-int on port 65534
+2017-02-09T15:32:30.481Z|00020|bridge|INFO|bridge br-int: added interface qg-64d35bd2-23 on port 5
+2017-02-09T15:32:30.482Z|00021|bridge|INFO|bridge br-int: added interface int-br-ex on port 1
+2017-02-09T15:32:30.482Z|00022|bridge|INFO|bridge br-int: added interface patch-tun on port 2
+2017-02-09T15:32:30.488Z|00023|bridge|INFO|bridge br-int: added interface qr-eb7549e6-f7 on port 4
+2017-02-09T15:32:30.572Z|00024|bridge|INFO|bridge br-int: added interface qr-19718a44-ed on port 3
+2017-02-09T15:32:30.574Z|00025|bridge|INFO|bridge br-ex: added interface eno1 on port 1
+2017-02-09T15:32:30.582Z|00026|bridge|INFO|bridge br-ex: added interface br-ex on port 65534
+2017-02-09T15:32:30.582Z|00027|bridge|INFO|bridge br-ex: added interface phy-br-ex on port 2
+2017-02-09T15:32:30.583Z|00028|bridge|INFO|bridge br-tun: using datapath ID 0000eecee18c8643
+2017-02-09T15:32:30.583Z|00029|connmgr|INFO|br-tun: added service controller "punix:/var/run/openvswitch/br-tun.mgmt"
+2017-02-09T15:32:30.583Z|00030|bridge|INFO|bridge br-int: using datapath ID 00009668e5b36346
+2017-02-09T15:32:30.583Z|00031|connmgr|INFO|br-int: added service controller "punix:/var/run/openvswitch/br-int.mgmt"
+2017-02-09T15:32:30.583Z|00032|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-09T15:32:30.583Z|00033|connmgr|INFO|br-ex: added service controller "punix:/var/run/openvswitch/br-ex.mgmt"
+2017-02-09T15:32:30.594Z|00034|bridge|INFO|ovs-vswitchd (Open vSwitch) 2.6.1
+2017-02-09T15:32:35.691Z|00035|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:32:35.700Z|00036|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:32:35.707Z|00037|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:32:35.732Z|00038|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:32:35.742Z|00039|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:32:35.749Z|00040|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:32:35.771Z|00041|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-09T15:32:35.778Z|00042|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:32:40.286Z|00043|memory|INFO|347144 kB peak resident set size after 10.3 seconds
+2017-02-09T15:32:40.286Z|00044|memory|INFO|handlers:29 ports:12 revalidators:11 rules:28 udpif keys:12
+2017-02-09T15:32:44.057Z|00045|bridge|INFO|bridge br-int: added interface tap54f55381-74 on port 7
+2017-02-09T15:32:44.245Z|00046|netdev_linux|WARN|tap54f55381-74: removing policing failed: No such device
+2017-02-09T15:32:44.251Z|00047|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on tap54f55381-74 device failed: No such device
+2017-02-09T15:32:44.258Z|00048|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on tap54f55381-74 device failed: No such device
+2017-02-09T15:32:44.313Z|00049|netdev_linux|WARN|tap54f55381-74: removing policing failed: No such device
+2017-02-09T15:32:44.346Z|00050|bridge|INFO|bridge br-int: added interface qr-19718a44-ed on port 8
+2017-02-09T15:32:44.407Z|00051|netdev_linux|WARN|qr-19718a44-ed: removing policing failed: No such device
+2017-02-09T15:32:44.415Z|00052|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qr-19718a44-ed device failed: No such device
+2017-02-09T15:32:44.425Z|00053|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qr-19718a44-ed device failed: No such device
+2017-02-09T15:32:44.521Z|00054|netdev_linux|WARN|qr-19718a44-ed: removing policing failed: No such device
+2017-02-09T15:32:44.643Z|00055|bridge|INFO|bridge br-int: added interface qr-eb7549e6-f7 on port 9
+2017-02-09T15:32:44.808Z|00056|netdev_linux|WARN|qr-eb7549e6-f7: removing policing failed: No such device
+2017-02-09T15:32:44.816Z|00057|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qr-eb7549e6-f7 device failed: No such device
+2017-02-09T15:32:44.825Z|00058|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qr-eb7549e6-f7 device failed: No such device
+2017-02-09T15:32:44.928Z|00059|netdev_linux|WARN|qr-eb7549e6-f7: removing policing failed: No such device
+2017-02-09T15:32:44.946Z|00060|bridge|INFO|bridge br-int: added interface qg-64d35bd2-23 on port 10
+2017-02-09T15:32:45.107Z|00061|netdev_linux|WARN|qg-64d35bd2-23: removing policing failed: No such device
+2017-02-09T15:32:45.114Z|00062|netdev_linux|INFO|ioctl(SIOCGIFHWADDR) on qg-64d35bd2-23 device failed: No such device
+2017-02-09T15:32:45.122Z|00063|netdev_linux|WARN|ioctl(SIOCGIFINDEX) on qg-64d35bd2-23 device failed: No such device
+2017-02-09T15:32:45.542Z|00064|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:32:45.553Z|00065|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:32:45.561Z|00066|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:32:45.566Z|00067|netdev_linux|WARN|qg-64d35bd2-23: removing policing failed: No such device
+2017-02-09T15:32:45.685Z|00068|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:45.692Z|00069|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:32:45.692Z|00070|ofp_util|INFO| pre: in_port=8,nw_proto=58,tp_src=136
+2017-02-09T15:32:45.692Z|00071|ofp_util|INFO|post: in_port=8
+2017-02-09T15:32:45.692Z|00072|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:45.700Z|00073|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:45.708Z|00074|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:45.716Z|00075|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:45.838Z|00076|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:45.846Z|00077|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:32:45.846Z|00078|ofp_util|INFO| pre: in_port=10,nw_proto=58,tp_src=136
+2017-02-09T15:32:45.846Z|00079|ofp_util|INFO|post: in_port=10
+2017-02-09T15:32:45.846Z|00080|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:45.854Z|00081|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:45.862Z|00082|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:45.871Z|00083|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:45.996Z|00084|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:46.004Z|00085|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:32:46.004Z|00086|ofp_util|INFO| pre: in_port=7,nw_proto=58,tp_src=136
+2017-02-09T15:32:46.004Z|00087|ofp_util|INFO|post: in_port=7
+2017-02-09T15:32:46.004Z|00088|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:46.012Z|00089|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:46.020Z|00090|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:46.028Z|00091|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:46.654Z|00092|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:46.662Z|00093|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:32:46.662Z|00094|ofp_util|INFO| pre: in_port=5,nw_proto=58,tp_src=136
+2017-02-09T15:32:46.662Z|00095|ofp_util|INFO|post: in_port=5
+2017-02-09T15:32:46.662Z|00096|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:46.669Z|00097|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:46.675Z|00098|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:47.796Z|00099|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:47.804Z|00100|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:32:47.804Z|00101|ofp_util|INFO| pre: in_port=9,nw_proto=58,tp_src=136
+2017-02-09T15:32:47.804Z|00102|ofp_util|INFO|post: in_port=9
+2017-02-09T15:32:47.804Z|00103|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:47.811Z|00104|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:47.819Z|00105|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:47.826Z|00106|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:47.952Z|00107|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:47.960Z|00108|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:47.969Z|00109|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:47.976Z|00110|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:47.985Z|00111|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:47.993Z|00112|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:48.001Z|00113|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:48.009Z|00114|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:48.016Z|00115|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:48.024Z|00116|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:48.032Z|00117|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:48.041Z|00118|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:48.049Z|00119|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:48.056Z|00120|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:32:48.065Z|00121|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:28.981Z|00122|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:52:28.988Z|00123|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:52:28.995Z|00124|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:52:29.025Z|00125|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:52:29.036Z|00126|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:52:29.043Z|00127|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:52:29.065Z|00128|connmgr|INFO|br-tun<->unix: 11 flow_mods in the last 0 s (11 adds)
+2017-02-09T15:52:29.074Z|00129|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:52:30.476Z|00130|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:52:30.492Z|00131|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:52:30.500Z|00132|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:52:30.518Z|00133|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.524Z|00134|ofp_util|INFO|Dropped 3 log messages in last 1182 seconds (most recently, 1182 seconds ago) due to excessive rate
+2017-02-09T15:52:30.524Z|00135|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:52:30.525Z|00136|ofp_util|INFO| pre: in_port=9,nw_proto=58,tp_src=136
+2017-02-09T15:52:30.525Z|00137|ofp_util|INFO|post: in_port=9
+2017-02-09T15:52:30.525Z|00138|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.533Z|00139|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.538Z|00140|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.545Z|00141|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.552Z|00142|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.560Z|00143|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:52:30.560Z|00144|ofp_util|INFO| pre: in_port=8,nw_proto=58,tp_src=136
+2017-02-09T15:52:30.560Z|00145|ofp_util|INFO|post: in_port=8
+2017-02-09T15:52:30.561Z|00146|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.569Z|00147|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.576Z|00148|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.584Z|00149|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.594Z|00150|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.601Z|00151|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:52:30.601Z|00152|ofp_util|INFO| pre: in_port=10,nw_proto=58,tp_src=136
+2017-02-09T15:52:30.601Z|00153|ofp_util|INFO|post: in_port=10
+2017-02-09T15:52:30.601Z|00154|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.608Z|00155|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.615Z|00156|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.622Z|00157|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.629Z|00158|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.638Z|00159|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:52:30.638Z|00160|ofp_util|INFO| pre: in_port=7,nw_proto=58,tp_src=136
+2017-02-09T15:52:30.638Z|00161|ofp_util|INFO|post: in_port=7
+2017-02-09T15:52:30.638Z|00162|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.646Z|00163|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.653Z|00164|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:52:30.660Z|00165|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:51.233Z|00166|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:55:51.240Z|00167|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:55:51.247Z|00168|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:55:51.275Z|00169|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:55:51.317Z|00170|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:55:51.323Z|00171|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:55:51.343Z|00172|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-09T15:55:51.351Z|00173|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:55:52.035Z|00174|bridge|INFO|bridge br-tun: added interface vxlan-b977acf1 on port 2
+2017-02-09T15:55:52.155Z|00175|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:55:52.956Z|00176|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 modifications)
+2017-02-09T15:55:52.967Z|00177|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:55:52.981Z|00178|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:55:52.990Z|00179|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T15:55:53.014Z|00180|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.026Z|00181|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:55:53.026Z|00182|ofp_util|INFO| pre: in_port=9,nw_proto=58,tp_src=136
+2017-02-09T15:55:53.026Z|00183|ofp_util|INFO|post: in_port=9
+2017-02-09T15:55:53.026Z|00184|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.034Z|00185|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.042Z|00186|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.050Z|00187|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.059Z|00188|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.068Z|00189|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:55:53.068Z|00190|ofp_util|INFO| pre: in_port=8,nw_proto=58,tp_src=136
+2017-02-09T15:55:53.068Z|00191|ofp_util|INFO|post: in_port=8
+2017-02-09T15:55:53.068Z|00192|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.075Z|00193|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.083Z|00194|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.091Z|00195|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.100Z|00196|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.108Z|00197|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:55:53.108Z|00198|ofp_util|INFO| pre: in_port=10,nw_proto=58,tp_src=136
+2017-02-09T15:55:53.108Z|00199|ofp_util|INFO|post: in_port=10
+2017-02-09T15:55:53.108Z|00200|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.116Z|00201|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.123Z|00202|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.129Z|00203|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.139Z|00204|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.147Z|00205|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T15:55:53.147Z|00206|ofp_util|INFO| pre: in_port=7,nw_proto=58,tp_src=136
+2017-02-09T15:55:53.147Z|00207|ofp_util|INFO|post: in_port=7
+2017-02-09T15:55:53.147Z|00208|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.155Z|00209|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.163Z|00210|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.171Z|00211|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.700Z|00212|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T15:55:53.708Z|00213|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T16:11:27.638Z|00214|bridge|INFO|bridge br-int: added interface tap57eafe39-74 on port 11
+2017-02-09T16:11:28.917Z|00215|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T16:11:28.926Z|00216|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:11:28.941Z|00217|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:11:28.950Z|00218|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:11:28.958Z|00219|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:11:28.966Z|00220|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:11:28.974Z|00221|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:54:59.297Z|00222|bridge|INFO|bridge br-int: added interface qvo423761d4-f3 on port 12
+2017-02-09T16:54:59.812Z|00223|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T16:54:59.821Z|00224|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:54:59.836Z|00225|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:54:59.844Z|00226|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:54:59.850Z|00227|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:54:59.857Z|00228|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:54:59.864Z|00229|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:57:56.480Z|00230|bridge|INFO|bridge br-int: added interface qvo137c53ee-48 on port 13
+2017-02-09T16:57:58.031Z|00231|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T16:57:58.039Z|00232|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:57:58.056Z|00233|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:57:58.064Z|00234|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:57:58.072Z|00235|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:57:58.078Z|00236|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:57:58.086Z|00237|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:59:05.799Z|00238|bridge|INFO|bridge br-int: added interface qvo0eeedd05-bc on port 14
+2017-02-09T16:59:07.942Z|00239|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T16:59:07.951Z|00240|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:59:07.967Z|00241|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:59:07.975Z|00242|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:59:07.982Z|00243|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:59:07.991Z|00244|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T16:59:07.998Z|00245|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:19.592Z|00246|bridge|INFO|bridge br-int: added interface qvodbd64d2c-95 on port 15
+2017-02-09T17:15:20.386Z|00247|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T17:15:20.394Z|00248|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:20.408Z|00249|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:20.415Z|00250|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:20.423Z|00251|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:20.430Z|00252|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:20.437Z|00253|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:20.586Z|00254|bridge|INFO|bridge br-int: added interface qvo050fc04c-c3 on port 16
+2017-02-09T17:15:21.618Z|00255|bridge|INFO|bridge br-int: added interface qvof9ca78b4-db on port 17
+2017-02-09T17:15:22.454Z|00256|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T17:15:22.461Z|00257|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:22.473Z|00258|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:22.481Z|00259|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:22.487Z|00260|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:22.495Z|00261|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:22.503Z|00262|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:22.630Z|00263|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T17:15:22.638Z|00264|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:22.652Z|00265|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:22.661Z|00266|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:22.669Z|00267|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:22.678Z|00268|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T17:15:22.686Z|00269|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:50.786Z|00270|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:50.794Z|00271|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:50.802Z|00272|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:50.825Z|00273|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:50.836Z|00274|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:50.844Z|00275|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:50.866Z|00276|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-09T18:38:50.875Z|00277|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:51.507Z|00278|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:53.589Z|00279|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 modifications)
+2017-02-09T18:38:53.596Z|00280|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:53.609Z|00281|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:53.614Z|00282|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:53.900Z|00283|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:53.908Z|00284|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T18:38:53.908Z|00285|ofp_util|INFO| pre: in_port=8,nw_proto=58,tp_src=136
+2017-02-09T18:38:53.908Z|00286|ofp_util|INFO|post: in_port=8
+2017-02-09T18:38:53.908Z|00287|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:53.915Z|00288|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:53.922Z|00289|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:53.929Z|00290|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:53.936Z|00291|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:53.943Z|00292|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:53.956Z|00293|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:53.964Z|00294|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:53.972Z|00295|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:53.979Z|00296|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:53.986Z|00297|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:53.992Z|00298|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:53.999Z|00299|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T18:38:53.999Z|00300|ofp_util|INFO| pre: in_port=10,nw_proto=58,tp_src=136
+2017-02-09T18:38:53.999Z|00301|ofp_util|INFO|post: in_port=10
+2017-02-09T18:38:53.999Z|00302|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.006Z|00303|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.013Z|00304|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.020Z|00305|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.027Z|00306|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.034Z|00307|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.047Z|00308|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.056Z|00309|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.065Z|00310|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.073Z|00311|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.080Z|00312|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.088Z|00313|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.096Z|00314|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.113Z|00315|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.122Z|00316|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.129Z|00317|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.136Z|00318|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.144Z|00319|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.152Z|00320|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.160Z|00321|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.177Z|00322|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.187Z|00323|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.195Z|00324|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.203Z|00325|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.211Z|00326|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.220Z|00327|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.228Z|00328|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.245Z|00329|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.254Z|00330|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.262Z|00331|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.271Z|00332|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.280Z|00333|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.289Z|00334|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.297Z|00335|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T18:38:54.297Z|00336|ofp_util|INFO| pre: in_port=9,nw_proto=58,tp_src=136
+2017-02-09T18:38:54.297Z|00337|ofp_util|INFO|post: in_port=9
+2017-02-09T18:38:54.297Z|00338|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.306Z|00339|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.315Z|00340|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.324Z|00341|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.332Z|00342|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.341Z|00343|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.358Z|00344|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.367Z|00345|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.376Z|00346|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.384Z|00347|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.391Z|00348|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.399Z|00349|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.406Z|00350|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.424Z|00351|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.434Z|00352|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.443Z|00353|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.452Z|00354|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.460Z|00355|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:38:54.470Z|00356|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.479Z|00357|ofp_util|INFO|normalization changed ofp_match, details:
+2017-02-09T18:38:54.479Z|00358|ofp_util|INFO| pre: in_port=7,nw_proto=58,tp_src=136
+2017-02-09T18:38:54.479Z|00359|ofp_util|INFO|post: in_port=7
+2017-02-09T18:38:54.479Z|00360|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.488Z|00361|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.497Z|00362|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:38:54.505Z|00363|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 deletes)
+2017-02-09T18:55:59.321Z|00364|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:55:59.329Z|00365|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:55:59.336Z|00366|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:55:59.365Z|00367|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:55:59.379Z|00368|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:55:59.388Z|00369|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:55:59.416Z|00370|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-09T18:55:59.425Z|00371|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-09T18:56:55.468Z|00372|bridge|INFO|bridge br-ex: using datapath ID 0000667ccd41ca4c
+2017-02-09T18:56:57.156Z|00373|bridge|INFO|bridge br-ex: added interface eno1 on port 3
+2017-02-09T18:56:57.156Z|00374|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c

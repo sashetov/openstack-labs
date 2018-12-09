@@ -1,0 +1,81 @@
+2017-02-01 00:13:40.316 12710 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:13:40.360 12710 INFO nova.service [-] Starting consoleauth node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.559 14452 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:14:07.631 14452 INFO nova.service [-] Starting consoleauth node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.675 15900 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:20:14.710 15900 INFO nova.service [-] Starting consoleauth node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.057 18664 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:23:06.094 18664 INFO nova.service [-] Starting consoleauth node (version 14.0.2-1.el7)
+2017-02-01 00:25:47.064 18664 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 75.54 sec
+2017-02-01 00:27:47.116 18664 ERROR oslo_db.sqlalchemy.exc_filters [-] DB exception wrapped.
+2017-02-01 00:27:47.116 18664 ERROR oslo_db.sqlalchemy.exc_filters Traceback (most recent call last):
+2017-02-01 00:27:47.116 18664 ERROR oslo_db.sqlalchemy.exc_filters   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 316, in connection
+2017-02-01 00:27:47.116 18664 ERROR oslo_db.sqlalchemy.exc_filters     return self._revalidate_connection()
+2017-02-01 00:27:47.116 18664 ERROR oslo_db.sqlalchemy.exc_filters   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 391, in _revalidate_connection
+2017-02-01 00:27:47.116 18664 ERROR oslo_db.sqlalchemy.exc_filters     "Can't reconnect until invalid "
+2017-02-01 00:27:47.116 18664 ERROR oslo_db.sqlalchemy.exc_filters InvalidRequestError: Can't reconnect until invalid transaction is rolled back
+2017-02-01 00:27:47.116 18664 ERROR oslo_db.sqlalchemy.exc_filters 
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db [-] Unexpected error while reporting service status
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db Traceback (most recent call last):
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/servicegroup/drivers/db.py", line 89, in _report_state
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     service.service_ref.save()
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_versionedobjects/base.py", line 226, in wrapper
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     return fn(self, *args, **kwargs)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/objects/service.py", line 313, in save
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     self._check_minimum_version()
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/objects/service.py", line 294, in _check_minimum_version
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     minver = self.get_minimum_version(self._context, self.binary)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_versionedobjects/base.py", line 184, in wrapper
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     result = fn(cls, context, *args, **kwargs)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/objects/service.py", line 388, in get_minimum_version
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     use_slave=use_slave)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_versionedobjects/base.py", line 184, in wrapper
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     result = fn(cls, context, *args, **kwargs)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/objects/service.py", line 365, in get_minimum_version_multi
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     context, binaries, use_slave=use_slave)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 225, in wrapper
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     return f(*args, **kwargs)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/contextlib.py", line 35, in __exit__
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     self.gen.throw(type, value, traceback)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/enginefacade.py", line 875, in _transaction_scope
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     yield resource
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/contextlib.py", line 35, in __exit__
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     self.gen.throw(type, value, traceback)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/enginefacade.py", line 524, in _session
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     self.session.rollback()
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 777, in rollback
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     self.transaction.rollback()
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 423, in rollback
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     transaction._rollback_impl()
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 461, in _rollback_impl
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     t[1].rollback()
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 1563, in rollback
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     self._do_rollback()
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 1601, in _do_rollback
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     self.connection._rollback_impl()
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 662, in _rollback_impl
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     self.dispatch.rollback(self)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/event/attr.py", line 256, in __call__
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     fn(*args, **kw)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/exc_filters.py", line 459, in pop_exc_tx
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     conn.info.pop(ROLLBACK_CAUSE_KEY, None)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 425, in info
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     return self.connection.info
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 318, in connection
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     self._handle_dbapi_exception(e, None, None, None, None)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 1337, in _handle_dbapi_exception
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     util.raise_from_cause(newraise, exc_info)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     reraise(type(exception), exception, tb=exc_tb)
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 316, in connection
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     return self._revalidate_connection()
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 391, in _revalidate_connection
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db     "Can't reconnect until invalid "
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db DBError: Can't reconnect until invalid transaction is rolled back
+2017-02-01 00:27:47.118 18664 ERROR nova.servicegroup.drivers.db 
+2017-02-01 00:36:02.526 4704 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:36:02.609 4704 INFO nova.service [-] Starting consoleauth node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.019 4736 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 01:00:36.068 4736 INFO nova.service [-] Starting consoleauth node (version 14.0.2-1.el7)
+2017-02-01 01:00:41.527 4736 ERROR oslo.messaging._drivers.impl_rabbit [req-5c9334d7-8139-4aaf-bb04-f276dd98b88f - - - - -] [d302a3ff-4421-456e-b77d-179e55053b9b] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:42.553 4736 INFO oslo.messaging._drivers.impl_rabbit [req-5c9334d7-8139-4aaf-bb04-f276dd98b88f - - - - -] [d302a3ff-4421-456e-b77d-179e55053b9b] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37362.

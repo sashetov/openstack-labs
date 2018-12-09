@@ -1,0 +1,82 @@
+2017-02-09 07:43:45.118 14591 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 07:43:45.118 14591 INFO neutron.common.config [-] /usr/bin/neutron-l3-agent version 9.1.1
+2017-02-09 07:44:45.170 14591 ERROR neutron.common.rpc [req-ca70f015-d67d-4c43-9782-8d633bdb5368 - - - - -] Timeout in RPC method get_service_plugin_list. Waiting for 5 seconds before next attempt. If the server is not down, consider increasing the rpc_response_timeout option as Neutron server(s) may be overloaded and unable to respond quickly enough.
+2017-02-09 07:44:45.172 14591 WARNING neutron.common.rpc [req-ca70f015-d67d-4c43-9782-8d633bdb5368 - - - - -] Increasing timeout for get_service_plugin_list calls to 120 seconds. Restart the agent to restore it to the default value.
+2017-02-09 07:44:50.440 14591 WARNING neutron.agent.l3.agent [req-ca70f015-d67d-4c43-9782-8d633bdb5368 - - - - -] l3-agent cannot contact neutron server to retrieve service plugins enabled. Check connectivity to neutron server. Retrying... Detailed message: Timed out waiting for a reply to message ID dc24125235c2408b9922844ab139c257.
+2017-02-09 07:44:50.478 14591 INFO neutron.agent.agent_extensions_manager [req-2c2456b5-a364-4868-abc7-bd12b9ae62ad - - - - -] Loaded agent extensions: []
+2017-02-09 07:44:50.529 14591 INFO eventlet.wsgi.server [-] (14591) wsgi starting up on http:/var/lib/neutron/keepalived-state-change
+2017-02-09 07:44:50.529 14591 INFO neutron.agent.l3.agent [-] Agent has just been revived. Doing a full sync.
+2017-02-09 07:44:50.549 14591 INFO neutron.agent.l3.agent [-] L3 agent started
+2017-02-09 07:44:50.690 14591 INFO oslo_rootwrap.client [req-c53ddc41-6f7f-4940-9b52-2c8f6bd97a3e - - - - -] Spawned new rootwrap daemon process with pid=15520
+2017-02-09 07:44:51.330 14591 INFO neutron.agent.linux.interface [-] Device qr-19718a44-ed already exists
+2017-02-09 07:44:51.367 14591 INFO neutron.agent.linux.interface [-] Device qr-eb7549e6-f7 already exists
+2017-02-09 07:44:51.417 14591 INFO neutron.agent.linux.interface [-] Device qg-64d35bd2-23 already exists
+2017-02-09 08:22:50.589 14591 ERROR oslo.messaging._drivers.impl_rabbit [-] [82be8eb9-eee4-40ee-9625-c555942e1ff2] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: timed out. Trying again in 1 seconds. Client port: 33744
+2017-02-09 08:23:05.636 14591 ERROR oslo.messaging._drivers.impl_rabbit [-] [05692361-ac32-4e81-bde0-8bb66c31a368] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 34220
+2017-02-09 08:23:20.638 14591 ERROR oslo.messaging._drivers.impl_rabbit [-] [8d3db2ce-d48e-4f7f-bdfd-d4bd2056444a] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33742
+2017-02-09 08:23:51.615 14591 INFO oslo.messaging._drivers.impl_rabbit [-] [82be8eb9-eee4-40ee-9625-c555942e1ff2] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60098.
+2017-02-09 08:24:06.664 14591 INFO oslo.messaging._drivers.impl_rabbit [-] [05692361-ac32-4e81-bde0-8bb66c31a368] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60140.
+2017-02-09 08:24:21.659 14591 INFO oslo.messaging._drivers.impl_rabbit [-] [8d3db2ce-d48e-4f7f-bdfd-d4bd2056444a] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60162.
+2017-02-09 08:24:21.663 14591 INFO neutron.agent.l3.agent [-] Agent has just been revived. Doing a full sync.
+2017-02-09 08:24:21.663 14591 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.l3.agent.L3NATAgentWithStateReport._report_state' run outlasted interval by 121.08 sec
+2017-02-09 08:25:21.670 14591 INFO oslo_rootwrap.client [req-554e6dca-e9b7-4cd9-bc6e-ac3ec8dd9bcf - - - - -] Stopping rootwrap daemon process with pid=15520
+2017-02-09 08:30:25.712 23819 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 08:30:25.713 23819 INFO neutron.common.config [-] /usr/bin/neutron-l3-agent version 9.1.1
+2017-02-09 08:31:30.782 23819 ERROR neutron.common.rpc [req-9db29f13-e4af-419a-9e49-b99c22eb6472 - - - - -] Timeout in RPC method get_service_plugin_list. Waiting for 31 seconds before next attempt. If the server is not down, consider increasing the rpc_response_timeout option as Neutron server(s) may be overloaded and unable to respond quickly enough.
+2017-02-09 08:31:30.784 23819 WARNING neutron.common.rpc [req-9db29f13-e4af-419a-9e49-b99c22eb6472 - - - - -] Increasing timeout for get_service_plugin_list calls to 120 seconds. Restart the agent to restore it to the default value.
+2017-02-09 08:32:02.079 23819 WARNING neutron.agent.l3.agent [req-9db29f13-e4af-419a-9e49-b99c22eb6472 - - - - -] l3-agent cannot contact neutron server to retrieve service plugins enabled. Check connectivity to neutron server. Retrying... Detailed message: Timed out waiting for a reply to message ID 870679c2bbb84879964240937e648466.
+2017-02-09 08:32:02.114 23819 INFO neutron.agent.agent_extensions_manager [req-dda94a58-e354-41c9-8511-b420b635a602 - - - - -] Loaded agent extensions: []
+2017-02-09 08:32:02.162 23819 INFO eventlet.wsgi.server [-] (23819) wsgi starting up on http:/var/lib/neutron/keepalived-state-change
+2017-02-09 08:32:02.163 23819 INFO neutron.agent.l3.agent [-] Agent has just been revived. Doing a full sync.
+2017-02-09 08:32:02.183 23819 INFO neutron.agent.l3.agent [-] L3 agent started
+2017-02-09 08:32:07.335 23819 INFO oslo_rootwrap.client [req-7dcedcdd-5eef-4c46-b1f2-774a9fa79ff2 - - - - -] Spawned new rootwrap daemon process with pid=25016
+2017-02-09 08:32:07.947 23819 INFO neutron.agent.linux.interface [-] Device qr-19718a44-ed already exists
+2017-02-09 08:32:07.988 23819 INFO neutron.agent.linux.interface [-] Device qr-eb7549e6-f7 already exists
+2017-02-09 08:32:08.041 23819 INFO neutron.agent.linux.interface [-] Device qg-64d35bd2-23 already exists
+2017-02-09 13:26:32.302 23819 ERROR oslo.messaging._drivers.impl_rabbit [-] [d9aa4750-667f-4a37-a3ba-00acd8eb982d] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: timed out. Trying again in 1 seconds. Client port: 36118
+2017-02-09 13:27:02.357 23819 ERROR oslo.messaging._drivers.impl_rabbit [-] [348059c5-98ef-4574-a81e-f5b706a10d99] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 36116
+2017-02-09 13:27:33.328 23819 INFO oslo.messaging._drivers.impl_rabbit [-] [d9aa4750-667f-4a37-a3ba-00acd8eb982d] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 35294.
+2017-02-09 13:28:03.381 23819 INFO oslo.messaging._drivers.impl_rabbit [-] [348059c5-98ef-4574-a81e-f5b706a10d99] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 35332.
+2017-02-09 13:35:07.728 23026 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 13:35:07.729 23026 INFO neutron.common.config [-] /usr/bin/neutron-l3-agent version 9.1.1
+2017-02-09 13:36:07.793 23026 ERROR neutron.common.rpc [req-db7f5acc-ceb1-4cbe-b160-ce6db42a0b40 - - - - -] Timeout in RPC method get_service_plugin_list. Waiting for 49 seconds before next attempt. If the server is not down, consider increasing the rpc_response_timeout option as Neutron server(s) may be overloaded and unable to respond quickly enough.
+2017-02-09 13:36:07.795 23026 WARNING neutron.common.rpc [req-db7f5acc-ceb1-4cbe-b160-ce6db42a0b40 - - - - -] Increasing timeout for get_service_plugin_list calls to 120 seconds. Restart the agent to restore it to the default value.
+2017-02-09 13:36:56.521 23026 WARNING neutron.agent.l3.agent [req-db7f5acc-ceb1-4cbe-b160-ce6db42a0b40 - - - - -] l3-agent cannot contact neutron server to retrieve service plugins enabled. Check connectivity to neutron server. Retrying... Detailed message: Timed out waiting for a reply to message ID 4e0167d8fa0040c9a12caf134c0e0fd0.
+2017-02-09 13:36:56.561 23026 INFO neutron.agent.agent_extensions_manager [req-df4489fa-245a-41e9-8f91-2e78f157e635 - - - - -] Loaded agent extensions: []
+2017-02-09 13:36:56.616 23026 INFO eventlet.wsgi.server [-] (23026) wsgi starting up on http:/var/lib/neutron/keepalived-state-change
+2017-02-09 13:36:56.621 23026 INFO neutron.agent.l3.agent [-] Agent has just been revived. Doing a full sync.
+2017-02-09 13:36:56.640 23026 INFO neutron.agent.l3.agent [-] L3 agent started
+2017-02-09 13:36:58.764 23026 INFO oslo_rootwrap.client [req-4c2d5984-f0ba-44ac-a3da-60867d08e78b - - - - -] Spawned new rootwrap daemon process with pid=24625
+2017-02-09 13:36:59.374 23026 INFO neutron.agent.linux.interface [-] Device qr-19718a44-ed already exists
+2017-02-09 13:36:59.412 23026 INFO neutron.agent.linux.interface [-] Device qr-eb7549e6-f7 already exists
+2017-02-09 13:36:59.460 23026 INFO neutron.agent.linux.interface [-] Device qg-64d35bd2-23 already exists
+2017-02-09 13:43:41.643 23026 INFO oslo_rootwrap.client [req-4a59dd63-7360-447d-9d55-56f2f8eeeb9e - - - - -] Stopping rootwrap daemon process with pid=24625
+2017-02-09 14:00:01.365 30525 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 14:00:01.366 30525 INFO neutron.common.config [-] /usr/bin/neutron-l3-agent version 9.1.1
+2017-02-09 14:01:01.412 30525 ERROR neutron.common.rpc [req-dbc70f47-30b5-401a-9903-2108f4eac0fc - - - - -] Timeout in RPC method get_service_plugin_list. Waiting for 58 seconds before next attempt. If the server is not down, consider increasing the rpc_response_timeout option as Neutron server(s) may be overloaded and unable to respond quickly enough.
+2017-02-09 14:01:01.414 30525 WARNING neutron.common.rpc [req-dbc70f47-30b5-401a-9903-2108f4eac0fc - - - - -] Increasing timeout for get_service_plugin_list calls to 120 seconds. Restart the agent to restore it to the default value.
+2017-02-09 14:01:59.246 30525 WARNING neutron.agent.l3.agent [req-dbc70f47-30b5-401a-9903-2108f4eac0fc - - - - -] l3-agent cannot contact neutron server to retrieve service plugins enabled. Check connectivity to neutron server. Retrying... Detailed message: Timed out waiting for a reply to message ID bd49ee138c894769af8f330223cfa014.
+2017-02-09 14:01:59.296 30525 INFO neutron.agent.agent_extensions_manager [req-dd4f7743-4172-41c2-8cf8-0b2f10d00579 - - - - -] Loaded agent extensions: []
+2017-02-09 14:01:59.354 30525 INFO eventlet.wsgi.server [-] (30525) wsgi starting up on http:/var/lib/neutron/keepalived-state-change
+2017-02-09 14:01:59.378 30525 INFO neutron.agent.l3.agent [-] L3 agent started
+2017-02-09 14:01:59.409 30525 INFO neutron.agent.l3.agent [-] Agent has just been revived. Doing a full sync.
+2017-02-09 14:01:59.431 30525 INFO neutron.agent.l3.agent [-] Agent has just been revived. Doing a full sync.
+2017-02-09 14:01:59.527 30525 INFO oslo_rootwrap.client [req-e106ab11-0421-40e5-a2e4-c76b066f9939 - - - - -] Spawned new rootwrap daemon process with pid=31718
+2017-02-09 14:02:00.211 30525 INFO neutron.agent.linux.interface [-] Device qr-19718a44-ed already exists
+2017-02-09 14:02:00.251 30525 INFO neutron.agent.linux.interface [-] Device qr-eb7549e6-f7 already exists
+2017-02-09 14:02:00.302 30525 INFO neutron.agent.linux.interface [-] Device qg-64d35bd2-23 already exists
+2017-02-09 14:14:29.355 30525 ERROR oslo.messaging._drivers.impl_rabbit [-] [70ee6bcd-f503-43ee-9501-e5f8684a1a84] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: timed out. Trying again in 1 seconds. Client port: 41088
+2017-02-09 14:14:59.414 30525 ERROR oslo.messaging._drivers.impl_rabbit [-] [efea7aea-ba0d-4c5e-84bf-3c4f7ae1fe2e] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41084
+2017-02-09 14:16:29.580 35682 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 14:16:29.580 35682 INFO neutron.common.config [-] /usr/bin/neutron-l3-agent version 9.1.1
+2017-02-09 14:17:29.628 35682 ERROR neutron.common.rpc [req-d9a93f9b-4bb6-4a83-ae9a-d69401849132 - - - - -] Timeout in RPC method get_service_plugin_list. Waiting for 47 seconds before next attempt. If the server is not down, consider increasing the rpc_response_timeout option as Neutron server(s) may be overloaded and unable to respond quickly enough.
+2017-02-09 14:17:29.633 35682 WARNING neutron.common.rpc [req-d9a93f9b-4bb6-4a83-ae9a-d69401849132 - - - - -] Increasing timeout for get_service_plugin_list calls to 120 seconds. Restart the agent to restore it to the default value.
+2017-02-09 14:18:16.674 35682 WARNING neutron.agent.l3.agent [req-d9a93f9b-4bb6-4a83-ae9a-d69401849132 - - - - -] l3-agent cannot contact neutron server to retrieve service plugins enabled. Check connectivity to neutron server. Retrying... Detailed message: Timed out waiting for a reply to message ID 35347d3bb733405dbaacf5bd787c8896.
+2017-02-09 14:18:16.722 35682 INFO neutron.agent.agent_extensions_manager [req-0134c400-2ca3-40bc-bfe9-dcb1c3b1e569 - - - - -] Loaded agent extensions: []
+2017-02-09 14:18:16.784 35682 INFO eventlet.wsgi.server [-] (35682) wsgi starting up on http:/var/lib/neutron/keepalived-state-change
+2017-02-09 14:18:16.799 35682 INFO neutron.agent.l3.agent [-] Agent has just been revived. Doing a full sync.
+2017-02-09 14:18:16.810 35682 INFO neutron.agent.l3.agent [-] L3 agent started
+2017-02-09 14:18:21.934 35682 INFO oslo_rootwrap.client [req-d19dc587-2671-4d9e-8980-75b5a727e01b - - - - -] Spawned new rootwrap daemon process with pid=37996
+2017-02-09 14:18:22.563 35682 INFO neutron.agent.linux.interface [-] Device qr-19718a44-ed already exists
+2017-02-09 14:18:22.599 35682 INFO neutron.agent.linux.interface [-] Device qr-eb7549e6-f7 already exists
+2017-02-09 14:18:22.648 35682 INFO neutron.agent.linux.interface [-] Device qg-64d35bd2-23 already exists

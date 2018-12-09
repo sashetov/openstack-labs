@@ -1,0 +1,8 @@
+#!/bin/bash
+. functions.inc
+stop_openstack_services
+neutron_conf_openvswitch_agent_ini
+neutron_conf_configure_ifcfg_brex
+neutron_conf_configure_brex
+service network restart
+start_openstack_services

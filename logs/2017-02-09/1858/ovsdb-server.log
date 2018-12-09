@@ -1,0 +1,26 @@
+2017-02-09T08:28:44.232Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2017-02-09T08:28:44.398Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.6.1
+2017-02-09T08:28:54.408Z|00003|memory|INFO|2504 kB peak resident set size after 10.2 seconds
+2017-02-09T08:28:54.408Z|00004|memory|INFO|cells:920 json-caches:1 monitors:1 sessions:1
+2017-02-09T13:36:44.485Z|00005|jsonrpc|WARN|tcp:127.0.0.1:46072: receive error: Connection reset by peer
+2017-02-09T13:36:44.485Z|00006|reconnect|WARN|tcp:127.0.0.1:46072: connection dropped (Connection reset by peer)
+2017-02-09T13:39:05.702Z|00007|jsonrpc|WARN|tcp:127.0.0.1:47236: receive error: Connection reset by peer
+2017-02-09T13:39:05.702Z|00008|reconnect|WARN|tcp:127.0.0.1:47236: connection dropped (Connection reset by peer)
+2017-02-09T13:51:35.029Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2017-02-09T13:51:35.209Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.6.1
+2017-02-09T13:51:45.219Z|00003|memory|INFO|2496 kB peak resident set size after 10.2 seconds
+2017-02-09T13:51:45.220Z|00004|memory|INFO|cells:782 json-caches:1 monitors:1 sessions:1
+2017-02-09T14:00:32.377Z|00005|reconnect|ERR|tcp:127.0.0.1:47390: no response to inactivity probe after 5 seconds, disconnecting
+2017-02-09T14:18:00.076Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2017-02-09T14:18:00.242Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.6.1
+2017-02-09T14:18:10.252Z|00003|memory|INFO|2496 kB peak resident set size after 10.2 seconds
+2017-02-09T14:18:10.252Z|00004|memory|INFO|cells:782 json-caches:1 monitors:1 sessions:1
+2017-02-09T15:09:45.903Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2017-02-09T15:09:46.050Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.6.1
+2017-02-09T15:09:56.058Z|00003|memory|INFO|2544 kB peak resident set size after 10.2 seconds
+2017-02-09T15:09:56.058Z|00004|memory|INFO|cells:554 json-caches:1 monitors:2 sessions:2
+2017-02-09T15:32:29.742Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2017-02-09T15:32:29.899Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.6.1
+2017-02-09T15:32:39.906Z|00003|memory|INFO|2500 kB peak resident set size after 10.2 seconds
+2017-02-09T15:32:39.906Z|00004|memory|INFO|cells:782 json-caches:1 monitors:2 sessions:2
+2017-02-09T18:56:09.062Z|00005|reconnect|ERR|tcp:127.0.0.1:45250: no response to inactivity probe after 5 seconds, disconnecting

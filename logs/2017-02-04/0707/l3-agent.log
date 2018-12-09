@@ -1,0 +1,37 @@
+2017-02-01 02:06:47.676 4735 WARNING neutron.agent.linux.interface [-] No MTU configured for port a6bbc680-f002-4e0e-9610-9df2f450edff
+2017-02-01 02:10:22.349 4735 INFO neutron.agent.linux.interface [-] Device qg-a6bbc680-f0 already exists
+2017-02-01 02:12:09.425 4735 INFO neutron.agent.linux.interface [-] Device qg-a6bbc680-f0 already exists
+2017-02-02 21:16:29.401 4735 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.l3.agent.L3NATAgentWithStateReport._report_state' run outlasted interval by 22.63 sec
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent [-] Failed reporting state!
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent Traceback (most recent call last):
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/l3/agent.py", line 701, in _report_state
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent     True)
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/rpc.py", line 88, in report_state
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent     return method(context, 'report_state', **kwargs)
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 169, in call
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent     retry=self.retry)
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 97, in _send
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent     timeout=timeout, retry=retry)
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 464, in send
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent     retry=retry)
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 453, in _send
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent     result = self._waiter.wait(msg_id, timeout)
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 336, in wait
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent     message = self.waiters.get(msg_id, timeout=timeout)
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 238, in get
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent     'to message ID %s' % msg_id)
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent MessagingTimeout: Timed out waiting for a reply to message ID 505dd243eb4d4e6babb5aaaaf98b86b1
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent 
+2017-02-03 01:27:04.134 4735 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.l3.agent.L3NATAgentWithStateReport._report_state' run outlasted interval by 30.01 sec
+2017-02-03 01:27:14.393 4735 INFO oslo_messaging._drivers.amqpdriver [-] No calling threads waiting for msg_id : 505dd243eb4d4e6babb5aaaaf98b86b1
+2017-02-04 07:03:47.401 4716 INFO neutron.common.config [-] Logging enabled!
+2017-02-04 07:03:47.402 4716 INFO neutron.common.config [-] /usr/bin/neutron-l3-agent version 9.1.1
+2017-02-04 07:03:52.465 4716 ERROR oslo.messaging._drivers.impl_rabbit [req-a8a15c58-06ae-41e9-b9d3-e4d4f6de1694 - - - - -] [b8710e67-a7f1-4b6a-b42e-895cb876b16a] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-04 07:03:53.478 4716 ERROR oslo.messaging._drivers.impl_rabbit [req-a8a15c58-06ae-41e9-b9d3-e4d4f6de1694 - - - - -] [b8710e67-a7f1-4b6a-b42e-895cb876b16a] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-04 07:03:55.495 4716 ERROR oslo.messaging._drivers.impl_rabbit [req-a8a15c58-06ae-41e9-b9d3-e4d4f6de1694 - - - - -] [b8710e67-a7f1-4b6a-b42e-895cb876b16a] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 4 seconds. Client port: None
+2017-02-04 07:03:59.518 4716 INFO oslo.messaging._drivers.impl_rabbit [req-a8a15c58-06ae-41e9-b9d3-e4d4f6de1694 - - - - -] [b8710e67-a7f1-4b6a-b42e-895cb876b16a] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 39230.
+2017-02-04 07:03:59.582 4716 INFO neutron.agent.agent_extensions_manager [req-a8a15c58-06ae-41e9-b9d3-e4d4f6de1694 - - - - -] Loaded agent extensions: []
+2017-02-04 07:03:59.631 4716 INFO eventlet.wsgi.server [-] (4716) wsgi starting up on http:/var/lib/neutron/keepalived-state-change
+2017-02-04 07:03:59.651 4716 INFO neutron.agent.l3.agent [-] L3 agent started
+2017-02-04 07:03:59.676 4716 INFO neutron.agent.l3.agent [-] Agent has just been revived. Doing a full sync.
+2017-02-04 07:04:04.807 4716 INFO oslo_rootwrap.client [req-3800e725-bbcc-454e-abc5-47488c434a69 - - - - -] Spawned new rootwrap daemon process with pid=7798

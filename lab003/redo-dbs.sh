@@ -1,0 +1,22 @@
+#!/bin/bash
+. vars.inc
+. functions.inc
+drop_all_openstack_dbs
+create_all_openstack_dbs_and_grants
+keystone_bootstrap_db
+systemctl start httpd.service
+keystone_create_service_and_unpriv_user_data
+glance_provision_users_roles_services_endpoints
+glance_sync_db
+glance_enable_and_start_services
+glance_cirros_image_add
+nova_db_and_grants
+nova_service_users_roles_endpoints
+nova_dbs_sync
+nova_stop_all_current_services
+nova_start_services_with_compute
+nova_verify
+neutron_service_users_roles_endpoints
+neutron_dbsync
+neutron_stop_current_services
+neutron_start_all_services

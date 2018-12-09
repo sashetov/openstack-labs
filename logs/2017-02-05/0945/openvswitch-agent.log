@@ -1,0 +1,7 @@
+2017-02-05 09:44:50.883 11280 INFO neutron.common.config [-] Logging enabled!
+2017-02-05 09:44:50.884 11280 INFO neutron.common.config [-] /usr/bin/neutron-openvswitch-agent version 9.1.1
+2017-02-05 09:44:51.156 11280 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=11499
+2017-02-05 09:44:51.194 11280 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Mapping physical network seshsnet_managed_760 to bridge br-ex
+2017-02-05 09:44:51.228 11280 INFO neutron.agent.agent_extensions_manager [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Loaded agent extensions: []
+2017-02-05 09:44:51.248 11280 WARNING neutron.agent.securitygroups_rpc [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Driver configuration doesn't match with enable_security_group
+2017-02-05 09:44:51.553 11280 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-d3cb2afc-0970-433a-91f9-6b059dafbc39 - - - - -] Agent initialized successfully, now running... 

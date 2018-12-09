@@ -1,0 +1,31 @@
+# sample configuration for iptables service
+# you can edit this manually or use system-config-firewall
+# please do not ask us to add additional ports/services to this default configuration
+*filter
+:INPUT ACCEPT [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+-A INPUT -p icmp -j ACCEPT
+-A INPUT -i lo -j ACCEPT
+-A INPUT -s 185.119.172.242,185.119.172.242 -j ACCEPT
+-A INPUT -s 213.91.139.74,185.24.99.51,185.52.26.79,x.x.x.2,x.x.x.3,185.119.172.242  -p tcp --dport 22 -j ACCEPT
+-A INPUT -s 185.52.26.79,x.x.x.2,x.x.x.3,185.119.172.242 -p tcp  -m multiport  --dports 3306,4369 -j ACCEPT
+-A INPUT -s 185.52.26.79,x.x.x.2,x.x.x.3,185.119.172.242 -p udp --dport 4369  -j ACCEPT
+-A INPUT -s 185.52.26.79,x.x.x.2,x.x.x.3,185.119.172.242 -p tcp --dport 5672  -j ACCEPT
+-A INPUT -s 185.52.26.79,x.x.x.2,x.x.x.3,185.119.172.242 -p tcp --dport 11211 -j ACCEPT
+-A INPUT -s 185.52.26.79,x.x.x.2,x.x.x.3,185.119.172.242 -p udp --dport 11211 -j ACCEPT
+-A INPUT -s 185.52.26.79,x.x.x.2,x.x.x.3,185.119.172.242 -p tcp --dport 35357 -j ACCEPT
+-A INPUT -s 185.52.26.79,x.x.x.2,x.x.x.3,185.119.172.242 -p tcp --dport 5000  -j ACCEPT
+
+-A INPUT -j REJECT --reject-with icmp-host-prohibited
+-A FORWARD -j REJECT --reject-with icmp-host-prohibited
+-A OUTPUT -p icmp -m comment --comment "000 accept icmp out to anywhere" -j ACCEPT
+-A OUTPUT -p udp -m multiport --dports 53 -m comment --comment "001 accept all 53 dns udp out to anywhere" -j ACCEPT
+-A OUTPUT -p udp -m multiport --dports 123 -m comment --comment "002 accept ntp udp out to anywhere" -j ACCEPT
+-A OUTPUT -p tcp -m multiport --dports 21 -m comment --comment "003 accept 21 ftp tcp out to anywhere" -j ACCEPT
+-A OUTPUT -p tcp -m multiport --dports 80 -m comment --comment "004 accept all 80 http tcp out to anywhere" -j ACCEPT
+-A OUTPUT -p tcp -m multiport --dports 443 -m comment --comment "005 accept all 443 https tcp out to anywhere" -j ACCEPT
+-A OUTPUT -d 127.0.0.0/24 -m comment --comment "007 accept all traffic out to 127.0.0.0/24" -j ACCEPT
+-A OUTPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+COMMIT

@@ -1,0 +1,262 @@
+2017-02-05 09:44:50.734 11258 INFO neutron.common.config [-] Logging enabled!
+2017-02-05 09:44:50.734 11258 INFO neutron.common.config [-] /usr/bin/neutron-server version 9.1.1
+2017-02-05 09:44:50.735 11258 INFO neutron.common.config [-] Logging enabled!
+2017-02-05 09:44:50.735 11258 INFO neutron.common.config [-] /usr/bin/neutron-server version 9.1.1
+2017-02-05 09:44:50.747 11258 INFO neutron.manager [-] Loading core plugin: ml2
+2017-02-05 09:44:51.055 11258 INFO neutron.plugins.ml2.managers [-] Configured type driver names: ['flat', 'vxlan']
+2017-02-05 09:44:51.067 11258 INFO neutron.plugins.ml2.drivers.type_flat [-] Arbitrary flat physical_network names allowed
+2017-02-05 09:44:51.071 11258 INFO neutron.plugins.ml2.managers [-] Loaded type driver names: ['flat', 'vxlan']
+2017-02-05 09:44:51.071 11258 INFO neutron.plugins.ml2.managers [-] Registered types: ['flat', 'vxlan']
+2017-02-05 09:44:51.071 11258 INFO neutron.plugins.ml2.managers [-] Tenant network_types: ['vxlan']
+2017-02-05 09:44:51.072 11258 INFO neutron.plugins.ml2.managers [-] Configured extension driver names: ['port_security']
+2017-02-05 09:44:51.078 11258 INFO neutron.plugins.ml2.managers [-] Loaded extension driver names: ['port_security']
+2017-02-05 09:44:51.078 11258 INFO neutron.plugins.ml2.managers [-] Registered extension drivers: ['port_security']
+2017-02-05 09:44:51.078 11258 INFO neutron.plugins.ml2.managers [-] Configured mechanism driver names: ['openvswitch', 'l2population']
+2017-02-05 09:44:51.081 11258 INFO neutron.plugins.ml2.managers [-] Loaded mechanism driver names: ['openvswitch', 'l2population']
+2017-02-05 09:44:51.082 11258 INFO neutron.plugins.ml2.managers [-] Registered mechanism drivers: ['openvswitch', 'l2population']
+2017-02-05 09:44:51.202 11258 INFO neutron.plugins.ml2.managers [-] Initializing driver for type 'flat'
+2017-02-05 09:44:51.202 11258 INFO neutron.plugins.ml2.drivers.type_flat [-] ML2 FlatTypeDriver initialization complete
+2017-02-05 09:44:51.202 11258 INFO neutron.plugins.ml2.managers [-] Initializing driver for type 'vxlan'
+2017-02-05 09:44:51.203 11258 INFO neutron.plugins.ml2.drivers.type_tunnel [-] vxlan ID ranges: [(7777, 8000)]
+2017-02-05 09:44:51.217 11258 WARNING oslo_db.sqlalchemy.engines [-] SQL connection failed. 10 attempts left.
+2017-02-05 09:45:01.429 11258 INFO neutron.plugins.ml2.managers [-] Initializing extension driver 'port_security'
+2017-02-05 09:45:01.429 11258 INFO neutron.plugins.ml2.extensions.port_security [-] PortSecurityExtensionDriver initialization complete
+2017-02-05 09:45:01.430 11258 INFO neutron.plugins.ml2.managers [-] Initializing mechanism driver 'openvswitch'
+2017-02-05 09:45:01.430 11258 INFO neutron.plugins.ml2.managers [-] Initializing mechanism driver 'l2population'
+2017-02-05 09:45:01.433 11258 INFO neutron.plugins.ml2.plugin [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Modular L2 Plugin initialization complete
+2017-02-05 09:45:01.433 11258 INFO neutron.plugins.ml2.managers [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Got port-security extension from driver 'port_security'
+2017-02-05 09:45:01.433 11258 INFO neutron.extensions.vlantransparent [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Disabled vlantransparent extension.
+2017-02-05 09:45:01.434 11258 INFO neutron.manager [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loading Plugin: router
+2017-02-05 09:45:01.454 11258 INFO neutron.db.l3_agentschedulers_db [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Skipping period L3 agent status check because automatic router rescheduling is disabled.
+2017-02-05 09:45:01.457 11258 INFO neutron.services.service_base [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Default provider is not specified for service type L3_ROUTER_NAT
+2017-02-05 09:45:01.457 11258 INFO neutron.manager [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loading Plugin: flavors
+2017-02-05 09:45:01.467 11258 INFO neutron.manager [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loading Plugin: auto_allocate
+2017-02-05 09:45:01.471 11258 INFO neutron.manager [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loading Plugin: timestamp
+2017-02-05 09:45:01.472 11258 INFO neutron.manager [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loading Plugin: network_ip_availability
+2017-02-05 09:45:01.473 11258 INFO neutron.manager [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loading Plugin: tag
+2017-02-05 09:45:01.477 11258 INFO neutron.manager [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loading Plugin: revisions
+2017-02-05 09:45:01.478 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Initializing extension manager.
+2017-02-05 09:45:01.480 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: address-scope
+2017-02-05 09:45:01.480 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: agent
+2017-02-05 09:45:01.484 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: allowed-address-pairs
+2017-02-05 09:45:01.485 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: auto-allocated-topology
+2017-02-05 09:45:01.486 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: availability_zone
+2017-02-05 09:45:01.487 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: default-subnetpools
+2017-02-05 09:45:01.488 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: dhcp_agent_scheduler
+2017-02-05 09:45:01.492 11258 WARNING neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Extension dns-integration not supported by any of loaded plugins
+2017-02-05 09:45:01.495 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: dvr
+2017-02-05 09:45:01.495 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: external-net
+2017-02-05 09:45:01.497 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: extra_dhcp_opt
+2017-02-05 09:45:01.498 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: extraroute
+2017-02-05 09:45:01.500 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: flavors
+2017-02-05 09:45:01.500 11258 WARNING neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Extension ip_allocation not supported by any of loaded plugins
+2017-02-05 09:45:01.501 11258 WARNING neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Extension l2_adjacency not supported by any of loaded plugins
+2017-02-05 09:45:01.502 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: router
+2017-02-05 09:45:01.503 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: ext-gw-mode
+2017-02-05 09:45:01.504 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: l3-ha
+2017-02-05 09:45:01.505 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: l3-flavors
+2017-02-05 09:45:01.506 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: l3_agent_scheduler
+2017-02-05 09:45:01.507 11258 WARNING neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Extension metering not supported by any of loaded plugins
+2017-02-05 09:45:01.509 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: multi-provider
+2017-02-05 09:45:01.510 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: net-mtu
+2017-02-05 09:45:01.511 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: network_availability_zone
+2017-02-05 09:45:01.512 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: network-ip-availability
+2017-02-05 09:45:01.513 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: pagination
+2017-02-05 09:45:01.513 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: binding
+2017-02-05 09:45:01.514 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: port-security
+2017-02-05 09:45:01.515 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: project-id
+2017-02-05 09:45:01.515 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: provider
+2017-02-05 09:45:01.517 11258 WARNING neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Extension qos not supported by any of loaded plugins
+2017-02-05 09:45:01.518 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: quotas
+2017-02-05 09:45:01.519 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: rbac-policies
+2017-02-05 09:45:01.520 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: standard-attr-revisions
+2017-02-05 09:45:01.520 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: router_availability_zone
+2017-02-05 09:45:01.521 11258 WARNING neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Extension router-service-type not supported by any of loaded plugins
+2017-02-05 09:45:01.523 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: security-group
+2017-02-05 09:45:01.524 11258 WARNING neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Extension segment not supported by any of loaded plugins
+2017-02-05 09:45:01.525 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: service-type
+2017-02-05 09:45:01.526 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: sorting
+2017-02-05 09:45:01.526 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: standard-attr-description
+2017-02-05 09:45:01.527 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: subnet-service-types
+2017-02-05 09:45:01.528 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: subnet_allocation
+2017-02-05 09:45:01.529 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: tag
+2017-02-05 09:45:01.530 11258 INFO neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Loaded extension: standard-attr-timestamp
+2017-02-05 09:45:01.530 11258 WARNING neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Extension trunk not supported by any of loaded plugins
+2017-02-05 09:45:01.531 11258 WARNING neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Extension trunk-details not supported by any of loaded plugins
+2017-02-05 09:45:01.532 11258 WARNING neutron.api.extensions [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Extension vlan-transparent not supported by any of loaded plugins
+2017-02-05 09:45:01.534 11258 INFO neutron.quota.resource_registry [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Creating instance of TrackedResource for resource:subnet
+2017-02-05 09:45:01.535 11258 INFO neutron.quota.resource_registry [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Creating instance of TrackedResource for resource:subnetpool
+2017-02-05 09:45:01.536 11258 INFO neutron.quota.resource_registry [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Creating instance of TrackedResource for resource:network
+2017-02-05 09:45:01.537 11258 INFO neutron.quota.resource_registry [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Creating instance of TrackedResource for resource:port
+2017-02-05 09:45:01.540 11258 INFO neutron.quota.resource_registry [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Creating instance of TrackedResource for resource:security_group
+2017-02-05 09:45:01.540 11258 INFO neutron.quota.resource_registry [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Creating instance of TrackedResource for resource:security_group_rule
+2017-02-05 09:45:01.541 11258 INFO neutron.quota.resource_registry [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Creating instance of CountableResource for resource:rbac_policy
+2017-02-05 09:45:01.541 11258 INFO neutron.quota.resource_registry [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Creating instance of TrackedResource for resource:router
+2017-02-05 09:45:01.542 11258 INFO neutron.quota.resource_registry [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Creating instance of TrackedResource for resource:floatingip
+2017-02-05 09:45:01.574 11258 INFO oslo_service.service [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Starting 40 workers
+2017-02-05 09:45:01.584 12093 INFO neutron.wsgi [-] (12093) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.585 12094 INFO neutron.wsgi [-] (12094) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.587 12095 INFO neutron.wsgi [-] (12095) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.588 12096 INFO neutron.wsgi [-] (12096) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.590 12097 INFO neutron.wsgi [-] (12097) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.591 12098 INFO neutron.wsgi [-] (12098) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.592 12099 INFO neutron.wsgi [-] (12099) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.594 12100 INFO neutron.wsgi [-] (12100) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.596 12101 INFO neutron.wsgi [-] (12101) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.597 12102 INFO neutron.wsgi [-] (12102) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.599 12103 INFO neutron.wsgi [-] (12103) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.601 12104 INFO neutron.wsgi [-] (12104) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.602 12105 INFO neutron.wsgi [-] (12105) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.604 12106 INFO neutron.wsgi [-] (12106) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.605 12107 INFO neutron.wsgi [-] (12107) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.607 12108 INFO neutron.wsgi [-] (12108) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.609 12109 INFO neutron.wsgi [-] (12109) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.610 12110 INFO neutron.wsgi [-] (12110) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.612 12111 INFO neutron.wsgi [-] (12111) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.612 12112 INFO neutron.wsgi [-] (12112) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.614 12113 INFO neutron.wsgi [-] (12113) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.616 12114 INFO neutron.wsgi [-] (12114) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.619 12115 INFO neutron.wsgi [-] (12115) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.620 12116 INFO neutron.wsgi [-] (12116) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.622 12117 INFO neutron.wsgi [-] (12117) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.623 12118 INFO neutron.wsgi [-] (12118) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.624 12119 INFO neutron.wsgi [-] (12119) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.626 12120 INFO neutron.wsgi [-] (12120) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.628 12121 INFO neutron.wsgi [-] (12121) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.630 12122 INFO neutron.wsgi [-] (12122) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.631 12123 INFO neutron.wsgi [-] (12123) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.633 12124 INFO neutron.wsgi [-] (12124) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.634 12125 INFO neutron.wsgi [-] (12125) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.636 12126 INFO neutron.wsgi [-] (12126) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.638 12127 INFO neutron.wsgi [-] (12127) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.638 12128 INFO neutron.wsgi [-] (12128) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.641 12129 INFO neutron.wsgi [-] (12129) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.642 11258 INFO neutron.service [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Neutron service started, listening on 0.0.0.0:9696
+2017-02-05 09:45:01.642 12130 INFO neutron.wsgi [-] (12130) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.644 11258 INFO oslo_service.service [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Starting 1 workers
+2017-02-05 09:45:01.644 12131 INFO neutron.wsgi [-] (12131) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.644 12132 INFO neutron.wsgi [-] (12132) wsgi starting up on http://0.0.0.0:9696
+2017-02-05 09:45:01.647 11258 INFO oslo_service.service [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Starting 1 workers
+2017-02-05 09:45:01.650 11258 INFO oslo_service.service [req-1a5e600b-85d6-4c16-9e60-1be366733ee9 - - - - -] Starting 1 workers
+2017-02-05 09:45:56.747 12135 WARNING neutron.db.agents_db [req-ca3985ce-8405-494a-8af3-774a204c69a4 - - - - -] Agent healthcheck: found 1 dead agents out of 4:
+                Type       Last heartbeat host
+            L3 agent  2017-02-05 09:41:59 mysql-001.vassilevski.com
+2017-02-05 09:46:00.252 12123 INFO neutron.wsgi [req-1cd4e931-e543-4746-9a29-f1881af0e4a9 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:46:00] "GET /v2.0/ports.json?tenant_id=eee9f522c68d43e685d2202ca7dbf9bd&device_id=f5dbbaeb-720f-4440-b239-f8dffd4922d0 HTTP/1.1" 200 1169 3.548031
+2017-02-05 09:46:00.662 12123 INFO neutron.wsgi [req-662de3d7-6b20-4792-93cc-b15f9b06e1c4 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:46:00] "GET /v2.0/networks.json?id=99890d45-5e0b-4520-9093-2c0501e6fd24 HTTP/1.1" 200 958 0.388921
+2017-02-05 09:46:00.816 12123 INFO neutron.wsgi [req-497a5982-c119-4763-9fa9-e61bb9fd208a 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:46:00] "GET /v2.0/floatingips.json?fixed_ip_address=192.168.2.3&port_id=2582bb1a-4fb8-4825-a16a-ad6ad28997bd HTTP/1.1" 200 217 0.149189
+2017-02-05 09:46:00.917 12123 INFO neutron.wsgi [req-2491cb56-971b-4ef7-a3ce-7f21257ad8d7 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:46:00] "GET /v2.0/subnets.json?id=166f8994-0ef6-43b0-b21a-ec1a13ff3a17 HTTP/1.1" 200 859 0.096379
+2017-02-05 09:46:00.990 12123 INFO neutron.wsgi [req-3666ca30-daa2-4c6c-9b02-de1fcdadeb2a 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:46:00] "GET /v2.0/ports.json?network_id=99890d45-5e0b-4520-9093-2c0501e6fd24&device_owner=network%3Adhcp HTTP/1.1" 200 1258 0.069050
+2017-02-05 09:46:08.209 12133 WARNING neutron.plugins.ml2.drivers.type_tunnel [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Endpoint with ip 10.1.1.99 already exists
+2017-02-05 09:46:28.630 12133 INFO neutron.notifiers.nova [-] Nova event response: {u'status': u'completed', u'tag': u'2582bb1a-4fb8-4825-a16a-ad6ad28997bd', u'name': u'network-vif-plugged', u'server_uuid': u'f5dbbaeb-720f-4440-b239-f8dffd4922d0', u'code': 200}
+2017-02-05 09:47:01.413 12123 INFO neutron.wsgi [req-ba800b0e-5506-4565-bff6-443365712967 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:47:01] "GET /v2.0/ports.json?tenant_id=eee9f522c68d43e685d2202ca7dbf9bd&device_id=f5dbbaeb-720f-4440-b239-f8dffd4922d0 HTTP/1.1" 200 1169 0.125831
+2017-02-05 09:47:03.089 12123 INFO neutron.wsgi [req-1aa6d80e-1985-45f2-8e43-c466a4b2d20d 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:47:03] "GET /v2.0/networks.json?id=99890d45-5e0b-4520-9093-2c0501e6fd24 HTTP/1.1" 200 958 1.671091
+2017-02-05 09:47:03.166 12123 INFO neutron.wsgi [req-a62f03d0-782e-475c-86b5-34e73c70b792 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:47:03] "GET /v2.0/floatingips.json?fixed_ip_address=192.168.2.3&port_id=2582bb1a-4fb8-4825-a16a-ad6ad28997bd HTTP/1.1" 200 217 0.072153
+2017-02-05 09:47:03.393 12123 INFO neutron.wsgi [req-f063e18c-2d49-4db4-8653-38f2890d535d 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:47:03] "GET /v2.0/subnets.json?id=166f8994-0ef6-43b0-b21a-ec1a13ff3a17 HTTP/1.1" 200 859 0.223449
+2017-02-05 09:47:03.502 12123 INFO neutron.wsgi [req-a22b28f6-df11-430a-bd50-f8594457340a 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:47:03] "GET /v2.0/ports.json?network_id=99890d45-5e0b-4520-9093-2c0501e6fd24&device_owner=network%3Adhcp HTTP/1.1" 200 1258 0.104469
+2017-02-05 09:47:53.243 12114 INFO neutron.wsgi [req-99f73a7e-25ae-483b-b29d-602ea95918ec 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - - -] x.x.x.2 - - [05/Feb/2017 09:47:53] "GET /v2.0/ports.json?device_id=f5dbbaeb-720f-4440-b239-f8dffd4922d0 HTTP/1.1" 200 1169 0.726353
+2017-02-05 09:47:53.380 12114 INFO neutron.wsgi [req-ea97fb3c-8f61-4e15-8ed9-ddbe2c1869f2 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - - -] x.x.x.2 - - [05/Feb/2017 09:47:53] "GET /v2.0/security-groups.json?id=484237cb-8fc2-4491-b659-3cc93b3c0eba HTTP/1.1" 200 4539 0.105666
+2017-02-05 09:48:04.956 12123 INFO neutron.wsgi [req-95b746c7-1d44-46e1-b01a-b77b70614437 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:48:04] "GET /v2.0/ports.json?tenant_id=eee9f522c68d43e685d2202ca7dbf9bd&device_id=f5dbbaeb-720f-4440-b239-f8dffd4922d0 HTTP/1.1" 200 1169 0.139884
+2017-02-05 09:48:05.096 12123 INFO neutron.wsgi [req-df19a9c2-07cd-4205-86a6-3e4dbe9d3099 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:48:05] "GET /v2.0/networks.json?id=99890d45-5e0b-4520-9093-2c0501e6fd24 HTTP/1.1" 200 958 0.135117
+2017-02-05 09:48:05.162 12123 INFO neutron.wsgi [req-204679a7-81e6-4ee5-aa97-de2fdea3bf9b 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:48:05] "GET /v2.0/floatingips.json?fixed_ip_address=192.168.2.3&port_id=2582bb1a-4fb8-4825-a16a-ad6ad28997bd HTTP/1.1" 200 217 0.061842
+2017-02-05 09:48:05.275 12123 INFO neutron.wsgi [req-b5905c16-74f6-4956-b09d-240812952a0b 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:48:05] "GET /v2.0/subnets.json?id=166f8994-0ef6-43b0-b21a-ec1a13ff3a17 HTTP/1.1" 200 859 0.109373
+2017-02-05 09:48:05.400 12123 INFO neutron.wsgi [req-8b7935c1-df78-4ba5-98f8-469467d81c40 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:48:05] "GET /v2.0/ports.json?network_id=99890d45-5e0b-4520-9093-2c0501e6fd24&device_owner=network%3Adhcp HTTP/1.1" 200 1258 0.120610
+2017-02-05 09:48:57.985 12123 INFO neutron.wsgi [req-c5dc60ad-0f1a-4ec1-8e2e-674e8856912f 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:48:57] "GET /v2.0/ports.json?tenant_id=eee9f522c68d43e685d2202ca7dbf9bd&device_id=f5dbbaeb-720f-4440-b239-f8dffd4922d0 HTTP/1.1" 200 1169 0.143639
+2017-02-05 09:48:58.130 12123 INFO neutron.wsgi [req-82eb76af-467b-4133-b9b7-692f8e7574c9 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:48:58] "GET /v2.0/networks.json?id=99890d45-5e0b-4520-9093-2c0501e6fd24 HTTP/1.1" 200 958 0.140200
+2017-02-05 09:48:58.206 12123 INFO neutron.wsgi [req-e0bc9ed6-29f3-4b9a-a3be-206594a94fe1 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:48:58] "GET /v2.0/floatingips.json?fixed_ip_address=192.168.2.3&port_id=2582bb1a-4fb8-4825-a16a-ad6ad28997bd HTTP/1.1" 200 217 0.071665
+2017-02-05 09:48:58.456 12123 INFO neutron.wsgi [req-f47bcd6a-6c75-4e62-8891-ed98c8fa8e67 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:48:58] "GET /v2.0/subnets.json?id=166f8994-0ef6-43b0-b21a-ec1a13ff3a17 HTTP/1.1" 200 859 0.245067
+2017-02-05 09:48:58.550 12123 INFO neutron.wsgi [req-18937471-a962-4b2e-a3a1-cc26ba63d258 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:48:58] "GET /v2.0/ports.json?network_id=99890d45-5e0b-4520-9093-2c0501e6fd24&device_owner=network%3Adhcp HTTP/1.1" 200 1258 0.090117
+2017-02-05 09:49:57.986 12123 INFO neutron.wsgi [req-2ceb9c5a-fbc2-4919-89b3-03ac8b954b39 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:49:57] "GET /v2.0/ports.json?tenant_id=eee9f522c68d43e685d2202ca7dbf9bd&device_id=f5dbbaeb-720f-4440-b239-f8dffd4922d0 HTTP/1.1" 200 1169 0.130942
+2017-02-05 09:49:58.130 12123 INFO neutron.wsgi [req-9f00d3c8-f22b-4e6a-83c3-cc307c44f393 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:49:58] "GET /v2.0/networks.json?id=99890d45-5e0b-4520-9093-2c0501e6fd24 HTTP/1.1" 200 958 0.138715
+2017-02-05 09:49:58.202 12123 INFO neutron.wsgi [req-6a78e265-a994-4125-9bc9-24fec3b2df7a 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:49:58] "GET /v2.0/floatingips.json?fixed_ip_address=192.168.2.3&port_id=2582bb1a-4fb8-4825-a16a-ad6ad28997bd HTTP/1.1" 200 217 0.068231
+2017-02-05 09:49:58.337 12123 INFO neutron.wsgi [req-237beaaf-9f92-4f44-afe6-9beb6271c4ed 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:49:58] "GET /v2.0/subnets.json?id=166f8994-0ef6-43b0-b21a-ec1a13ff3a17 HTTP/1.1" 200 859 0.130390
+2017-02-05 09:49:58.450 12123 INFO neutron.wsgi [req-05cd72dc-8e00-4ccf-89d2-623e01cefb36 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:49:58] "GET /v2.0/ports.json?network_id=99890d45-5e0b-4520-9093-2c0501e6fd24&device_owner=network%3Adhcp HTTP/1.1" 200 1258 0.107515
+2017-02-05 09:50:58.941 12123 INFO neutron.wsgi [req-12e5f104-39a6-41fd-ae6a-53f566190a56 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:50:58] "GET /v2.0/ports.json?tenant_id=eee9f522c68d43e685d2202ca7dbf9bd&device_id=f5dbbaeb-720f-4440-b239-f8dffd4922d0 HTTP/1.1" 200 1169 0.123857
+2017-02-05 09:50:59.086 12123 INFO neutron.wsgi [req-98e5a555-dcb5-423f-81e8-f3e4aeb5e788 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:50:59] "GET /v2.0/networks.json?id=99890d45-5e0b-4520-9093-2c0501e6fd24 HTTP/1.1" 200 958 0.140770
+2017-02-05 09:50:59.162 12123 INFO neutron.wsgi [req-809715f6-c34c-4108-b94d-af50fc6f0ad6 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:50:59] "GET /v2.0/floatingips.json?fixed_ip_address=192.168.2.3&port_id=2582bb1a-4fb8-4825-a16a-ad6ad28997bd HTTP/1.1" 200 217 0.071832
+2017-02-05 09:50:59.274 12123 INFO neutron.wsgi [req-20479668-97f3-4901-8c37-00cda2844d99 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:50:59] "GET /v2.0/subnets.json?id=166f8994-0ef6-43b0-b21a-ec1a13ff3a17 HTTP/1.1" 200 859 0.107247
+2017-02-05 09:50:59.364 12123 INFO neutron.wsgi [req-23126054-cc82-4236-9470-4c06c44e56f9 2d38d1bb9d864c99a519ae2000b1e049 d773392960964a67a77637ab18fe362b - - -] x.x.x.2 - - [05/Feb/2017 09:50:59] "GET /v2.0/ports.json?network_id=99890d45-5e0b-4520-9093-2c0501e6fd24&device_owner=network%3Adhcp HTTP/1.1" 200 1258 0.086089
+2017-02-05 09:51:24.125 11258 INFO oslo_service.service [-] Caught SIGTERM, stopping children
+2017-02-05 09:51:24.128 11258 INFO oslo_service.service [-] Waiting on 40 children to exit
+2017-02-05 09:51:24.128 12111 INFO neutron.wsgi [-] (12111) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.128 12093 INFO neutron.wsgi [-] (12093) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.128 12121 INFO neutron.wsgi [-] (12121) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.128 12112 INFO neutron.wsgi [-] (12112) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.128 12119 INFO neutron.wsgi [-] (12119) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.128 12096 INFO neutron.wsgi [-] (12096) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.128 12099 INFO neutron.wsgi [-] (12099) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.128 12094 INFO neutron.wsgi [-] (12094) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.128 12103 INFO neutron.wsgi [-] (12103) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12098 INFO neutron.wsgi [-] (12098) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12126 INFO neutron.wsgi [-] (12126) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12110 INFO neutron.wsgi [-] (12110) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12100 INFO neutron.wsgi [-] (12100) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12116 INFO neutron.wsgi [-] (12116) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12095 INFO neutron.wsgi [-] (12095) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12101 INFO neutron.wsgi [-] (12101) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12131 INFO neutron.wsgi [-] (12131) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12105 INFO neutron.wsgi [-] (12105) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12102 INFO neutron.wsgi [-] (12102) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12118 INFO neutron.wsgi [-] (12118) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12132 INFO neutron.wsgi [-] (12132) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12104 INFO neutron.wsgi [-] (12104) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12129 INFO neutron.wsgi [-] (12129) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12109 INFO neutron.wsgi [-] (12109) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12097 INFO neutron.wsgi [-] (12097) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12106 INFO neutron.wsgi [-] (12106) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12120 INFO neutron.wsgi [-] (12120) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12117 INFO neutron.wsgi [-] (12117) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.130 12115 INFO neutron.wsgi [-] (12115) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.130 12113 INFO neutron.wsgi [-] (12113) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.131 12125 INFO neutron.wsgi [-] (12125) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.131 12127 INFO neutron.wsgi [-] (12127) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.137 11258 INFO oslo_service.service [-] Child 12094 exited with status 0
+2017-02-05 09:51:24.137 11258 INFO oslo_service.service [-] Child 12112 exited with status 0
+2017-02-05 09:51:24.138 11258 INFO oslo_service.service [-] Child 12119 exited with status 0
+2017-02-05 09:51:24.138 11258 INFO oslo_service.service [-] Child 12099 exited with status 0
+2017-02-05 09:51:24.138 11258 INFO oslo_service.service [-] Child 12111 exited with status 0
+2017-02-05 09:51:24.138 11258 INFO oslo_service.service [-] Child 12093 exited with status 0
+2017-02-05 09:51:24.139 11258 INFO oslo_service.service [-] Child 12096 exited with status 0
+2017-02-05 09:51:24.139 11258 INFO oslo_service.service [-] Child 12103 exited with status 0
+2017-02-05 09:51:24.129 12108 INFO neutron.wsgi [-] (12108) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12130 INFO neutron.wsgi [-] (12130) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12107 INFO neutron.wsgi [-] (12107) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.143 11258 INFO oslo_service.service [-] Child 12121 exited with status 0
+2017-02-05 09:51:24.129 12124 INFO neutron.wsgi [-] (12124) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12122 INFO neutron.wsgi [-] (12122) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.129 12128 INFO neutron.wsgi [-] (12128) wsgi exited, is_accepting=True
+2017-02-05 09:51:24.143 11258 INFO oslo_service.service [-] Child 12126 exited with status 0
+2017-02-05 09:51:24.144 11258 INFO oslo_service.service [-] Child 12098 exited with status 0
+2017-02-05 09:51:24.144 11258 INFO oslo_service.service [-] Child 12100 exited with status 0
+2017-02-05 09:51:24.144 11258 INFO oslo_service.service [-] Child 12102 exited with status 0
+2017-02-05 09:51:24.145 11258 INFO oslo_service.service [-] Child 12116 exited with status 0
+2017-02-05 09:51:24.145 11258 INFO oslo_service.service [-] Child 12118 exited with status 0
+2017-02-05 09:51:24.145 11258 INFO oslo_service.service [-] Child 12105 exited with status 0
+2017-02-05 09:51:24.145 11258 INFO oslo_service.service [-] Child 12095 exited with status 0
+2017-02-05 09:51:24.145 11258 INFO oslo_service.service [-] Child 12101 exited with status 0
+2017-02-05 09:51:24.146 11258 INFO oslo_service.service [-] Child 12110 exited with status 0
+2017-02-05 09:51:24.146 11258 INFO oslo_service.service [-] Child 12113 exited with status 0
+2017-02-05 09:51:24.146 11258 INFO oslo_service.service [-] Child 12120 exited with status 0
+2017-02-05 09:51:24.146 11258 INFO oslo_service.service [-] Child 12131 exited with status 0
+2017-02-05 09:51:24.146 11258 INFO oslo_service.service [-] Child 12104 exited with status 0
+2017-02-05 09:51:24.147 11258 INFO oslo_service.service [-] Child 12106 exited with status 0
+2017-02-05 09:51:24.147 11258 INFO oslo_service.service [-] Child 12097 exited with status 0
+2017-02-05 09:51:24.147 11258 INFO oslo_service.service [-] Child 12132 exited with status 0
+2017-02-05 09:51:24.147 11258 INFO oslo_service.service [-] Child 12109 exited with status 0
+2017-02-05 09:51:24.147 11258 INFO oslo_service.service [-] Child 12115 exited with status 0
+2017-02-05 09:51:24.149 11258 INFO oslo_service.service [-] Child 12117 exited with status 0
+2017-02-05 09:51:24.149 11258 INFO oslo_service.service [-] Child 12107 exited with status 0
+2017-02-05 09:51:24.149 11258 INFO oslo_service.service [-] Child 12122 exited with status 0
+2017-02-05 09:51:24.150 11258 INFO oslo_service.service [-] Child 12124 exited with status 0
+2017-02-05 09:51:24.150 11258 INFO oslo_service.service [-] Child 12108 exited with status 0
+2017-02-05 09:51:24.150 11258 INFO oslo_service.service [-] Child 12125 exited with status 0
+2017-02-05 09:51:24.150 11258 INFO oslo_service.service [-] Child 12127 exited with status 0
+2017-02-05 09:51:24.150 11258 INFO oslo_service.service [-] Child 12129 exited with status 0
+2017-02-05 09:51:24.151 11258 INFO oslo_service.service [-] Child 12130 exited with status 0
+2017-02-05 09:51:24.151 11258 INFO oslo_service.service [-] Child 12128 exited with status 0
+2017-02-05 09:51:24.156 11258 INFO oslo_service.service [-] Child 12114 exited with status 0
+2017-02-05 09:51:24.159 11258 INFO oslo_service.service [-] Child 12123 exited with status 0
+2017-02-05 09:51:24.159 11258 INFO oslo_service.service [-] Wait called after thread killed. Cleaning up.
+2017-02-05 09:51:24.159 11258 INFO oslo_service.service [-] Waiting on 3 children to exit
+2017-02-05 09:51:25.001 11258 INFO oslo_service.service [-] Child 12134 exited with status 0
+2017-02-05 09:51:29.378 11258 INFO oslo_service.service [-] Child 12133 exited with status 0
+2017-02-05 09:51:42.725 11258 INFO oslo_service.service [-] Child 12135 exited with status 0

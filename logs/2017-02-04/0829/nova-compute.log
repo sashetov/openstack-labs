@@ -1,0 +1,5 @@
+2017-02-04 08:29:20.250 5249 INFO nova.compute.resource_tracker [req-fbd3ab90-0fcb-4e4e-8140-a2fd82982ec5 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-04 08:29:20.267 5249 WARNING nova.virt.libvirt.driver [req-fbd3ab90-0fcb-4e4e-8140-a2fd82982ec5 - - - - -] couldn't obtain the vcpu count from domain id: f5dbbaeb-720f-4440-b239-f8dffd4922d0, exception: Requested operation is not valid: cpu affinity is not supported
+2017-02-04 08:29:21.361 5249 INFO nova.compute.resource_tracker [req-fbd3ab90-0fcb-4e4e-8140-a2fd82982ec5 - - - - -] Total usable vcpus: 40, total allocated vcpus: 1
+2017-02-04 08:29:21.361 5249 INFO nova.compute.resource_tracker [req-fbd3ab90-0fcb-4e4e-8140-a2fd82982ec5 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=576MB phys_disk=41GB used_disk=1GB total_vcpus=40 used_vcpus=1 pci_stats=[]
+2017-02-04 08:29:21.406 5249 INFO nova.compute.resource_tracker [req-fbd3ab90-0fcb-4e4e-8140-a2fd82982ec5 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com

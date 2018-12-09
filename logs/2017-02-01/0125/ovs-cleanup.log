@@ -1,0 +1,3 @@
+2017-02-01 01:21:01.803 11190 INFO neutron.common.config [-] Logging enabled!
+2017-02-01 01:21:01.804 11190 INFO neutron.common.config [-] /usr/bin/neutron-ovs-cleanup version 9.1.1
+2017-02-01 01:21:01.882 11190 INFO neutron.cmd.ovs_cleanup [-] OVS cleanup completed successfully

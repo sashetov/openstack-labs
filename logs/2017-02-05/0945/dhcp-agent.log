@@ -1,0 +1,3 @@
+2017-02-05 09:44:50.665 11259 INFO neutron.common.config [-] Logging enabled!
+2017-02-05 09:44:50.665 11259 INFO neutron.common.config [-] /usr/bin/neutron-dhcp-agent version 9.1.1
+2017-02-05 09:44:50.710 11259 INFO neutron.agent.dhcp.agent [-] Synchronizing state

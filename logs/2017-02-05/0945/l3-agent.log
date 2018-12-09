@@ -1,0 +1,2 @@
+2017-02-05 09:44:50.701 11262 INFO neutron.common.config [-] Logging enabled!
+2017-02-05 09:44:50.701 11262 INFO neutron.common.config [-] /usr/bin/neutron-l3-agent version 9.1.1

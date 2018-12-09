@@ -1,0 +1,1309 @@
+170209 07:43:45 mysqld_safe Logging to '/var/log/mysqld.log'.
+170209 07:43:45 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql/data/
+2017-02-09 07:43:46 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-02-09 07:43:46 0 [Note] /usr/sbin/mysqld (mysqld 5.6.35) starting as process 15093 ...
+2017-02-09 07:43:46 15093 [Warning] Buffered warning: Changed limits: max_open_files: 1024 (requested 5000)
+
+2017-02-09 07:43:46 15093 [Warning] Buffered warning: Changed limits: max_connections: 214 (requested 500)
+
+2017-02-09 07:43:46 15093 [Warning] Buffered warning: Changed limits: table_open_cache: 400 (requested 2000)
+
+2017-02-09 07:43:46 15093 [Note] Plugin 'FEDERATED' is disabled.
+2017-02-09 07:43:46 15093 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-02-09 07:43:46 15093 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-02-09 07:43:46 15093 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-02-09 07:43:46 15093 [Note] InnoDB: Memory barrier is not used
+2017-02-09 07:43:46 15093 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-02-09 07:43:46 15093 [Note] InnoDB: Using Linux native AIO
+2017-02-09 07:43:46 15093 [Note] InnoDB: Using CPU crc32 instructions
+2017-02-09 07:43:46 15093 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-02-09 07:43:46 15093 [Note] InnoDB: Completed initialization of buffer pool
+2017-02-09 07:43:46 15093 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-02-09 07:43:46 15093 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-02-09 07:43:46 15093 [Note] InnoDB: Waiting for purge to start
+2017-02-09 07:43:46 15093 [Note] InnoDB: 5.6.35 started; log sequence number 226092224
+2017-02-09 07:43:46 15093 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-02-09 07:43:46 15093 [Note] IPv6 is available.
+2017-02-09 07:43:46 15093 [Note]   - '::' resolves to '::';
+2017-02-09 07:43:46 15093 [Note] Server socket created on IP: '::'.
+2017-02-09 07:43:46 15093 [Note] Event Scheduler: Loaded 0 events
+2017-02-09 07:43:46 15093 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.6.35'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2017-02-09 08:24:54 15093 [Note] /usr/sbin/mysqld: Normal shutdown
+
+2017-02-09 08:24:54 15093 [Note] Giving 154 client threads a chance to die gracefully
+2017-02-09 08:24:54 15093 [Note] Event Scheduler: Purging the queue. 0 events
+2017-02-09 08:24:54 15093 [Note] Shutting down slave threads
+2017-02-09 08:24:56 15093 [Note] Forcefully disconnecting 149 remaining clients
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 1  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 2  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 5  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 4  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 6  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 7  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 8  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 9  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 10  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 11  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 12  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 13  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 14  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 15  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 16  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 17  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 18  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 19  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 20  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 21  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 22  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 23  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 24  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 25  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 26  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 27  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 28  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 29  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 30  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 31  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 32  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 33  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 34  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 35  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 36  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 37  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 38  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 39  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 40  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 41  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 42  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 43  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 44  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 45  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 46  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 47  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 48  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 49  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 50  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 51  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 52  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 53  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 54  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 55  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 56  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 57  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 58  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 59  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 60  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 61  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 62  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 63  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 64  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 65  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 66  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 67  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 68  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 69  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 70  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 71  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 72  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 73  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 74  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 75  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 76  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 77  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 78  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 79  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 80  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 81  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 82  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 83  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 84  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 85  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 86  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 87  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 88  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 89  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 90  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 91  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 92  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 93  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 94  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 95  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 96  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 97  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 98  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 99  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 100  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 101  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 102  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 103  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 104  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 105  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 106  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 107  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 108  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 109  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 110  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 111  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 112  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 113  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 114  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 115  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 116  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 117  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 118  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 119  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 120  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 121  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 122  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 123  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 124  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 125  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 127  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 128  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 129  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 130  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 131  user: 'keystone'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 132  user: 'keystone'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 133  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 134  user: 'keystone'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 135  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 136  user: 'keystone'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 137  user: 'keystone'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 138  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 139  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 140  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 141  user: 'glance'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 142  user: 'nova'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 143  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 146  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 148  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 151  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 152  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 153  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 154  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 155  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Warning] /usr/sbin/mysqld: Forcing close of thread 158  user: 'neutron'
+
+2017-02-09 08:24:56 15093 [Note] Binlog end
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'partition'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_CMP'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'INNODB_TRX'
+2017-02-09 08:24:56 15093 [Note] Shutting down plugin 'InnoDB'
+2017-02-09 08:24:56 15093 [Note] InnoDB: FTS optimize thread exiting.
+2017-02-09 08:24:56 15093 [Note] InnoDB: Starting shutdown...
+2017-02-09 08:24:58 15093 [Note] InnoDB: Shutdown completed; log sequence number 226823957
+2017-02-09 08:24:58 15093 [Note] Shutting down plugin 'BLACKHOLE'
+2017-02-09 08:24:58 15093 [Note] Shutting down plugin 'ARCHIVE'
+2017-02-09 08:24:58 15093 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-02-09 08:24:58 15093 [Note] Shutting down plugin 'MyISAM'
+2017-02-09 08:24:58 15093 [Note] Shutting down plugin 'MEMORY'
+2017-02-09 08:24:58 15093 [Note] Shutting down plugin 'CSV'
+2017-02-09 08:24:58 15093 [Note] Shutting down plugin 'sha256_password'
+2017-02-09 08:24:58 15093 [Note] Shutting down plugin 'mysql_old_password'
+2017-02-09 08:24:58 15093 [Note] Shutting down plugin 'mysql_native_password'
+2017-02-09 08:24:58 15093 [Note] Shutting down plugin 'binlog'
+2017-02-09 08:24:58 15093 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170209 08:24:58 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170209 08:30:26 mysqld_safe Logging to '/var/log/mysqld.log'.
+170209 08:30:26 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql/data/
+2017-02-09 08:30:26 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-02-09 08:30:26 0 [Note] /usr/sbin/mysqld (mysqld 5.6.35) starting as process 24274 ...
+2017-02-09 08:30:26 24274 [Warning] Buffered warning: Changed limits: max_open_files: 1024 (requested 5000)
+
+2017-02-09 08:30:26 24274 [Warning] Buffered warning: Changed limits: max_connections: 214 (requested 500)
+
+2017-02-09 08:30:26 24274 [Warning] Buffered warning: Changed limits: table_open_cache: 400 (requested 2000)
+
+2017-02-09 08:30:26 24274 [Note] Plugin 'FEDERATED' is disabled.
+2017-02-09 08:30:26 24274 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-02-09 08:30:26 24274 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-02-09 08:30:26 24274 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-02-09 08:30:26 24274 [Note] InnoDB: Memory barrier is not used
+2017-02-09 08:30:26 24274 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-02-09 08:30:26 24274 [Note] InnoDB: Using Linux native AIO
+2017-02-09 08:30:26 24274 [Note] InnoDB: Using CPU crc32 instructions
+2017-02-09 08:30:26 24274 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-02-09 08:30:26 24274 [Note] InnoDB: Completed initialization of buffer pool
+2017-02-09 08:30:26 24274 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-02-09 08:30:26 24274 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-02-09 08:30:26 24274 [Note] InnoDB: Waiting for purge to start
+2017-02-09 08:30:26 24274 [Note] InnoDB: 5.6.35 started; log sequence number 226823957
+2017-02-09 08:30:26 24274 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-02-09 08:30:26 24274 [Note] IPv6 is available.
+2017-02-09 08:30:26 24274 [Note]   - '::' resolves to '::';
+2017-02-09 08:30:26 24274 [Note] Server socket created on IP: '::'.
+2017-02-09 08:30:26 24274 [Note] Event Scheduler: Loaded 0 events
+2017-02-09 08:30:26 24274 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.6.35'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2017-02-09 13:27:10 24274 [Note] /usr/sbin/mysqld: Normal shutdown
+
+2017-02-09 13:27:10 24274 [Note] Giving 170 client threads a chance to die gracefully
+2017-02-09 13:27:11 24274 [Note] Event Scheduler: Purging the queue. 0 events
+2017-02-09 13:27:11 24274 [Note] Shutting down slave threads
+2017-02-09 13:27:13 24274 [Note] Forcefully disconnecting 170 remaining clients
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 1  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 380  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 354  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 381  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 355  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 367  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 370  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 348  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 356  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 361  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 352  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 393  user: 'keystone'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 368  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 360  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 357  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 358  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 366  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 365  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 359  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 369  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 349  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 386  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 350  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 353  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 362  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 344  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 382  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 385  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 364  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 351  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 372  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 383  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 379  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 347  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 346  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 375  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 345  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 363  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 387  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 371  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 374  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 373  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 376  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 378  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 377  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 46  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 47  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 48  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 49  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 50  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 51  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 52  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 53  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 54  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 55  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 56  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 57  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 58  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 59  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 60  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 61  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 62  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 63  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 64  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 65  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 66  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 67  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 68  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 69  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 70  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 71  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 72  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 73  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 74  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 75  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 76  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 77  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 78  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 79  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 80  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 81  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 82  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 83  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 84  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 85  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 86  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 87  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 88  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 89  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 90  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 91  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 92  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 93  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 94  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 95  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 96  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 97  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 98  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 99  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 100  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 101  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 102  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 103  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 104  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 105  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 106  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 107  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 108  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 109  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 110  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 111  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 112  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 113  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 114  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 115  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 116  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 117  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 118  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 119  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 120  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 121  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 122  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 123  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 124  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 125  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 420  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 384  user: 'neutron'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 389  user: 'neutron'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 390  user: 'neutron'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 419  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 397  user: 'keystone'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 402  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 394  user: 'keystone'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 392  user: 'neutron'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 399  user: 'keystone'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 395  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 401  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 427  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 398  user: 'keystone'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 391  user: 'neutron'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 400  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 145  user: 'neutron'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 428  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 409  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 429  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 430  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 406  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 425  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 426  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 388  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 396  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 403  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 404  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 405  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 407  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 408  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 410  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 411  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 412  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 413  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 414  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 415  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 416  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 417  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 418  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 421  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 422  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 423  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 424  user: 'nova'
+
+2017-02-09 13:27:13 24274 [Warning] /usr/sbin/mysqld: Forcing close of thread 431  user: 'neutron'
+
+2017-02-09 13:27:13 24274 [Note] Binlog end
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'partition'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_CMP'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'INNODB_TRX'
+2017-02-09 13:27:13 24274 [Note] Shutting down plugin 'InnoDB'
+2017-02-09 13:27:13 24274 [Note] InnoDB: FTS optimize thread exiting.
+2017-02-09 13:27:13 24274 [Note] InnoDB: Starting shutdown...
+2017-02-09 13:27:14 24274 [Note] InnoDB: Shutdown completed; log sequence number 231646190
+2017-02-09 13:27:14 24274 [Note] Shutting down plugin 'BLACKHOLE'
+2017-02-09 13:27:14 24274 [Note] Shutting down plugin 'ARCHIVE'
+2017-02-09 13:27:14 24274 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-02-09 13:27:14 24274 [Note] Shutting down plugin 'MyISAM'
+2017-02-09 13:27:14 24274 [Note] Shutting down plugin 'MEMORY'
+2017-02-09 13:27:14 24274 [Note] Shutting down plugin 'CSV'
+2017-02-09 13:27:14 24274 [Note] Shutting down plugin 'sha256_password'
+2017-02-09 13:27:14 24274 [Note] Shutting down plugin 'mysql_old_password'
+2017-02-09 13:27:14 24274 [Note] Shutting down plugin 'mysql_native_password'
+2017-02-09 13:27:14 24274 [Note] Shutting down plugin 'binlog'
+2017-02-09 13:27:14 24274 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170209 13:27:14 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170209 13:35:09 mysqld_safe Logging to '/var/log/mysqld.log'.
+170209 13:35:09 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql/data/
+2017-02-09 13:35:09 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-02-09 13:35:09 0 [Note] /usr/sbin/mysqld (mysqld 5.6.35) starting as process 23493 ...
+2017-02-09 13:35:09 23493 [Warning] Buffered warning: Changed limits: max_open_files: 1024 (requested 5000)
+
+2017-02-09 13:35:09 23493 [Warning] Buffered warning: Changed limits: max_connections: 214 (requested 500)
+
+2017-02-09 13:35:09 23493 [Warning] Buffered warning: Changed limits: table_open_cache: 400 (requested 2000)
+
+2017-02-09 13:35:09 23493 [Note] Plugin 'FEDERATED' is disabled.
+2017-02-09 13:35:09 23493 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-02-09 13:35:09 23493 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-02-09 13:35:09 23493 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-02-09 13:35:09 23493 [Note] InnoDB: Memory barrier is not used
+2017-02-09 13:35:09 23493 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-02-09 13:35:09 23493 [Note] InnoDB: Using Linux native AIO
+2017-02-09 13:35:09 23493 [Note] InnoDB: Using CPU crc32 instructions
+2017-02-09 13:35:09 23493 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-02-09 13:35:09 23493 [Note] InnoDB: Completed initialization of buffer pool
+2017-02-09 13:35:09 23493 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-02-09 13:35:09 23493 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-02-09 13:35:09 23493 [Note] InnoDB: Waiting for purge to start
+2017-02-09 13:35:09 23493 [Note] InnoDB: 5.6.35 started; log sequence number 231646190
+2017-02-09 13:35:09 23493 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-02-09 13:35:09 23493 [Note] IPv6 is available.
+2017-02-09 13:35:09 23493 [Note]   - '::' resolves to '::';
+2017-02-09 13:35:09 23493 [Note] Server socket created on IP: '::'.
+2017-02-09 13:35:09 23493 [Note] Event Scheduler: Loaded 0 events
+2017-02-09 13:35:09 23493 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.6.35'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2017-02-09 13:43:27 23493 [Note] /usr/sbin/mysqld: Normal shutdown
+
+2017-02-09 13:43:27 23493 [Note] Giving 135 client threads a chance to die gracefully
+2017-02-09 13:43:27 23493 [Note] Event Scheduler: Purging the queue. 0 events
+2017-02-09 13:43:27 23493 [Note] Shutting down slave threads
+2017-02-09 13:43:29 23493 [Note] Forcefully disconnecting 9 remaining clients
+2017-02-09 13:43:29 23493 [Warning] /usr/sbin/mysqld: Forcing close of thread 127  user: 'neutron'
+
+2017-02-09 13:43:29 23493 [Warning] /usr/sbin/mysqld: Forcing close of thread 83  user: 'nova'
+
+2017-02-09 13:43:29 23493 [Warning] /usr/sbin/mysqld: Forcing close of thread 106  user: 'nova'
+
+2017-02-09 13:43:29 23493 [Warning] /usr/sbin/mysqld: Forcing close of thread 125  user: 'nova'
+
+2017-02-09 13:43:29 23493 [Warning] /usr/sbin/mysqld: Forcing close of thread 126  user: 'nova'
+
+2017-02-09 13:43:29 23493 [Warning] /usr/sbin/mysqld: Forcing close of thread 128  user: 'neutron'
+
+2017-02-09 13:43:29 23493 [Warning] /usr/sbin/mysqld: Forcing close of thread 134  user: 'neutron'
+
+2017-02-09 13:43:29 23493 [Warning] /usr/sbin/mysqld: Forcing close of thread 135  user: 'neutron'
+
+2017-02-09 13:43:29 23493 [Warning] /usr/sbin/mysqld: Forcing close of thread 137  user: 'neutron'
+
+2017-02-09 13:43:29 23493 [Note] Binlog end
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'partition'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_CMP'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'INNODB_TRX'
+2017-02-09 13:43:29 23493 [Note] Shutting down plugin 'InnoDB'
+2017-02-09 13:43:29 23493 [Note] InnoDB: FTS optimize thread exiting.
+2017-02-09 13:43:29 23493 [Note] InnoDB: Starting shutdown...
+2017-02-09 13:43:30 23493 [Note] InnoDB: Shutdown completed; log sequence number 231796953
+2017-02-09 13:43:30 23493 [Note] Shutting down plugin 'BLACKHOLE'
+2017-02-09 13:43:30 23493 [Note] Shutting down plugin 'ARCHIVE'
+2017-02-09 13:43:30 23493 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-02-09 13:43:30 23493 [Note] Shutting down plugin 'MyISAM'
+2017-02-09 13:43:30 23493 [Note] Shutting down plugin 'MEMORY'
+2017-02-09 13:43:30 23493 [Note] Shutting down plugin 'CSV'
+2017-02-09 13:43:30 23493 [Note] Shutting down plugin 'sha256_password'
+2017-02-09 13:43:30 23493 [Note] Shutting down plugin 'mysql_old_password'
+2017-02-09 13:43:30 23493 [Note] Shutting down plugin 'mysql_native_password'
+2017-02-09 13:43:30 23493 [Note] Shutting down plugin 'binlog'
+2017-02-09 13:43:30 23493 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170209 13:43:31 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170209 14:00:02 mysqld_safe Logging to '/var/log/mysqld.log'.
+170209 14:00:02 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql/data/
+2017-02-09 14:00:02 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-02-09 14:00:02 0 [Note] /usr/sbin/mysqld (mysqld 5.6.35) starting as process 30990 ...
+2017-02-09 14:00:02 30990 [Warning] Buffered warning: Changed limits: max_open_files: 1024 (requested 5000)
+
+2017-02-09 14:00:02 30990 [Warning] Buffered warning: Changed limits: max_connections: 214 (requested 500)
+
+2017-02-09 14:00:02 30990 [Warning] Buffered warning: Changed limits: table_open_cache: 400 (requested 2000)
+
+2017-02-09 14:00:02 30990 [Note] Plugin 'FEDERATED' is disabled.
+2017-02-09 14:00:02 30990 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-02-09 14:00:02 30990 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-02-09 14:00:02 30990 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-02-09 14:00:02 30990 [Note] InnoDB: Memory barrier is not used
+2017-02-09 14:00:02 30990 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-02-09 14:00:02 30990 [Note] InnoDB: Using Linux native AIO
+2017-02-09 14:00:02 30990 [Note] InnoDB: Using CPU crc32 instructions
+2017-02-09 14:00:02 30990 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-02-09 14:00:02 30990 [Note] InnoDB: Completed initialization of buffer pool
+2017-02-09 14:00:02 30990 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-02-09 14:00:02 30990 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-02-09 14:00:02 30990 [Note] InnoDB: Waiting for purge to start
+2017-02-09 14:00:02 30990 [Note] InnoDB: 5.6.35 started; log sequence number 231796953
+2017-02-09 14:00:02 30990 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-02-09 14:00:02 30990 [Note] IPv6 is available.
+2017-02-09 14:00:02 30990 [Note]   - '::' resolves to '::';
+2017-02-09 14:00:02 30990 [Note] Server socket created on IP: '::'.
+2017-02-09 14:00:02 30990 [Note] Event Scheduler: Loaded 0 events
+2017-02-09 14:00:02 30990 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.6.35'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2017-02-09 14:14:23 30990 [Note] /usr/sbin/mysqld: Normal shutdown
+
+2017-02-09 14:14:23 30990 [Note] Giving 141 client threads a chance to die gracefully
+2017-02-09 14:14:23 30990 [Note] Event Scheduler: Purging the queue. 0 events
+2017-02-09 14:14:23 30990 [Note] Shutting down slave threads
+2017-02-09 14:14:25 30990 [Note] Forcefully disconnecting 141 remaining clients
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 1  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 2  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 3  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 4  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 5  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 6  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 7  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 8  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 9  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 10  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 11  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 12  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 13  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 14  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 15  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 16  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 17  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 18  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 19  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 20  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 21  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 22  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 23  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 24  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 25  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 26  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 27  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 28  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 29  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 30  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 31  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 32  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 33  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 34  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 35  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 36  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 37  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 38  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 41  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 40  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 42  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 43  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 44  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 45  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 46  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 47  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 48  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 49  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 50  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 51  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 52  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 53  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 54  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 55  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 56  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 57  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 58  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 59  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 60  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 61  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 62  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 63  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 64  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 65  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 66  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 67  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 68  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 69  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 70  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 71  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 72  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 73  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 74  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 75  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 76  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 77  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 78  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 79  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 80  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 81  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 82  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 83  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 84  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 85  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 86  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 87  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 88  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 89  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 90  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 91  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 92  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 93  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 94  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 95  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 96  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 97  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 98  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 99  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 100  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 101  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 102  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 103  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 104  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 105  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 106  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 107  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 108  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 109  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 110  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 111  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 112  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 113  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 114  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 115  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 116  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 117  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 118  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 119  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 120  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 121  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 122  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 123  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 124  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 125  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 127  user: 'neutron'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 128  user: 'neutron'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 129  user: 'neutron'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 130  user: 'keystone'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 131  user: 'keystone'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 132  user: 'neutron'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 133  user: 'keystone'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 134  user: 'keystone'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 135  user: 'keystone'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 147  user: 'neutron'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 146  user: 'neutron'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 139  user: 'neutron'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 145  user: 'neutron'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 141  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 142  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 143  user: 'nova'
+
+2017-02-09 14:14:25 30990 [Warning] /usr/sbin/mysqld: Forcing close of thread 148  user: 'neutron'
+
+2017-02-09 14:14:25 30990 [Note] Binlog end
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'partition'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_CMP'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'INNODB_TRX'
+2017-02-09 14:14:25 30990 [Note] Shutting down plugin 'InnoDB'
+2017-02-09 14:14:25 30990 [Note] InnoDB: FTS optimize thread exiting.
+2017-02-09 14:14:25 30990 [Note] InnoDB: Starting shutdown...
+2017-02-09 14:14:26 30990 [Note] InnoDB: Shutdown completed; log sequence number 232559269
+2017-02-09 14:14:26 30990 [Note] Shutting down plugin 'BLACKHOLE'
+2017-02-09 14:14:26 30990 [Note] Shutting down plugin 'ARCHIVE'
+2017-02-09 14:14:26 30990 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-02-09 14:14:26 30990 [Note] Shutting down plugin 'MyISAM'
+2017-02-09 14:14:26 30990 [Note] Shutting down plugin 'MEMORY'
+2017-02-09 14:14:26 30990 [Note] Shutting down plugin 'CSV'
+2017-02-09 14:14:26 30990 [Note] Shutting down plugin 'sha256_password'
+2017-02-09 14:14:26 30990 [Note] Shutting down plugin 'mysql_old_password'
+2017-02-09 14:14:26 30990 [Note] Shutting down plugin 'mysql_native_password'
+2017-02-09 14:14:26 30990 [Note] Shutting down plugin 'binlog'
+2017-02-09 14:14:26 30990 [Note] /usr/sbin/mysqld: Shutdown complete
+
+170209 14:14:26 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+170209 14:16:30 mysqld_safe Logging to '/var/log/mysqld.log'.
+170209 14:16:30 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql/data/
+2017-02-09 14:16:30 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-02-09 14:16:30 0 [Note] /usr/sbin/mysqld (mysqld 5.6.35) starting as process 36183 ...
+2017-02-09 14:16:30 36183 [Warning] Buffered warning: Changed limits: max_open_files: 1024 (requested 5000)
+
+2017-02-09 14:16:30 36183 [Warning] Buffered warning: Changed limits: max_connections: 214 (requested 500)
+
+2017-02-09 14:16:30 36183 [Warning] Buffered warning: Changed limits: table_open_cache: 400 (requested 2000)
+
+2017-02-09 14:16:30 36183 [Note] Plugin 'FEDERATED' is disabled.
+2017-02-09 14:16:30 36183 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-02-09 14:16:30 36183 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-02-09 14:16:30 36183 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-02-09 14:16:30 36183 [Note] InnoDB: Memory barrier is not used
+2017-02-09 14:16:30 36183 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-02-09 14:16:30 36183 [Note] InnoDB: Using Linux native AIO
+2017-02-09 14:16:30 36183 [Note] InnoDB: Using CPU crc32 instructions
+2017-02-09 14:16:30 36183 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-02-09 14:16:30 36183 [Note] InnoDB: Completed initialization of buffer pool
+2017-02-09 14:16:30 36183 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-02-09 14:16:30 36183 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-02-09 14:16:30 36183 [Note] InnoDB: Waiting for purge to start
+2017-02-09 14:16:30 36183 [Note] InnoDB: 5.6.35 started; log sequence number 232559269
+2017-02-09 14:16:30 36183 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-02-09 14:16:30 36183 [Note] IPv6 is available.
+2017-02-09 14:16:30 36183 [Note]   - '::' resolves to '::';
+2017-02-09 14:16:30 36183 [Note] Server socket created on IP: '::'.
+2017-02-09 14:16:30 36183 [Note] Event Scheduler: Loaded 0 events
+2017-02-09 14:16:30 36183 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.6.35'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)

@@ -1,0 +1,6 @@
+/root/openstack/logs/2017-02-04/0935/nova-compute.log:2017-02-04 08:29:20.267 5249 WARNING nova.virt.libvirt.driver [req-fbd3ab90-0fcb-4e4e-8140-a2fd82982ec5 - - - - -] couldn't obtain the vcpu count from domain id: f5dbbaeb-720f-4440-b239-f8dffd4922d0, exception: Requested operation is not valid: cpu affinity is not supported
+...
+/root/openstack/logs/2017-02-04/0935/nova-compute.log:2017-02-04 08:49:35.492 5249 WARNING nova.virt.libvirt.driver [req-fbd3ab90-0fcb-4e4e-8140-a2fd82982ec5 - - - - -] couldn't obtain the vcpu count from domain id: f5dbbaeb-720f-4440-b239-f8dffd4922d0, exception: Requested operation is not valid: cpu affinity is not supported
+/root/openstack/logs/2017-02-04/0935/nova-conductor.log:2017-02-04 08:50:33.492 6746 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 25.06 sec
+/root/openstack/logs/2017-02-04/0935/nova-compute.log:2017-02-04 08:50:35.489 5249 WARNING nova.virt.libvirt.driver [req-fbd3ab90-0fcb-4e4e-8140-a2fd82982ec5 - - - - -] couldn't obtain the vcpu count from domain id: f5dbbaeb-720f-4440-b239-f8dffd4922d0, exception: Requested operation is not valid: cpu affinity is not supported
+...

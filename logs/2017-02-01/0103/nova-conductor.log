@@ -1,0 +1,605 @@
+2017-02-01 00:13:40.278 12712 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:13:40.313 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Starting 40 workers
+2017-02-01 00:13:40.323 12754 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.326 12755 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.328 12756 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.331 12759 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.332 12758 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.333 12757 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.339 12761 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.339 12760 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.341 12762 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.346 12763 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.347 12764 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.349 12766 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.350 12765 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.354 12767 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.360 12768 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.361 12769 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.365 12770 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.367 12771 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.371 12775 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.373 12778 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.383 12781 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.386 12787 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.386 12785 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.394 12791 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.394 12789 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.404 12793 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.407 12795 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.411 12798 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.412 12800 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.414 12801 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.426 12803 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.430 12805 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.430 12806 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.433 12807 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.444 12810 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.450 12813 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.451 12812 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.462 12814 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.465 12817 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:40.465 12816 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:13:45.939 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Caught SIGTERM, stopping children
+2017-02-01 00:13:45.959 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Waiting on 40 children to exit
+2017-02-01 00:13:46.002 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12755 killed by signal 15
+2017-02-01 00:13:46.003 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12761 killed by signal 15
+2017-02-01 00:13:46.007 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12813 killed by signal 15
+2017-02-01 00:13:46.008 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12767 killed by signal 15
+2017-02-01 00:13:46.063 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12754 killed by signal 15
+2017-02-01 00:13:46.063 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12757 killed by signal 15
+2017-02-01 00:13:46.064 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12770 killed by signal 15
+2017-02-01 00:13:46.065 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12769 killed by signal 15
+2017-02-01 00:13:46.065 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12787 killed by signal 15
+2017-02-01 00:13:46.066 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12760 killed by signal 15
+2017-02-01 00:13:46.071 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12766 killed by signal 15
+2017-02-01 00:13:46.074 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12778 killed by signal 15
+2017-02-01 00:13:46.076 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12800 killed by signal 15
+2017-02-01 00:13:46.087 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12781 killed by signal 15
+2017-02-01 00:13:46.089 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12763 killed by signal 15
+2017-02-01 00:13:46.089 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12762 killed by signal 15
+2017-02-01 00:13:46.090 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12764 killed by signal 15
+2017-02-01 00:13:46.090 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12789 killed by signal 15
+2017-02-01 00:13:46.091 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12771 killed by signal 15
+2017-02-01 00:13:46.091 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12758 killed by signal 15
+2017-02-01 00:13:46.092 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12785 killed by signal 15
+2017-02-01 00:13:46.092 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12807 killed by signal 15
+2017-02-01 00:13:46.121 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12759 killed by signal 15
+2017-02-01 00:13:46.122 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12756 killed by signal 15
+2017-02-01 00:13:46.122 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12768 killed by signal 15
+2017-02-01 00:13:46.123 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12775 killed by signal 15
+2017-02-01 00:13:46.124 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12791 killed by signal 15
+2017-02-01 00:13:46.125 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12793 killed by signal 15
+2017-02-01 00:13:46.126 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12795 killed by signal 15
+2017-02-01 00:13:46.127 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12798 killed by signal 15
+2017-02-01 00:13:46.127 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12801 killed by signal 15
+2017-02-01 00:13:46.128 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12806 killed by signal 15
+2017-02-01 00:13:46.128 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12803 killed by signal 15
+2017-02-01 00:13:46.129 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12810 killed by signal 15
+2017-02-01 00:13:46.130 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12765 killed by signal 15
+2017-02-01 00:13:46.131 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12812 killed by signal 15
+2017-02-01 00:13:46.131 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12814 killed by signal 15
+2017-02-01 00:13:46.132 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12816 killed by signal 15
+2017-02-01 00:13:46.132 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12817 killed by signal 15
+2017-02-01 00:13:46.136 12712 INFO oslo_service.service [req-ca52404c-906c-4480-97b5-adfff195726d - - - - -] Child 12805 killed by signal 15
+2017-02-01 00:14:07.108 14450 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:14:07.122 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Starting 40 workers
+2017-02-01 00:14:07.130 14640 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.133 14642 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.134 14643 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.137 14644 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.138 14648 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.139 14646 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.139 14647 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.142 14650 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.142 14649 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.145 14651 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.147 14652 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.148 14653 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.151 14656 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.150 14654 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.151 14655 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.159 14658 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.159 14657 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.162 14659 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.165 14660 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.167 14662 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.171 14664 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.179 14665 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.180 14666 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.185 14667 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.187 14671 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.188 14668 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.190 14675 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.190 14674 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.201 14678 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.204 14685 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.204 14684 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.210 14688 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.212 14689 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.227 14690 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.228 14692 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.230 14695 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.242 14691 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.244 14699 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.244 14697 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.244 14701 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:16:45.831 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Caught SIGTERM, stopping children
+2017-02-01 00:16:45.834 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Waiting on 40 children to exit
+2017-02-01 00:16:45.885 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14688 killed by signal 15
+2017-02-01 00:16:45.891 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14691 killed by signal 15
+2017-02-01 00:16:45.904 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14684 killed by signal 15
+2017-02-01 00:16:45.917 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14671 killed by signal 15
+2017-02-01 00:16:45.994 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14648 killed by signal 15
+2017-02-01 00:16:45.994 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14659 killed by signal 15
+2017-02-01 00:16:45.995 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14644 killed by signal 15
+2017-02-01 00:16:45.995 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14652 killed by signal 15
+2017-02-01 00:16:45.998 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14690 killed by signal 15
+2017-02-01 00:16:46.000 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14692 killed by signal 15
+2017-02-01 00:16:46.000 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14642 killed by signal 15
+2017-02-01 00:16:46.001 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14647 killed by signal 15
+2017-02-01 00:16:46.002 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14649 killed by signal 15
+2017-02-01 00:16:46.003 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14643 killed by signal 15
+2017-02-01 00:16:46.004 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14650 killed by signal 15
+2017-02-01 00:16:46.004 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14654 killed by signal 15
+2017-02-01 00:16:46.005 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14656 killed by signal 15
+2017-02-01 00:16:46.005 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14665 killed by signal 15
+2017-02-01 00:16:46.006 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14666 killed by signal 15
+2017-02-01 00:16:46.007 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14678 killed by signal 15
+2017-02-01 00:16:46.007 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14685 killed by signal 15
+2017-02-01 00:16:46.007 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14701 killed by signal 15
+2017-02-01 00:16:46.009 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14675 killed by signal 15
+2017-02-01 00:16:46.009 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14640 killed by signal 15
+2017-02-01 00:16:46.009 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14653 killed by signal 15
+2017-02-01 00:16:46.010 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14655 killed by signal 15
+2017-02-01 00:16:46.010 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14664 killed by signal 15
+2017-02-01 00:16:46.012 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14646 killed by signal 15
+2017-02-01 00:16:46.013 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14651 killed by signal 15
+2017-02-01 00:16:46.013 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14660 killed by signal 15
+2017-02-01 00:16:46.013 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14662 killed by signal 15
+2017-02-01 00:16:46.014 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14667 killed by signal 15
+2017-02-01 00:16:46.014 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14699 killed by signal 15
+2017-02-01 00:16:46.020 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14689 killed by signal 15
+2017-02-01 00:16:46.024 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14674 killed by signal 15
+2017-02-01 00:16:46.026 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14657 killed by signal 15
+2017-02-01 00:16:46.032 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14658 killed by signal 15
+2017-02-01 00:16:46.033 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14695 killed by signal 15
+2017-02-01 00:16:46.035 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14668 killed by signal 15
+2017-02-01 00:16:46.058 14450 INFO oslo_service.service [req-1016e8f2-fdd4-480f-b09b-a20a22574623 - - - - -] Child 14697 killed by signal 15
+2017-02-01 00:20:14.761 15902 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:20:14.778 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Starting 40 workers
+2017-02-01 00:20:14.788 16279 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.788 16280 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.789 16281 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.794 16282 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.794 16283 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.795 16284 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.799 16285 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.800 16286 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.802 16287 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.805 16288 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.805 16289 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.807 16290 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.809 16292 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.809 16291 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.812 16293 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.819 16294 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.823 16296 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.823 16295 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.825 16300 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.834 16305 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.834 16302 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.835 16308 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.844 16310 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.852 16315 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.853 16319 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.854 16317 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.855 16323 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.865 16325 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.866 16327 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.875 16329 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.881 16328 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.884 16331 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.886 16332 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.892 16336 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.892 16334 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.894 16339 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.911 16345 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.911 16346 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.915 16344 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:20:14.915 16343 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:21:26.387 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Caught SIGTERM, stopping children
+2017-02-01 00:21:26.639 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Waiting on 40 children to exit
+2017-02-01 00:21:26.640 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16279 killed by signal 15
+2017-02-01 00:21:26.640 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16280 killed by signal 15
+2017-02-01 00:21:26.641 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16281 killed by signal 15
+2017-02-01 00:21:26.641 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16282 killed by signal 15
+2017-02-01 00:21:26.642 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16283 killed by signal 15
+2017-02-01 00:21:26.643 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16284 killed by signal 15
+2017-02-01 00:21:26.643 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16285 killed by signal 15
+2017-02-01 00:21:26.644 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16286 killed by signal 15
+2017-02-01 00:21:26.644 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16287 killed by signal 15
+2017-02-01 00:21:26.645 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16288 killed by signal 15
+2017-02-01 00:21:26.645 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16289 killed by signal 15
+2017-02-01 00:21:26.646 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16290 killed by signal 15
+2017-02-01 00:21:26.646 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16291 killed by signal 15
+2017-02-01 00:21:26.646 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16293 killed by signal 15
+2017-02-01 00:21:26.658 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16294 killed by signal 15
+2017-02-01 00:21:26.661 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16325 killed by signal 15
+2017-02-01 00:21:26.662 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16296 killed by signal 15
+2017-02-01 00:21:26.665 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16295 killed by signal 15
+2017-02-01 00:21:26.665 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16292 killed by signal 15
+2017-02-01 00:21:26.665 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16328 killed by signal 15
+2017-02-01 00:21:26.666 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16331 killed by signal 15
+2017-02-01 00:21:26.669 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16332 killed by signal 15
+2017-02-01 00:21:26.670 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16319 killed by signal 15
+2017-02-01 00:21:26.675 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16329 killed by signal 15
+2017-02-01 00:21:26.680 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16300 killed by signal 15
+2017-02-01 00:21:26.682 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16310 killed by signal 15
+2017-02-01 00:21:26.683 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16302 killed by signal 15
+2017-02-01 00:21:26.683 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16323 killed by signal 15
+2017-02-01 00:21:26.685 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16327 killed by signal 15
+2017-02-01 00:21:26.685 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16317 killed by signal 15
+2017-02-01 00:21:26.687 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16305 killed by signal 15
+2017-02-01 00:21:26.687 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16308 killed by signal 15
+2017-02-01 00:21:26.688 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16315 killed by signal 15
+2017-02-01 00:21:26.688 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16334 killed by signal 15
+2017-02-01 00:21:26.688 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16336 killed by signal 15
+2017-02-01 00:21:26.689 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16339 killed by signal 15
+2017-02-01 00:21:26.689 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16343 killed by signal 15
+2017-02-01 00:21:26.689 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16344 killed by signal 15
+2017-02-01 00:21:26.689 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16345 killed by signal 15
+2017-02-01 00:21:26.690 15902 INFO oslo_service.service [req-4b0a25bf-2c98-480d-bd21-4053801040ee - - - - -] Child 16346 killed by signal 15
+2017-02-01 00:23:06.203 18666 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:23:06.218 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Starting 40 workers
+2017-02-01 00:23:06.229 18936 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.229 18935 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.229 18934 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.234 18940 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.233 18937 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.234 18938 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.235 18941 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.235 18939 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.241 18942 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.242 18944 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.243 18943 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.246 18946 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.247 18947 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.247 18945 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.249 18948 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.255 18950 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.259 18949 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.262 18955 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.265 18957 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.265 18951 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.270 18959 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.271 18962 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.281 18965 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.285 18967 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.287 18971 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.288 18972 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.289 18973 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.292 18975 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.293 18980 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.299 18981 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.300 18982 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.303 18984 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.309 18985 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.313 18989 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.313 18986 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.324 18990 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.333 18992 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.346 18999 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.347 18993 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.361 18997 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:25:47.067 18950 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 25.33 sec
+2017-02-01 00:25:47.067 18942 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 25.33 sec
+2017-02-01 00:25:47.072 18984 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 45.36 sec
+2017-02-01 00:25:47.075 18957 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 75.42 sec
+2017-02-01 00:25:47.075 18940 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 35.36 sec
+2017-02-01 00:25:47.068 18973 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 65.38 sec
+2017-02-01 00:25:47.072 18939 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 75.41 sec
+2017-02-01 00:25:47.072 18967 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 65.39 sec
+2017-02-01 00:25:47.075 18936 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 55.38 sec
+2017-02-01 00:25:47.071 18980 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 25.33 sec
+2017-02-01 00:25:47.074 18941 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 25.33 sec
+2017-02-01 00:25:47.072 18944 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 35.36 sec
+2017-02-01 00:25:47.072 18937 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 35.35 sec
+2017-02-01 00:25:47.072 18989 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 25.33 sec
+2017-02-01 00:25:47.072 18955 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 15.33 sec
+2017-02-01 00:25:47.068 18982 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 5.31 sec
+2017-02-01 00:25:47.075 18946 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 45.38 sec
+2017-02-01 00:25:47.080 18948 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 25.34 sec
+2017-02-01 00:25:47.073 18934 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 45.37 sec
+2017-02-01 00:25:47.082 18947 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 65.39 sec
+2017-02-01 00:25:47.082 18938 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 55.39 sec
+2017-02-01 00:27:45.267 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Caught SIGTERM, stopping children
+2017-02-01 00:27:45.272 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Waiting on 40 children to exit
+2017-02-01 00:27:45.384 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18965 killed by signal 15
+2017-02-01 00:27:45.385 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18951 killed by signal 15
+2017-02-01 00:27:45.385 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18967 killed by signal 15
+2017-02-01 00:27:45.386 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18972 killed by signal 15
+2017-02-01 00:27:45.387 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18992 killed by signal 15
+2017-02-01 00:27:45.387 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18997 killed by signal 15
+2017-02-01 00:27:45.388 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18937 killed by signal 15
+2017-02-01 00:27:45.392 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18975 killed by signal 15
+2017-02-01 00:27:45.419 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18939 killed by signal 15
+2017-02-01 00:27:45.421 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18936 killed by signal 15
+2017-02-01 00:27:45.421 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18944 killed by signal 15
+2017-02-01 00:27:45.422 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18946 killed by signal 15
+2017-02-01 00:27:45.423 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18962 killed by signal 15
+2017-02-01 00:27:45.423 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18973 killed by signal 15
+2017-02-01 00:27:45.424 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18993 killed by signal 15
+2017-02-01 00:27:45.426 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18959 killed by signal 15
+2017-02-01 00:27:45.431 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18938 killed by signal 15
+2017-02-01 00:27:45.432 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18947 killed by signal 15
+2017-02-01 00:27:45.438 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18934 killed by signal 15
+2017-02-01 00:27:45.440 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18935 killed by signal 15
+2017-02-01 00:27:45.442 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18948 killed by signal 15
+2017-02-01 00:27:45.449 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18980 killed by signal 15
+2017-02-01 00:27:45.450 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18945 killed by signal 15
+2017-02-01 00:27:45.459 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18984 killed by signal 15
+2017-02-01 00:27:45.461 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18981 killed by signal 15
+2017-02-01 00:27:45.470 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18985 killed by signal 15
+2017-02-01 00:27:45.475 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18982 killed by signal 15
+2017-02-01 00:27:45.476 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18940 killed by signal 15
+2017-02-01 00:27:45.477 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18949 killed by signal 15
+2017-02-01 00:27:45.479 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18955 killed by signal 15
+2017-02-01 00:27:45.481 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18990 killed by signal 15
+2017-02-01 00:27:45.483 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18971 killed by signal 15
+2017-02-01 00:27:45.487 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18999 killed by signal 15
+2017-02-01 00:27:45.495 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18943 killed by signal 15
+2017-02-01 00:27:45.496 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18941 killed by signal 15
+2017-02-01 00:27:45.497 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18942 killed by signal 15
+2017-02-01 00:27:45.498 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18957 killed by signal 15
+2017-02-01 00:27:45.501 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18989 killed by signal 15
+2017-02-01 00:27:45.512 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18986 killed by signal 15
+2017-02-01 00:27:45.565 18666 INFO oslo_service.service [req-3eb10c5d-e804-4f8f-ab29-b1ae3bd694b6 - - - - -] Child 18950 killed by signal 15
+2017-02-01 00:36:02.517 4706 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:36:02.556 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Starting 40 workers
+2017-02-01 00:36:02.569 6697 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.569 6696 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.570 6698 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.572 6700 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.572 6699 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.575 6701 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.577 6705 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.577 6703 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.578 6704 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.579 6707 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.582 6709 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.583 6710 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.585 6712 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.585 6713 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.595 6715 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.599 6717 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.599 6722 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.600 6720 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.601 6723 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.611 6725 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.611 6724 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.613 6726 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.614 6727 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.616 6728 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.620 6729 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.622 6731 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.622 6730 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.625 6732 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.631 6733 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.631 6734 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.632 6739 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.633 6741 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.640 6743 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.642 6744 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.645 6745 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.651 6746 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.654 6747 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.656 6749 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.656 6748 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:36:02.659 6750 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 00:41:31.235 6698 ERROR oslo.messaging._drivers.impl_rabbit [-] [65191735-aabf-4b09-b614-e2f080fcd57a] AMQP server mysql-001.vassilevski.com:5672 closed the connection. Check login credentials: Socket closed
+2017-02-01 00:42:20.312 6698 INFO oslo.messaging._drivers.impl_rabbit [-] [65191735-aabf-4b09-b614-e2f080fcd57a] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37066.
+2017-02-01 00:45:52.117 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Caught SIGTERM, stopping children
+2017-02-01 00:45:52.375 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Waiting on 40 children to exit
+2017-02-01 00:45:52.376 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6697 killed by signal 15
+2017-02-01 00:45:52.376 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6698 killed by signal 15
+2017-02-01 00:45:52.377 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6699 killed by signal 15
+2017-02-01 00:45:52.377 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6700 killed by signal 15
+2017-02-01 00:45:52.378 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6701 killed by signal 15
+2017-02-01 00:45:52.379 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6703 killed by signal 15
+2017-02-01 00:45:52.380 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6704 killed by signal 15
+2017-02-01 00:45:52.381 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6705 killed by signal 15
+2017-02-01 00:45:52.381 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6707 killed by signal 15
+2017-02-01 00:45:52.381 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6709 killed by signal 15
+2017-02-01 00:45:52.385 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6710 killed by signal 15
+2017-02-01 00:45:52.385 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6713 killed by signal 15
+2017-02-01 00:45:52.386 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6715 killed by signal 15
+2017-02-01 00:45:52.387 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6717 killed by signal 15
+2017-02-01 00:45:52.388 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6720 killed by signal 15
+2017-02-01 00:45:52.389 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6722 killed by signal 15
+2017-02-01 00:45:52.391 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6723 killed by signal 15
+2017-02-01 00:45:52.391 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6726 killed by signal 15
+2017-02-01 00:45:52.392 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6734 killed by signal 15
+2017-02-01 00:45:52.392 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6744 killed by signal 15
+2017-02-01 00:45:52.402 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6750 killed by signal 15
+2017-02-01 00:45:52.406 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6748 killed by signal 15
+2017-02-01 00:45:52.408 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6746 killed by signal 15
+2017-02-01 00:45:52.409 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6745 killed by signal 15
+2017-02-01 00:45:52.418 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6696 killed by signal 15
+2017-02-01 00:45:52.420 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6731 killed by signal 15
+2017-02-01 00:45:52.421 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6727 killed by signal 15
+2017-02-01 00:45:52.422 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6729 killed by signal 15
+2017-02-01 00:45:52.424 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6724 killed by signal 15
+2017-02-01 00:45:52.424 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6728 killed by signal 15
+2017-02-01 00:45:52.425 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6743 killed by signal 15
+2017-02-01 00:45:52.426 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6730 killed by signal 15
+2017-02-01 00:45:52.427 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6739 killed by signal 15
+2017-02-01 00:45:52.429 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6749 killed by signal 15
+2017-02-01 00:45:52.429 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6733 killed by signal 15
+2017-02-01 00:45:52.430 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6747 killed by signal 15
+2017-02-01 00:46:16.273 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6712 exited with status 0
+2017-02-01 00:46:21.332 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6732 exited with status 0
+2017-02-01 00:46:46.278 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6725 exited with status 0
+2017-02-01 00:46:46.279 4706 INFO oslo_service.service [req-ee0a968f-f430-43f4-8b02-0c072ef4e243 - - - - -] Child 6741 exited with status 0
+2017-02-01 01:00:35.928 4734 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 01:00:35.957 4734 INFO oslo_service.service [req-687e9d22-a8b8-4363-bdd9-b8f945184b96 - - - - -] Starting 40 workers
+2017-02-01 01:00:35.967 6717 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.967 6715 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.968 6716 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.969 6719 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.970 6718 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.971 6721 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.974 6720 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.976 6723 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.977 6722 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.980 6726 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.980 6724 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.982 6725 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.983 6727 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.986 6729 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.987 6728 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.994 6730 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.998 6733 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.998 6731 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:35.999 6732 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.000 6734 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.003 6735 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.007 6736 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.009 6738 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.009 6737 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.016 6739 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.018 6740 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.019 6741 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.020 6742 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.026 6743 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.026 6744 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.029 6745 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.035 6746 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.038 6747 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.040 6748 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.042 6749 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.044 6750 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.046 6751 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.048 6752 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.049 6755 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:36.050 6753 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-01 01:00:41.440 6723 ERROR oslo.messaging._drivers.impl_rabbit [req-9747c4c7-b7aa-4e00-bfd3-d5ddc3023e3c - - - - -] [4dbdcc24-57ee-400b-a7a8-013ad69b0122] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.440 6717 ERROR oslo.messaging._drivers.impl_rabbit [req-3c30e9e1-f57c-4fa1-8aa5-2b3b47343bd1 - - - - -] [f9b5c3a2-b064-407d-818f-91ea026664dc] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.442 6719 ERROR oslo.messaging._drivers.impl_rabbit [req-f1245b7d-7f68-48fb-8e31-2b78209a6b3c - - - - -] [f7dea10d-e3ca-4920-ad5f-5dcb8b146b4e] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.445 6729 ERROR oslo.messaging._drivers.impl_rabbit [req-5cb04d05-74e1-4da5-8ff1-ca8a99a659e5 - - - - -] [c64c0bbd-60d6-448e-90c6-d7bd4bff53d5] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.451 6726 ERROR oslo.messaging._drivers.impl_rabbit [req-6f5cba8e-4a00-4597-8655-92408bbe2d76 - - - - -] [7b867fa8-15ee-48db-aa1c-1eb9a3508627] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.451 6715 ERROR oslo.messaging._drivers.impl_rabbit [req-69a470dc-91bf-42da-b2ed-d9c11040d2b6 - - - - -] [d8d8d1a6-e31f-45be-bd1d-bc9f52269249] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.463 6730 ERROR oslo.messaging._drivers.impl_rabbit [req-8655a710-d3a2-4d60-b376-724aeb31ea5f - - - - -] [f895aead-4f63-43f0-9e6f-dade512c7742] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.470 6718 ERROR oslo.messaging._drivers.impl_rabbit [req-8a70069a-9be1-485e-b468-0377f098b0a5 - - - - -] [ce8fab3e-7fba-4555-b59e-da6904b884b2] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.471 6724 ERROR oslo.messaging._drivers.impl_rabbit [req-4bcad1ed-7d11-48f8-820e-b48b53b919dd - - - - -] [4ae93abe-74b3-417b-ae28-e74e30fd7239] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.472 6725 ERROR oslo.messaging._drivers.impl_rabbit [req-64bb82ba-f042-4e65-a767-23f27446cb63 - - - - -] [41fb214e-3bca-4fbd-ae36-4f9e90cdbe2d] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.479 6721 ERROR oslo.messaging._drivers.impl_rabbit [req-f3b4eb93-cd88-48f3-aca4-ab1a89e3c147 - - - - -] [321e0e86-c64f-4609-9afe-19734b6f41a7] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.481 6722 ERROR oslo.messaging._drivers.impl_rabbit [req-07cd8b24-68eb-410d-8535-bc6d81854b7f - - - - -] [bc40b59d-4ac4-402a-b90f-266fd964067e] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.481 6733 ERROR oslo.messaging._drivers.impl_rabbit [req-8679163c-5cfb-4f13-b13b-5160d83a252a - - - - -] [9f664171-4f6e-418e-8370-31add1647fbe] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.481 6743 ERROR oslo.messaging._drivers.impl_rabbit [req-0bba8191-00cf-4d3e-960f-873f8951346a - - - - -] [d70c7c18-5c6f-478a-8cff-02c7d8fd54b1] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.482 6755 ERROR oslo.messaging._drivers.impl_rabbit [req-9391295b-c79c-4309-91ce-bf238675cb05 - - - - -] [ff0ef8c2-1aff-4944-9306-e8e55bef2258] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.483 6727 ERROR oslo.messaging._drivers.impl_rabbit [req-7e4381a2-c550-49ff-877d-64e1c77ca816 - - - - -] [b49c7634-4e16-44e3-afac-4da5846f5cae] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.484 6746 ERROR oslo.messaging._drivers.impl_rabbit [req-4084bd57-51e3-4e38-82dc-b4869ec166da - - - - -] [cd126deb-5260-4b2c-a94f-6293ae4a3e5b] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.487 6742 ERROR oslo.messaging._drivers.impl_rabbit [req-fbd4b03a-6a31-4ade-9b24-48191bd85596 - - - - -] [b641316d-55f0-48fc-9b7c-ea3754894200] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.487 6741 ERROR oslo.messaging._drivers.impl_rabbit [req-4b04afc6-d1a5-41f2-b7dd-1ef34f782eb8 - - - - -] [6683d18b-9d60-4149-b03e-0b3e8bfdfd60] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.488 6744 ERROR oslo.messaging._drivers.impl_rabbit [req-6907348f-3619-4715-9ac0-e9685b8c040c - - - - -] [36338b90-7df5-4094-94b2-5de2f4c42842] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.491 6720 ERROR oslo.messaging._drivers.impl_rabbit [req-2c55b94b-df32-4820-baaa-d08998b01140 - - - - -] [46f14a20-022f-4e4f-b719-d9b969a17148] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.498 6735 ERROR oslo.messaging._drivers.impl_rabbit [req-e3de3746-b826-4081-a3f3-d21d0ebd1f02 - - - - -] [5c40925a-2003-4f49-924f-ec10610fb568] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.498 6747 ERROR oslo.messaging._drivers.impl_rabbit [req-5dba57c3-58b1-4ca8-8906-e8782c57530b - - - - -] [261506ad-0736-4414-a072-3e22f4099fd8] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.498 6734 ERROR oslo.messaging._drivers.impl_rabbit [req-d44dd489-c134-4532-8799-26ea434a8330 - - - - -] [6f370018-79a9-41df-b26e-c00733fd9330] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.500 6738 ERROR oslo.messaging._drivers.impl_rabbit [req-54cc8abe-6221-42d2-9ec0-a7c0bcd909bb - - - - -] [676c2da5-38c8-46da-b69d-b07d4e565672] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.504 6731 ERROR oslo.messaging._drivers.impl_rabbit [req-f51fac3f-65fe-4873-b72c-fef0df7287c1 - - - - -] [53e16f46-95eb-4551-a3e1-150a10b8f1c2] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.505 6728 ERROR oslo.messaging._drivers.impl_rabbit [req-52239572-d491-4fd9-b98c-b9c9ee4beb75 - - - - -] [ceee8c71-ba75-43fe-948d-00244ad83979] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.506 6737 ERROR oslo.messaging._drivers.impl_rabbit [req-169cad24-e6f5-46d7-8f71-f5427cea0b80 - - - - -] [4d13923e-3745-49d6-9805-411c254e6c15] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.507 6739 ERROR oslo.messaging._drivers.impl_rabbit [req-03401620-fdb6-4098-9218-dd64ffb47b86 - - - - -] [2cd3b7be-7137-4afe-af18-ce6e9de1ade1] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.511 6740 ERROR oslo.messaging._drivers.impl_rabbit [req-10f91b68-9c54-4fa3-8d25-10cd6de5bfb8 - - - - -] [ff88837d-d03a-48e7-ac4c-03e90a820375] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.518 6749 ERROR oslo.messaging._drivers.impl_rabbit [req-16fd44ae-4b0b-4109-97ab-81a20e902bd5 - - - - -] [29e9e809-7dde-4c0b-abca-b995a71dc4f3] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.519 6748 ERROR oslo.messaging._drivers.impl_rabbit [req-8884c847-42cb-4496-aa5f-2034af398c83 - - - - -] [8e70da99-9365-46bc-bf7b-f877853d3048] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.521 6750 ERROR oslo.messaging._drivers.impl_rabbit [req-f464bf4b-8e85-47eb-9d70-a93f555b9490 - - - - -] [bc862868-858c-4446-9ad5-8bb71e433621] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.524 6732 ERROR oslo.messaging._drivers.impl_rabbit [req-f8593827-e607-494b-a070-6556ec01c327 - - - - -] [926f0aa8-d1ff-4914-8d39-fb41eec00d41] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.530 6751 ERROR oslo.messaging._drivers.impl_rabbit [req-6aacce44-7d13-46bc-94ef-c5ba1cb3cde6 - - - - -] [5ce7824d-261c-433a-86d6-7a9260723c8e] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.538 6753 ERROR oslo.messaging._drivers.impl_rabbit [req-95590a47-7136-428c-a873-2009ec3162ba - - - - -] [428e260c-6834-4b08-a7f2-74e39c269ea2] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.562 6745 ERROR oslo.messaging._drivers.impl_rabbit [req-97f025e5-7287-4ab7-a4d5-2fdd4f6742be - - - - -] [f34b9c40-c4c1-4973-8095-fc12dbdb8248] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.579 6752 ERROR oslo.messaging._drivers.impl_rabbit [req-4c664a11-da82-4541-95c7-07ad7427233f - - - - -] [0a14b323-e82c-49f4-aaae-d2c3e70c4844] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.595 6716 ERROR oslo.messaging._drivers.impl_rabbit [req-6578c407-ec61-4f3f-94e9-62ae55d23dbe - - - - -] [6137523d-1331-4180-a183-bfea9b1b1bf2] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:41.597 6736 ERROR oslo.messaging._drivers.impl_rabbit [req-00bb857f-9ca7-4709-92fd-c860b6c6f875 - - - - -] [3aab1fbb-3ea9-42af-b3f7-9be215470537] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:42.311 6717 ERROR oslo.messaging._drivers.impl_rabbit [req-3c30e9e1-f57c-4fa1-8aa5-2b3b47343bd1 - - - - -] [f9b5c3a2-b064-407d-818f-91ea026664dc] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.313 6723 ERROR oslo.messaging._drivers.impl_rabbit [req-9747c4c7-b7aa-4e00-bfd3-d5ddc3023e3c - - - - -] [4dbdcc24-57ee-400b-a7a8-013ad69b0122] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.314 6719 ERROR oslo.messaging._drivers.impl_rabbit [req-f1245b7d-7f68-48fb-8e31-2b78209a6b3c - - - - -] [f7dea10d-e3ca-4920-ad5f-5dcb8b146b4e] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.317 6729 ERROR oslo.messaging._drivers.impl_rabbit [req-5cb04d05-74e1-4da5-8ff1-ca8a99a659e5 - - - - -] [c64c0bbd-60d6-448e-90c6-d7bd4bff53d5] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.321 6726 ERROR oslo.messaging._drivers.impl_rabbit [req-6f5cba8e-4a00-4597-8655-92408bbe2d76 - - - - -] [7b867fa8-15ee-48db-aa1c-1eb9a3508627] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.328 6715 ERROR oslo.messaging._drivers.impl_rabbit [req-69a470dc-91bf-42da-b2ed-d9c11040d2b6 - - - - -] [d8d8d1a6-e31f-45be-bd1d-bc9f52269249] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.332 6730 ERROR oslo.messaging._drivers.impl_rabbit [req-8655a710-d3a2-4d60-b376-724aeb31ea5f - - - - -] [f895aead-4f63-43f0-9e6f-dade512c7742] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.342 6724 ERROR oslo.messaging._drivers.impl_rabbit [req-4bcad1ed-7d11-48f8-820e-b48b53b919dd - - - - -] [4ae93abe-74b3-417b-ae28-e74e30fd7239] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.343 6718 ERROR oslo.messaging._drivers.impl_rabbit [req-8a70069a-9be1-485e-b468-0377f098b0a5 - - - - -] [ce8fab3e-7fba-4555-b59e-da6904b884b2] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.345 6725 ERROR oslo.messaging._drivers.impl_rabbit [req-64bb82ba-f042-4e65-a767-23f27446cb63 - - - - -] [41fb214e-3bca-4fbd-ae36-4f9e90cdbe2d] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.348 6721 ERROR oslo.messaging._drivers.impl_rabbit [req-f3b4eb93-cd88-48f3-aca4-ab1a89e3c147 - - - - -] [321e0e86-c64f-4609-9afe-19734b6f41a7] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.351 6743 ERROR oslo.messaging._drivers.impl_rabbit [req-0bba8191-00cf-4d3e-960f-873f8951346a - - - - -] [d70c7c18-5c6f-478a-8cff-02c7d8fd54b1] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.353 6727 ERROR oslo.messaging._drivers.impl_rabbit [req-7e4381a2-c550-49ff-877d-64e1c77ca816 - - - - -] [b49c7634-4e16-44e3-afac-4da5846f5cae] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.357 6755 ERROR oslo.messaging._drivers.impl_rabbit [req-9391295b-c79c-4309-91ce-bf238675cb05 - - - - -] [ff0ef8c2-1aff-4944-9306-e8e55bef2258] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.358 6742 ERROR oslo.messaging._drivers.impl_rabbit [req-fbd4b03a-6a31-4ade-9b24-48191bd85596 - - - - -] [b641316d-55f0-48fc-9b7c-ea3754894200] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.360 6746 ERROR oslo.messaging._drivers.impl_rabbit [req-4084bd57-51e3-4e38-82dc-b4869ec166da - - - - -] [cd126deb-5260-4b2c-a94f-6293ae4a3e5b] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.361 6720 ERROR oslo.messaging._drivers.impl_rabbit [req-2c55b94b-df32-4820-baaa-d08998b01140 - - - - -] [46f14a20-022f-4e4f-b719-d9b969a17148] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.363 6722 ERROR oslo.messaging._drivers.impl_rabbit [req-07cd8b24-68eb-410d-8535-bc6d81854b7f - - - - -] [bc40b59d-4ac4-402a-b90f-266fd964067e] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.363 6733 ERROR oslo.messaging._drivers.impl_rabbit [req-8679163c-5cfb-4f13-b13b-5160d83a252a - - - - -] [9f664171-4f6e-418e-8370-31add1647fbe] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.366 6734 ERROR oslo.messaging._drivers.impl_rabbit [req-d44dd489-c134-4532-8799-26ea434a8330 - - - - -] [6f370018-79a9-41df-b26e-c00733fd9330] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.369 6738 ERROR oslo.messaging._drivers.impl_rabbit [req-54cc8abe-6221-42d2-9ec0-a7c0bcd909bb - - - - -] [676c2da5-38c8-46da-b69d-b07d4e565672] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.371 6741 ERROR oslo.messaging._drivers.impl_rabbit [req-4b04afc6-d1a5-41f2-b7dd-1ef34f782eb8 - - - - -] [6683d18b-9d60-4149-b03e-0b3e8bfdfd60] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.372 6744 ERROR oslo.messaging._drivers.impl_rabbit [req-6907348f-3619-4715-9ac0-e9685b8c040c - - - - -] [36338b90-7df5-4094-94b2-5de2f4c42842] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.374 6731 ERROR oslo.messaging._drivers.impl_rabbit [req-f51fac3f-65fe-4873-b72c-fef0df7287c1 - - - - -] [53e16f46-95eb-4551-a3e1-150a10b8f1c2] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.375 6728 ERROR oslo.messaging._drivers.impl_rabbit [req-52239572-d491-4fd9-b98c-b9c9ee4beb75 - - - - -] [ceee8c71-ba75-43fe-948d-00244ad83979] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.376 6737 ERROR oslo.messaging._drivers.impl_rabbit [req-169cad24-e6f5-46d7-8f71-f5427cea0b80 - - - - -] [4d13923e-3745-49d6-9805-411c254e6c15] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.377 6735 ERROR oslo.messaging._drivers.impl_rabbit [req-e3de3746-b826-4081-a3f3-d21d0ebd1f02 - - - - -] [5c40925a-2003-4f49-924f-ec10610fb568] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.378 6747 ERROR oslo.messaging._drivers.impl_rabbit [req-5dba57c3-58b1-4ca8-8906-e8782c57530b - - - - -] [261506ad-0736-4414-a072-3e22f4099fd8] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.378 6739 ERROR oslo.messaging._drivers.impl_rabbit [req-03401620-fdb6-4098-9218-dd64ffb47b86 - - - - -] [2cd3b7be-7137-4afe-af18-ce6e9de1ade1] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.381 6740 ERROR oslo.messaging._drivers.impl_rabbit [req-10f91b68-9c54-4fa3-8d25-10cd6de5bfb8 - - - - -] [ff88837d-d03a-48e7-ac4c-03e90a820375] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.388 6749 ERROR oslo.messaging._drivers.impl_rabbit [req-16fd44ae-4b0b-4109-97ab-81a20e902bd5 - - - - -] [29e9e809-7dde-4c0b-abca-b995a71dc4f3] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.389 6748 ERROR oslo.messaging._drivers.impl_rabbit [req-8884c847-42cb-4496-aa5f-2034af398c83 - - - - -] [8e70da99-9365-46bc-bf7b-f877853d3048] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.392 6750 ERROR oslo.messaging._drivers.impl_rabbit [req-f464bf4b-8e85-47eb-9d70-a93f555b9490 - - - - -] [bc862868-858c-4446-9ad5-8bb71e433621] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.395 6732 ERROR oslo.messaging._drivers.impl_rabbit [req-f8593827-e607-494b-a070-6556ec01c327 - - - - -] [926f0aa8-d1ff-4914-8d39-fb41eec00d41] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.400 6751 ERROR oslo.messaging._drivers.impl_rabbit [req-6aacce44-7d13-46bc-94ef-c5ba1cb3cde6 - - - - -] [5ce7824d-261c-433a-86d6-7a9260723c8e] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.407 6753 ERROR oslo.messaging._drivers.impl_rabbit [req-95590a47-7136-428c-a873-2009ec3162ba - - - - -] [428e260c-6834-4b08-a7f2-74e39c269ea2] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.431 6745 ERROR oslo.messaging._drivers.impl_rabbit [req-97f025e5-7287-4ab7-a4d5-2fdd4f6742be - - - - -] [f34b9c40-c4c1-4973-8095-fc12dbdb8248] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.447 6752 ERROR oslo.messaging._drivers.impl_rabbit [req-4c664a11-da82-4541-95c7-07ad7427233f - - - - -] [0a14b323-e82c-49f4-aaae-d2c3e70c4844] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.465 6716 ERROR oslo.messaging._drivers.impl_rabbit [req-6578c407-ec61-4f3f-94e9-62ae55d23dbe - - - - -] [6137523d-1331-4180-a183-bfea9b1b1bf2] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:42.468 6736 ERROR oslo.messaging._drivers.impl_rabbit [req-00bb857f-9ca7-4709-92fd-c860b6c6f875 - - - - -] [3aab1fbb-3ea9-42af-b3f7-9be215470537] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-01 01:00:44.331 6717 INFO oslo.messaging._drivers.impl_rabbit [req-3c30e9e1-f57c-4fa1-8aa5-2b3b47343bd1 - - - - -] [f9b5c3a2-b064-407d-818f-91ea026664dc] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37382.
+2017-02-01 01:00:44.334 6729 INFO oslo.messaging._drivers.impl_rabbit [req-5cb04d05-74e1-4da5-8ff1-ca8a99a659e5 - - - - -] [c64c0bbd-60d6-448e-90c6-d7bd4bff53d5] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37384.
+2017-02-01 01:00:44.335 6723 INFO oslo.messaging._drivers.impl_rabbit [req-9747c4c7-b7aa-4e00-bfd3-d5ddc3023e3c - - - - -] [4dbdcc24-57ee-400b-a7a8-013ad69b0122] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37386.
+2017-02-01 01:00:44.336 6719 INFO oslo.messaging._drivers.impl_rabbit [req-f1245b7d-7f68-48fb-8e31-2b78209a6b3c - - - - -] [f7dea10d-e3ca-4920-ad5f-5dcb8b146b4e] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37388.
+2017-02-01 01:00:44.344 6726 INFO oslo.messaging._drivers.impl_rabbit [req-6f5cba8e-4a00-4597-8655-92408bbe2d76 - - - - -] [7b867fa8-15ee-48db-aa1c-1eb9a3508627] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37390.
+2017-02-01 01:00:44.353 6730 INFO oslo.messaging._drivers.impl_rabbit [req-8655a710-d3a2-4d60-b376-724aeb31ea5f - - - - -] [f895aead-4f63-43f0-9e6f-dade512c7742] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37392.
+2017-02-01 01:00:44.362 6718 INFO oslo.messaging._drivers.impl_rabbit [req-8a70069a-9be1-485e-b468-0377f098b0a5 - - - - -] [ce8fab3e-7fba-4555-b59e-da6904b884b2] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37396.
+2017-02-01 01:00:44.362 6715 INFO oslo.messaging._drivers.impl_rabbit [req-69a470dc-91bf-42da-b2ed-d9c11040d2b6 - - - - -] [d8d8d1a6-e31f-45be-bd1d-bc9f52269249] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37394.
+2017-02-01 01:00:44.365 6725 INFO oslo.messaging._drivers.impl_rabbit [req-64bb82ba-f042-4e65-a767-23f27446cb63 - - - - -] [41fb214e-3bca-4fbd-ae36-4f9e90cdbe2d] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37398.
+2017-02-01 01:00:44.366 6724 INFO oslo.messaging._drivers.impl_rabbit [req-4bcad1ed-7d11-48f8-820e-b48b53b919dd - - - - -] [4ae93abe-74b3-417b-ae28-e74e30fd7239] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37400.
+2017-02-01 01:00:44.369 6721 INFO oslo.messaging._drivers.impl_rabbit [req-f3b4eb93-cd88-48f3-aca4-ab1a89e3c147 - - - - -] [321e0e86-c64f-4609-9afe-19734b6f41a7] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37402.
+2017-02-01 01:00:44.378 6743 INFO oslo.messaging._drivers.impl_rabbit [req-0bba8191-00cf-4d3e-960f-873f8951346a - - - - -] [d70c7c18-5c6f-478a-8cff-02c7d8fd54b1] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37404.
+2017-02-01 01:00:44.379 6727 INFO oslo.messaging._drivers.impl_rabbit [req-7e4381a2-c550-49ff-877d-64e1c77ca816 - - - - -] [b49c7634-4e16-44e3-afac-4da5846f5cae] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37406.
+2017-02-01 01:00:44.379 6755 INFO oslo.messaging._drivers.impl_rabbit [req-9391295b-c79c-4309-91ce-bf238675cb05 - - - - -] [ff0ef8c2-1aff-4944-9306-e8e55bef2258] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37410.
+2017-02-01 01:00:44.381 6746 INFO oslo.messaging._drivers.impl_rabbit [req-4084bd57-51e3-4e38-82dc-b4869ec166da - - - - -] [cd126deb-5260-4b2c-a94f-6293ae4a3e5b] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37412.
+2017-02-01 01:00:44.382 6742 INFO oslo.messaging._drivers.impl_rabbit [req-fbd4b03a-6a31-4ade-9b24-48191bd85596 - - - - -] [b641316d-55f0-48fc-9b7c-ea3754894200] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37408.
+2017-02-01 01:00:44.388 6722 INFO oslo.messaging._drivers.impl_rabbit [req-07cd8b24-68eb-410d-8535-bc6d81854b7f - - - - -] [bc40b59d-4ac4-402a-b90f-266fd964067e] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37414.
+2017-02-01 01:00:44.397 6738 INFO oslo.messaging._drivers.impl_rabbit [req-54cc8abe-6221-42d2-9ec0-a7c0bcd909bb - - - - -] [676c2da5-38c8-46da-b69d-b07d4e565672] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37416.
+2017-02-01 01:00:44.399 6744 INFO oslo.messaging._drivers.impl_rabbit [req-6907348f-3619-4715-9ac0-e9685b8c040c - - - - -] [36338b90-7df5-4094-94b2-5de2f4c42842] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37420.
+2017-02-01 01:00:44.399 6720 INFO oslo.messaging._drivers.impl_rabbit [req-2c55b94b-df32-4820-baaa-d08998b01140 - - - - -] [46f14a20-022f-4e4f-b719-d9b969a17148] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37418.
+2017-02-01 01:00:44.399 6728 INFO oslo.messaging._drivers.impl_rabbit [req-52239572-d491-4fd9-b98c-b9c9ee4beb75 - - - - -] [ceee8c71-ba75-43fe-948d-00244ad83979] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37422.
+2017-02-01 01:00:44.400 6733 INFO oslo.messaging._drivers.impl_rabbit [req-8679163c-5cfb-4f13-b13b-5160d83a252a - - - - -] [9f664171-4f6e-418e-8370-31add1647fbe] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37424.
+2017-02-01 01:00:44.401 6735 INFO oslo.messaging._drivers.impl_rabbit [req-e3de3746-b826-4081-a3f3-d21d0ebd1f02 - - - - -] [5c40925a-2003-4f49-924f-ec10610fb568] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37428.
+2017-02-01 01:00:44.404 6747 INFO oslo.messaging._drivers.impl_rabbit [req-5dba57c3-58b1-4ca8-8906-e8782c57530b - - - - -] [261506ad-0736-4414-a072-3e22f4099fd8] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37426.
+2017-02-01 01:00:44.405 6734 INFO oslo.messaging._drivers.impl_rabbit [req-d44dd489-c134-4532-8799-26ea434a8330 - - - - -] [6f370018-79a9-41df-b26e-c00733fd9330] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37430.
+2017-02-01 01:00:44.405 6741 INFO oslo.messaging._drivers.impl_rabbit [req-4b04afc6-d1a5-41f2-b7dd-1ef34f782eb8 - - - - -] [6683d18b-9d60-4149-b03e-0b3e8bfdfd60] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37434.
+2017-02-01 01:00:44.405 6731 INFO oslo.messaging._drivers.impl_rabbit [req-f51fac3f-65fe-4873-b72c-fef0df7287c1 - - - - -] [53e16f46-95eb-4551-a3e1-150a10b8f1c2] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37432.
+2017-02-01 01:00:44.407 6737 INFO oslo.messaging._drivers.impl_rabbit [req-169cad24-e6f5-46d7-8f71-f5427cea0b80 - - - - -] [4d13923e-3745-49d6-9805-411c254e6c15] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37436.
+2017-02-01 01:00:44.408 6740 INFO oslo.messaging._drivers.impl_rabbit [req-10f91b68-9c54-4fa3-8d25-10cd6de5bfb8 - - - - -] [ff88837d-d03a-48e7-ac4c-03e90a820375] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37438.
+2017-02-01 01:00:44.410 6748 INFO oslo.messaging._drivers.impl_rabbit [req-8884c847-42cb-4496-aa5f-2034af398c83 - - - - -] [8e70da99-9365-46bc-bf7b-f877853d3048] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37440.
+2017-02-01 01:00:44.410 6750 INFO oslo.messaging._drivers.impl_rabbit [req-f464bf4b-8e85-47eb-9d70-a93f555b9490 - - - - -] [bc862868-858c-4446-9ad5-8bb71e433621] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37442.
+2017-02-01 01:00:44.414 6739 INFO oslo.messaging._drivers.impl_rabbit [req-03401620-fdb6-4098-9218-dd64ffb47b86 - - - - -] [2cd3b7be-7137-4afe-af18-ce6e9de1ade1] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37444.
+2017-02-01 01:00:44.418 6749 INFO oslo.messaging._drivers.impl_rabbit [req-16fd44ae-4b0b-4109-97ab-81a20e902bd5 - - - - -] [29e9e809-7dde-4c0b-abca-b995a71dc4f3] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37446.
+2017-02-01 01:00:44.422 6753 INFO oslo.messaging._drivers.impl_rabbit [req-95590a47-7136-428c-a873-2009ec3162ba - - - - -] [428e260c-6834-4b08-a7f2-74e39c269ea2] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37448.
+2017-02-01 01:00:44.428 6732 INFO oslo.messaging._drivers.impl_rabbit [req-f8593827-e607-494b-a070-6556ec01c327 - - - - -] [926f0aa8-d1ff-4914-8d39-fb41eec00d41] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37450.
+2017-02-01 01:00:44.430 6751 INFO oslo.messaging._drivers.impl_rabbit [req-6aacce44-7d13-46bc-94ef-c5ba1cb3cde6 - - - - -] [5ce7824d-261c-433a-86d6-7a9260723c8e] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37452.
+2017-02-01 01:00:44.448 6745 INFO oslo.messaging._drivers.impl_rabbit [req-97f025e5-7287-4ab7-a4d5-2fdd4f6742be - - - - -] [f34b9c40-c4c1-4973-8095-fc12dbdb8248] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37454.
+2017-02-01 01:00:44.465 6752 INFO oslo.messaging._drivers.impl_rabbit [req-4c664a11-da82-4541-95c7-07ad7427233f - - - - -] [0a14b323-e82c-49f4-aaae-d2c3e70c4844] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37456.
+2017-02-01 01:00:44.483 6716 INFO oslo.messaging._drivers.impl_rabbit [req-6578c407-ec61-4f3f-94e9-62ae55d23dbe - - - - -] [6137523d-1331-4180-a183-bfea9b1b1bf2] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37458.
+2017-02-01 01:00:44.487 6736 INFO oslo.messaging._drivers.impl_rabbit [req-00bb857f-9ca7-4709-92fd-c860b6c6f875 - - - - -] [3aab1fbb-3ea9-42af-b3f7-9be215470537] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37460.

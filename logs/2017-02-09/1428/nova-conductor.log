@@ -1,0 +1,627 @@
+2017-02-09 07:43:46.643 14579 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-09 07:43:46.659 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Starting 40 workers
+2017-02-09 07:43:46.668 15128 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.670 15131 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.669 15127 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.672 15130 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.674 15132 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.676 15133 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.677 15134 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.679 15135 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.680 15136 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.684 15138 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.684 15137 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.687 15139 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.690 15141 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.691 15142 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.690 15140 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.691 15143 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.694 15145 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.698 15149 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.709 15150 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.711 15152 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.713 15153 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.715 15157 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.725 15161 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.729 15164 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.733 15166 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.734 15173 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.735 15167 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.739 15174 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.748 15176 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.753 15178 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.753 15177 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.758 15180 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.768 15182 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.771 15187 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.774 15189 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.785 15190 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.789 15192 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.796 15197 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.798 15195 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 07:43:46.807 15200 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:22:53.135 15164 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:22:54.425 15135 ERROR oslo.messaging._drivers.impl_rabbit [-] [c9428b15-be20-43c5-bbb3-8c283d9c4672] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33874
+2017-02-09 08:22:59.889 15200 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:02.188 15143 ERROR oslo.messaging._drivers.impl_rabbit [-] [e028f275-61ce-452e-aa1d-01bc87864d7e] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33858
+2017-02-09 08:23:02.251 15153 ERROR oslo.messaging._drivers.impl_rabbit [-] [dc2f041b-0156-48df-babf-47c9d08542ce] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33892
+2017-02-09 08:23:02.264 15134 ERROR oslo.messaging._drivers.impl_rabbit [-] [8051641b-d4ea-4299-b15e-74f09872adc9] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33898
+2017-02-09 08:23:02.266 15149 ERROR oslo.messaging._drivers.impl_rabbit [-] [0c43d075-48f7-4ee5-9d21-69054518b1bd] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33900
+2017-02-09 08:23:02.267 15166 ERROR oslo.messaging._drivers.impl_rabbit [-] [1da74124-d952-44df-8b55-29ff40a41271] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33902
+2017-02-09 08:23:02.275 15150 ERROR oslo.messaging._drivers.impl_rabbit [-] [31aed8b3-1ee6-4ff8-b965-1b2cb6c5897e] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33904
+2017-02-09 08:23:02.278 15182 ERROR oslo.messaging._drivers.impl_rabbit [-] [23230e4a-307a-4911-b86e-0c209db0b76b] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33906
+2017-02-09 08:23:02.279 15138 ERROR oslo.messaging._drivers.impl_rabbit [-] [c72f80bd-6eee-4976-bc8e-5f4374ef6303] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33908
+2017-02-09 08:23:02.327 15161 ERROR oslo.messaging._drivers.impl_rabbit [-] [4e2076a3-402c-4b4a-a550-84624b455289] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33928
+2017-02-09 08:23:02.327 15167 ERROR oslo.messaging._drivers.impl_rabbit [-] [39c4b8bf-737f-4e00-861d-270db813308d] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33926
+2017-02-09 08:23:02.335 15176 ERROR oslo.messaging._drivers.impl_rabbit [-] [fa483a25-d75d-4315-b120-48e602136e2b] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33930
+2017-02-09 08:23:02.355 15152 ERROR oslo.messaging._drivers.impl_rabbit [-] [444c58a0-24a7-4477-91a2-742facad4004] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33932
+2017-02-09 08:23:02.360 15173 ERROR oslo.messaging._drivers.impl_rabbit [-] [9b3e5b9b-6529-4d55-8972-4ee9fbf680f7] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33934
+2017-02-09 08:23:02.370 15178 ERROR oslo.messaging._drivers.impl_rabbit [-] [8fb90a7d-2344-44dd-bd02-cf8e9688e033] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33938
+2017-02-09 08:23:02.432 15200 ERROR oslo.messaging._drivers.impl_rabbit [-] [a1b7c211-0b0d-4a23-9d14-46a2e20e48b0] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33944
+2017-02-09 08:23:02.597 15143 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:03.405 15167 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:03.483 15161 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:03.584 15176 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:03.642 15152 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:04.423 15133 ERROR oslo.messaging._drivers.impl_rabbit [-] [11cc8d55-1dc2-4a70-81f5-2a60b9483b29] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33876
+2017-02-09 08:23:04.523 15135 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:04.608 15133 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:09.851 15173 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:09.857 15180 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:09.891 15140 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:11.476 15178 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:14.045 15130 ERROR oslo.messaging._drivers.impl_rabbit [-] [4deda250-2e09-490d-a793-99b9484a48d3] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33882
+2017-02-09 08:23:14.422 15142 ERROR oslo.messaging._drivers.impl_rabbit [-] [b3fe5f2f-c011-47ff-8322-992c687ade5a] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33884
+2017-02-09 08:23:14.728 15174 ERROR oslo.messaging._drivers.impl_rabbit [-] [66b09f28-652b-4ed4-bb66-0df619217812] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33886
+2017-02-09 08:23:14.767 15127 ERROR oslo.messaging._drivers.impl_rabbit [-] [ec4bb420-5d73-4024-a60d-aab0ad24c92f] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33880
+2017-02-09 08:23:14.839 15139 ERROR oslo.messaging._drivers.impl_rabbit [-] [a1908a35-9740-4bf1-84c2-d3ae836ce27f] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33888
+2017-02-09 08:23:14.923 15141 ERROR oslo.messaging._drivers.impl_rabbit [-] [00e7658d-d30a-4495-a47a-2ff54c3fedbf] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33890
+2017-02-09 08:23:19.686 15130 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:19.769 15142 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:19.856 15197 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:19.866 15127 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:22.889 15139 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:23.028 15141 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:23.050 15164 ERROR oslo.messaging._drivers.impl_rabbit [-] [053041ee-0710-4b34-b165-018215984421] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33896
+2017-02-09 08:23:23.277 15153 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:23.332 15149 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:23.401 15166 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:23.474 15134 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:23.592 15150 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:23.801 15138 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:23.842 15182 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:24.867 15174 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:29.871 15187 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:29.883 15177 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:32.203 15145 ERROR oslo.messaging._drivers.impl_rabbit [-] [be0f3dfd-d23f-4812-beb5-abe5ebfe5d02] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33860
+2017-02-09 08:23:32.210 15137 ERROR oslo.messaging._drivers.impl_rabbit [-] [ba41a281-d6b2-4930-b5e1-b73b56cb3d40] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33866
+2017-02-09 08:23:32.214 15131 ERROR oslo.messaging._drivers.impl_rabbit [-] [d06d27ae-76bf-4da2-945f-f8571bba1e30] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33864
+2017-02-09 08:23:32.222 15157 ERROR oslo.messaging._drivers.impl_rabbit [-] [e3b85723-d3a3-4ce9-a578-3cbdbaad4da4] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33868
+2017-02-09 08:23:32.224 15132 ERROR oslo.messaging._drivers.impl_rabbit [-] [29738324-fb71-4670-855e-39879faf84ec] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33870
+2017-02-09 08:23:32.228 15128 ERROR oslo.messaging._drivers.impl_rabbit [-] [eed24f44-683d-40e3-a877-c42bf76806b1] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33872
+2017-02-09 08:23:32.243 15136 ERROR oslo.messaging._drivers.impl_rabbit [-] [63098a60-acde-4538-8807-f92eb40dd669] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33878
+2017-02-09 08:23:32.284 15177 ERROR oslo.messaging._drivers.impl_rabbit [-] [a39e12a4-3d89-4f40-b8af-62102286d2a4] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33910
+2017-02-09 08:23:32.291 15187 ERROR oslo.messaging._drivers.impl_rabbit [-] [9679f8a1-4278-4a91-97ad-eff93b134f93] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33916
+2017-02-09 08:23:32.293 15197 ERROR oslo.messaging._drivers.impl_rabbit [-] [16119cd9-e7f0-4e73-a6bd-ec75e4a81833] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33914
+2017-02-09 08:23:32.294 15189 ERROR oslo.messaging._drivers.impl_rabbit [-] [03e3da9b-0807-4d83-b178-79c02542f72c] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33918
+2017-02-09 08:23:32.303 15140 ERROR oslo.messaging._drivers.impl_rabbit [-] [a185e798-f7c1-4095-86bb-054e70178fe0] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33912
+2017-02-09 08:23:32.318 15190 ERROR oslo.messaging._drivers.impl_rabbit [-] [82bd5492-fb1c-4272-a780-f1d76bccea39] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33920
+2017-02-09 08:23:32.318 15192 ERROR oslo.messaging._drivers.impl_rabbit [-] [267833d4-5661-4570-8e91-0b88116e1d43] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33921
+2017-02-09 08:23:32.330 15195 ERROR oslo.messaging._drivers.impl_rabbit [-] [3f93489f-169c-4893-8767-7ec0bc1642ff] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33924
+2017-02-09 08:23:32.377 15189 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:32.462 15180 ERROR oslo.messaging._drivers.impl_rabbit [-] [860c1855-a165-46f0-ae68-eacca588b577] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33946
+2017-02-09 08:23:32.685 15145 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:32.796 15137 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:32.840 15132 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:33.154 15190 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:33.240 15192 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:33.322 15195 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:33.941 15131 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:33.975 15157 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:34.422 15128 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:34.455 15136 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 08:23:55.464 15135 INFO oslo.messaging._drivers.impl_rabbit [-] [c9428b15-be20-43c5-bbb3-8c283d9c4672] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60100.
+2017-02-09 08:24:03.219 15143 INFO oslo.messaging._drivers.impl_rabbit [-] [e028f275-61ce-452e-aa1d-01bc87864d7e] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60104.
+2017-02-09 08:24:03.302 15134 INFO oslo.messaging._drivers.impl_rabbit [-] [8051641b-d4ea-4299-b15e-74f09872adc9] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60108.
+2017-02-09 08:24:03.303 15166 INFO oslo.messaging._drivers.impl_rabbit [-] [1da74124-d952-44df-8b55-29ff40a41271] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60110.
+2017-02-09 08:24:03.308 15182 INFO oslo.messaging._drivers.impl_rabbit [-] [23230e4a-307a-4911-b86e-0c209db0b76b] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60116.
+2017-02-09 08:24:03.310 15150 INFO oslo.messaging._drivers.impl_rabbit [-] [31aed8b3-1ee6-4ff8-b965-1b2cb6c5897e] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60114.
+2017-02-09 08:24:03.313 15138 INFO oslo.messaging._drivers.impl_rabbit [-] [c72f80bd-6eee-4976-bc8e-5f4374ef6303] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60120.
+2017-02-09 08:24:03.314 15149 INFO oslo.messaging._drivers.impl_rabbit [-] [0c43d075-48f7-4ee5-9d21-69054518b1bd] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60112.
+2017-02-09 08:24:03.325 15153 INFO oslo.messaging._drivers.impl_rabbit [-] [dc2f041b-0156-48df-babf-47c9d08542ce] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60106.
+2017-02-09 08:24:03.373 15161 INFO oslo.messaging._drivers.impl_rabbit [-] [4e2076a3-402c-4b4a-a550-84624b455289] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60122.
+2017-02-09 08:24:03.378 15167 INFO oslo.messaging._drivers.impl_rabbit [-] [39c4b8bf-737f-4e00-861d-270db813308d] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60124.
+2017-02-09 08:24:03.381 15176 INFO oslo.messaging._drivers.impl_rabbit [-] [fa483a25-d75d-4315-b120-48e602136e2b] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60126.
+2017-02-09 08:24:03.394 15173 INFO oslo.messaging._drivers.impl_rabbit [-] [9b3e5b9b-6529-4d55-8972-4ee9fbf680f7] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60130.
+2017-02-09 08:24:03.395 15152 INFO oslo.messaging._drivers.impl_rabbit [-] [444c58a0-24a7-4477-91a2-742facad4004] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60128.
+2017-02-09 08:24:03.412 15178 INFO oslo.messaging._drivers.impl_rabbit [-] [8fb90a7d-2344-44dd-bd02-cf8e9688e033] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60132.
+2017-02-09 08:24:03.465 15200 INFO oslo.messaging._drivers.impl_rabbit [-] [a1b7c211-0b0d-4a23-9d14-46a2e20e48b0] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60134.
+2017-02-09 08:24:05.455 15133 INFO oslo.messaging._drivers.impl_rabbit [-] [11cc8d55-1dc2-4a70-81f5-2a60b9483b29] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60136.
+2017-02-09 08:24:15.103 15130 INFO oslo.messaging._drivers.impl_rabbit [-] [4deda250-2e09-490d-a793-99b9484a48d3] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60142.
+2017-02-09 08:24:15.475 15142 INFO oslo.messaging._drivers.impl_rabbit [-] [b3fe5f2f-c011-47ff-8322-992c687ade5a] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60144.
+2017-02-09 08:24:15.802 15127 INFO oslo.messaging._drivers.impl_rabbit [-] [ec4bb420-5d73-4024-a60d-aab0ad24c92f] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60148.
+2017-02-09 08:24:15.815 15174 INFO oslo.messaging._drivers.impl_rabbit [-] [66b09f28-652b-4ed4-bb66-0df619217812] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60146.
+2017-02-09 08:24:15.918 15139 INFO oslo.messaging._drivers.impl_rabbit [-] [a1908a35-9740-4bf1-84c2-d3ae836ce27f] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60150.
+2017-02-09 08:24:15.965 15141 INFO oslo.messaging._drivers.impl_rabbit [-] [00e7658d-d30a-4495-a47a-2ff54c3fedbf] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60152.
+2017-02-09 08:24:24.078 15164 INFO oslo.messaging._drivers.impl_rabbit [-] [053041ee-0710-4b34-b165-018215984421] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60164.
+2017-02-09 08:24:33.239 15145 INFO oslo.messaging._drivers.impl_rabbit [-] [be0f3dfd-d23f-4812-beb5-abe5ebfe5d02] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60166.
+2017-02-09 08:24:33.240 15137 INFO oslo.messaging._drivers.impl_rabbit [-] [ba41a281-d6b2-4930-b5e1-b73b56cb3d40] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60168.
+2017-02-09 08:24:33.248 15132 INFO oslo.messaging._drivers.impl_rabbit [-] [29738324-fb71-4670-855e-39879faf84ec] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60172.
+2017-02-09 08:24:33.262 15131 INFO oslo.messaging._drivers.impl_rabbit [-] [d06d27ae-76bf-4da2-945f-f8571bba1e30] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60170.
+2017-02-09 08:24:33.277 15157 INFO oslo.messaging._drivers.impl_rabbit [-] [e3b85723-d3a3-4ce9-a578-3cbdbaad4da4] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60174.
+2017-02-09 08:24:33.307 15128 INFO oslo.messaging._drivers.impl_rabbit [-] [eed24f44-683d-40e3-a877-c42bf76806b1] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60176.
+2017-02-09 08:24:33.320 15187 INFO oslo.messaging._drivers.impl_rabbit [-] [9679f8a1-4278-4a91-97ad-eff93b134f93] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60182.
+2017-02-09 08:24:33.320 15136 INFO oslo.messaging._drivers.impl_rabbit [-] [63098a60-acde-4538-8807-f92eb40dd669] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60178.
+2017-02-09 08:24:33.322 15177 INFO oslo.messaging._drivers.impl_rabbit [-] [a39e12a4-3d89-4f40-b8af-62102286d2a4] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60180.
+2017-02-09 08:24:33.325 15189 INFO oslo.messaging._drivers.impl_rabbit [-] [03e3da9b-0807-4d83-b178-79c02542f72c] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60186.
+2017-02-09 08:24:33.327 15197 INFO oslo.messaging._drivers.impl_rabbit [-] [16119cd9-e7f0-4e73-a6bd-ec75e4a81833] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60184.
+2017-02-09 08:24:33.345 15190 INFO oslo.messaging._drivers.impl_rabbit [-] [82bd5492-fb1c-4272-a780-f1d76bccea39] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60190.
+2017-02-09 08:24:33.346 15192 INFO oslo.messaging._drivers.impl_rabbit [-] [267833d4-5661-4570-8e91-0b88116e1d43] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60192.
+2017-02-09 08:24:33.352 15140 INFO oslo.messaging._drivers.impl_rabbit [-] [a185e798-f7c1-4095-86bb-054e70178fe0] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60188.
+2017-02-09 08:24:33.361 15195 INFO oslo.messaging._drivers.impl_rabbit [-] [3f93489f-169c-4893-8767-7ec0bc1642ff] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60194.
+2017-02-09 08:24:33.518 15180 INFO oslo.messaging._drivers.impl_rabbit [-] [860c1855-a165-46f0-ae68-eacca588b577] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60196.
+2017-02-09 08:24:53.141 15164 ERROR oslo.messaging._drivers.impl_rabbit [-] [58e84f85-411f-4409-98d0-f32c49a24207] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: timed out. Trying again in 1 seconds. Client port: None
+2017-02-09 08:24:54.164 15164 INFO oslo.messaging._drivers.impl_rabbit [-] [58e84f85-411f-4409-98d0-f32c49a24207] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60230.
+2017-02-09 08:24:54.272 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Caught SIGTERM, stopping children
+2017-02-09 08:24:54.464 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Waiting on 40 children to exit
+2017-02-09 08:24:54.465 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15127 killed by signal 15
+2017-02-09 08:24:54.465 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15128 killed by signal 15
+2017-02-09 08:24:54.466 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15130 killed by signal 15
+2017-02-09 08:24:54.466 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15131 killed by signal 15
+2017-02-09 08:24:54.466 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15132 killed by signal 15
+2017-02-09 08:24:54.467 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15133 killed by signal 15
+2017-02-09 08:24:54.467 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15134 killed by signal 15
+2017-02-09 08:24:54.468 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15135 killed by signal 15
+2017-02-09 08:24:54.468 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15136 killed by signal 15
+2017-02-09 08:24:54.468 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15137 killed by signal 15
+2017-02-09 08:24:54.469 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15138 killed by signal 15
+2017-02-09 08:24:54.469 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15139 killed by signal 15
+2017-02-09 08:24:54.470 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15153 killed by signal 15
+2017-02-09 08:24:54.476 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15174 killed by signal 15
+2017-02-09 08:24:54.476 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15182 killed by signal 15
+2017-02-09 08:24:54.477 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15157 killed by signal 15
+2017-02-09 08:24:54.484 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15190 killed by signal 15
+2017-02-09 08:24:54.489 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15200 killed by signal 15
+2017-02-09 08:24:54.504 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15177 killed by signal 15
+2017-02-09 08:24:54.511 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15142 killed by signal 15
+2017-02-09 08:24:54.514 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15152 killed by signal 15
+2017-02-09 08:24:54.516 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15141 killed by signal 15
+2017-02-09 08:24:54.518 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15140 killed by signal 15
+2017-02-09 08:24:54.519 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15143 killed by signal 15
+2017-02-09 08:24:54.521 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15149 killed by signal 15
+2017-02-09 08:24:54.524 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15145 killed by signal 15
+2017-02-09 08:24:54.528 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15161 killed by signal 15
+2017-02-09 08:24:54.536 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15166 killed by signal 15
+2017-02-09 08:24:54.539 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15150 killed by signal 15
+2017-02-09 08:24:54.541 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15176 killed by signal 15
+2017-02-09 08:24:54.544 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15173 killed by signal 15
+2017-02-09 08:24:54.544 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15167 killed by signal 15
+2017-02-09 08:24:54.545 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15178 killed by signal 15
+2017-02-09 08:24:54.545 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15197 killed by signal 15
+2017-02-09 08:24:54.546 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15189 killed by signal 15
+2017-02-09 08:24:54.546 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15195 killed by signal 15
+2017-02-09 08:24:54.548 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15180 killed by signal 15
+2017-02-09 08:24:54.549 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15187 killed by signal 15
+2017-02-09 08:24:54.550 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15164 killed by signal 15
+2017-02-09 08:24:54.553 14579 INFO oslo_service.service [req-95e35b36-bdd3-4367-9a06-2bd941b9c807 - - - - -] Child 15192 killed by signal 15
+2017-02-09 08:30:27.294 23809 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-09 08:30:27.309 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Starting 40 workers
+2017-02-09 08:30:27.320 24306 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.321 24305 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.323 24307 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.324 24308 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.326 24309 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.328 24310 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.330 24311 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.331 24314 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.331 24312 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.332 24315 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.332 24313 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.337 24316 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.338 24317 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.345 24318 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.346 24321 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.346 24319 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.348 24320 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.349 24323 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.356 24326 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.363 24328 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.367 24331 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.368 24335 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.373 24337 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.374 24340 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.378 24347 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.384 24343 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.388 24350 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.392 24353 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.392 24352 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.404 24354 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.408 24355 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.411 24358 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.411 24357 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.417 24361 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.429 24366 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.436 24365 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.438 24368 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.453 24372 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.458 24375 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 08:30:27.466 24370 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:26:34.247 24306 ERROR oslo.messaging._drivers.impl_rabbit [-] [d015fdbb-9257-48e2-8b48-f365152821c3] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 35854
+2017-02-09 13:26:42.620 24350 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:26:43.448 24350 ERROR oslo.messaging._drivers.impl_rabbit [-] [48a80cc4-117e-4fc7-ba24-9264f1a101a3] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 35904
+2017-02-09 13:26:43.457 24357 ERROR oslo.messaging._drivers.impl_rabbit [-] [d5bd6336-7adc-47a4-822a-5c7d4f44be77] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 35906
+2017-02-09 13:26:43.464 24312 ERROR oslo.messaging._drivers.impl_rabbit [-] [f2187c93-6993-4d9c-b9da-087725684ada] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 35910
+2017-02-09 13:26:44.248 24305 ERROR oslo.messaging._drivers.impl_rabbit [-] [47efdf84-8b86-4a1a-9206-57bd8f98503a] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 35838
+2017-02-09 13:26:46.154 24306 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:26:46.693 24305 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:26:52.148 24357 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:26:52.575 24312 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:26:54.249 24317 ERROR oslo.messaging._drivers.impl_rabbit [-] [cb03c40f-92b0-4301-95a6-5bb629dc7d92] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 35864
+2017-02-09 13:27:00.430 24321 ERROR oslo.messaging._drivers.impl_rabbit [-] [85c90a60-c8ee-4fd7-9dde-01d118fe90a2] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 35858
+2017-02-09 13:27:00.477 24316 ERROR oslo.messaging._drivers.impl_rabbit [-] [9a3a8bf9-9b7f-464e-abb3-4237689623a9] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 35860
+2017-02-09 13:27:00.699 24319 ERROR oslo.messaging._drivers.impl_rabbit [-] [91fbe2d9-fa9b-4db6-bcd0-d5d8672fbadd] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 35852
+2017-02-09 13:27:01.649 24311 ERROR oslo.messaging._drivers.impl_rabbit [-] [56aceace-ab4f-4501-86e7-56c6109cf4ce] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 35868
+2017-02-09 13:27:01.731 24317 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:01.810 24321 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:01.844 24316 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:01.968 24319 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:01.999 24311 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:02.580 24337 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:04.247 24313 ERROR oslo.messaging._drivers.impl_rabbit [-] [f5eefaac-eecf-4c20-bfbb-66af1e21acae] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 35870
+2017-02-09 13:27:06.168 24328 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:06.215 24335 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:06.232 24331 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:07.131 24365 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:07.143 24313 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:07.191 24343 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:07.239 24368 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:07.332 24307 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:07.434 24320 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:07.496 24355 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 13:27:10.428 24315 ERROR oslo.messaging._drivers.impl_rabbit [-] [2ed26246-112c-4d6b-baf5-b348b57472a3] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 35842
+2017-02-09 13:27:10.904 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Caught SIGTERM, stopping children
+2017-02-09 13:27:11.183 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Waiting on 40 children to exit
+2017-02-09 13:27:11.185 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24320 killed by signal 15
+2017-02-09 13:27:11.186 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24321 killed by signal 15
+2017-02-09 13:27:11.187 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24323 killed by signal 15
+2017-02-09 13:27:11.187 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24326 killed by signal 15
+2017-02-09 13:27:11.188 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24328 killed by signal 15
+2017-02-09 13:27:11.188 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24331 killed by signal 15
+2017-02-09 13:27:11.189 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24335 killed by signal 15
+2017-02-09 13:27:11.189 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24337 killed by signal 15
+2017-02-09 13:27:11.190 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24340 killed by signal 15
+2017-02-09 13:27:11.190 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24343 killed by signal 15
+2017-02-09 13:27:11.191 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24353 killed by signal 15
+2017-02-09 13:27:11.191 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24350 killed by signal 15
+2017-02-09 13:27:11.192 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24354 killed by signal 15
+2017-02-09 13:27:11.192 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24357 killed by signal 15
+2017-02-09 13:27:11.193 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24358 killed by signal 15
+2017-02-09 13:27:11.198 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24347 killed by signal 15
+2017-02-09 13:27:11.229 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24352 killed by signal 15
+2017-02-09 13:27:11.245 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24365 killed by signal 15
+2017-02-09 13:27:11.250 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24355 killed by signal 15
+2017-02-09 13:27:11.252 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24311 killed by signal 15
+2017-02-09 13:27:11.254 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24361 killed by signal 15
+2017-02-09 13:27:11.255 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24366 killed by signal 15
+2017-02-09 13:27:11.256 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24310 killed by signal 15
+2017-02-09 13:27:11.263 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24306 killed by signal 15
+2017-02-09 13:27:11.270 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24305 killed by signal 15
+2017-02-09 13:27:11.271 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24370 killed by signal 15
+2017-02-09 13:27:11.274 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24308 killed by signal 15
+2017-02-09 13:27:11.274 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24312 killed by signal 15
+2017-02-09 13:27:11.276 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24375 killed by signal 15
+2017-02-09 13:27:11.277 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24309 killed by signal 15
+2017-02-09 13:27:11.277 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24368 killed by signal 15
+2017-02-09 13:27:11.278 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24315 killed by signal 15
+2017-02-09 13:27:11.278 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24307 killed by signal 15
+2017-02-09 13:27:11.279 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24313 killed by signal 15
+2017-02-09 13:27:11.279 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24314 killed by signal 15
+2017-02-09 13:27:11.280 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24317 killed by signal 15
+2017-02-09 13:27:11.280 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24372 killed by signal 15
+2017-02-09 13:27:11.282 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24316 killed by signal 15
+2017-02-09 13:27:11.282 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24318 killed by signal 15
+2017-02-09 13:27:11.283 23809 INFO oslo_service.service [req-6fd76ecd-25c0-4370-953e-f6e93e026127 - - - - -] Child 24319 killed by signal 15
+2017-02-09 13:35:09.352 23018 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-09 13:35:09.368 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Starting 40 workers
+2017-02-09 13:35:09.379 23514 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.381 23513 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.381 23512 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.381 23515 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.382 23516 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.387 23517 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.387 23519 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.388 23518 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.390 23520 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.392 23521 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.394 23522 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.394 23523 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.396 23525 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.397 23526 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.397 23524 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.398 23514 WARNING oslo_db.sqlalchemy.engines [req-f2955dc2-8a15-4bbf-809c-394ccc443a89 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.402 23527 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.404 23516 WARNING oslo_db.sqlalchemy.engines [req-d39db35b-7069-4052-ab65-7c487838f2fc - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.408 23529 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.408 23515 WARNING oslo_db.sqlalchemy.engines [req-92f85e95-c243-49a8-8cd0-e2382516815b - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.408 23528 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.411 23530 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.414 23512 WARNING oslo_db.sqlalchemy.engines [req-47ebddf1-fbde-4847-9c4c-00198d8b476a - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.416 23513 WARNING oslo_db.sqlalchemy.engines [req-a7bf9b29-8d2c-44e0-8e19-f0d7cd9c3622 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.415 23519 WARNING oslo_db.sqlalchemy.engines [req-2d306954-f98b-4e7d-8670-3af0e80ef5af - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.416 23531 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.423 23526 WARNING oslo_db.sqlalchemy.engines [req-e1ca44f4-e89d-4e08-9087-2b9481df7805 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.423 23517 WARNING oslo_db.sqlalchemy.engines [req-e2be238e-52fe-4a36-b4f3-b791cbed2a84 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.425 23525 WARNING oslo_db.sqlalchemy.engines [req-88fc6c3b-8c7b-4bde-a348-b73178c15f47 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.425 23533 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.425 23520 WARNING oslo_db.sqlalchemy.engines [req-4a0aeeb2-9c8d-4dca-a1b1-4bd471203980 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.425 23532 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.426 23518 WARNING oslo_db.sqlalchemy.engines [req-651edaf3-3b0f-4fab-87cc-99602deaeee4 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.427 23521 WARNING oslo_db.sqlalchemy.engines [req-d01ee1f6-cb76-4a84-b74a-6fee4c57b66e - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.428 23534 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.429 23523 WARNING oslo_db.sqlalchemy.engines [req-bcc03429-5b71-4f9b-8608-9d9ddf1f68ad - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.429 23529 WARNING oslo_db.sqlalchemy.engines [req-dd955539-e8a6-44be-bf33-72fcd271887b - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.430 23527 WARNING oslo_db.sqlalchemy.engines [req-14d7fae3-8fc8-4af2-b271-9d883cd7d3e9 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.430 23522 WARNING oslo_db.sqlalchemy.engines [req-905a4011-39fa-415a-8fa7-084bd90e9ec1 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.431 23524 WARNING oslo_db.sqlalchemy.engines [req-ed2b8ed0-2973-468c-841e-6af7b6325117 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.433 23535 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.434 23536 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.436 23530 WARNING oslo_db.sqlalchemy.engines [req-fefba68a-650f-403b-9577-f5ddeec91d11 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.436 23537 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.438 23539 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.439 23538 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.442 23528 WARNING oslo_db.sqlalchemy.engines [req-90378b10-506b-48c7-b622-a1b75fa5bcd1 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.444 23540 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.445 23531 WARNING oslo_db.sqlalchemy.engines [req-1d3348c1-299e-4c19-b53f-697c9579a5cf - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.445 23542 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.445 23541 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.448 23543 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.449 23544 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.451 23533 WARNING oslo_db.sqlalchemy.engines [req-29b444b8-9148-4c6c-b5c3-e21acf8a054a - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.452 23545 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.453 23532 WARNING oslo_db.sqlalchemy.engines [req-90a9f75a-dd8b-4c87-88a5-80f34c871e93 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.456 23546 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.456 23534 WARNING oslo_db.sqlalchemy.engines [req-17d7b5ea-146b-4ae8-914a-bfee1c4a1856 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.458 23539 WARNING oslo_db.sqlalchemy.engines [req-bf436a42-1db0-4f67-8eb6-1de051ce8130 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.458 23547 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.462 23548 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.463 23536 WARNING oslo_db.sqlalchemy.engines [req-ffe9e781-a1f9-44b9-a276-d181faf94a12 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.464 23535 WARNING oslo_db.sqlalchemy.engines [req-c59db004-8421-4e4e-868d-3808d93b522a - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.465 23549 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.465 23537 WARNING oslo_db.sqlalchemy.engines [req-fab2ac17-727c-40de-b968-1f34b6472acc - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.466 23542 WARNING oslo_db.sqlalchemy.engines [req-3c6c2815-afe1-4b08-8010-22f5c1aa6a23 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.470 23538 WARNING oslo_db.sqlalchemy.engines [req-477fc22b-7c21-4bab-92cb-e0d3d5819238 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.471 23550 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.473 23551 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 13:35:09.475 23540 WARNING oslo_db.sqlalchemy.engines [req-0b982b1f-5ba3-4a06-87b2-41040a2d9f1e - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.475 23541 WARNING oslo_db.sqlalchemy.engines [req-2aadef2d-ded6-4f72-9ca6-f41969ebd502 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.477 23544 WARNING oslo_db.sqlalchemy.engines [req-30e050c7-6053-4439-93e8-a48e5cc5aa73 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.478 23543 WARNING oslo_db.sqlalchemy.engines [req-d6f17e96-9578-41b8-b93f-c2c1d20706bf - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.478 23545 WARNING oslo_db.sqlalchemy.engines [req-d1cba241-4a88-4b71-8cb2-1ac6c7e505ee - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.482 23546 WARNING oslo_db.sqlalchemy.engines [req-639a34bd-329c-4c4b-bd35-2cd725644c27 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.484 23549 WARNING oslo_db.sqlalchemy.engines [req-84d4f2da-704e-44ea-a273-857c5e6d0feb - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.484 23548 WARNING oslo_db.sqlalchemy.engines [req-d8b587f4-3eb5-4ad0-aeb0-fd4a9f6eed0c - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.485 23547 WARNING oslo_db.sqlalchemy.engines [req-120eb1d6-bf67-4c31-9bab-d0ca3b32c67d - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.495 23551 WARNING oslo_db.sqlalchemy.engines [req-f342b94f-8f38-4c6c-91ad-dfe06508eecd - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:35:09.496 23550 WARNING oslo_db.sqlalchemy.engines [req-9fc47d5f-7e0f-4c44-916c-428d16792757 - - - - -] SQL connection failed. -1 attempts left.
+2017-02-09 13:43:27.178 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Caught SIGTERM, stopping children
+2017-02-09 13:43:27.414 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Waiting on 40 children to exit
+2017-02-09 13:43:27.415 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23512 killed by signal 15
+2017-02-09 13:43:27.415 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23513 killed by signal 15
+2017-02-09 13:43:27.416 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23514 killed by signal 15
+2017-02-09 13:43:27.416 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23515 killed by signal 15
+2017-02-09 13:43:27.417 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23516 killed by signal 15
+2017-02-09 13:43:27.417 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23518 killed by signal 15
+2017-02-09 13:43:27.418 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23519 killed by signal 15
+2017-02-09 13:43:27.418 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23517 killed by signal 15
+2017-02-09 13:43:27.420 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23520 killed by signal 15
+2017-02-09 13:43:27.420 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23521 killed by signal 15
+2017-02-09 13:43:27.421 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23522 killed by signal 15
+2017-02-09 13:43:27.421 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23523 killed by signal 15
+2017-02-09 13:43:27.422 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23528 killed by signal 15
+2017-02-09 13:43:27.425 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23525 killed by signal 15
+2017-02-09 13:43:27.429 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23537 killed by signal 15
+2017-02-09 13:43:27.436 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23547 killed by signal 15
+2017-02-09 13:43:27.438 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23526 killed by signal 15
+2017-02-09 13:43:27.439 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23527 killed by signal 15
+2017-02-09 13:43:27.443 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23531 killed by signal 15
+2017-02-09 13:43:27.447 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23524 killed by signal 15
+2017-02-09 13:43:27.449 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23529 killed by signal 15
+2017-02-09 13:43:27.467 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23549 killed by signal 15
+2017-02-09 13:43:27.470 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23530 killed by signal 15
+2017-02-09 13:43:27.471 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23550 killed by signal 15
+2017-02-09 13:43:27.471 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23546 killed by signal 15
+2017-02-09 13:43:27.472 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23543 killed by signal 15
+2017-02-09 13:43:27.473 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23541 killed by signal 15
+2017-02-09 13:43:27.473 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23533 killed by signal 15
+2017-02-09 13:43:27.474 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23536 killed by signal 15
+2017-02-09 13:43:27.474 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23545 killed by signal 15
+2017-02-09 13:43:27.475 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23532 killed by signal 15
+2017-02-09 13:43:27.475 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23535 killed by signal 15
+2017-02-09 13:43:27.475 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23538 killed by signal 15
+2017-02-09 13:43:27.476 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23540 killed by signal 15
+2017-02-09 13:43:27.476 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23542 killed by signal 15
+2017-02-09 13:43:27.476 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23534 killed by signal 15
+2017-02-09 13:43:27.477 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23539 killed by signal 15
+2017-02-09 13:43:27.477 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23544 killed by signal 15
+2017-02-09 13:43:27.477 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23548 killed by signal 15
+2017-02-09 13:43:27.478 23018 INFO oslo_service.service [req-fc09a300-2de8-432e-84dc-b383943e8af0 - - - - -] Child 23551 killed by signal 15
+2017-02-09 14:00:02.962 30519 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-09 14:00:02.980 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Starting 40 workers
+2017-02-09 14:00:02.993 31019 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:02.993 31018 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:02.994 31020 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:02.996 31023 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:02.996 31021 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:02.997 31022 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:02.998 31025 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.003 31026 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.003 31024 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.004 31027 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.009 31028 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.010 31029 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.012 31030 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.012 31031 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.016 31032 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.018 31033 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.026 31034 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.027 31035 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.032 31038 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.038 31042 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.043 31047 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.048 31050 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.051 31051 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.063 31055 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.063 31058 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.064 31060 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.070 31063 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.076 31067 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.075 31065 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.078 31070 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.088 31071 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.090 31073 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.094 31075 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.099 31076 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.106 31077 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.115 31082 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.116 31081 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.118 31079 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.130 31084 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:00:03.146 31089 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:14:09.736 31058 ERROR oslo.messaging._drivers.impl_rabbit [-] [a7e5ca48-0603-4c36-aaca-88c87801385c] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41218
+2017-02-09 14:14:09.797 31055 ERROR oslo.messaging._drivers.impl_rabbit [-] [e3d86073-0518-46b6-b5db-0b54581168da] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41220
+2017-02-09 14:14:09.850 31075 ERROR oslo.messaging._drivers.impl_rabbit [-] [1c43b6e7-0bf4-4ead-b9b1-5ea09f26072b] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41222
+2017-02-09 14:14:09.894 31067 ERROR oslo.messaging._drivers.impl_rabbit [-] [aae3ceb5-7a72-4b6b-87de-8bd093a357bb] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41224
+2017-02-09 14:14:09.920 31050 ERROR oslo.messaging._drivers.impl_rabbit [-] [def14f03-8c72-447e-97c4-07e5a9e763a1] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41226
+2017-02-09 14:14:09.939 31084 ERROR oslo.messaging._drivers.impl_rabbit [-] [550da33f-532e-4ddf-a48f-0ae997c1f9b3] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41228
+2017-02-09 14:14:10.557 31019 ERROR oslo.messaging._drivers.impl_rabbit [-] [df72546b-0c76-427b-ba97-26b246a3ebb2] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41230
+2017-02-09 14:14:10.586 31081 ERROR oslo.messaging._drivers.impl_rabbit [-] [77378bcc-8d36-4b4e-95d6-455b48cf2597] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41232
+2017-02-09 14:14:10.619 31082 ERROR oslo.messaging._drivers.impl_rabbit [-] [2f5cb2a3-f7a9-48cd-8fc5-e169c401ede7] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41233
+2017-02-09 14:14:10.662 31063 ERROR oslo.messaging._drivers.impl_rabbit [-] [9cc573a9-c6b9-46d3-9032-3e561c5a1744] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41238
+2017-02-09 14:14:10.695 31077 ERROR oslo.messaging._drivers.impl_rabbit [-] [fa1d4b37-a8fd-4228-9a7e-d0c63f200a34] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41236
+2017-02-09 14:14:10.763 31042 ERROR oslo.messaging._drivers.impl_rabbit [-] [d32efac0-fe98-44a7-9be6-42b79a5d96bc] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41240
+2017-02-09 14:14:10.997 31032 ERROR oslo.messaging._drivers.impl_rabbit [-] [f7164075-f742-48aa-a2bf-ebec9ec9a7d8] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41244
+2017-02-09 14:14:15.397 31089 ERROR oslo.messaging._drivers.impl_rabbit [-] [24c6a2e6-d39a-4c43-b8b9-e3caca952188] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41242
+2017-02-09 14:14:15.453 31079 ERROR oslo.messaging._drivers.impl_rabbit [-] [296409c4-33e5-41fe-9313-c6cbae9f4d40] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41246
+2017-02-09 14:14:16.055 31028 ERROR oslo.messaging._drivers.impl_rabbit [-] [403ad90d-baed-4eb5-98c0-1f386222618b] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41248
+2017-02-09 14:14:16.099 31073 ERROR oslo.messaging._drivers.impl_rabbit [-] [dee27eef-da61-4d07-aa20-d9bc1f3f5608] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41250
+2017-02-09 14:14:16.142 31071 ERROR oslo.messaging._drivers.impl_rabbit [-] [040b7bfd-92c4-47e5-be0c-8c09c20ac0a9] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41254
+2017-02-09 14:14:16.194 31076 ERROR oslo.messaging._drivers.impl_rabbit [-] [7fd2019c-1d0b-484a-a4c3-b4554a32ddd5] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41252
+2017-02-09 14:14:16.266 31065 ERROR oslo.messaging._drivers.impl_rabbit [-] [b3c6d671-a8c4-4f79-814f-e5fe923fcc83] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41258
+2017-02-09 14:14:16.400 31029 ERROR oslo.messaging._drivers.impl_rabbit [-] [19ba1704-f380-4243-9b37-16421aacf971] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41177
+2017-02-09 14:14:16.451 31035 ERROR oslo.messaging._drivers.impl_rabbit [-] [eff57b93-ceea-4030-989b-09ddc8668d73] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41176
+2017-02-09 14:14:16.527 31047 ERROR oslo.messaging._drivers.impl_rabbit [-] [ea7cc6de-3c50-4b8c-b2de-41ca84959c27] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41180
+2017-02-09 14:14:16.865 31031 ERROR oslo.messaging._drivers.impl_rabbit [-] [ed829b46-dcfc-47c9-bd3f-02e3e0737c05] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41186
+2017-02-09 14:14:17.074 31033 ERROR oslo.messaging._drivers.impl_rabbit [-] [06b588a9-4256-4972-880c-a2d6aba8cd06] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41182
+2017-02-09 14:14:18.490 31018 ERROR oslo.messaging._drivers.impl_rabbit [-] [42b065ab-5351-4f9e-9e52-97a5800d5fb5] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41200
+2017-02-09 14:14:18.496 31026 ERROR oslo.messaging._drivers.impl_rabbit [-] [5341b94f-f927-44c1-ae72-6ada56680e87] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41206
+2017-02-09 14:14:18.502 31030 ERROR oslo.messaging._drivers.impl_rabbit [-] [e6ab00ae-16f8-4c76-8cc9-66412a8bf9db] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41208
+2017-02-09 14:14:18.537 31058 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:18.785 31029 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:18.872 31035 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:18.958 31032 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:18.983 31047 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:19.021 31031 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:19.064 31089 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:19.174 31079 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:19.221 31028 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:19.270 31073 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:19.311 31055 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:19.322 31071 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:19.393 31075 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:19.482 31067 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:19.551 31050 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:19.621 31084 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:19.738 31019 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:19.779 31081 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:20.106 31076 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:20.155 31065 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:20.165 31033 INFO oslo.messaging._drivers.impl_rabbit [-] A recoverable connection/channel error occurred, trying to reconnect: Too many heartbeats missed
+2017-02-09 14:14:21.001 31020 ERROR oslo.messaging._drivers.impl_rabbit [-] [20c80fb7-2f48-4b2f-b7b8-bc1b0209e0b6] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 41188
+2017-02-09 14:14:23.572 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Caught SIGTERM, stopping children
+2017-02-09 14:14:23.871 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Waiting on 40 children to exit
+2017-02-09 14:14:23.872 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31018 killed by signal 15
+2017-02-09 14:14:23.873 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31019 killed by signal 15
+2017-02-09 14:14:23.873 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31020 killed by signal 15
+2017-02-09 14:14:23.874 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31021 killed by signal 15
+2017-02-09 14:14:23.874 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31022 killed by signal 15
+2017-02-09 14:14:23.875 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31023 killed by signal 15
+2017-02-09 14:14:23.875 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31024 killed by signal 15
+2017-02-09 14:14:23.876 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31025 killed by signal 15
+2017-02-09 14:14:23.876 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31026 killed by signal 15
+2017-02-09 14:14:23.877 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31027 killed by signal 15
+2017-02-09 14:14:23.877 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31028 killed by signal 15
+2017-02-09 14:14:23.877 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31029 killed by signal 15
+2017-02-09 14:14:23.878 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31030 killed by signal 15
+2017-02-09 14:14:23.878 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31031 killed by signal 15
+2017-02-09 14:14:23.879 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31032 killed by signal 15
+2017-02-09 14:14:23.880 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31033 killed by signal 15
+2017-02-09 14:14:23.880 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31034 killed by signal 15
+2017-02-09 14:14:23.881 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31035 killed by signal 15
+2017-02-09 14:14:23.881 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31038 killed by signal 15
+2017-02-09 14:14:23.882 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31042 killed by signal 15
+2017-02-09 14:14:23.882 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31047 killed by signal 15
+2017-02-09 14:14:23.883 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31050 killed by signal 15
+2017-02-09 14:14:23.883 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31051 killed by signal 15
+2017-02-09 14:14:23.883 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31055 killed by signal 15
+2017-02-09 14:14:23.884 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31058 killed by signal 15
+2017-02-09 14:14:23.884 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31081 killed by signal 15
+2017-02-09 14:14:23.885 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31082 killed by signal 15
+2017-02-09 14:14:23.892 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31063 killed by signal 15
+2017-02-09 14:14:23.893 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31067 killed by signal 15
+2017-02-09 14:14:23.893 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31073 killed by signal 15
+2017-02-09 14:14:23.894 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31071 killed by signal 15
+2017-02-09 14:14:23.895 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31065 killed by signal 15
+2017-02-09 14:14:23.895 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31060 killed by signal 15
+2017-02-09 14:14:23.900 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31070 killed by signal 15
+2017-02-09 14:14:23.901 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31075 killed by signal 15
+2017-02-09 14:14:23.902 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31076 killed by signal 15
+2017-02-09 14:14:23.902 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31077 killed by signal 15
+2017-02-09 14:14:23.903 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31079 killed by signal 15
+2017-02-09 14:14:23.903 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31084 killed by signal 15
+2017-02-09 14:14:23.904 30519 INFO oslo_service.service [req-4bef705d-93e0-4a5c-b8e4-e7ed95602439 - - - - -] Child 31089 killed by signal 15
+2017-02-09 14:16:31.192 35673 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-09 14:16:31.212 35673 INFO oslo_service.service [req-2391b302-999f-4aac-9eb3-b4eabb7d5aa4 - - - - -] Starting 40 workers
+2017-02-09 14:16:31.223 36229 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.223 36230 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.223 36227 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.224 36228 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.226 36231 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.229 36232 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.230 36233 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.231 36235 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.232 36234 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.233 36236 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.236 36237 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.237 36239 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.237 36238 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.243 36241 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.244 36240 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.248 36242 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.254 36243 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.256 36244 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.264 36248 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.264 36246 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.268 36250 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.271 36254 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.275 36256 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.283 36260 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.285 36263 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.287 36266 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.291 36267 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.296 36269 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.299 36270 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.308 36274 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.307 36273 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.314 36276 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.316 36279 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.322 36280 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.329 36284 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.336 36285 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.347 36287 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.357 36294 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.358 36292 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:16:31.366 36297 INFO nova.service [-] Starting conductor node (version 14.0.2-1.el7)
+2017-02-09 14:21:03.937 36229 ERROR oslo.messaging._drivers.impl_rabbit [req-dfc38c2b-b9ee-4f7c-834e-bf90c929b9e3 - - - - -] [a02adfed-9f26-414f-9ad4-8a94824b3105] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: timed out. Trying again in 1 seconds. Client port: 39872
+2017-02-09 14:21:03.990 36231 ERROR oslo.messaging._drivers.impl_rabbit [req-0eae1c46-bbde-4d38-a964-b96c452e325c - - - - -] [8f934b5f-8160-4026-86de-6fca2a8c8541] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: timed out. Trying again in 1 seconds. Client port: 39874
+2017-02-09 14:21:04.960 36229 INFO oslo.messaging._drivers.impl_rabbit [req-dfc38c2b-b9ee-4f7c-834e-bf90c929b9e3 - - - - -] [a02adfed-9f26-414f-9ad4-8a94824b3105] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 40048.
+2017-02-09 14:21:05.011 36231 INFO oslo.messaging._drivers.impl_rabbit [req-0eae1c46-bbde-4d38-a964-b96c452e325c - - - - -] [8f934b5f-8160-4026-86de-6fca2a8c8541] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 40050.

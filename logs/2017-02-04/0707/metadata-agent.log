@@ -1,0 +1,47 @@
+2017-02-01 02:19:09.117 6328 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:09] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.315521
+2017-02-01 02:19:11.567 6328 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:11] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.205990
+2017-02-01 02:19:14.673 6328 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:14] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.818981
+2017-02-01 02:19:17.515 6328 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:17] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.487160
+2017-02-01 02:19:20.404 6328 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:20] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.684948
+2017-02-01 02:19:23.156 6328 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:23] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.550258
+2017-02-01 02:19:26.098 6328 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:26] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.628276
+2017-02-01 02:19:29.079 6319 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:29] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.708756
+2017-02-01 02:19:31.501 6319 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:31] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.207312
+2017-02-01 02:19:34.368 6319 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:34] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.671104
+2017-02-01 02:19:36.924 6319 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:36] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.220711
+2017-02-01 02:19:39.531 6319 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:39] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.333348
+2017-02-01 02:19:42.236 6319 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:42] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.506493
+2017-02-01 02:19:45.123 6332 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:45] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.680063
+2017-02-01 02:19:48.656 6332 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:48] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.190855
+2017-02-01 02:19:52.257 6332 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:52] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.322708
+2017-02-01 02:19:54.881 6327 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:54] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.416426
+2017-02-01 02:19:57.265 6327 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:19:57] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.182263
+2017-02-01 02:20:00.844 6332 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:20:00] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.219615
+2017-02-01 02:20:03.239 6332 INFO eventlet.wsgi.server [-] 192.168.2.3,<local> - - [01/Feb/2017 02:20:03] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.183076
+2017-02-04 07:03:47.399 4718 INFO neutron.common.config [-] Logging enabled!
+2017-02-04 07:03:47.400 4718 INFO neutron.common.config [-] /usr/bin/neutron-metadata-agent version 9.1.1
+2017-02-04 07:03:47.413 4718 INFO oslo_service.service [req-ffc494e2-bccf-4a21-8ef4-c8c22376e522 - - - - -] Starting 20 workers
+2017-02-04 07:03:47.420 6406 INFO eventlet.wsgi.server [-] (6406) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.420 6405 INFO eventlet.wsgi.server [-] (6405) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.420 6404 INFO eventlet.wsgi.server [-] (6404) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.421 6407 INFO eventlet.wsgi.server [-] (6407) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.422 6408 INFO eventlet.wsgi.server [-] (6408) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.425 6410 INFO eventlet.wsgi.server [-] (6410) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.425 6411 INFO eventlet.wsgi.server [-] (6411) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.426 6412 INFO eventlet.wsgi.server [-] (6412) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.428 6413 INFO eventlet.wsgi.server [-] (6413) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.430 6415 INFO eventlet.wsgi.server [-] (6415) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.431 6416 INFO eventlet.wsgi.server [-] (6416) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.433 6418 INFO eventlet.wsgi.server [-] (6418) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.433 6417 INFO eventlet.wsgi.server [-] (6417) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.434 6419 INFO eventlet.wsgi.server [-] (6419) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.435 6421 INFO eventlet.wsgi.server [-] (6421) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.438 6422 INFO eventlet.wsgi.server [-] (6422) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.438 6423 INFO eventlet.wsgi.server [-] (6423) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.440 6424 INFO eventlet.wsgi.server [-] (6424) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.441 6426 INFO eventlet.wsgi.server [-] (6426) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:47.443 6427 INFO eventlet.wsgi.server [-] (6427) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-04 07:03:52.468 4718 ERROR oslo.messaging._drivers.impl_rabbit [-] [1c0b37f3-2365-4f43-95de-e0f8c4f69276] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-04 07:03:53.479 4718 ERROR oslo.messaging._drivers.impl_rabbit [-] [1c0b37f3-2365-4f43-95de-e0f8c4f69276] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-04 07:03:55.497 4718 ERROR oslo.messaging._drivers.impl_rabbit [-] [1c0b37f3-2365-4f43-95de-e0f8c4f69276] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 4 seconds. Client port: None
+2017-02-04 07:03:59.518 4718 INFO oslo.messaging._drivers.impl_rabbit [-] [1c0b37f3-2365-4f43-95de-e0f8c4f69276] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 39228.

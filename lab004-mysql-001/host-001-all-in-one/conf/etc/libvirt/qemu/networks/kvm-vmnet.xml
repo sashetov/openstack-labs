@@ -1,0 +1,14 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh net-edit kvm-vmnet
+or other application using the libvirt API.
+-->
+
+<network>
+  <name>kvm-vmnet</name>
+  <uuid>f336083e-4402-46e6-95b3-d2498f8b578a</uuid>
+  <forward mode='bridge'/>
+  <bridge name='brint'/>
+  <virtualport type='openvswitch'/>
+</network>

@@ -1,0 +1,4 @@
+2017-02-04T07:03:39.865Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2017-02-04T07:03:40.005Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.6.1
+2017-02-04T07:03:50.013Z|00003|memory|INFO|2740 kB peak resident set size after 10.1 seconds
+2017-02-04T07:03:50.013Z|00004|memory|INFO|cells:839 json-caches:1 monitors:2 sessions:2

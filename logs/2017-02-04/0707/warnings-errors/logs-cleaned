@@ -1,0 +1,37 @@
+2017-02-01 01:54:16.184 15623 ERROR neutron.api.v2.resource OperationalError: (pymysql.err.OperationalError) (1040, u'Too many connections')
+2017-02-01 22:51:19.823 6718 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 2.76 sec
+2017-02-01 22:51:19.824 6722 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 2.74 sec
+2017-02-01 22:51:52.399 5593 WARNING nova.virt.libvirt.driver [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] couldn't obtain the vcpu count from domain id: f5dbbaeb-720f-4440-b239-f8dffd4922d0, exception: Requested operation is not valid: cpu affinity is not supported
+2017-02-01 23:59:58.348 5593 WARNING nova.virt.libvirt.driver [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] couldn't obtain the vcpu count from domain id: f5dbbaeb-720f-4440-b239-f8dffd4922d0, exception: Requested operation is not valid: cpu affinity is not supported
+...
+2017-02-02 21:16:27.958 5593 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 50.01 sec
+2017-02-02 21:16:28.737 27975 ERROR neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/openvswitch/agent/ovs_neutron_agent.py", line 320, in _report_state
+2017-02-02 21:16:29.392 6722 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 0.53 sec
+2017-02-02 21:16:29.395 6755 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 10.57 sec
+2017-02-02 21:16:29.395 27975 WARNING oslo.service.loopingcall [-] Function 'neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent.OVSNeutronAgent._report_state' run outlasted interval by 30.67 sec
+2017-02-02 21:16:29.401 4735 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.l3.agent.L3NATAgentWithStateReport._report_state' run outlasted interval by 22.63 sec
+2017-02-02 21:16:29.444 4706 WARNING oslo.service.loopingcall [req-f182dbd8-0aa9-4e11-a495-db480d517cb7 - - - - -] Function 'neutron.agent.dhcp.agent.DhcpAgentWithStateReport._report_state' run outlasted interval by 12.64 sec
+2017-02-02 21:16:32.022 5593 WARNING nova.virt.libvirt.driver [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] couldn't obtain the vcpu count from domain id: f5dbbaeb-720f-4440-b239-f8dffd4922d0, exception: Requested operation is not valid: cpu affinity is not supported
+2017-02-02 22:51:01.349 5593 WARNING nova.virt.libvirt.driver [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] couldn't obtain the vcpu count from domain id: f5dbbaeb-720f-4440-b239-f8dffd4922d0, exception: Requested operation is not valid: cpu affinity is not supported
+...
+2017-02-03 00:00:13.350 5593 WARNING nova.virt.libvirt.driver [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] couldn't obtain the vcpu count from domain id: f5dbbaeb-720f-4440-b239-f8dffd4922d0, exception: Requested operation is not valid: cpu affinity is not supported
+2017-02-03 01:26:46.073 5593 WARNING nova.servicegroup.drivers.db [-] Lost connection to nova-conductor for reporting service status.
+2017-02-03 01:26:46.074 5593 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 50.01 sec
+2017-02-03 01:26:59.774 4706 ERROR neutron.agent.dhcp.agent MessagingTimeout: Timed out waiting for a reply to message ID 1c515bbd1e9842799ea522ce1766c322
+2017-02-03 01:26:59.777 4706 WARNING oslo.service.loopingcall [req-4a611423-db20-4cee-bf07-9583a9b050e1 - - - - -] Function 'neutron.agent.dhcp.agent.DhcpAgentWithStateReport._report_state' run outlasted interval by 30.01 sec
+2017-02-03 01:27:04.130 4735 ERROR neutron.agent.l3.agent MessagingTimeout: Timed out waiting for a reply to message ID 505dd243eb4d4e6babb5aaaaf98b86b1
+2017-02-03 01:27:04.134 4735 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.l3.agent.L3NATAgentWithStateReport._report_state' run outlasted interval by 30.01 sec
+2017-02-03 01:27:04.166 27975 ERROR neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent 
+2017-02-03 01:27:04.166 27975 ERROR neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [-] Failed reporting state!
+2017-02-03 01:27:04.166 27975 ERROR neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent     True)
+2017-02-03 01:27:04.171 27975 WARNING oslo.service.loopingcall [-] Function 'neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent.OVSNeutronAgent._report_state' run outlasted interval by 30.01 sec
+2017-02-03 01:27:14.387 6739 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 82.58 sec
+2017-02-03 01:27:14.428 4710 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 77.16 sec
+2017-02-03 01:27:14.428 15630 WARNING oslo.service.loopingcall [req-4e2ece65-3caa-49f5-8d30-58a986ba1b65 - - - - -] Function 'neutron.plugins.ml2.plugin.Ml2Plugin.remove_networks_from_down_agents' run outlasted interval by 27.44 sec
+2017-02-03 01:27:14.429 6731 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 74.10 sec
+2017-02-03 01:27:14.436 15630 WARNING neutron.db.agents_db [req-7c6a7a56-2050-4038-bea1-0201d9b3b3c1 - - - - -] Agent healthcheck: found 2 dead agents out of 4:
+2017-02-03 01:27:14.437 6747 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 74.14 sec
+2017-02-03 01:27:14.437 15630 WARNING oslo.service.loopingcall [req-7c6a7a56-2050-4038-bea1-0201d9b3b3c1 - - - - -] Function 'neutron.plugins.ml2.plugin.Ml2Plugin.agent_health_check' run outlasted interval by 4.94 sec
+2017-02-03 01:27:14.441 5593 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 18.37 sec
+2017-02-03 01:27:14.442 6717 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 73.97 sec
+

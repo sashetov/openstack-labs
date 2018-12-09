@@ -1,0 +1,7 @@
+2017-02-09 07:43:45.279 14608 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 07:43:45.279 14608 INFO neutron.common.config [-] /usr/bin/neutron-openvswitch-agent version 9.1.1
+2017-02-09 07:43:45.532 14608 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=14832
+2017-02-09 07:43:45.576 14608 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-d074e04a-1d0e-41b9-9727-097849c76ac2 - - - - -] Mapping physical network seshsnet_managed_760 to bridge br-ex
+2017-02-09 07:43:45.611 14608 INFO neutron.agent.agent_extensions_manager [req-d074e04a-1d0e-41b9-9727-097849c76ac2 - - - - -] Loaded agent extensions: []
+2017-02-09 07:43:45.632 14608 WARNING stevedore.named [req-d074e04a-1d0e-41b9-9727-097849c76ac2 - - - - -] Could not load neutron.agent.linux.iptables_firewall.OVSHybridIptablesFirewallDriver
+2017-02-09 07:43:45.919 14608 INFO neutron.plugins.ml2.drivers.openvswitch.agent.ovs_neutron_agent [req-f1dfd205-9f42-4aa6-9478-1c04ad5f4dd7 - - - - -] Agent initialized successfully, now running... 

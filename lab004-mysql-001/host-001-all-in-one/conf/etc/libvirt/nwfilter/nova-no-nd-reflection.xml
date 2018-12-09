@@ -1,0 +1,13 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh nwfilter-edit nova-no-nd-reflection
+or other application using the libvirt API.
+-->
+
+<filter name='nova-no-nd-reflection' chain='ipv6' priority='-600'>
+  <uuid>48722749-a10b-4a8f-90e6-5efe5b41d18b</uuid>
+  <rule action='drop' direction='in' priority='500'>
+    <mac srcmacaddr='$MAC' dstmacaddr='33:33:00:00:00:00' dstmacmask='ff:ff:00:00:00:00'/>
+  </rule>
+</filter>

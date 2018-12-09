@@ -1,0 +1,3 @@
+2017-02-01 02:06:47.676 4735 WARNING neutron.agent.linux.interface [-] No MTU configured for port a6bbc680-f002-4e0e-9610-9df2f450edff
+2017-02-01 02:10:22.349 4735 INFO neutron.agent.linux.interface [-] Device qg-a6bbc680-f0 already exists
+2017-02-01 02:12:09.425 4735 INFO neutron.agent.linux.interface [-] Device qg-a6bbc680-f0 already exists

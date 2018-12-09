@@ -1,0 +1,807 @@
+2017-02-01 00:05:37.350 11471 WARNING oslo_config.cfg [-] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2017-02-01 00:05:37.457 11471 INFO migrate.versioning.api [-] 0 -> 1... 
+2017-02-01 00:05:37.462 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table images
+2017-02-01 00:05:37.490 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:37.491 11471 INFO migrate.versioning.api [-] 1 -> 2... 
+2017-02-01 00:05:37.497 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table image_properties
+2017-02-01 00:05:37.537 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:37.537 11471 INFO migrate.versioning.api [-] 2 -> 3... 
+2017-02-01 00:05:37.589 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:37.589 11471 INFO migrate.versioning.api [-] 3 -> 4... 
+2017-02-01 00:05:37.612 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:37.612 11471 INFO migrate.versioning.api [-] 4 -> 5... 
+2017-02-01 00:05:37.637 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:37.637 11471 INFO migrate.versioning.api [-] 5 -> 6... 
+2017-02-01 00:05:37.672 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:37.672 11471 INFO migrate.versioning.api [-] 6 -> 7... 
+2017-02-01 00:05:37.693 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:37.693 11471 INFO migrate.versioning.api [-] 7 -> 8... 
+2017-02-01 00:05:37.700 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table image_members
+2017-02-01 00:05:37.745 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:37.745 11471 INFO migrate.versioning.api [-] 8 -> 9... 
+2017-02-01 00:05:37.786 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:37.787 11471 INFO migrate.versioning.api [-] 9 -> 10... 
+2017-02-01 00:05:37.798 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:37.798 11471 INFO migrate.versioning.api [-] 10 -> 11... 
+2017-02-01 00:05:37.832 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:37.832 11471 INFO migrate.versioning.api [-] 11 -> 12... 
+2017-02-01 00:05:37.947 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:37.948 11471 INFO migrate.versioning.api [-] 12 -> 13... 
+2017-02-01 00:05:37.977 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:37.977 11471 INFO migrate.versioning.api [-] 13 -> 14... 
+2017-02-01 00:05:37.986 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table image_tags
+2017-02-01 00:05:38.025 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.025 11471 INFO migrate.versioning.api [-] 14 -> 15... 
+2017-02-01 00:05:38.042 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.042 11471 INFO migrate.versioning.api [-] 15 -> 16... 
+2017-02-01 00:05:38.076 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.076 11471 INFO migrate.versioning.api [-] 16 -> 17... 
+2017-02-01 00:05:38.078 11471 INFO 017_quote_encrypted_swift_credentials [-] 'metadata_encryption_key' was not specified in the config file or a config file was not specified. This means that this migration is a NOOP.
+2017-02-01 00:05:38.083 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.083 11471 INFO migrate.versioning.api [-] 17 -> 18... 
+2017-02-01 00:05:38.091 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table image_locations
+2017-02-01 00:05:38.128 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.128 11471 INFO migrate.versioning.api [-] 18 -> 19... 
+2017-02-01 00:05:38.146 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.146 11471 INFO migrate.versioning.api [-] 19 -> 20... 
+2017-02-01 00:05:38.168 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.169 11471 INFO migrate.versioning.api [-] 20 -> 21... 
+2017-02-01 00:05:38.177 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.177 11471 INFO migrate.versioning.api [-] 21 -> 22... 
+2017-02-01 00:05:38.202 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.203 11471 INFO migrate.versioning.api [-] 22 -> 23... 
+2017-02-01 00:05:38.208 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.208 11471 INFO migrate.versioning.api [-] 23 -> 24... 
+2017-02-01 00:05:38.214 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.214 11471 INFO migrate.versioning.api [-] 24 -> 25... 
+2017-02-01 00:05:38.220 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.220 11471 INFO migrate.versioning.api [-] 25 -> 26... 
+2017-02-01 00:05:38.245 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.246 11471 INFO migrate.versioning.api [-] 26 -> 27... 
+2017-02-01 00:05:38.261 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.262 11471 INFO migrate.versioning.api [-] 27 -> 28... 
+2017-02-01 00:05:38.277 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.277 11471 INFO migrate.versioning.api [-] 28 -> 29... 
+2017-02-01 00:05:38.323 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.323 11471 INFO migrate.versioning.api [-] 29 -> 30... 
+2017-02-01 00:05:38.326 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table tasks
+2017-02-01 00:05:38.372 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.372 11471 INFO migrate.versioning.api [-] 30 -> 31... 
+2017-02-01 00:05:38.391 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.391 11471 INFO migrate.versioning.api [-] 31 -> 32... 
+2017-02-01 00:05:38.398 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table task_info
+2017-02-01 00:05:38.463 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.463 11471 INFO migrate.versioning.api [-] 32 -> 33... 
+2017-02-01 00:05:38.501 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.501 11471 INFO migrate.versioning.api [-] 33 -> 34... 
+2017-02-01 00:05:38.527 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.527 11471 INFO migrate.versioning.api [-] 34 -> 35... 
+2017-02-01 00:05:38.535 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_namespaces
+2017-02-01 00:05:38.568 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_objects
+2017-02-01 00:05:38.598 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_properties
+2017-02-01 00:05:38.627 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_resource_types
+2017-02-01 00:05:38.656 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_namespace_resource_types
+2017-02-01 00:05:38.702 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.702 11471 INFO migrate.versioning.api [-] 35 -> 36... 
+2017-02-01 00:05:38.723 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.724 11471 INFO migrate.versioning.api [-] 36 -> 37... 
+2017-02-01 00:05:38.780 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.780 11471 INFO migrate.versioning.api [-] 37 -> 38... 
+2017-02-01 00:05:38.782 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table metadef_tags
+2017-02-01 00:05:38.802 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:38.802 11471 INFO migrate.versioning.api [-] 38 -> 39... 
+2017-02-01 00:05:39.005 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:39.006 11471 INFO migrate.versioning.api [-] 39 -> 40... 
+2017-02-01 00:05:39.028 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:39.028 11471 INFO migrate.versioning.api [-] 40 -> 41... 
+2017-02-01 00:05:39.040 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table artifacts
+2017-02-01 00:05:39.104 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table artifact_tags
+2017-02-01 00:05:39.152 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table artifact_properties
+2017-02-01 00:05:39.196 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table artifact_blobs
+2017-02-01 00:05:39.239 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table artifact_blob_locations
+2017-02-01 00:05:39.275 11471 INFO glance.db.sqlalchemy.migrate_repo.schema [-] creating table artifact_dependencies
+2017-02-01 00:05:39.335 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:39.336 11471 INFO migrate.versioning.api [-] 41 -> 42... 
+2017-02-01 00:05:39.545 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:39.545 11471 INFO migrate.versioning.api [-] 42 -> 43... 
+2017-02-01 00:05:39.570 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:39.570 11471 INFO migrate.versioning.api [-] 43 -> 44... 
+2017-02-01 00:05:39.582 11471 INFO migrate.versioning.api [-] done
+2017-02-01 00:05:41.697 11500 INFO glance.common.wsgi [-] Starting 40 workers
+2017-02-01 00:05:41.702 11500 INFO glance.common.wsgi [-] Started child 11559
+2017-02-01 00:05:41.704 11559 INFO eventlet.wsgi.server [-] (11559) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.707 11500 INFO glance.common.wsgi [-] Started child 11560
+2017-02-01 00:05:41.709 11560 INFO eventlet.wsgi.server [-] (11560) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.712 11500 INFO glance.common.wsgi [-] Started child 11561
+2017-02-01 00:05:41.714 11561 INFO eventlet.wsgi.server [-] (11561) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.717 11500 INFO glance.common.wsgi [-] Started child 11562
+2017-02-01 00:05:41.719 11562 INFO eventlet.wsgi.server [-] (11562) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.722 11500 INFO glance.common.wsgi [-] Started child 11563
+2017-02-01 00:05:41.723 11563 INFO eventlet.wsgi.server [-] (11563) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.726 11500 INFO glance.common.wsgi [-] Started child 11564
+2017-02-01 00:05:41.728 11564 INFO eventlet.wsgi.server [-] (11564) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.730 11500 INFO glance.common.wsgi [-] Started child 11565
+2017-02-01 00:05:41.732 11565 INFO eventlet.wsgi.server [-] (11565) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.735 11500 INFO glance.common.wsgi [-] Started child 11566
+2017-02-01 00:05:41.737 11566 INFO eventlet.wsgi.server [-] (11566) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.739 11500 INFO glance.common.wsgi [-] Started child 11567
+2017-02-01 00:05:41.741 11567 INFO eventlet.wsgi.server [-] (11567) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.743 11500 INFO glance.common.wsgi [-] Started child 11568
+2017-02-01 00:05:41.745 11568 INFO eventlet.wsgi.server [-] (11568) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.748 11500 INFO glance.common.wsgi [-] Started child 11569
+2017-02-01 00:05:41.750 11569 INFO eventlet.wsgi.server [-] (11569) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.753 11500 INFO glance.common.wsgi [-] Started child 11570
+2017-02-01 00:05:41.754 11570 INFO eventlet.wsgi.server [-] (11570) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.757 11500 INFO glance.common.wsgi [-] Started child 11571
+2017-02-01 00:05:41.759 11571 INFO eventlet.wsgi.server [-] (11571) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.761 11500 INFO glance.common.wsgi [-] Started child 11572
+2017-02-01 00:05:41.763 11572 INFO eventlet.wsgi.server [-] (11572) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.765 11500 INFO glance.common.wsgi [-] Started child 11573
+2017-02-01 00:05:41.767 11573 INFO eventlet.wsgi.server [-] (11573) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.769 11500 INFO glance.common.wsgi [-] Started child 11574
+2017-02-01 00:05:41.771 11574 INFO eventlet.wsgi.server [-] (11574) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.773 11500 INFO glance.common.wsgi [-] Started child 11575
+2017-02-01 00:05:41.775 11575 INFO eventlet.wsgi.server [-] (11575) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.777 11500 INFO glance.common.wsgi [-] Started child 11576
+2017-02-01 00:05:41.779 11576 INFO eventlet.wsgi.server [-] (11576) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.781 11500 INFO glance.common.wsgi [-] Started child 11577
+2017-02-01 00:05:41.783 11577 INFO eventlet.wsgi.server [-] (11577) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.785 11500 INFO glance.common.wsgi [-] Started child 11578
+2017-02-01 00:05:41.786 11578 INFO eventlet.wsgi.server [-] (11578) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.789 11500 INFO glance.common.wsgi [-] Started child 11579
+2017-02-01 00:05:41.791 11579 INFO eventlet.wsgi.server [-] (11579) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.794 11500 INFO glance.common.wsgi [-] Started child 11580
+2017-02-01 00:05:41.795 11580 INFO eventlet.wsgi.server [-] (11580) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.798 11500 INFO glance.common.wsgi [-] Started child 11581
+2017-02-01 00:05:41.800 11581 INFO eventlet.wsgi.server [-] (11581) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.802 11500 INFO glance.common.wsgi [-] Started child 11582
+2017-02-01 00:05:41.804 11582 INFO eventlet.wsgi.server [-] (11582) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.807 11500 INFO glance.common.wsgi [-] Started child 11583
+2017-02-01 00:05:41.808 11583 INFO eventlet.wsgi.server [-] (11583) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.810 11500 INFO glance.common.wsgi [-] Started child 11584
+2017-02-01 00:05:41.812 11584 INFO eventlet.wsgi.server [-] (11584) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.814 11500 INFO glance.common.wsgi [-] Started child 11585
+2017-02-01 00:05:41.816 11585 INFO eventlet.wsgi.server [-] (11585) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.817 11500 INFO glance.common.wsgi [-] Started child 11586
+2017-02-01 00:05:41.819 11586 INFO eventlet.wsgi.server [-] (11586) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.821 11500 INFO glance.common.wsgi [-] Started child 11587
+2017-02-01 00:05:41.823 11587 INFO eventlet.wsgi.server [-] (11587) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.824 11500 INFO glance.common.wsgi [-] Started child 11588
+2017-02-01 00:05:41.826 11588 INFO eventlet.wsgi.server [-] (11588) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.828 11500 INFO glance.common.wsgi [-] Started child 11589
+2017-02-01 00:05:41.830 11589 INFO eventlet.wsgi.server [-] (11589) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.831 11500 INFO glance.common.wsgi [-] Started child 11590
+2017-02-01 00:05:41.833 11590 INFO eventlet.wsgi.server [-] (11590) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.834 11500 INFO glance.common.wsgi [-] Started child 11591
+2017-02-01 00:05:41.837 11591 INFO eventlet.wsgi.server [-] (11591) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.838 11500 INFO glance.common.wsgi [-] Started child 11592
+2017-02-01 00:05:41.840 11592 INFO eventlet.wsgi.server [-] (11592) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.842 11500 INFO glance.common.wsgi [-] Started child 11593
+2017-02-01 00:05:41.843 11593 INFO eventlet.wsgi.server [-] (11593) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.845 11500 INFO glance.common.wsgi [-] Started child 11594
+2017-02-01 00:05:41.847 11594 INFO eventlet.wsgi.server [-] (11594) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.849 11500 INFO glance.common.wsgi [-] Started child 11595
+2017-02-01 00:05:41.851 11595 INFO eventlet.wsgi.server [-] (11595) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.853 11500 INFO glance.common.wsgi [-] Started child 11596
+2017-02-01 00:05:41.854 11596 INFO eventlet.wsgi.server [-] (11596) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.856 11500 INFO glance.common.wsgi [-] Started child 11597
+2017-02-01 00:05:41.859 11597 INFO eventlet.wsgi.server [-] (11597) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:41.861 11500 INFO glance.common.wsgi [-] Started child 11598
+2017-02-01 00:05:41.862 11598 INFO eventlet.wsgi.server [-] (11598) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:05:50.576 11594 INFO eventlet.wsgi.server [req-61f7b7ef-ca97-4452-9290-9944ba0afee7 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - default default] x.x.x.2 - - [01/Feb/2017 00:05:50] "GET /v2/schemas/image HTTP/1.1" 200 4352 0.339679
+2017-02-01 00:05:50.719 11594 WARNING oslo_config.cfg [req-f9d5e3cb-9ef6-4faf-8277-9f6d560fdc3c 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - default default] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2017-02-01 00:05:50.814 11594 INFO eventlet.wsgi.server [req-f9d5e3cb-9ef6-4faf-8277-9f6d560fdc3c 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - default default] x.x.x.2 - - [01/Feb/2017 00:05:50] "POST /v2/images HTTP/1.1" 201 884 0.161987
+2017-02-01 00:05:51.034 11594 INFO eventlet.wsgi.server [req-5fa6ad36-18a7-45cd-90ad-56b517b0e359 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - default default] x.x.x.2 - - [01/Feb/2017 00:05:51] "PUT /v2/images/e1e5c8eb-fb63-4a7b-8f39-c69673e634b5/file HTTP/1.1" 204 213 0.203946
+2017-02-01 00:05:51.088 11594 INFO eventlet.wsgi.server [req-21110bdf-f4c2-4c0a-a655-37052978c3ea 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - default default] x.x.x.2 - - [01/Feb/2017 00:05:51] "GET /v2/images/e1e5c8eb-fb63-4a7b-8f39-c69673e634b5 HTTP/1.1" 200 798 0.050485
+2017-02-01 00:05:51.123 11594 INFO eventlet.wsgi.server [req-1ed37c7d-0442-416a-b122-7a4d2639e60d 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - default default] x.x.x.2 - - [01/Feb/2017 00:05:51] "GET /v2/schemas/image HTTP/1.1" 200 4352 0.031780
+2017-02-01 00:05:52.719 11591 WARNING oslo_config.cfg [req-3eac8a69-4227-4a91-8235-b5cadba97de9 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - default default] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2017-02-01 00:05:52.853 11591 INFO eventlet.wsgi.server [req-3eac8a69-4227-4a91-8235-b5cadba97de9 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - default default] x.x.x.2 - - [01/Feb/2017 00:05:52] "GET /v2/images HTTP/1.1" 200 867 0.563425
+2017-02-01 00:07:11.465 11500 INFO glance.common.wsgi [-] Removed dead child 11564
+2017-02-01 00:07:11.479 11500 INFO glance.common.wsgi [-] Started child 11784
+2017-02-01 00:07:11.496 11784 INFO eventlet.wsgi.server [-] (11784) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:07:11.499 11784 INFO eventlet.wsgi.server [-] (11784) wsgi exited, is_accepting=True
+2017-02-01 00:07:11.500 11784 INFO glance.common.wsgi [-] Child 11784 exiting normally
+2017-02-01 00:07:55.475 11891 WARNING oslo_config.cfg [-] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2017-02-01 00:08:03.117 11899 WARNING oslo_config.cfg [-] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2017-02-01 00:08:39.039 11927 INFO glance.common.wsgi [-] Starting 40 workers
+2017-02-01 00:08:39.043 11927 INFO glance.common.wsgi [-] Started child 11985
+2017-02-01 00:08:39.044 11985 INFO eventlet.wsgi.server [-] (11985) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.046 11927 INFO glance.common.wsgi [-] Started child 11986
+2017-02-01 00:08:39.047 11986 INFO eventlet.wsgi.server [-] (11986) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.049 11927 INFO glance.common.wsgi [-] Started child 11987
+2017-02-01 00:08:39.051 11987 INFO eventlet.wsgi.server [-] (11987) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.052 11927 INFO glance.common.wsgi [-] Started child 11988
+2017-02-01 00:08:39.054 11988 INFO eventlet.wsgi.server [-] (11988) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.055 11927 INFO glance.common.wsgi [-] Started child 11989
+2017-02-01 00:08:39.058 11989 INFO eventlet.wsgi.server [-] (11989) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.059 11927 INFO glance.common.wsgi [-] Started child 11990
+2017-02-01 00:08:39.060 11990 INFO eventlet.wsgi.server [-] (11990) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.062 11927 INFO glance.common.wsgi [-] Started child 11991
+2017-02-01 00:08:39.064 11991 INFO eventlet.wsgi.server [-] (11991) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.066 11927 INFO glance.common.wsgi [-] Started child 11992
+2017-02-01 00:08:39.067 11992 INFO eventlet.wsgi.server [-] (11992) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.069 11927 INFO glance.common.wsgi [-] Started child 11993
+2017-02-01 00:08:39.071 11993 INFO eventlet.wsgi.server [-] (11993) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.073 11927 INFO glance.common.wsgi [-] Started child 11994
+2017-02-01 00:08:39.074 11994 INFO eventlet.wsgi.server [-] (11994) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.076 11927 INFO glance.common.wsgi [-] Started child 11995
+2017-02-01 00:08:39.078 11995 INFO eventlet.wsgi.server [-] (11995) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.080 11927 INFO glance.common.wsgi [-] Started child 11996
+2017-02-01 00:08:39.081 11996 INFO eventlet.wsgi.server [-] (11996) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.083 11927 INFO glance.common.wsgi [-] Started child 11997
+2017-02-01 00:08:39.084 11997 INFO eventlet.wsgi.server [-] (11997) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.086 11927 INFO glance.common.wsgi [-] Started child 11998
+2017-02-01 00:08:39.087 11998 INFO eventlet.wsgi.server [-] (11998) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.090 11927 INFO glance.common.wsgi [-] Started child 11999
+2017-02-01 00:08:39.091 11999 INFO eventlet.wsgi.server [-] (11999) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.093 11927 INFO glance.common.wsgi [-] Started child 12000
+2017-02-01 00:08:39.094 12000 INFO eventlet.wsgi.server [-] (12000) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.097 11927 INFO glance.common.wsgi [-] Started child 12001
+2017-02-01 00:08:39.098 12001 INFO eventlet.wsgi.server [-] (12001) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.100 11927 INFO glance.common.wsgi [-] Started child 12002
+2017-02-01 00:08:39.101 12002 INFO eventlet.wsgi.server [-] (12002) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.103 11927 INFO glance.common.wsgi [-] Started child 12003
+2017-02-01 00:08:39.105 12003 INFO eventlet.wsgi.server [-] (12003) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.106 11927 INFO glance.common.wsgi [-] Started child 12004
+2017-02-01 00:08:39.107 12004 INFO eventlet.wsgi.server [-] (12004) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.109 11927 INFO glance.common.wsgi [-] Started child 12005
+2017-02-01 00:08:39.111 12005 INFO eventlet.wsgi.server [-] (12005) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.112 11927 INFO glance.common.wsgi [-] Started child 12006
+2017-02-01 00:08:39.113 12006 INFO eventlet.wsgi.server [-] (12006) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.115 11927 INFO glance.common.wsgi [-] Started child 12007
+2017-02-01 00:08:39.117 12007 INFO eventlet.wsgi.server [-] (12007) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.118 11927 INFO glance.common.wsgi [-] Started child 12008
+2017-02-01 00:08:39.119 12008 INFO eventlet.wsgi.server [-] (12008) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.121 11927 INFO glance.common.wsgi [-] Started child 12009
+2017-02-01 00:08:39.123 12009 INFO eventlet.wsgi.server [-] (12009) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.124 11927 INFO glance.common.wsgi [-] Started child 12010
+2017-02-01 00:08:39.125 12010 INFO eventlet.wsgi.server [-] (12010) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.127 11927 INFO glance.common.wsgi [-] Started child 12011
+2017-02-01 00:08:39.128 12011 INFO eventlet.wsgi.server [-] (12011) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.130 11927 INFO glance.common.wsgi [-] Started child 12012
+2017-02-01 00:08:39.131 12012 INFO eventlet.wsgi.server [-] (12012) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.133 11927 INFO glance.common.wsgi [-] Started child 12013
+2017-02-01 00:08:39.134 12013 INFO eventlet.wsgi.server [-] (12013) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.135 11927 INFO glance.common.wsgi [-] Started child 12014
+2017-02-01 00:08:39.137 12014 INFO eventlet.wsgi.server [-] (12014) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.138 11927 INFO glance.common.wsgi [-] Started child 12015
+2017-02-01 00:08:39.140 12015 INFO eventlet.wsgi.server [-] (12015) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.141 11927 INFO glance.common.wsgi [-] Started child 12016
+2017-02-01 00:08:39.143 12016 INFO eventlet.wsgi.server [-] (12016) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.144 11927 INFO glance.common.wsgi [-] Started child 12017
+2017-02-01 00:08:39.145 12017 INFO eventlet.wsgi.server [-] (12017) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.147 11927 INFO glance.common.wsgi [-] Started child 12018
+2017-02-01 00:08:39.148 12018 INFO eventlet.wsgi.server [-] (12018) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.150 11927 INFO glance.common.wsgi [-] Started child 12019
+2017-02-01 00:08:39.151 12019 INFO eventlet.wsgi.server [-] (12019) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.153 11927 INFO glance.common.wsgi [-] Started child 12020
+2017-02-01 00:08:39.154 12020 INFO eventlet.wsgi.server [-] (12020) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.157 11927 INFO glance.common.wsgi [-] Started child 12021
+2017-02-01 00:08:39.158 12021 INFO eventlet.wsgi.server [-] (12021) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.159 11927 INFO glance.common.wsgi [-] Started child 12022
+2017-02-01 00:08:39.161 12022 INFO eventlet.wsgi.server [-] (12022) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.163 11927 INFO glance.common.wsgi [-] Started child 12023
+2017-02-01 00:08:39.164 12023 INFO eventlet.wsgi.server [-] (12023) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:08:39.166 11927 INFO glance.common.wsgi [-] Started child 12024
+2017-02-01 00:08:39.167 12024 INFO eventlet.wsgi.server [-] (12024) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:46.923 11927 INFO glance.common.wsgi [-] Removed dead child 11986
+2017-02-01 00:11:46.931 11927 INFO glance.common.wsgi [-] Started child 12270
+2017-02-01 00:11:46.949 12270 INFO eventlet.wsgi.server [-] (12270) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:46.950 12270 INFO eventlet.wsgi.server [-] (12270) wsgi exited, is_accepting=True
+2017-02-01 00:11:46.951 12270 INFO glance.common.wsgi [-] Child 12270 exiting normally
+2017-02-01 00:11:48.622 12278 INFO glance.common.wsgi [-] Starting 40 workers
+2017-02-01 00:11:48.626 12278 INFO glance.common.wsgi [-] Started child 12335
+2017-02-01 00:11:48.628 12335 INFO eventlet.wsgi.server [-] (12335) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.629 12278 INFO glance.common.wsgi [-] Started child 12336
+2017-02-01 00:11:48.631 12336 INFO eventlet.wsgi.server [-] (12336) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.633 12278 INFO glance.common.wsgi [-] Started child 12337
+2017-02-01 00:11:48.634 12337 INFO eventlet.wsgi.server [-] (12337) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.637 12278 INFO glance.common.wsgi [-] Started child 12338
+2017-02-01 00:11:48.638 12338 INFO eventlet.wsgi.server [-] (12338) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.642 12278 INFO glance.common.wsgi [-] Started child 12339
+2017-02-01 00:11:48.643 12339 INFO eventlet.wsgi.server [-] (12339) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.646 12278 INFO glance.common.wsgi [-] Started child 12340
+2017-02-01 00:11:48.647 12340 INFO eventlet.wsgi.server [-] (12340) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.650 12278 INFO glance.common.wsgi [-] Started child 12341
+2017-02-01 00:11:48.651 12341 INFO eventlet.wsgi.server [-] (12341) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.654 12278 INFO glance.common.wsgi [-] Started child 12342
+2017-02-01 00:11:48.656 12342 INFO eventlet.wsgi.server [-] (12342) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.657 12278 INFO glance.common.wsgi [-] Started child 12343
+2017-02-01 00:11:48.659 12343 INFO eventlet.wsgi.server [-] (12343) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.662 12278 INFO glance.common.wsgi [-] Started child 12344
+2017-02-01 00:11:48.663 12344 INFO eventlet.wsgi.server [-] (12344) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.666 12278 INFO glance.common.wsgi [-] Started child 12345
+2017-02-01 00:11:48.667 12345 INFO eventlet.wsgi.server [-] (12345) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.669 12278 INFO glance.common.wsgi [-] Started child 12346
+2017-02-01 00:11:48.671 12346 INFO eventlet.wsgi.server [-] (12346) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.673 12278 INFO glance.common.wsgi [-] Started child 12347
+2017-02-01 00:11:48.675 12347 INFO eventlet.wsgi.server [-] (12347) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.677 12278 INFO glance.common.wsgi [-] Started child 12348
+2017-02-01 00:11:48.678 12348 INFO eventlet.wsgi.server [-] (12348) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.681 12278 INFO glance.common.wsgi [-] Started child 12349
+2017-02-01 00:11:48.682 12349 INFO eventlet.wsgi.server [-] (12349) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.685 12278 INFO glance.common.wsgi [-] Started child 12350
+2017-02-01 00:11:48.687 12350 INFO eventlet.wsgi.server [-] (12350) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.689 12278 INFO glance.common.wsgi [-] Started child 12351
+2017-02-01 00:11:48.691 12351 INFO eventlet.wsgi.server [-] (12351) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.693 12278 INFO glance.common.wsgi [-] Started child 12352
+2017-02-01 00:11:48.695 12352 INFO eventlet.wsgi.server [-] (12352) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.698 12278 INFO glance.common.wsgi [-] Started child 12353
+2017-02-01 00:11:48.699 12353 INFO eventlet.wsgi.server [-] (12353) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.702 12278 INFO glance.common.wsgi [-] Started child 12354
+2017-02-01 00:11:48.704 12354 INFO eventlet.wsgi.server [-] (12354) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.706 12278 INFO glance.common.wsgi [-] Started child 12355
+2017-02-01 00:11:48.708 12355 INFO eventlet.wsgi.server [-] (12355) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.711 12278 INFO glance.common.wsgi [-] Started child 12356
+2017-02-01 00:11:48.712 12356 INFO eventlet.wsgi.server [-] (12356) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.715 12278 INFO glance.common.wsgi [-] Started child 12357
+2017-02-01 00:11:48.716 12357 INFO eventlet.wsgi.server [-] (12357) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.719 12278 INFO glance.common.wsgi [-] Started child 12358
+2017-02-01 00:11:48.720 12358 INFO eventlet.wsgi.server [-] (12358) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.722 12278 INFO glance.common.wsgi [-] Started child 12359
+2017-02-01 00:11:48.724 12359 INFO eventlet.wsgi.server [-] (12359) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.726 12278 INFO glance.common.wsgi [-] Started child 12360
+2017-02-01 00:11:48.728 12360 INFO eventlet.wsgi.server [-] (12360) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.730 12278 INFO glance.common.wsgi [-] Started child 12361
+2017-02-01 00:11:48.732 12361 INFO eventlet.wsgi.server [-] (12361) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.733 12278 INFO glance.common.wsgi [-] Started child 12362
+2017-02-01 00:11:48.735 12362 INFO eventlet.wsgi.server [-] (12362) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.737 12278 INFO glance.common.wsgi [-] Started child 12363
+2017-02-01 00:11:48.739 12363 INFO eventlet.wsgi.server [-] (12363) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.740 12278 INFO glance.common.wsgi [-] Started child 12364
+2017-02-01 00:11:48.743 12364 INFO eventlet.wsgi.server [-] (12364) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.745 12278 INFO glance.common.wsgi [-] Started child 12365
+2017-02-01 00:11:48.747 12365 INFO eventlet.wsgi.server [-] (12365) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.748 12278 INFO glance.common.wsgi [-] Started child 12366
+2017-02-01 00:11:48.750 12366 INFO eventlet.wsgi.server [-] (12366) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.752 12278 INFO glance.common.wsgi [-] Started child 12367
+2017-02-01 00:11:48.754 12367 INFO eventlet.wsgi.server [-] (12367) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.755 12278 INFO glance.common.wsgi [-] Started child 12368
+2017-02-01 00:11:48.757 12368 INFO eventlet.wsgi.server [-] (12368) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.759 12278 INFO glance.common.wsgi [-] Started child 12369
+2017-02-01 00:11:48.761 12369 INFO eventlet.wsgi.server [-] (12369) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.762 12278 INFO glance.common.wsgi [-] Started child 12370
+2017-02-01 00:11:48.764 12370 INFO eventlet.wsgi.server [-] (12370) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.766 12278 INFO glance.common.wsgi [-] Started child 12371
+2017-02-01 00:11:48.767 12371 INFO eventlet.wsgi.server [-] (12371) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.769 12278 INFO glance.common.wsgi [-] Started child 12372
+2017-02-01 00:11:48.771 12372 INFO eventlet.wsgi.server [-] (12372) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.772 12278 INFO glance.common.wsgi [-] Started child 12373
+2017-02-01 00:11:48.774 12373 INFO eventlet.wsgi.server [-] (12373) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:11:48.776 12278 INFO glance.common.wsgi [-] Started child 12374
+2017-02-01 00:11:48.777 12374 INFO eventlet.wsgi.server [-] (12374) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:12:56.569 12361 WARNING oslo_config.cfg [req-c7c8d1c8-d5ed-48a2-8471-4580860ef966 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - default default] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2017-02-01 00:12:56.668 12361 INFO eventlet.wsgi.server [req-c7c8d1c8-d5ed-48a2-8471-4580860ef966 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - default default] x.x.x.2 - - [01/Feb/2017 00:12:56] "GET /v2/images HTTP/1.1" 200 867 0.456973
+2017-02-01 00:13:46.100 12278 INFO glance.common.wsgi [-] Removed dead child 12335
+2017-02-01 00:13:46.135 12278 INFO glance.common.wsgi [-] Started child 13087
+2017-02-01 00:13:46.158 13087 INFO eventlet.wsgi.server [-] (13087) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:13:46.163 13087 INFO eventlet.wsgi.server [-] (13087) wsgi exited, is_accepting=True
+2017-02-01 00:13:46.165 13087 INFO glance.common.wsgi [-] Child 13087 exiting normally
+2017-02-01 00:14:06.245 14455 INFO glance.common.wsgi [-] Starting 40 workers
+2017-02-01 00:14:06.247 14455 INFO glance.common.wsgi [-] Started child 14598
+2017-02-01 00:14:06.249 14598 INFO eventlet.wsgi.server [-] (14598) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.249 14455 INFO glance.common.wsgi [-] Started child 14599
+2017-02-01 00:14:06.251 14599 INFO eventlet.wsgi.server [-] (14599) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.252 14455 INFO glance.common.wsgi [-] Started child 14600
+2017-02-01 00:14:06.254 14600 INFO eventlet.wsgi.server [-] (14600) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.254 14455 INFO glance.common.wsgi [-] Started child 14601
+2017-02-01 00:14:06.256 14601 INFO eventlet.wsgi.server [-] (14601) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.256 14455 INFO glance.common.wsgi [-] Started child 14602
+2017-02-01 00:14:06.258 14602 INFO eventlet.wsgi.server [-] (14602) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.259 14455 INFO glance.common.wsgi [-] Started child 14603
+2017-02-01 00:14:06.260 14603 INFO eventlet.wsgi.server [-] (14603) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.261 14455 INFO glance.common.wsgi [-] Started child 14604
+2017-02-01 00:14:06.263 14604 INFO eventlet.wsgi.server [-] (14604) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.263 14455 INFO glance.common.wsgi [-] Started child 14605
+2017-02-01 00:14:06.265 14605 INFO eventlet.wsgi.server [-] (14605) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.265 14455 INFO glance.common.wsgi [-] Started child 14606
+2017-02-01 00:14:06.267 14606 INFO eventlet.wsgi.server [-] (14606) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.268 14455 INFO glance.common.wsgi [-] Started child 14607
+2017-02-01 00:14:06.269 14607 INFO eventlet.wsgi.server [-] (14607) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.271 14455 INFO glance.common.wsgi [-] Started child 14608
+2017-02-01 00:14:06.272 14608 INFO eventlet.wsgi.server [-] (14608) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.273 14455 INFO glance.common.wsgi [-] Started child 14609
+2017-02-01 00:14:06.274 14609 INFO eventlet.wsgi.server [-] (14609) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.275 14455 INFO glance.common.wsgi [-] Started child 14610
+2017-02-01 00:14:06.277 14610 INFO eventlet.wsgi.server [-] (14610) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.278 14455 INFO glance.common.wsgi [-] Started child 14611
+2017-02-01 00:14:06.279 14611 INFO eventlet.wsgi.server [-] (14611) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.280 14455 INFO glance.common.wsgi [-] Started child 14612
+2017-02-01 00:14:06.282 14612 INFO eventlet.wsgi.server [-] (14612) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.282 14455 INFO glance.common.wsgi [-] Started child 14613
+2017-02-01 00:14:06.284 14613 INFO eventlet.wsgi.server [-] (14613) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.285 14455 INFO glance.common.wsgi [-] Started child 14614
+2017-02-01 00:14:06.286 14614 INFO eventlet.wsgi.server [-] (14614) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.287 14455 INFO glance.common.wsgi [-] Started child 14615
+2017-02-01 00:14:06.289 14615 INFO eventlet.wsgi.server [-] (14615) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.289 14455 INFO glance.common.wsgi [-] Started child 14616
+2017-02-01 00:14:06.291 14616 INFO eventlet.wsgi.server [-] (14616) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.291 14455 INFO glance.common.wsgi [-] Started child 14617
+2017-02-01 00:14:06.293 14617 INFO eventlet.wsgi.server [-] (14617) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.294 14455 INFO glance.common.wsgi [-] Started child 14618
+2017-02-01 00:14:06.295 14618 INFO eventlet.wsgi.server [-] (14618) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.296 14455 INFO glance.common.wsgi [-] Started child 14619
+2017-02-01 00:14:06.298 14619 INFO eventlet.wsgi.server [-] (14619) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.298 14455 INFO glance.common.wsgi [-] Started child 14620
+2017-02-01 00:14:06.300 14620 INFO eventlet.wsgi.server [-] (14620) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.301 14455 INFO glance.common.wsgi [-] Started child 14621
+2017-02-01 00:14:06.302 14621 INFO eventlet.wsgi.server [-] (14621) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.303 14455 INFO glance.common.wsgi [-] Started child 14622
+2017-02-01 00:14:06.304 14622 INFO eventlet.wsgi.server [-] (14622) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.305 14455 INFO glance.common.wsgi [-] Started child 14623
+2017-02-01 00:14:06.307 14623 INFO eventlet.wsgi.server [-] (14623) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.307 14455 INFO glance.common.wsgi [-] Started child 14624
+2017-02-01 00:14:06.309 14624 INFO eventlet.wsgi.server [-] (14624) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.310 14455 INFO glance.common.wsgi [-] Started child 14625
+2017-02-01 00:14:06.311 14625 INFO eventlet.wsgi.server [-] (14625) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.312 14455 INFO glance.common.wsgi [-] Started child 14626
+2017-02-01 00:14:06.313 14626 INFO eventlet.wsgi.server [-] (14626) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.314 14455 INFO glance.common.wsgi [-] Started child 14627
+2017-02-01 00:14:06.316 14627 INFO eventlet.wsgi.server [-] (14627) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.316 14455 INFO glance.common.wsgi [-] Started child 14628
+2017-02-01 00:14:06.318 14628 INFO eventlet.wsgi.server [-] (14628) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.319 14455 INFO glance.common.wsgi [-] Started child 14629
+2017-02-01 00:14:06.320 14629 INFO eventlet.wsgi.server [-] (14629) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.321 14455 INFO glance.common.wsgi [-] Started child 14630
+2017-02-01 00:14:06.323 14630 INFO eventlet.wsgi.server [-] (14630) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.323 14455 INFO glance.common.wsgi [-] Started child 14631
+2017-02-01 00:14:06.325 14631 INFO eventlet.wsgi.server [-] (14631) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.326 14455 INFO glance.common.wsgi [-] Started child 14632
+2017-02-01 00:14:06.327 14632 INFO eventlet.wsgi.server [-] (14632) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.328 14455 INFO glance.common.wsgi [-] Started child 14633
+2017-02-01 00:14:06.330 14633 INFO eventlet.wsgi.server [-] (14633) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.330 14455 INFO glance.common.wsgi [-] Started child 14634
+2017-02-01 00:14:06.332 14634 INFO eventlet.wsgi.server [-] (14634) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.332 14455 INFO glance.common.wsgi [-] Started child 14635
+2017-02-01 00:14:06.334 14635 INFO eventlet.wsgi.server [-] (14635) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.335 14455 INFO glance.common.wsgi [-] Started child 14636
+2017-02-01 00:14:06.337 14636 INFO eventlet.wsgi.server [-] (14636) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:14:06.337 14455 INFO glance.common.wsgi [-] Started child 14637
+2017-02-01 00:14:06.339 14637 INFO eventlet.wsgi.server [-] (14637) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:16:45.992 14455 INFO glance.common.wsgi [-] Removed dead child 14598
+2017-02-01 00:16:46.002 14455 INFO glance.common.wsgi [-] Started child 15060
+2017-02-01 00:16:46.004 15060 INFO eventlet.wsgi.server [-] (15060) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:16:46.006 15060 INFO eventlet.wsgi.server [-] (15060) wsgi exited, is_accepting=True
+2017-02-01 00:16:46.007 15060 INFO glance.common.wsgi [-] Child 15060 exiting normally
+2017-02-01 00:20:13.613 15897 INFO glance.common.wsgi [-] Starting 40 workers
+2017-02-01 00:20:13.617 15897 INFO glance.common.wsgi [-] Started child 16199
+2017-02-01 00:20:13.618 16199 INFO eventlet.wsgi.server [-] (16199) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.620 15897 INFO glance.common.wsgi [-] Started child 16200
+2017-02-01 00:20:13.621 16200 INFO eventlet.wsgi.server [-] (16200) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.622 15897 INFO glance.common.wsgi [-] Started child 16201
+2017-02-01 00:20:13.624 16201 INFO eventlet.wsgi.server [-] (16201) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.625 15897 INFO glance.common.wsgi [-] Started child 16202
+2017-02-01 00:20:13.626 16202 INFO eventlet.wsgi.server [-] (16202) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.628 15897 INFO glance.common.wsgi [-] Started child 16203
+2017-02-01 00:20:13.629 16203 INFO eventlet.wsgi.server [-] (16203) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.631 15897 INFO glance.common.wsgi [-] Started child 16204
+2017-02-01 00:20:13.632 16204 INFO eventlet.wsgi.server [-] (16204) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.633 15897 INFO glance.common.wsgi [-] Started child 16205
+2017-02-01 00:20:13.635 16205 INFO eventlet.wsgi.server [-] (16205) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.636 15897 INFO glance.common.wsgi [-] Started child 16206
+2017-02-01 00:20:13.637 16206 INFO eventlet.wsgi.server [-] (16206) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.639 15897 INFO glance.common.wsgi [-] Started child 16207
+2017-02-01 00:20:13.640 16207 INFO eventlet.wsgi.server [-] (16207) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.642 15897 INFO glance.common.wsgi [-] Started child 16208
+2017-02-01 00:20:13.643 16208 INFO eventlet.wsgi.server [-] (16208) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.645 15897 INFO glance.common.wsgi [-] Started child 16209
+2017-02-01 00:20:13.646 16209 INFO eventlet.wsgi.server [-] (16209) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.648 15897 INFO glance.common.wsgi [-] Started child 16210
+2017-02-01 00:20:13.649 16210 INFO eventlet.wsgi.server [-] (16210) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.650 15897 INFO glance.common.wsgi [-] Started child 16211
+2017-02-01 00:20:13.652 16211 INFO eventlet.wsgi.server [-] (16211) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.653 15897 INFO glance.common.wsgi [-] Started child 16212
+2017-02-01 00:20:13.654 16212 INFO eventlet.wsgi.server [-] (16212) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.656 15897 INFO glance.common.wsgi [-] Started child 16213
+2017-02-01 00:20:13.657 16213 INFO eventlet.wsgi.server [-] (16213) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.659 15897 INFO glance.common.wsgi [-] Started child 16214
+2017-02-01 00:20:13.660 16214 INFO eventlet.wsgi.server [-] (16214) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.662 15897 INFO glance.common.wsgi [-] Started child 16215
+2017-02-01 00:20:13.663 16215 INFO eventlet.wsgi.server [-] (16215) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.664 15897 INFO glance.common.wsgi [-] Started child 16216
+2017-02-01 00:20:13.665 16216 INFO eventlet.wsgi.server [-] (16216) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.667 15897 INFO glance.common.wsgi [-] Started child 16217
+2017-02-01 00:20:13.669 16217 INFO eventlet.wsgi.server [-] (16217) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.670 15897 INFO glance.common.wsgi [-] Started child 16218
+2017-02-01 00:20:13.671 16218 INFO eventlet.wsgi.server [-] (16218) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.673 15897 INFO glance.common.wsgi [-] Started child 16219
+2017-02-01 00:20:13.675 16219 INFO eventlet.wsgi.server [-] (16219) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.677 15897 INFO glance.common.wsgi [-] Started child 16221
+2017-02-01 00:20:13.678 16221 INFO eventlet.wsgi.server [-] (16221) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.680 15897 INFO glance.common.wsgi [-] Started child 16222
+2017-02-01 00:20:13.681 16222 INFO eventlet.wsgi.server [-] (16222) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.683 15897 INFO glance.common.wsgi [-] Started child 16225
+2017-02-01 00:20:13.684 16225 INFO eventlet.wsgi.server [-] (16225) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.686 15897 INFO glance.common.wsgi [-] Started child 16227
+2017-02-01 00:20:13.687 16227 INFO eventlet.wsgi.server [-] (16227) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.689 15897 INFO glance.common.wsgi [-] Started child 16229
+2017-02-01 00:20:13.690 16229 INFO eventlet.wsgi.server [-] (16229) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.692 15897 INFO glance.common.wsgi [-] Started child 16231
+2017-02-01 00:20:13.693 16231 INFO eventlet.wsgi.server [-] (16231) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.696 15897 INFO glance.common.wsgi [-] Started child 16236
+2017-02-01 00:20:13.697 16236 INFO eventlet.wsgi.server [-] (16236) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.700 15897 INFO glance.common.wsgi [-] Started child 16237
+2017-02-01 00:20:13.700 16237 INFO eventlet.wsgi.server [-] (16237) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.703 15897 INFO glance.common.wsgi [-] Started child 16238
+2017-02-01 00:20:13.704 16238 INFO eventlet.wsgi.server [-] (16238) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.707 15897 INFO glance.common.wsgi [-] Started child 16239
+2017-02-01 00:20:13.707 16239 INFO eventlet.wsgi.server [-] (16239) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.710 15897 INFO glance.common.wsgi [-] Started child 16240
+2017-02-01 00:20:13.711 16240 INFO eventlet.wsgi.server [-] (16240) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.714 15897 INFO glance.common.wsgi [-] Started child 16241
+2017-02-01 00:20:13.715 16241 INFO eventlet.wsgi.server [-] (16241) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.718 15897 INFO glance.common.wsgi [-] Started child 16242
+2017-02-01 00:20:13.719 16242 INFO eventlet.wsgi.server [-] (16242) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.721 15897 INFO glance.common.wsgi [-] Started child 16243
+2017-02-01 00:20:13.722 16243 INFO eventlet.wsgi.server [-] (16243) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.724 15897 INFO glance.common.wsgi [-] Started child 16244
+2017-02-01 00:20:13.725 16244 INFO eventlet.wsgi.server [-] (16244) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.727 15897 INFO glance.common.wsgi [-] Started child 16245
+2017-02-01 00:20:13.728 16245 INFO eventlet.wsgi.server [-] (16245) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.730 15897 INFO glance.common.wsgi [-] Started child 16246
+2017-02-01 00:20:13.731 16246 INFO eventlet.wsgi.server [-] (16246) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.733 15897 INFO glance.common.wsgi [-] Started child 16247
+2017-02-01 00:20:13.734 16247 INFO eventlet.wsgi.server [-] (16247) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:20:13.736 15897 INFO glance.common.wsgi [-] Started child 16248
+2017-02-01 00:20:13.737 16248 INFO eventlet.wsgi.server [-] (16248) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:21:26.636 15897 INFO glance.common.wsgi [-] Removed dead child 16227
+2017-02-01 00:21:26.650 15897 INFO glance.common.wsgi [-] Started child 16975
+2017-02-01 00:21:26.655 16975 INFO eventlet.wsgi.server [-] (16975) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:21:26.659 16975 INFO eventlet.wsgi.server [-] (16975) wsgi exited, is_accepting=True
+2017-02-01 00:21:26.667 16975 INFO glance.common.wsgi [-] Child 16975 exiting normally
+2017-02-01 00:23:05.167 18661 INFO glance.common.wsgi [-] Starting 40 workers
+2017-02-01 00:23:05.172 18823 INFO eventlet.wsgi.server [-] (18823) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.171 18661 INFO glance.common.wsgi [-] Started child 18823
+2017-02-01 00:23:05.176 18661 INFO glance.common.wsgi [-] Started child 18824
+2017-02-01 00:23:05.177 18824 INFO eventlet.wsgi.server [-] (18824) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.180 18661 INFO glance.common.wsgi [-] Started child 18826
+2017-02-01 00:23:05.181 18826 INFO eventlet.wsgi.server [-] (18826) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.184 18661 INFO glance.common.wsgi [-] Started child 18828
+2017-02-01 00:23:05.185 18828 INFO eventlet.wsgi.server [-] (18828) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.188 18661 INFO glance.common.wsgi [-] Started child 18831
+2017-02-01 00:23:05.189 18831 INFO eventlet.wsgi.server [-] (18831) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.192 18661 INFO glance.common.wsgi [-] Started child 18834
+2017-02-01 00:23:05.193 18834 INFO eventlet.wsgi.server [-] (18834) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.198 18838 INFO eventlet.wsgi.server [-] (18838) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.198 18661 INFO glance.common.wsgi [-] Started child 18838
+2017-02-01 00:23:05.202 18839 INFO eventlet.wsgi.server [-] (18839) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.202 18661 INFO glance.common.wsgi [-] Started child 18839
+2017-02-01 00:23:05.207 18661 INFO glance.common.wsgi [-] Started child 18840
+2017-02-01 00:23:05.207 18840 INFO eventlet.wsgi.server [-] (18840) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.211 18841 INFO eventlet.wsgi.server [-] (18841) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.211 18661 INFO glance.common.wsgi [-] Started child 18841
+2017-02-01 00:23:05.215 18842 INFO eventlet.wsgi.server [-] (18842) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.214 18661 INFO glance.common.wsgi [-] Started child 18842
+2017-02-01 00:23:05.219 18661 INFO glance.common.wsgi [-] Started child 18843
+2017-02-01 00:23:05.220 18843 INFO eventlet.wsgi.server [-] (18843) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.222 18661 INFO glance.common.wsgi [-] Started child 18844
+2017-02-01 00:23:05.223 18844 INFO eventlet.wsgi.server [-] (18844) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.226 18661 INFO glance.common.wsgi [-] Started child 18845
+2017-02-01 00:23:05.227 18845 INFO eventlet.wsgi.server [-] (18845) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.230 18661 INFO glance.common.wsgi [-] Started child 18846
+2017-02-01 00:23:05.231 18846 INFO eventlet.wsgi.server [-] (18846) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.233 18661 INFO glance.common.wsgi [-] Started child 18847
+2017-02-01 00:23:05.235 18847 INFO eventlet.wsgi.server [-] (18847) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.238 18661 INFO glance.common.wsgi [-] Started child 18848
+2017-02-01 00:23:05.239 18848 INFO eventlet.wsgi.server [-] (18848) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.241 18661 INFO glance.common.wsgi [-] Started child 18849
+2017-02-01 00:23:05.242 18849 INFO eventlet.wsgi.server [-] (18849) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.245 18661 INFO glance.common.wsgi [-] Started child 18850
+2017-02-01 00:23:05.246 18850 INFO eventlet.wsgi.server [-] (18850) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.249 18661 INFO glance.common.wsgi [-] Started child 18851
+2017-02-01 00:23:05.250 18851 INFO eventlet.wsgi.server [-] (18851) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.253 18661 INFO glance.common.wsgi [-] Started child 18852
+2017-02-01 00:23:05.254 18852 INFO eventlet.wsgi.server [-] (18852) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.257 18661 INFO glance.common.wsgi [-] Started child 18853
+2017-02-01 00:23:05.258 18853 INFO eventlet.wsgi.server [-] (18853) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.261 18661 INFO glance.common.wsgi [-] Started child 18854
+2017-02-01 00:23:05.262 18854 INFO eventlet.wsgi.server [-] (18854) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.265 18661 INFO glance.common.wsgi [-] Started child 18855
+2017-02-01 00:23:05.266 18855 INFO eventlet.wsgi.server [-] (18855) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.269 18661 INFO glance.common.wsgi [-] Started child 18856
+2017-02-01 00:23:05.269 18856 INFO eventlet.wsgi.server [-] (18856) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.272 18661 INFO glance.common.wsgi [-] Started child 18857
+2017-02-01 00:23:05.273 18857 INFO eventlet.wsgi.server [-] (18857) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.277 18661 INFO glance.common.wsgi [-] Started child 18858
+2017-02-01 00:23:05.278 18858 INFO eventlet.wsgi.server [-] (18858) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.280 18661 INFO glance.common.wsgi [-] Started child 18859
+2017-02-01 00:23:05.281 18859 INFO eventlet.wsgi.server [-] (18859) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.284 18661 INFO glance.common.wsgi [-] Started child 18860
+2017-02-01 00:23:05.285 18860 INFO eventlet.wsgi.server [-] (18860) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.287 18661 INFO glance.common.wsgi [-] Started child 18861
+2017-02-01 00:23:05.288 18861 INFO eventlet.wsgi.server [-] (18861) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.291 18661 INFO glance.common.wsgi [-] Started child 18862
+2017-02-01 00:23:05.292 18862 INFO eventlet.wsgi.server [-] (18862) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.295 18661 INFO glance.common.wsgi [-] Started child 18863
+2017-02-01 00:23:05.296 18863 INFO eventlet.wsgi.server [-] (18863) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.299 18661 INFO glance.common.wsgi [-] Started child 18864
+2017-02-01 00:23:05.300 18864 INFO eventlet.wsgi.server [-] (18864) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.303 18661 INFO glance.common.wsgi [-] Started child 18865
+2017-02-01 00:23:05.304 18865 INFO eventlet.wsgi.server [-] (18865) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.306 18661 INFO glance.common.wsgi [-] Started child 18866
+2017-02-01 00:23:05.307 18866 INFO eventlet.wsgi.server [-] (18866) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.310 18661 INFO glance.common.wsgi [-] Started child 18867
+2017-02-01 00:23:05.311 18867 INFO eventlet.wsgi.server [-] (18867) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.314 18661 INFO glance.common.wsgi [-] Started child 18868
+2017-02-01 00:23:05.315 18868 INFO eventlet.wsgi.server [-] (18868) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.318 18661 INFO glance.common.wsgi [-] Started child 18869
+2017-02-01 00:23:05.319 18869 INFO eventlet.wsgi.server [-] (18869) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.322 18661 INFO glance.common.wsgi [-] Started child 18870
+2017-02-01 00:23:05.323 18870 INFO eventlet.wsgi.server [-] (18870) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:23:05.326 18661 INFO glance.common.wsgi [-] Started child 18871
+2017-02-01 00:23:05.327 18871 INFO eventlet.wsgi.server [-] (18871) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:27:45.570 18661 INFO glance.common.wsgi [-] Removed dead child 18823
+2017-02-01 00:27:45.580 18661 INFO glance.common.wsgi [-] Started child 19667
+2017-02-01 00:27:45.581 19667 INFO eventlet.wsgi.server [-] (19667) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:27:45.582 19667 INFO eventlet.wsgi.server [-] (19667) wsgi exited, is_accepting=True
+2017-02-01 00:27:45.584 19667 INFO glance.common.wsgi [-] Child 19667 exiting normally
+2017-02-01 00:36:01.424 4705 INFO glance.common.wsgi [-] Starting 40 workers
+2017-02-01 00:36:01.427 4705 INFO glance.common.wsgi [-] Started child 6458
+2017-02-01 00:36:01.429 6458 INFO eventlet.wsgi.server [-] (6458) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.430 4705 INFO glance.common.wsgi [-] Started child 6459
+2017-02-01 00:36:01.432 6459 INFO eventlet.wsgi.server [-] (6459) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.432 4705 INFO glance.common.wsgi [-] Started child 6460
+2017-02-01 00:36:01.434 6460 INFO eventlet.wsgi.server [-] (6460) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.434 4705 INFO glance.common.wsgi [-] Started child 6461
+2017-02-01 00:36:01.436 6461 INFO eventlet.wsgi.server [-] (6461) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.437 4705 INFO glance.common.wsgi [-] Started child 6462
+2017-02-01 00:36:01.439 6462 INFO eventlet.wsgi.server [-] (6462) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.439 4705 INFO glance.common.wsgi [-] Started child 6463
+2017-02-01 00:36:01.440 6463 INFO eventlet.wsgi.server [-] (6463) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.441 4705 INFO glance.common.wsgi [-] Started child 6464
+2017-02-01 00:36:01.443 6464 INFO eventlet.wsgi.server [-] (6464) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.444 4705 INFO glance.common.wsgi [-] Started child 6465
+2017-02-01 00:36:01.446 6465 INFO eventlet.wsgi.server [-] (6465) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.446 4705 INFO glance.common.wsgi [-] Started child 6466
+2017-02-01 00:36:01.448 6466 INFO eventlet.wsgi.server [-] (6466) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.449 4705 INFO glance.common.wsgi [-] Started child 6467
+2017-02-01 00:36:01.451 6467 INFO eventlet.wsgi.server [-] (6467) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.451 4705 INFO glance.common.wsgi [-] Started child 6468
+2017-02-01 00:36:01.453 6468 INFO eventlet.wsgi.server [-] (6468) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.454 4705 INFO glance.common.wsgi [-] Started child 6469
+2017-02-01 00:36:01.455 6469 INFO eventlet.wsgi.server [-] (6469) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.456 4705 INFO glance.common.wsgi [-] Started child 6470
+2017-02-01 00:36:01.458 6470 INFO eventlet.wsgi.server [-] (6470) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.459 4705 INFO glance.common.wsgi [-] Started child 6472
+2017-02-01 00:36:01.461 6472 INFO eventlet.wsgi.server [-] (6472) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.461 4705 INFO glance.common.wsgi [-] Started child 6474
+2017-02-01 00:36:01.463 6474 INFO eventlet.wsgi.server [-] (6474) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.463 4705 INFO glance.common.wsgi [-] Started child 6475
+2017-02-01 00:36:01.465 6475 INFO eventlet.wsgi.server [-] (6475) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.466 4705 INFO glance.common.wsgi [-] Started child 6476
+2017-02-01 00:36:01.468 6476 INFO eventlet.wsgi.server [-] (6476) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.468 4705 INFO glance.common.wsgi [-] Started child 6477
+2017-02-01 00:36:01.470 6477 INFO eventlet.wsgi.server [-] (6477) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.471 4705 INFO glance.common.wsgi [-] Started child 6478
+2017-02-01 00:36:01.473 6478 INFO eventlet.wsgi.server [-] (6478) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.474 4705 INFO glance.common.wsgi [-] Started child 6479
+2017-02-01 00:36:01.475 6479 INFO eventlet.wsgi.server [-] (6479) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.476 4705 INFO glance.common.wsgi [-] Started child 6480
+2017-02-01 00:36:01.478 6480 INFO eventlet.wsgi.server [-] (6480) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.478 4705 INFO glance.common.wsgi [-] Started child 6481
+2017-02-01 00:36:01.480 6481 INFO eventlet.wsgi.server [-] (6481) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.481 4705 INFO glance.common.wsgi [-] Started child 6482
+2017-02-01 00:36:01.483 6482 INFO eventlet.wsgi.server [-] (6482) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.483 4705 INFO glance.common.wsgi [-] Started child 6483
+2017-02-01 00:36:01.485 6483 INFO eventlet.wsgi.server [-] (6483) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.486 4705 INFO glance.common.wsgi [-] Started child 6484
+2017-02-01 00:36:01.488 6484 INFO eventlet.wsgi.server [-] (6484) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.488 4705 INFO glance.common.wsgi [-] Started child 6485
+2017-02-01 00:36:01.490 6485 INFO eventlet.wsgi.server [-] (6485) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.491 4705 INFO glance.common.wsgi [-] Started child 6486
+2017-02-01 00:36:01.492 6486 INFO eventlet.wsgi.server [-] (6486) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.493 4705 INFO glance.common.wsgi [-] Started child 6487
+2017-02-01 00:36:01.495 6487 INFO eventlet.wsgi.server [-] (6487) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.495 4705 INFO glance.common.wsgi [-] Started child 6488
+2017-02-01 00:36:01.497 6488 INFO eventlet.wsgi.server [-] (6488) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.498 4705 INFO glance.common.wsgi [-] Started child 6489
+2017-02-01 00:36:01.500 6489 INFO eventlet.wsgi.server [-] (6489) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.501 4705 INFO glance.common.wsgi [-] Started child 6490
+2017-02-01 00:36:01.502 6490 INFO eventlet.wsgi.server [-] (6490) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.503 4705 INFO glance.common.wsgi [-] Started child 6491
+2017-02-01 00:36:01.505 6491 INFO eventlet.wsgi.server [-] (6491) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.505 4705 INFO glance.common.wsgi [-] Started child 6492
+2017-02-01 00:36:01.507 6492 INFO eventlet.wsgi.server [-] (6492) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.508 4705 INFO glance.common.wsgi [-] Started child 6493
+2017-02-01 00:36:01.510 6493 INFO eventlet.wsgi.server [-] (6493) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.510 4705 INFO glance.common.wsgi [-] Started child 6494
+2017-02-01 00:36:01.512 6494 INFO eventlet.wsgi.server [-] (6494) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.513 4705 INFO glance.common.wsgi [-] Started child 6495
+2017-02-01 00:36:01.514 6495 INFO eventlet.wsgi.server [-] (6495) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.515 4705 INFO glance.common.wsgi [-] Started child 6496
+2017-02-01 00:36:01.517 6496 INFO eventlet.wsgi.server [-] (6496) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.518 4705 INFO glance.common.wsgi [-] Started child 6497
+2017-02-01 00:36:01.519 6497 INFO eventlet.wsgi.server [-] (6497) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.520 4705 INFO glance.common.wsgi [-] Started child 6499
+2017-02-01 00:36:01.522 6499 INFO eventlet.wsgi.server [-] (6499) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:36:01.523 4705 INFO glance.common.wsgi [-] Started child 6501
+2017-02-01 00:36:01.524 6501 INFO eventlet.wsgi.server [-] (6501) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:45:52.344 4705 INFO glance.common.wsgi [-] Removed dead child 6458
+2017-02-01 00:45:52.376 4705 INFO glance.common.wsgi [-] Started child 9294
+2017-02-01 00:45:52.411 9294 INFO eventlet.wsgi.server [-] (9294) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 00:45:52.413 9294 INFO eventlet.wsgi.server [-] (9294) wsgi exited, is_accepting=True
+2017-02-01 00:45:52.418 9294 INFO glance.common.wsgi [-] Child 9294 exiting normally
+2017-02-01 01:00:34.952 4707 INFO glance.common.wsgi [-] Starting 40 workers
+2017-02-01 01:00:34.957 4707 INFO glance.common.wsgi [-] Started child 6469
+2017-02-01 01:00:34.959 6469 INFO eventlet.wsgi.server [-] (6469) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:34.961 4707 INFO glance.common.wsgi [-] Started child 6470
+2017-02-01 01:00:34.963 6470 INFO eventlet.wsgi.server [-] (6470) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:34.966 4707 INFO glance.common.wsgi [-] Started child 6471
+2017-02-01 01:00:34.967 6471 INFO eventlet.wsgi.server [-] (6471) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:34.970 4707 INFO glance.common.wsgi [-] Started child 6474
+2017-02-01 01:00:34.972 6474 INFO eventlet.wsgi.server [-] (6474) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:34.974 4707 INFO glance.common.wsgi [-] Started child 6477
+2017-02-01 01:00:34.976 6477 INFO eventlet.wsgi.server [-] (6477) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:34.978 4707 INFO glance.common.wsgi [-] Started child 6478
+2017-02-01 01:00:34.980 6478 INFO eventlet.wsgi.server [-] (6478) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:34.982 4707 INFO glance.common.wsgi [-] Started child 6479
+2017-02-01 01:00:34.984 6479 INFO eventlet.wsgi.server [-] (6479) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:34.986 4707 INFO glance.common.wsgi [-] Started child 6480
+2017-02-01 01:00:34.988 6480 INFO eventlet.wsgi.server [-] (6480) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:34.990 4707 INFO glance.common.wsgi [-] Started child 6481
+2017-02-01 01:00:34.992 6481 INFO eventlet.wsgi.server [-] (6481) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:34.993 4707 INFO glance.common.wsgi [-] Started child 6482
+2017-02-01 01:00:34.996 6482 INFO eventlet.wsgi.server [-] (6482) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:34.997 4707 INFO glance.common.wsgi [-] Started child 6483
+2017-02-01 01:00:35.000 6483 INFO eventlet.wsgi.server [-] (6483) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.001 4707 INFO glance.common.wsgi [-] Started child 6484
+2017-02-01 01:00:35.003 6484 INFO eventlet.wsgi.server [-] (6484) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.005 4707 INFO glance.common.wsgi [-] Started child 6485
+2017-02-01 01:00:35.007 6485 INFO eventlet.wsgi.server [-] (6485) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.009 4707 INFO glance.common.wsgi [-] Started child 6486
+2017-02-01 01:00:35.012 6486 INFO eventlet.wsgi.server [-] (6486) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.014 4707 INFO glance.common.wsgi [-] Started child 6487
+2017-02-01 01:00:35.016 6487 INFO eventlet.wsgi.server [-] (6487) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.017 4707 INFO glance.common.wsgi [-] Started child 6488
+2017-02-01 01:00:35.019 6488 INFO eventlet.wsgi.server [-] (6488) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.021 4707 INFO glance.common.wsgi [-] Started child 6489
+2017-02-01 01:00:35.023 6489 INFO eventlet.wsgi.server [-] (6489) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.024 4707 INFO glance.common.wsgi [-] Started child 6490
+2017-02-01 01:00:35.026 6490 INFO eventlet.wsgi.server [-] (6490) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.027 4707 INFO glance.common.wsgi [-] Started child 6491
+2017-02-01 01:00:35.029 6491 INFO eventlet.wsgi.server [-] (6491) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.032 4707 INFO glance.common.wsgi [-] Started child 6492
+2017-02-01 01:00:35.033 6492 INFO eventlet.wsgi.server [-] (6492) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.035 4707 INFO glance.common.wsgi [-] Started child 6493
+2017-02-01 01:00:35.038 6493 INFO eventlet.wsgi.server [-] (6493) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.040 4707 INFO glance.common.wsgi [-] Started child 6494
+2017-02-01 01:00:35.042 6494 INFO eventlet.wsgi.server [-] (6494) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.043 4707 INFO glance.common.wsgi [-] Started child 6495
+2017-02-01 01:00:35.045 6495 INFO eventlet.wsgi.server [-] (6495) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.047 4707 INFO glance.common.wsgi [-] Started child 6496
+2017-02-01 01:00:35.049 6496 INFO eventlet.wsgi.server [-] (6496) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.051 4707 INFO glance.common.wsgi [-] Started child 6497
+2017-02-01 01:00:35.053 6497 INFO eventlet.wsgi.server [-] (6497) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.055 4707 INFO glance.common.wsgi [-] Started child 6498
+2017-02-01 01:00:35.057 6498 INFO eventlet.wsgi.server [-] (6498) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.059 4707 INFO glance.common.wsgi [-] Started child 6499
+2017-02-01 01:00:35.060 6499 INFO eventlet.wsgi.server [-] (6499) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.062 4707 INFO glance.common.wsgi [-] Started child 6500
+2017-02-01 01:00:35.064 6500 INFO eventlet.wsgi.server [-] (6500) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.065 4707 INFO glance.common.wsgi [-] Started child 6501
+2017-02-01 01:00:35.067 6501 INFO eventlet.wsgi.server [-] (6501) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.068 4707 INFO glance.common.wsgi [-] Started child 6502
+2017-02-01 01:00:35.070 6502 INFO eventlet.wsgi.server [-] (6502) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.072 4707 INFO glance.common.wsgi [-] Started child 6503
+2017-02-01 01:00:35.074 6503 INFO eventlet.wsgi.server [-] (6503) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.075 4707 INFO glance.common.wsgi [-] Started child 6504
+2017-02-01 01:00:35.077 6504 INFO eventlet.wsgi.server [-] (6504) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.078 4707 INFO glance.common.wsgi [-] Started child 6505
+2017-02-01 01:00:35.080 6505 INFO eventlet.wsgi.server [-] (6505) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.081 4707 INFO glance.common.wsgi [-] Started child 6506
+2017-02-01 01:00:35.083 6506 INFO eventlet.wsgi.server [-] (6506) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.084 4707 INFO glance.common.wsgi [-] Started child 6507
+2017-02-01 01:00:35.086 6507 INFO eventlet.wsgi.server [-] (6507) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.088 4707 INFO glance.common.wsgi [-] Started child 6508
+2017-02-01 01:00:35.090 6508 INFO eventlet.wsgi.server [-] (6508) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.091 4707 INFO glance.common.wsgi [-] Started child 6509
+2017-02-01 01:00:35.093 6509 INFO eventlet.wsgi.server [-] (6509) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.094 4707 INFO glance.common.wsgi [-] Started child 6510
+2017-02-01 01:00:35.096 6510 INFO eventlet.wsgi.server [-] (6510) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.097 4707 INFO glance.common.wsgi [-] Started child 6511
+2017-02-01 01:00:35.099 6511 INFO eventlet.wsgi.server [-] (6511) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:00:35.100 4707 INFO glance.common.wsgi [-] Started child 6512
+2017-02-01 01:00:35.102 6512 INFO eventlet.wsgi.server [-] (6512) wsgi starting up on http://0.0.0.0:9292
+2017-02-01 01:07:58.678 6477 WARNING oslo_config.cfg [req-6afcb31d-ba03-43ba-8e21-de30cc694f54 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - default default] Option "sql_connection" from group "DEFAULT" is deprecated. Use option "connection" from group "database".
+2017-02-01 01:07:58.832 6477 INFO eventlet.wsgi.server [req-6afcb31d-ba03-43ba-8e21-de30cc694f54 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - default default] x.x.x.2 - - [01/Feb/2017 01:07:58] "GET /v2/images?limit=20&sort_key=name&sort_dir=asc HTTP/1.1" 200 903 1.993493
+2017-02-01 01:07:58.992 6477 INFO eventlet.wsgi.server [req-8539b6ea-720f-4fd4-b019-e91e17941fd4 1cb680f1831042769fa73df344b6b967 eee9f522c68d43e685d2202ca7dbf9bd - default default] x.x.x.2 - - [01/Feb/2017 01:07:58] "GET /v2/schemas/image HTTP/1.1" 200 4352 0.155440

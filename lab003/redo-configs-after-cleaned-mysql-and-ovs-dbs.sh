@@ -1,0 +1,4 @@
+#!/bin/bash
+neutron_do_all_config_files
+neutron_conf_configure_ifcfg_brex
+neutron_conf_configure_brex

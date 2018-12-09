@@ -1,0 +1,302 @@
+2017-02-05 09:44:50.665 11259 INFO neutron.common.config [-] Logging enabled!
+2017-02-05 09:44:50.665 11259 INFO neutron.common.config [-] /usr/bin/neutron-dhcp-agent version 9.1.1
+2017-02-05 09:44:50.710 11259 INFO neutron.agent.dhcp.agent [-] Synchronizing state
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent [req-f30f4ac2-a335-4300-84bf-a17f8606fe22 - - - - -] Failed reporting state!
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent Traceback (most recent call last):
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/dhcp/agent.py", line 687, in _report_state
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent     ctx, self.agent_state, True)
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/rpc.py", line 88, in report_state
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent     return method(context, 'report_state', **kwargs)
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 169, in call
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent     retry=self.retry)
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 97, in _send
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent     timeout=timeout, retry=retry)
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 464, in send
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent     retry=retry)
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 453, in _send
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent     result = self._waiter.wait(msg_id, timeout)
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 336, in wait
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent     message = self.waiters.get(msg_id, timeout=timeout)
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 238, in get
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent     'to message ID %s' % msg_id)
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent MessagingTimeout: Timed out waiting for a reply to message ID 8184b880a46f4bd6b5a28a806ea8eea7
+2017-02-05 09:45:50.782 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:45:50.789 11259 WARNING oslo.service.loopingcall [req-f30f4ac2-a335-4300-84bf-a17f8606fe22 - - - - -] Function 'neutron.agent.dhcp.agent.DhcpAgentWithStateReport._report_state' run outlasted interval by 30.09 sec
+2017-02-05 09:45:50.790 11259 ERROR neutron.common.rpc [req-fa6fdd12-e30f-4b71-8090-678f864c6930 - - - - -] Timeout in RPC method get_active_networks_info. Waiting for 33 seconds before next attempt. If the server is not down, consider increasing the rpc_response_timeout option as Neutron server(s) may be overloaded and unable to respond quickly enough.
+2017-02-05 09:45:50.791 11259 WARNING neutron.common.rpc [req-fa6fdd12-e30f-4b71-8090-678f864c6930 - - - - -] Increasing timeout for get_active_networks_info calls to 120 seconds. Restart the agent to restore it to the default value.
+2017-02-05 09:45:50.913 11259 INFO neutron.agent.dhcp.agent [req-492f1f6d-d49a-4253-a51c-767b9a760cb4 - - - - -] Agent has just been revived. Scheduling full sync
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent [req-fa6fdd12-e30f-4b71-8090-678f864c6930 - - - - -] Unable to sync network state.
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent Traceback (most recent call last):
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/dhcp/agent.py", line 159, in sync_state
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent     active_networks = self.plugin_rpc.get_active_networks_info()
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/dhcp/agent.py", line 522, in get_active_networks_info
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent     host=self.host)
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/common/rpc.py", line 157, in call
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent     time.sleep(wait)
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_utils/excutils.py", line 220, in __exit__
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent     self.force_reraise()
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_utils/excutils.py", line 196, in force_reraise
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent     six.reraise(self.type_, self.value, self.tb)
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/common/rpc.py", line 138, in call
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent     return self._original_context.call(ctxt, method, **kwargs)
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 169, in call
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent     retry=self.retry)
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 97, in _send
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent     timeout=timeout, retry=retry)
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 464, in send
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent     retry=retry)
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 453, in _send
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent     result = self._waiter.wait(msg_id, timeout)
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 336, in wait
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent     message = self.waiters.get(msg_id, timeout=timeout)
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 238, in get
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent     'to message ID %s' % msg_id)
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent MessagingTimeout: Timed out waiting for a reply to message ID bca624e3864e4dd58d4da5c233bae3d9
+2017-02-05 09:46:23.779 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:46:23.817 11259 INFO neutron.agent.dhcp.agent [req-492f1f6d-d49a-4253-a51c-767b9a760cb4 - - - - -] Synchronizing state
+2017-02-05 09:46:23.843 11259 INFO neutron.agent.dhcp.agent [req-fa6fdd12-e30f-4b71-8090-678f864c6930 - - - - -] DHCP agent started
+2017-02-05 09:46:24.076 11259 INFO neutron.agent.dhcp.agent [req-b75d8573-149f-4f13-b79a-0cd7f89534a8 - - - - -] All active networks have been fetched through RPC.
+2017-02-05 09:46:24.077 11259 INFO neutron.agent.dhcp.agent [-] Starting network 07ddb1e6-80eb-4cff-ad4c-8d1be4018408 dhcp configuration
+2017-02-05 09:46:24.078 11259 INFO neutron.agent.dhcp.agent [-] Finished network 07ddb1e6-80eb-4cff-ad4c-8d1be4018408 dhcp configuration
+2017-02-05 09:46:24.079 11259 INFO neutron.agent.dhcp.agent [-] Starting network 99890d45-5e0b-4520-9093-2c0501e6fd24 dhcp configuration
+2017-02-05 09:46:24.228 11259 INFO oslo_rootwrap.client [-] Spawned new rootwrap daemon process with pid=12286
+2017-02-05 09:46:24.321 11259 INFO neutron.agent.dhcp.agent [-] Finished network 99890d45-5e0b-4520-9093-2c0501e6fd24 dhcp configuration
+2017-02-05 09:46:24.321 11259 INFO neutron.agent.dhcp.agent [req-b75d8573-149f-4f13-b79a-0cd7f89534a8 - - - - -] Synchronizing state complete
+2017-02-05 09:46:24.323 11259 WARNING oslo.service.loopingcall [req-b75d8573-149f-4f13-b79a-0cd7f89534a8 - - - - -] Function 'neutron.agent.dhcp.agent.DhcpAgentWithStateReport._report_state' run outlasted interval by 3.53 sec
+2017-02-05 09:46:24.836 11259 INFO neutron.agent.dhcp.agent [req-71649cc0-9b1f-4c50-bd99-0f00542a7919 - - - - -] Trigger reload_allocations for port admin_state_up=True, allowed_address_pairs=[], binding:host_id=mysql-001.vassilevski.com, binding:profile=, binding:vif_details=ovs_hybrid_plug=False, port_filter=True, binding:vif_type=ovs, binding:vnic_type=normal, created_at=2017-02-01T02:18:48Z, description=, device_id=f5dbbaeb-720f-4440-b239-f8dffd4922d0, device_owner=compute:None, extra_dhcp_opts=[], fixed_ips=[{u'subnet_id': u'166f8994-0ef6-43b0-b21a-ec1a13ff3a17', u'ip_address': u'192.168.2.3'}], id=2582bb1a-4fb8-4825-a16a-ad6ad28997bd, mac_address=fa:16:3e:1a:d4:6f, name=, network_id=99890d45-5e0b-4520-9093-2c0501e6fd24, port_security_enabled=True, project_id=eee9f522c68d43e685d2202ca7dbf9bd, revision_number=32, security_groups=[u'484237cb-8fc2-4491-b659-3cc93b3c0eba'], status=ACTIVE, tenant_id=eee9f522c68d43e685d2202ca7dbf9bd, updated_at=2017-02-05T09:46:24Z
+2017-02-05 09:46:29.324 11259 INFO neutron.agent.dhcp.agent [-] Synchronizing state
+2017-02-05 09:46:29.589 11259 INFO neutron.agent.dhcp.agent [req-2c3dacca-3387-47a8-8186-b20bbfe2b3ac - - - - -] All active networks have been fetched through RPC.
+2017-02-05 09:46:29.590 11259 INFO neutron.agent.dhcp.agent [-] Starting network 07ddb1e6-80eb-4cff-ad4c-8d1be4018408 dhcp configuration
+2017-02-05 09:46:29.590 11259 INFO neutron.agent.dhcp.agent [-] Finished network 07ddb1e6-80eb-4cff-ad4c-8d1be4018408 dhcp configuration
+2017-02-05 09:46:29.591 11259 INFO neutron.agent.dhcp.agent [-] Starting network 99890d45-5e0b-4520-9093-2c0501e6fd24 dhcp configuration
+2017-02-05 09:46:29.672 11259 INFO neutron.agent.dhcp.agent [-] Finished network 99890d45-5e0b-4520-9093-2c0501e6fd24 dhcp configuration
+2017-02-05 09:46:29.672 11259 INFO neutron.agent.dhcp.agent [req-2c3dacca-3387-47a8-8186-b20bbfe2b3ac - - - - -] Synchronizing state complete
+2017-02-05 09:49:54.819 11259 INFO neutron.agent.dhcp.agent [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Trigger reload_allocations for port admin_state_up=True, allowed_address_pairs=[], binding:host_id=mysql-001.vassilevski.com, binding:profile=, binding:vif_details=ovs_hybrid_plug=False, port_filter=True, binding:vif_type=ovs, binding:vnic_type=normal, created_at=2017-02-01T01:58:19Z, description=, device_id=dhcpb43e0623-c428-5cbb-a212-36fd7d1acbd4-99890d45-5e0b-4520-9093-2c0501e6fd24, device_owner=network:dhcp, extra_dhcp_opts=[], fixed_ips=[{u'subnet_id': u'2798d3c3-2793-4732-94bc-825bca8bfc58', u'ip_address': u'192.168.1.2'}, {u'subnet_id': u'166f8994-0ef6-43b0-b21a-ec1a13ff3a17', u'ip_address': u'192.168.2.2'}], id=abd6765f-3e6b-49c2-8666-7090d51dd5f2, mac_address=fa:16:3e:41:1f:4a, name=, network_id=99890d45-5e0b-4520-9093-2c0501e6fd24, port_security_enabled=False, project_id=eee9f522c68d43e685d2202ca7dbf9bd, revision_number=42, security_groups=[], status=DOWN, tenant_id=eee9f522c68d43e685d2202ca7dbf9bd, updated_at=2017-02-05T09:49:54Z
+2017-02-05 09:49:54.838 11259 ERROR neutron.agent.linux.utils [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Exit code: 1; Stdin: ; Stdout: ; Stderr: Device "tapabd6765f-3e" does not exist.
+
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Unable to reload_allocations dhcp for 99890d45-5e0b-4520-9093-2c0501e6fd24.
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent Traceback (most recent call last):
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/dhcp/agent.py", line 114, in call_driver
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     getattr(driver, action)(**action_kwargs)
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 500, in reload_allocations
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     self._spawn_or_reload_process(reload_with_HUP=True)
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 437, in _spawn_or_reload_process
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     self._output_config_files()
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 481, in _output_config_files
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     self._output_opts_file()
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 851, in _output_opts_file
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     options, subnet_index_map = self._generate_opts_per_subnet()
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 862, in _generate_opts_per_subnet
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     subnet_to_interface_ip = self._make_subnet_interface_ip_map()
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 995, in _make_subnet_interface_ip_map
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     for addr in ip_dev.addr.list():
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 663, in list
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     self.name, scope, to, filters, ip_version)
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 631, in get_devices_with_ip
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     for line in self._run(options, tuple(args)).split('\n'):
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 380, in _run
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     return self._parent._run(options, self.COMMAND, args)
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 81, in _run
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     return self._as_root(options, command, args)
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 96, in _as_root
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     log_fail_as_error=self.log_fail_as_error)
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 105, in _execute
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     log_fail_as_error=log_fail_as_error)
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py", line 144, in execute
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent     raise ProcessExecutionError(msg, returncode=returncode)
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent ProcessExecutionError: Exit code: 1; Stdin: ; Stdout: ; Stderr: Device "tapabd6765f-3e" does not exist.
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:49:54.839 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:49:55.073 11259 INFO neutron.agent.dhcp.agent [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Trigger reload_allocations for port admin_state_up=True, allowed_address_pairs=[], binding:host_id=mysql-001.vassilevski.com, binding:profile=, binding:vif_details=ovs_hybrid_plug=False, port_filter=True, binding:vif_type=ovs, binding:vnic_type=normal, created_at=2017-02-01T02:04:41Z, description=, device_id=4d7b0c9b-9ed6-4e4b-9a3d-1e2eca25349b, device_owner=network:router_interface, extra_dhcp_opts=[], fixed_ips=[{u'subnet_id': u'2798d3c3-2793-4732-94bc-825bca8bfc58', u'ip_address': u'192.168.1.1'}], id=8f512736-115d-47d2-8ef6-2429c8f6e99d, mac_address=fa:16:3e:6d:83:9a, name=, network_id=99890d45-5e0b-4520-9093-2c0501e6fd24, port_security_enabled=False, project_id=eee9f522c68d43e685d2202ca7dbf9bd, revision_number=41, security_groups=[], status=DOWN, tenant_id=eee9f522c68d43e685d2202ca7dbf9bd, updated_at=2017-02-05T09:49:54Z
+2017-02-05 09:49:55.091 11259 ERROR neutron.agent.linux.utils [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Exit code: 1; Stdin: ; Stdout: ; Stderr: Device "tapabd6765f-3e" does not exist.
+
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Unable to reload_allocations dhcp for 99890d45-5e0b-4520-9093-2c0501e6fd24.
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent Traceback (most recent call last):
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/dhcp/agent.py", line 114, in call_driver
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     getattr(driver, action)(**action_kwargs)
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 500, in reload_allocations
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     self._spawn_or_reload_process(reload_with_HUP=True)
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 437, in _spawn_or_reload_process
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     self._output_config_files()
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 481, in _output_config_files
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     self._output_opts_file()
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 851, in _output_opts_file
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     options, subnet_index_map = self._generate_opts_per_subnet()
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 862, in _generate_opts_per_subnet
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     subnet_to_interface_ip = self._make_subnet_interface_ip_map()
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 995, in _make_subnet_interface_ip_map
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     for addr in ip_dev.addr.list():
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 663, in list
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     self.name, scope, to, filters, ip_version)
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 631, in get_devices_with_ip
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     for line in self._run(options, tuple(args)).split('\n'):
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 380, in _run
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     return self._parent._run(options, self.COMMAND, args)
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 81, in _run
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     return self._as_root(options, command, args)
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 96, in _as_root
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     log_fail_as_error=self.log_fail_as_error)
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 105, in _execute
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     log_fail_as_error=log_fail_as_error)
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py", line 144, in execute
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent     raise ProcessExecutionError(msg, returncode=returncode)
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent ProcessExecutionError: Exit code: 1; Stdin: ; Stdout: ; Stderr: Device "tapabd6765f-3e" does not exist.
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:49:55.092 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:49:55.514 11259 INFO neutron.agent.dhcp.agent [req-07b49d02-620e-48cb-bc47-af6e104b90b6 - - - - -] Trigger reload_allocations for port admin_state_up=True, allowed_address_pairs=[], binding:host_id=mysql-001.vassilevski.com, binding:profile=, binding:vif_details=ovs_hybrid_plug=False, port_filter=True, binding:vif_type=ovs, binding:vnic_type=normal, created_at=2017-02-01T01:58:19Z, description=, device_id=dhcpb43e0623-c428-5cbb-a212-36fd7d1acbd4-99890d45-5e0b-4520-9093-2c0501e6fd24, device_owner=network:dhcp, extra_dhcp_opts=[], fixed_ips=[{u'subnet_id': u'2798d3c3-2793-4732-94bc-825bca8bfc58', u'ip_address': u'192.168.1.2'}, {u'subnet_id': u'166f8994-0ef6-43b0-b21a-ec1a13ff3a17', u'ip_address': u'192.168.2.2'}], id=abd6765f-3e6b-49c2-8666-7090d51dd5f2, mac_address=fa:16:3e:41:1f:4a, name=, network_id=99890d45-5e0b-4520-9093-2c0501e6fd24, port_security_enabled=False, project_id=eee9f522c68d43e685d2202ca7dbf9bd, revision_number=43, security_groups=[], status=ACTIVE, tenant_id=eee9f522c68d43e685d2202ca7dbf9bd, updated_at=2017-02-05T09:49:55Z
+2017-02-05 09:49:55.528 11259 ERROR neutron.agent.linux.utils [req-07b49d02-620e-48cb-bc47-af6e104b90b6 - - - - -] Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "qdhcp-99890d45-5e0b-4520-9093-2c0501e6fd24": No such file or directory
+
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent [req-07b49d02-620e-48cb-bc47-af6e104b90b6 - - - - -] Unable to reload_allocations dhcp for 99890d45-5e0b-4520-9093-2c0501e6fd24.
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent Traceback (most recent call last):
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/dhcp/agent.py", line 114, in call_driver
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     getattr(driver, action)(**action_kwargs)
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 500, in reload_allocations
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     self._spawn_or_reload_process(reload_with_HUP=True)
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 437, in _spawn_or_reload_process
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     self._output_config_files()
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 481, in _output_config_files
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     self._output_opts_file()
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 851, in _output_opts_file
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     options, subnet_index_map = self._generate_opts_per_subnet()
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 862, in _generate_opts_per_subnet
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     subnet_to_interface_ip = self._make_subnet_interface_ip_map()
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 995, in _make_subnet_interface_ip_map
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     for addr in ip_dev.addr.list():
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 663, in list
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     self.name, scope, to, filters, ip_version)
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 631, in get_devices_with_ip
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     for line in self._run(options, tuple(args)).split('\n'):
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 380, in _run
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     return self._parent._run(options, self.COMMAND, args)
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 81, in _run
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     return self._as_root(options, command, args)
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 96, in _as_root
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     log_fail_as_error=self.log_fail_as_error)
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 105, in _execute
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     log_fail_as_error=log_fail_as_error)
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py", line 144, in execute
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent     raise ProcessExecutionError(msg, returncode=returncode)
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent ProcessExecutionError: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "qdhcp-99890d45-5e0b-4520-9093-2c0501e6fd24": No such file or directory
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:49:55.529 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:49:55.616 11259 INFO neutron.agent.dhcp.agent [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Trigger reload_allocations for port admin_state_up=True, allowed_address_pairs=[], binding:host_id=mysql-001.vassilevski.com, binding:profile=, binding:vif_details=ovs_hybrid_plug=False, port_filter=True, binding:vif_type=ovs, binding:vnic_type=normal, created_at=2017-02-01T02:04:49Z, description=, device_id=4d7b0c9b-9ed6-4e4b-9a3d-1e2eca25349b, device_owner=network:router_interface, extra_dhcp_opts=[], fixed_ips=[{u'subnet_id': u'166f8994-0ef6-43b0-b21a-ec1a13ff3a17', u'ip_address': u'192.168.2.1'}], id=2e39d198-1605-4cac-b8c2-1832c971923e, mac_address=fa:16:3e:9d:d0:ca, name=, network_id=99890d45-5e0b-4520-9093-2c0501e6fd24, port_security_enabled=False, project_id=eee9f522c68d43e685d2202ca7dbf9bd, revision_number=42, security_groups=[], status=DOWN, tenant_id=eee9f522c68d43e685d2202ca7dbf9bd, updated_at=2017-02-05T09:49:55Z
+2017-02-05 09:49:55.631 11259 ERROR neutron.agent.linux.utils [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "qdhcp-99890d45-5e0b-4520-9093-2c0501e6fd24": No such file or directory
+
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Unable to reload_allocations dhcp for 99890d45-5e0b-4520-9093-2c0501e6fd24.
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent Traceback (most recent call last):
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/dhcp/agent.py", line 114, in call_driver
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     getattr(driver, action)(**action_kwargs)
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 500, in reload_allocations
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     self._spawn_or_reload_process(reload_with_HUP=True)
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 437, in _spawn_or_reload_process
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     self._output_config_files()
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 481, in _output_config_files
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     self._output_opts_file()
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 851, in _output_opts_file
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     options, subnet_index_map = self._generate_opts_per_subnet()
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 862, in _generate_opts_per_subnet
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     subnet_to_interface_ip = self._make_subnet_interface_ip_map()
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 995, in _make_subnet_interface_ip_map
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     for addr in ip_dev.addr.list():
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 663, in list
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     self.name, scope, to, filters, ip_version)
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 631, in get_devices_with_ip
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     for line in self._run(options, tuple(args)).split('\n'):
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 380, in _run
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     return self._parent._run(options, self.COMMAND, args)
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 81, in _run
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     return self._as_root(options, command, args)
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 96, in _as_root
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     log_fail_as_error=self.log_fail_as_error)
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 105, in _execute
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     log_fail_as_error=log_fail_as_error)
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py", line 144, in execute
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent     raise ProcessExecutionError(msg, returncode=returncode)
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent ProcessExecutionError: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "qdhcp-99890d45-5e0b-4520-9093-2c0501e6fd24": No such file or directory
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:49:55.632 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:49:55.962 11259 INFO neutron.agent.dhcp.agent [req-799e0575-9ea8-4841-b2f6-07f452cb445d - - - - -] Trigger reload_allocations for port admin_state_up=True, allowed_address_pairs=[], binding:host_id=mysql-001.vassilevski.com, binding:profile=, binding:vif_details=ovs_hybrid_plug=False, port_filter=True, binding:vif_type=ovs, binding:vnic_type=normal, created_at=2017-02-01T02:04:41Z, description=, device_id=4d7b0c9b-9ed6-4e4b-9a3d-1e2eca25349b, device_owner=network:router_interface, extra_dhcp_opts=[], fixed_ips=[{u'subnet_id': u'2798d3c3-2793-4732-94bc-825bca8bfc58', u'ip_address': u'192.168.1.1'}], id=8f512736-115d-47d2-8ef6-2429c8f6e99d, mac_address=fa:16:3e:6d:83:9a, name=, network_id=99890d45-5e0b-4520-9093-2c0501e6fd24, port_security_enabled=False, project_id=eee9f522c68d43e685d2202ca7dbf9bd, revision_number=42, security_groups=[], status=ACTIVE, tenant_id=eee9f522c68d43e685d2202ca7dbf9bd, updated_at=2017-02-05T09:49:55Z
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.linux.utils [req-799e0575-9ea8-4841-b2f6-07f452cb445d - - - - -] Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "qdhcp-99890d45-5e0b-4520-9093-2c0501e6fd24": No such file or directory
+
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent [req-799e0575-9ea8-4841-b2f6-07f452cb445d - - - - -] Unable to reload_allocations dhcp for 99890d45-5e0b-4520-9093-2c0501e6fd24.
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent Traceback (most recent call last):
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/dhcp/agent.py", line 114, in call_driver
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     getattr(driver, action)(**action_kwargs)
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 500, in reload_allocations
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     self._spawn_or_reload_process(reload_with_HUP=True)
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 437, in _spawn_or_reload_process
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     self._output_config_files()
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 481, in _output_config_files
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     self._output_opts_file()
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 851, in _output_opts_file
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     options, subnet_index_map = self._generate_opts_per_subnet()
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 862, in _generate_opts_per_subnet
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     subnet_to_interface_ip = self._make_subnet_interface_ip_map()
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 995, in _make_subnet_interface_ip_map
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     for addr in ip_dev.addr.list():
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 663, in list
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     self.name, scope, to, filters, ip_version)
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 631, in get_devices_with_ip
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     for line in self._run(options, tuple(args)).split('\n'):
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 380, in _run
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     return self._parent._run(options, self.COMMAND, args)
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 81, in _run
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     return self._as_root(options, command, args)
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 96, in _as_root
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     log_fail_as_error=self.log_fail_as_error)
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 105, in _execute
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     log_fail_as_error=log_fail_as_error)
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py", line 144, in execute
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent     raise ProcessExecutionError(msg, returncode=returncode)
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent ProcessExecutionError: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "qdhcp-99890d45-5e0b-4520-9093-2c0501e6fd24": No such file or directory
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:49:55.975 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:49:56.275 11259 INFO neutron.agent.dhcp.agent [req-1b0b1bfc-ee92-432f-9693-4653e4569685 - - - - -] Trigger reload_allocations for port admin_state_up=True, allowed_address_pairs=[], binding:host_id=mysql-001.vassilevski.com, binding:profile=, binding:vif_details=ovs_hybrid_plug=False, port_filter=True, binding:vif_type=ovs, binding:vnic_type=normal, created_at=2017-02-01T02:04:49Z, description=, device_id=4d7b0c9b-9ed6-4e4b-9a3d-1e2eca25349b, device_owner=network:router_interface, extra_dhcp_opts=[], fixed_ips=[{u'subnet_id': u'166f8994-0ef6-43b0-b21a-ec1a13ff3a17', u'ip_address': u'192.168.2.1'}], id=2e39d198-1605-4cac-b8c2-1832c971923e, mac_address=fa:16:3e:9d:d0:ca, name=, network_id=99890d45-5e0b-4520-9093-2c0501e6fd24, port_security_enabled=False, project_id=eee9f522c68d43e685d2202ca7dbf9bd, revision_number=43, security_groups=[], status=ACTIVE, tenant_id=eee9f522c68d43e685d2202ca7dbf9bd, updated_at=2017-02-05T09:49:56Z
+2017-02-05 09:49:56.291 11259 ERROR neutron.agent.linux.utils [req-1b0b1bfc-ee92-432f-9693-4653e4569685 - - - - -] Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "qdhcp-99890d45-5e0b-4520-9093-2c0501e6fd24": No such file or directory
+
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent [req-1b0b1bfc-ee92-432f-9693-4653e4569685 - - - - -] Unable to reload_allocations dhcp for 99890d45-5e0b-4520-9093-2c0501e6fd24.
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent Traceback (most recent call last):
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/dhcp/agent.py", line 114, in call_driver
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     getattr(driver, action)(**action_kwargs)
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 500, in reload_allocations
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     self._spawn_or_reload_process(reload_with_HUP=True)
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 437, in _spawn_or_reload_process
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     self._output_config_files()
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 481, in _output_config_files
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     self._output_opts_file()
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 851, in _output_opts_file
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     options, subnet_index_map = self._generate_opts_per_subnet()
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 862, in _generate_opts_per_subnet
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     subnet_to_interface_ip = self._make_subnet_interface_ip_map()
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/dhcp.py", line 995, in _make_subnet_interface_ip_map
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     for addr in ip_dev.addr.list():
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 663, in list
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     self.name, scope, to, filters, ip_version)
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 631, in get_devices_with_ip
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     for line in self._run(options, tuple(args)).split('\n'):
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 380, in _run
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     return self._parent._run(options, self.COMMAND, args)
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 81, in _run
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     return self._as_root(options, command, args)
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 96, in _as_root
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     log_fail_as_error=self.log_fail_as_error)
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/ip_lib.py", line 105, in _execute
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     log_fail_as_error=log_fail_as_error)
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/linux/utils.py", line 144, in execute
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent     raise ProcessExecutionError(msg, returncode=returncode)
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent ProcessExecutionError: Exit code: 1; Stdin: ; Stdout: ; Stderr: Cannot open network namespace "qdhcp-99890d45-5e0b-4520-9093-2c0501e6fd24": No such file or directory
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:49:56.292 11259 ERROR neutron.agent.dhcp.agent 
+2017-02-05 09:49:59.677 11259 INFO neutron.agent.dhcp.agent [req-2c3dacca-3387-47a8-8186-b20bbfe2b3ac - - - - -] Synchronizing state
+2017-02-05 09:50:00.072 11259 INFO neutron.agent.dhcp.agent [req-776337d3-8165-4911-a0c8-53b48e96b592 - - - - -] All active networks have been fetched through RPC.
+2017-02-05 09:50:00.074 11259 INFO neutron.agent.dhcp.agent [-] Starting network 07ddb1e6-80eb-4cff-ad4c-8d1be4018408 dhcp configuration
+2017-02-05 09:50:00.074 11259 INFO neutron.agent.dhcp.agent [-] Finished network 07ddb1e6-80eb-4cff-ad4c-8d1be4018408 dhcp configuration
+2017-02-05 09:50:00.075 11259 INFO neutron.agent.dhcp.agent [-] Starting network 99890d45-5e0b-4520-9093-2c0501e6fd24 dhcp configuration
+2017-02-05 09:50:00.690 11259 INFO neutron.agent.dhcp.agent [-] Finished network 99890d45-5e0b-4520-9093-2c0501e6fd24 dhcp configuration
+2017-02-05 09:50:00.690 11259 INFO neutron.agent.dhcp.agent [req-776337d3-8165-4911-a0c8-53b48e96b592 - - - - -] Synchronizing state complete
+2017-02-05 09:50:00.692 11259 INFO neutron.agent.dhcp.agent [req-b243e6d1-c7fa-449f-abb1-ff4382280408 - - - - -] Trigger reload_allocations for port admin_state_up=True, allowed_address_pairs=[], binding:host_id=mysql-001.vassilevski.com, binding:profile=, binding:vif_details=ovs_hybrid_plug=False, port_filter=True, binding:vif_type=ovs, binding:vnic_type=normal, created_at=2017-02-01T01:58:19Z, description=, device_id=dhcpb43e0623-c428-5cbb-a212-36fd7d1acbd4-99890d45-5e0b-4520-9093-2c0501e6fd24, device_owner=network:dhcp, extra_dhcp_opts=[], fixed_ips=[{u'subnet_id': u'2798d3c3-2793-4732-94bc-825bca8bfc58', u'ip_address': u'192.168.1.2'}, {u'subnet_id': u'166f8994-0ef6-43b0-b21a-ec1a13ff3a17', u'ip_address': u'192.168.2.2'}], id=abd6765f-3e6b-49c2-8666-7090d51dd5f2, mac_address=fa:16:3e:41:1f:4a, name=, network_id=99890d45-5e0b-4520-9093-2c0501e6fd24, port_security_enabled=False, project_id=eee9f522c68d43e685d2202ca7dbf9bd, revision_number=44, security_groups=[], status=BUILD, tenant_id=eee9f522c68d43e685d2202ca7dbf9bd, updated_at=2017-02-05T09:50:00Z
+2017-02-05 09:50:01.061 11259 INFO neutron.agent.dhcp.agent [req-918e146b-87fa-42bd-a03f-9cf366e34c57 - - - - -] Trigger reload_allocations for port admin_state_up=True, allowed_address_pairs=[], binding:host_id=mysql-001.vassilevski.com, binding:profile=, binding:vif_details=ovs_hybrid_plug=False, port_filter=True, binding:vif_type=ovs, binding:vnic_type=normal, created_at=2017-02-01T01:58:19Z, description=, device_id=dhcpb43e0623-c428-5cbb-a212-36fd7d1acbd4-99890d45-5e0b-4520-9093-2c0501e6fd24, device_owner=network:dhcp, extra_dhcp_opts=[], fixed_ips=[{u'subnet_id': u'2798d3c3-2793-4732-94bc-825bca8bfc58', u'ip_address': u'192.168.1.2'}, {u'subnet_id': u'166f8994-0ef6-43b0-b21a-ec1a13ff3a17', u'ip_address': u'192.168.2.2'}], id=abd6765f-3e6b-49c2-8666-7090d51dd5f2, mac_address=fa:16:3e:41:1f:4a, name=, network_id=99890d45-5e0b-4520-9093-2c0501e6fd24, port_security_enabled=False, project_id=eee9f522c68d43e685d2202ca7dbf9bd, revision_number=45, security_groups=[], status=ACTIVE, tenant_id=eee9f522c68d43e685d2202ca7dbf9bd, updated_at=2017-02-05T09:50:00Z
+2017-02-05 09:51:23.844 11259 INFO oslo_rootwrap.client [-] Stopping rootwrap daemon process with pid=12286
+2017-02-05 09:51:24.922 13594 INFO neutron.common.config [-] Logging enabled!
+2017-02-05 09:51:24.923 13594 INFO neutron.common.config [-] /usr/bin/neutron-dhcp-agent version 9.1.1
+2017-02-05 09:51:24.968 13594 INFO neutron.agent.dhcp.agent [-] Synchronizing state

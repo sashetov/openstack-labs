@@ -1,0 +1,4 @@
+#!/bin/bash
+
+openstack --os-identity-api-version 2 --os-auth-url 'http://mysql-001.vassilevski.com:35357/v2.0' --os-project-domain-id default --os-user-domain-id default --os-project-name admin --os-username admin --os-auth-type password --os-password 4f2d248c91d9e72cfbb4 token issue
+openstack --os-auth-url 'http://mysql-001.vassilevski.com:35357/v2.0' --os-username admin --os-password 4f2d248c91d9e72cfbb4 --os-project-name admin user list

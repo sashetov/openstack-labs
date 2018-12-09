@@ -1,0 +1,44 @@
+2017-02-09 07:43:45.027 14588 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 07:43:45.028 14588 INFO neutron.common.config [-] /usr/bin/neutron-metadata-agent version 9.1.1
+2017-02-09 07:43:45.037 14588 INFO oslo_service.service [req-8c0bab72-017a-44dd-a298-2fa8517bcaa0 - - - - -] Starting 20 workers
+2017-02-09 07:43:45.045 14766 INFO eventlet.wsgi.server [-] (14766) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.046 14765 INFO eventlet.wsgi.server [-] (14765) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.046 14767 INFO eventlet.wsgi.server [-] (14767) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.047 14768 INFO eventlet.wsgi.server [-] (14768) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.049 14770 INFO eventlet.wsgi.server [-] (14770) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.050 14771 INFO eventlet.wsgi.server [-] (14771) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.050 14769 INFO eventlet.wsgi.server [-] (14769) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.054 14772 INFO eventlet.wsgi.server [-] (14772) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.055 14773 INFO eventlet.wsgi.server [-] (14773) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.055 14774 INFO eventlet.wsgi.server [-] (14774) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.057 14775 INFO eventlet.wsgi.server [-] (14775) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.057 14776 INFO eventlet.wsgi.server [-] (14776) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.058 14777 INFO eventlet.wsgi.server [-] (14777) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.060 14778 INFO eventlet.wsgi.server [-] (14778) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.062 14779 INFO eventlet.wsgi.server [-] (14779) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.063 14780 INFO eventlet.wsgi.server [-] (14780) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.066 14782 INFO eventlet.wsgi.server [-] (14782) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.066 14781 INFO eventlet.wsgi.server [-] (14781) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.068 14784 INFO eventlet.wsgi.server [-] (14784) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.069 14785 INFO eventlet.wsgi.server [-] (14785) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent [-] Failed reporting state!
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent Traceback (most recent call last):
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/metadata/agent.py", line 262, in _report_state
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     use_call=self.agent_state.get('start_flag'))
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/rpc.py", line 88, in report_state
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     return method(context, 'report_state', **kwargs)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 169, in call
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     retry=self.retry)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 97, in _send
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     timeout=timeout, retry=retry)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 464, in send
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     retry=retry)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 453, in _send
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     result = self._waiter.wait(msg_id, timeout)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 336, in wait
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     message = self.waiters.get(msg_id, timeout=timeout)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 238, in get
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     'to message ID %s' % msg_id)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent MessagingTimeout: Timed out waiting for a reply to message ID d35e35b3430f4e38a0e3112782d07965
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent 
+2017-02-09 07:44:45.132 14588 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.metadata.agent.UnixDomainMetadataProxy._report_state' run outlasted interval by 30.06 sec

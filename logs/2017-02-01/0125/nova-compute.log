@@ -1,0 +1,1450 @@
+2017-02-01 00:14:07.151 14448 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:14:07.273 14448 INFO nova.virt.driver [req-c39c53bd-145d-4660-8023-ea0b574af6f2 - - - - -] Loading compute driver 'libvirt.LibvirtDriver'
+2017-02-01 00:14:07.624 14448 INFO os_vif [req-c39c53bd-145d-4660-8023-ea0b574af6f2 - - - - -] Loaded VIF plugin class '<class 'vif_plug_ovs.ovs.OvsPlugin'>' with name 'ovs'
+2017-02-01 00:14:07.626 14448 INFO os_vif [req-c39c53bd-145d-4660-8023-ea0b574af6f2 - - - - -] Loaded VIF plugin class '<class 'vif_plug_linux_bridge.linux_bridge.LinuxBridgePlugin'>' with name 'linux_bridge'
+2017-02-01 00:14:07.657 14448 INFO os_brick.initiator.connectors.disco [req-c39c53bd-145d-4660-8023-ea0b574af6f2 - - - - -] Init DISCO connector
+2017-02-01 00:14:07.659 14448 WARNING os_brick.initiator.connectors.remotefs [req-c39c53bd-145d-4660-8023-ea0b574af6f2 - - - - -] Connection details not present. RemoteFsClient may not initialize properly.
+2017-02-01 00:14:07.743 14448 INFO nova.service [-] Starting compute node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.779 14448 INFO nova.virt.libvirt.driver [-] Connection event '1' reason 'None'
+2017-02-01 00:14:07.811 14448 WARNING nova.virt.libvirt.driver [req-f40874aa-0915-446b-a0fe-345aaa025cbf - - - - -] Cannot update service status on host "mysql-001.vassilevski.com" since it is not registered.
+2017-02-01 00:14:07.821 14448 INFO nova.virt.libvirt.host [req-f40874aa-0915-446b-a0fe-345aaa025cbf - - - - -] Libvirt host capabilities <capabilities>
+
+  <host>
+    <uuid>37353532-3538-435a-3336-313335344145</uuid>
+    <cpu>
+      <arch>x86_64</arch>
+      <model>Haswell-noTSX</model>
+      <vendor>Intel</vendor>
+      <topology sockets='1' cores='10' threads='2'/>
+      <feature name='vme'/>
+      <feature name='ds'/>
+      <feature name='acpi'/>
+      <feature name='ss'/>
+      <feature name='ht'/>
+      <feature name='tm'/>
+      <feature name='pbe'/>
+      <feature name='dtes64'/>
+      <feature name='monitor'/>
+      <feature name='ds_cpl'/>
+      <feature name='vmx'/>
+      <feature name='smx'/>
+      <feature name='est'/>
+      <feature name='tm2'/>
+      <feature name='xtpr'/>
+      <feature name='pdcm'/>
+      <feature name='dca'/>
+      <feature name='osxsave'/>
+      <feature name='f16c'/>
+      <feature name='rdrand'/>
+      <feature name='arat'/>
+      <feature name='tsc_adjust'/>
+      <feature name='cmt'/>
+      <feature name='xsaveopt'/>
+      <feature name='pdpe1gb'/>
+      <feature name='abm'/>
+      <feature name='invtsc'/>
+      <pages unit='KiB' size='4'/>
+      <pages unit='KiB' size='2048'/>
+      <pages unit='KiB' size='1048576'/>
+    </cpu>
+    <power_management>
+      <suspend_mem/>
+    </power_management>
+    <migration_features>
+      <live/>
+      <uri_transports>
+        <uri_transport>tcp</uri_transport>
+        <uri_transport>rdma</uri_transport>
+      </uri_transports>
+    </migration_features>
+    <topology>
+      <cells num='2'>
+        <cell id='0'>
+          <memory unit='KiB'>66980172</memory>
+          <pages unit='KiB' size='4'>16745043</pages>
+          <pages unit='KiB' size='2048'>0</pages>
+          <pages unit='KiB' size='1048576'>0</pages>
+          <distances>
+            <sibling id='0' value='10'/>
+            <sibling id='1' value='21'/>
+          </distances>
+          <cpus num='20'>
+            <cpu id='0' socket_id='0' core_id='0' siblings='0,20'/>
+            <cpu id='1' socket_id='0' core_id='1' siblings='1,21'/>
+            <cpu id='2' socket_id='0' core_id='2' siblings='2,22'/>
+            <cpu id='3' socket_id='0' core_id='3' siblings='3,23'/>
+            <cpu id='4' socket_id='0' core_id='4' siblings='4,24'/>
+            <cpu id='5' socket_id='0' core_id='8' siblings='5,25'/>
+            <cpu id='6' socket_id='0' core_id='9' siblings='6,26'/>
+            <cpu id='7' socket_id='0' core_id='10' siblings='7,27'/>
+            <cpu id='8' socket_id='0' core_id='11' siblings='8,28'/>
+            <cpu id='9' socket_id='0' core_id='12' siblings='9,29'/>
+            <cpu id='20' socket_id='0' core_id='0' siblings='0,20'/>
+            <cpu id='21' socket_id='0' core_id='1' siblings='1,21'/>
+            <cpu id='22' socket_id='0' core_id='2' siblings='2,22'/>
+            <cpu id='23' socket_id='0' core_id='3' siblings='3,23'/>
+            <cpu id='24' socket_id='0' core_id='4' siblings='4,24'/>
+            <cpu id='25' socket_id='0' core_id='8' siblings='5,25'/>
+            <cpu id='26' socket_id='0' core_id='9' siblings='6,26'/>
+            <cpu id='27' socket_id='0' core_id='10' siblings='7,27'/>
+            <cpu id='28' socket_id='0' core_id='11' siblings='8,28'/>
+            <cpu id='29' socket_id='0' core_id='12' siblings='9,29'/>
+          </cpus>
+        </cell>
+        <cell id='1'>
+          <memory unit='KiB'>67108864</memory>
+          <pages unit='KiB' size='4'>16777216</pages>
+          <pages unit='KiB' size='2048'>0</pages>
+          <pages unit='KiB' size='1048576'>0</pages>
+          <distances>
+            <sibling id='0' value='21'/>
+            <sibling id='1' value='10'/>
+          </distances>
+          <cpus num='20'>
+            <cpu id='10' socket_id='1' core_id='0' siblings='10,30'/>
+            <cpu id='11' socket_id='1' core_id='1' siblings='11,31'/>
+            <cpu id='12' socket_id='1' core_id='2' siblings='12,32'/>
+            <cpu id='13' socket_id='1' core_id='3' siblings='13,33'/>
+            <cpu id='14' socket_id='1' core_id='4' siblings='14,34'/>
+            <cpu id='15' socket_id='1' core_id='8' siblings='15,35'/>
+            <cpu id='16' socket_id='1' core_id='9' siblings='16,36'/>
+            <cpu id='17' socket_id='1' core_id='10' siblings='17,37'/>
+            <cpu id='18' socket_id='1' core_id='11' siblings='18,38'/>
+            <cpu id='19' socket_id='1' core_id='12' siblings='19,39'/>
+            <cpu id='30' socket_id='1' core_id='0' siblings='10,30'/>
+            <cpu id='31' socket_id='1' core_id='1' siblings='11,31'/>
+            <cpu id='32' socket_id='1' core_id='2' siblings='12,32'/>
+            <cpu id='33' socket_id='1' core_id='3' siblings='13,33'/>
+            <cpu id='34' socket_id='1' core_id='4' siblings='14,34'/>
+            <cpu id='35' socket_id='1' core_id='8' siblings='15,35'/>
+            <cpu id='36' socket_id='1' core_id='9' siblings='16,36'/>
+            <cpu id='37' socket_id='1' core_id='10' siblings='17,37'/>
+            <cpu id='38' socket_id='1' core_id='11' siblings='18,38'/>
+            <cpu id='39' socket_id='1' core_id='12' siblings='19,39'/>
+          </cpus>
+        </cell>
+      </cells>
+    </topology>
+    <secmodel>
+      <model>none</model>
+      <doi>0</doi>
+    </secmodel>
+    <secmodel>
+      <model>dac</model>
+      <doi>0</doi>
+      <baselabel type='kvm'>+107:+107</baselabel>
+      <baselabel type='qemu'>+107:+107</baselabel>
+    </secmodel>
+  </host>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name='i686'>
+      <wordsize>32</wordsize>
+      <emulator>/usr/bin/qemu-system-i386</emulator>
+      <machine maxCpus='255'>pc-i440fx-2.0</machine>
+      <machine canonical='pc-i440fx-2.0' maxCpus='255'>pc</machine>
+      <machine maxCpus='255'>pc-0.12</machine>
+      <machine maxCpus='255'>pc-1.3</machine>
+      <machine maxCpus='255'>pc-q35-1.6</machine>
+      <machine maxCpus='255'>pc-q35-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.6</machine>
+      <machine maxCpus='255'>pc-i440fx-1.7</machine>
+      <machine maxCpus='255'>pc-0.11</machine>
+      <machine maxCpus='255'>pc-0.10</machine>
+      <machine maxCpus='255'>pc-1.2</machine>
+      <machine maxCpus='1'>isapc</machine>
+      <machine maxCpus='255'>pc-q35-1.4</machine>
+      <machine maxCpus='255'>pc-0.15</machine>
+      <machine maxCpus='255'>pc-0.14</machine>
+      <machine maxCpus='255'>pc-i440fx-1.5</machine>
+      <machine maxCpus='255'>pc-q35-2.0</machine>
+      <machine canonical='pc-q35-2.0' maxCpus='255'>q35</machine>
+      <machine maxCpus='255'>pc-i440fx-1.4</machine>
+      <machine maxCpus='255'>pc-1.1</machine>
+      <machine maxCpus='255'>pc-q35-1.7</machine>
+      <machine maxCpus='255'>pc-1.0</machine>
+      <machine maxCpus='255'>pc-0.13</machine>
+      <domain type='qemu'/>
+      <domain type='kvm'>
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+        <machine maxCpus='240'>pc-i440fx-rhel7.0.0</machine>
+        <machine canonical='pc-i440fx-rhel7.0.0' maxCpus='240'>pc</machine>
+        <machine maxCpus='240'>rhel6.0.0</machine>
+        <machine maxCpus='240'>rhel6.1.0</machine>
+        <machine maxCpus='240'>rhel6.2.0</machine>
+        <machine maxCpus='240'>rhel6.3.0</machine>
+        <machine maxCpus='240'>rhel6.4.0</machine>
+        <machine maxCpus='240'>rhel6.5.0</machine>
+        <machine maxCpus='240'>rhel6.6.0</machine>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default='on' toggle='no'/>
+      <acpi default='on' toggle='yes'/>
+      <apic default='on' toggle='no'/>
+      <pae/>
+      <nonpae/>
+    </features>
+  </guest>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name='x86_64'>
+      <wordsize>64</wordsize>
+      <emulator>/usr/bin/qemu-system-x86_64</emulator>
+      <machine maxCpus='255'>pc-i440fx-2.0</machine>
+      <machine canonical='pc-i440fx-2.0' maxCpus='255'>pc</machine>
+      <machine maxCpus='255'>pc-1.3</machine>
+      <machine maxCpus='255'>pc-0.12</machine>
+      <machine maxCpus='255'>pc-q35-1.6</machine>
+      <machine maxCpus='255'>pc-q35-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.6</machine>
+      <machine maxCpus='255'>pc-i440fx-1.7</machine>
+      <machine maxCpus='255'>pc-0.11</machine>
+      <machine maxCpus='255'>pc-1.2</machine>
+      <machine maxCpus='255'>pc-0.10</machine>
+      <machine maxCpus='1'>isapc</machine>
+      <machine maxCpus='255'>pc-q35-1.4</machine>
+      <machine maxCpus='255'>pc-0.15</machine>
+      <machine maxCpus='255'>pc-0.14</machine>
+      <machine maxCpus='255'>pc-i440fx-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.4</machine>
+      <machine maxCpus='255'>pc-q35-2.0</machine>
+      <machine canonical='pc-q35-2.0' maxCpus='255'>q35</machine>
+      <machine maxCpus='255'>pc-1.1</machine>
+      <machine maxCpus='255'>pc-q35-1.7</machine>
+      <machine maxCpus='255'>pc-1.0</machine>
+      <machine maxCpus='255'>pc-0.13</machine>
+      <domain type='qemu'/>
+      <domain type='kvm'>
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+        <machine maxCpus='240'>pc-i440fx-rhel7.0.0</machine>
+        <machine canonical='pc-i440fx-rhel7.0.0' maxCpus='240'>pc</machine>
+        <machine maxCpus='240'>rhel6.0.0</machine>
+        <machine maxCpus='240'>rhel6.1.0</machine>
+        <machine maxCpus='240'>rhel6.2.0</machine>
+        <machine maxCpus='240'>rhel6.3.0</machine>
+        <machine maxCpus='240'>rhel6.4.0</machine>
+        <machine maxCpus='240'>rhel6.5.0</machine>
+        <machine maxCpus='240'>rhel6.6.0</machine>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default='on' toggle='no'/>
+      <acpi default='on' toggle='yes'/>
+      <apic default='on' toggle='no'/>
+    </features>
+  </guest>
+
+</capabilities>
+
+2017-02-01 00:14:08.031 14448 ERROR nova.compute.manager [req-f40874aa-0915-446b-a0fe-345aaa025cbf - - - - -] No compute node record for host mysql-001.vassilevski.com
+2017-02-01 00:14:08.039 14448 WARNING nova.compute.monitors [req-f40874aa-0915-446b-a0fe-345aaa025cbf - - - - -] Excluding nova.compute.monitors.cpu monitor virt_driver. Not in the list of enabled monitors (CONF.compute_monitors).
+2017-02-01 00:14:08.039 14448 INFO nova.compute.resource_tracker [req-f40874aa-0915-446b-a0fe-345aaa025cbf - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 00:14:08.719 14448 WARNING nova.compute.resource_tracker [req-f40874aa-0915-446b-a0fe-345aaa025cbf - - - - -] No compute node record for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 00:14:08.787 14448 INFO nova.compute.resource_tracker [req-f40874aa-0915-446b-a0fe-345aaa025cbf - - - - -] Compute_service record created for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 00:14:08.895 14448 WARNING nova.scheduler.client.report [req-f40874aa-0915-446b-a0fe-345aaa025cbf - - - - -] No authentication information found for placement API. Optional use of placement API for reporting is now disabled.
+2017-02-01 00:14:09.011 14448 INFO nova.compute.resource_tracker [req-f40874aa-0915-446b-a0fe-345aaa025cbf - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 00:14:09.011 14448 INFO nova.compute.resource_tracker [req-f40874aa-0915-446b-a0fe-345aaa025cbf - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 00:14:09.104 14448 INFO nova.compute.resource_tracker [req-f40874aa-0915-446b-a0fe-345aaa025cbf - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 00:15:09.247 14448 WARNING nova.compute.manager [req-ba019e13-5f88-4b32-8d88-f7aa32c83173 - - - - -] While synchronizing instance power states, found 0 instances in the database and 1 instances on the hypervisor.
+2017-02-01 00:15:09.310 14448 INFO nova.compute.resource_tracker [req-ba019e13-5f88-4b32-8d88-f7aa32c83173 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 00:15:10.161 14448 INFO nova.compute.resource_tracker [req-ba019e13-5f88-4b32-8d88-f7aa32c83173 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 00:15:10.161 14448 INFO nova.compute.resource_tracker [req-ba019e13-5f88-4b32-8d88-f7aa32c83173 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 00:15:10.236 14448 INFO nova.compute.resource_tracker [req-ba019e13-5f88-4b32-8d88-f7aa32c83173 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 00:16:07.356 14448 INFO nova.compute.resource_tracker [req-ba019e13-5f88-4b32-8d88-f7aa32c83173 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 00:16:08.209 14448 INFO nova.compute.resource_tracker [req-ba019e13-5f88-4b32-8d88-f7aa32c83173 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 00:16:08.209 14448 INFO nova.compute.resource_tracker [req-ba019e13-5f88-4b32-8d88-f7aa32c83173 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 00:16:08.283 14448 INFO nova.compute.resource_tracker [req-ba019e13-5f88-4b32-8d88-f7aa32c83173 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 00:20:14.883 15967 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:20:14.999 15967 INFO nova.virt.driver [req-54a9a2ff-6604-4d87-a58c-2f470e358a66 - - - - -] Loading compute driver 'libvirt.LibvirtDriver'
+2017-02-01 00:20:15.293 15967 INFO os_vif [req-54a9a2ff-6604-4d87-a58c-2f470e358a66 - - - - -] Loaded VIF plugin class '<class 'vif_plug_ovs.ovs.OvsPlugin'>' with name 'ovs'
+2017-02-01 00:20:15.294 15967 INFO os_vif [req-54a9a2ff-6604-4d87-a58c-2f470e358a66 - - - - -] Loaded VIF plugin class '<class 'vif_plug_linux_bridge.linux_bridge.LinuxBridgePlugin'>' with name 'linux_bridge'
+2017-02-01 00:20:15.318 15967 INFO os_brick.initiator.connectors.disco [req-54a9a2ff-6604-4d87-a58c-2f470e358a66 - - - - -] Init DISCO connector
+2017-02-01 00:20:15.319 15967 WARNING os_brick.initiator.connectors.remotefs [req-54a9a2ff-6604-4d87-a58c-2f470e358a66 - - - - -] Connection details not present. RemoteFsClient may not initialize properly.
+2017-02-01 00:20:15.397 15967 INFO nova.service [-] Starting compute node (version 14.0.2-1.el7)
+2017-02-01 00:20:15.415 15967 INFO nova.virt.libvirt.driver [-] Connection event '1' reason 'None'
+2017-02-01 00:20:15.454 15967 INFO nova.virt.libvirt.host [req-965b97ba-6f39-4ed3-8e15-e0ef3e3a6549 - - - - -] Libvirt host capabilities <capabilities>
+
+  <host>
+    <uuid>37353532-3538-435a-3336-313335344145</uuid>
+    <cpu>
+      <arch>x86_64</arch>
+      <model>Haswell-noTSX</model>
+      <vendor>Intel</vendor>
+      <topology sockets='1' cores='10' threads='2'/>
+      <feature name='vme'/>
+      <feature name='ds'/>
+      <feature name='acpi'/>
+      <feature name='ss'/>
+      <feature name='ht'/>
+      <feature name='tm'/>
+      <feature name='pbe'/>
+      <feature name='dtes64'/>
+      <feature name='monitor'/>
+      <feature name='ds_cpl'/>
+      <feature name='vmx'/>
+      <feature name='smx'/>
+      <feature name='est'/>
+      <feature name='tm2'/>
+      <feature name='xtpr'/>
+      <feature name='pdcm'/>
+      <feature name='dca'/>
+      <feature name='osxsave'/>
+      <feature name='f16c'/>
+      <feature name='rdrand'/>
+      <feature name='arat'/>
+      <feature name='tsc_adjust'/>
+      <feature name='cmt'/>
+      <feature name='xsaveopt'/>
+      <feature name='pdpe1gb'/>
+      <feature name='abm'/>
+      <feature name='invtsc'/>
+      <pages unit='KiB' size='4'/>
+      <pages unit='KiB' size='2048'/>
+      <pages unit='KiB' size='1048576'/>
+    </cpu>
+    <power_management>
+      <suspend_mem/>
+    </power_management>
+    <migration_features>
+      <live/>
+      <uri_transports>
+        <uri_transport>tcp</uri_transport>
+        <uri_transport>rdma</uri_transport>
+      </uri_transports>
+    </migration_features>
+    <topology>
+      <cells num='2'>
+        <cell id='0'>
+          <memory unit='KiB'>66980172</memory>
+          <pages unit='KiB' size='4'>16745043</pages>
+          <pages unit='KiB' size='2048'>0</pages>
+          <pages unit='KiB' size='1048576'>0</pages>
+          <distances>
+            <sibling id='0' value='10'/>
+            <sibling id='1' value='21'/>
+          </distances>
+          <cpus num='20'>
+            <cpu id='0' socket_id='0' core_id='0' siblings='0,20'/>
+            <cpu id='1' socket_id='0' core_id='1' siblings='1,21'/>
+            <cpu id='2' socket_id='0' core_id='2' siblings='2,22'/>
+            <cpu id='3' socket_id='0' core_id='3' siblings='3,23'/>
+            <cpu id='4' socket_id='0' core_id='4' siblings='4,24'/>
+            <cpu id='5' socket_id='0' core_id='8' siblings='5,25'/>
+            <cpu id='6' socket_id='0' core_id='9' siblings='6,26'/>
+            <cpu id='7' socket_id='0' core_id='10' siblings='7,27'/>
+            <cpu id='8' socket_id='0' core_id='11' siblings='8,28'/>
+            <cpu id='9' socket_id='0' core_id='12' siblings='9,29'/>
+            <cpu id='20' socket_id='0' core_id='0' siblings='0,20'/>
+            <cpu id='21' socket_id='0' core_id='1' siblings='1,21'/>
+            <cpu id='22' socket_id='0' core_id='2' siblings='2,22'/>
+            <cpu id='23' socket_id='0' core_id='3' siblings='3,23'/>
+            <cpu id='24' socket_id='0' core_id='4' siblings='4,24'/>
+            <cpu id='25' socket_id='0' core_id='8' siblings='5,25'/>
+            <cpu id='26' socket_id='0' core_id='9' siblings='6,26'/>
+            <cpu id='27' socket_id='0' core_id='10' siblings='7,27'/>
+            <cpu id='28' socket_id='0' core_id='11' siblings='8,28'/>
+            <cpu id='29' socket_id='0' core_id='12' siblings='9,29'/>
+          </cpus>
+        </cell>
+        <cell id='1'>
+          <memory unit='KiB'>67108864</memory>
+          <pages unit='KiB' size='4'>16777216</pages>
+          <pages unit='KiB' size='2048'>0</pages>
+          <pages unit='KiB' size='1048576'>0</pages>
+          <distances>
+            <sibling id='0' value='21'/>
+            <sibling id='1' value='10'/>
+          </distances>
+          <cpus num='20'>
+            <cpu id='10' socket_id='1' core_id='0' siblings='10,30'/>
+            <cpu id='11' socket_id='1' core_id='1' siblings='11,31'/>
+            <cpu id='12' socket_id='1' core_id='2' siblings='12,32'/>
+            <cpu id='13' socket_id='1' core_id='3' siblings='13,33'/>
+            <cpu id='14' socket_id='1' core_id='4' siblings='14,34'/>
+            <cpu id='15' socket_id='1' core_id='8' siblings='15,35'/>
+            <cpu id='16' socket_id='1' core_id='9' siblings='16,36'/>
+            <cpu id='17' socket_id='1' core_id='10' siblings='17,37'/>
+            <cpu id='18' socket_id='1' core_id='11' siblings='18,38'/>
+            <cpu id='19' socket_id='1' core_id='12' siblings='19,39'/>
+            <cpu id='30' socket_id='1' core_id='0' siblings='10,30'/>
+            <cpu id='31' socket_id='1' core_id='1' siblings='11,31'/>
+            <cpu id='32' socket_id='1' core_id='2' siblings='12,32'/>
+            <cpu id='33' socket_id='1' core_id='3' siblings='13,33'/>
+            <cpu id='34' socket_id='1' core_id='4' siblings='14,34'/>
+            <cpu id='35' socket_id='1' core_id='8' siblings='15,35'/>
+            <cpu id='36' socket_id='1' core_id='9' siblings='16,36'/>
+            <cpu id='37' socket_id='1' core_id='10' siblings='17,37'/>
+            <cpu id='38' socket_id='1' core_id='11' siblings='18,38'/>
+            <cpu id='39' socket_id='1' core_id='12' siblings='19,39'/>
+          </cpus>
+        </cell>
+      </cells>
+    </topology>
+    <secmodel>
+      <model>none</model>
+      <doi>0</doi>
+    </secmodel>
+    <secmodel>
+      <model>dac</model>
+      <doi>0</doi>
+      <baselabel type='kvm'>+107:+107</baselabel>
+      <baselabel type='qemu'>+107:+107</baselabel>
+    </secmodel>
+  </host>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name='i686'>
+      <wordsize>32</wordsize>
+      <emulator>/usr/bin/qemu-system-i386</emulator>
+      <machine maxCpus='255'>pc-i440fx-2.0</machine>
+      <machine canonical='pc-i440fx-2.0' maxCpus='255'>pc</machine>
+      <machine maxCpus='255'>pc-0.12</machine>
+      <machine maxCpus='255'>pc-1.3</machine>
+      <machine maxCpus='255'>pc-q35-1.6</machine>
+      <machine maxCpus='255'>pc-q35-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.6</machine>
+      <machine maxCpus='255'>pc-i440fx-1.7</machine>
+      <machine maxCpus='255'>pc-0.11</machine>
+      <machine maxCpus='255'>pc-0.10</machine>
+      <machine maxCpus='255'>pc-1.2</machine>
+      <machine maxCpus='1'>isapc</machine>
+      <machine maxCpus='255'>pc-q35-1.4</machine>
+      <machine maxCpus='255'>pc-0.15</machine>
+      <machine maxCpus='255'>pc-0.14</machine>
+      <machine maxCpus='255'>pc-i440fx-1.5</machine>
+      <machine maxCpus='255'>pc-q35-2.0</machine>
+      <machine canonical='pc-q35-2.0' maxCpus='255'>q35</machine>
+      <machine maxCpus='255'>pc-i440fx-1.4</machine>
+      <machine maxCpus='255'>pc-1.1</machine>
+      <machine maxCpus='255'>pc-q35-1.7</machine>
+      <machine maxCpus='255'>pc-1.0</machine>
+      <machine maxCpus='255'>pc-0.13</machine>
+      <domain type='qemu'/>
+      <domain type='kvm'>
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+        <machine maxCpus='240'>pc-i440fx-rhel7.0.0</machine>
+        <machine canonical='pc-i440fx-rhel7.0.0' maxCpus='240'>pc</machine>
+        <machine maxCpus='240'>rhel6.0.0</machine>
+        <machine maxCpus='240'>rhel6.1.0</machine>
+        <machine maxCpus='240'>rhel6.2.0</machine>
+        <machine maxCpus='240'>rhel6.3.0</machine>
+        <machine maxCpus='240'>rhel6.4.0</machine>
+        <machine maxCpus='240'>rhel6.5.0</machine>
+        <machine maxCpus='240'>rhel6.6.0</machine>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default='on' toggle='no'/>
+      <acpi default='on' toggle='yes'/>
+      <apic default='on' toggle='no'/>
+      <pae/>
+      <nonpae/>
+    </features>
+  </guest>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name='x86_64'>
+      <wordsize>64</wordsize>
+      <emulator>/usr/bin/qemu-system-x86_64</emulator>
+      <machine maxCpus='255'>pc-i440fx-2.0</machine>
+      <machine canonical='pc-i440fx-2.0' maxCpus='255'>pc</machine>
+      <machine maxCpus='255'>pc-1.3</machine>
+      <machine maxCpus='255'>pc-0.12</machine>
+      <machine maxCpus='255'>pc-q35-1.6</machine>
+      <machine maxCpus='255'>pc-q35-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.6</machine>
+      <machine maxCpus='255'>pc-i440fx-1.7</machine>
+      <machine maxCpus='255'>pc-0.11</machine>
+      <machine maxCpus='255'>pc-1.2</machine>
+      <machine maxCpus='255'>pc-0.10</machine>
+      <machine maxCpus='1'>isapc</machine>
+      <machine maxCpus='255'>pc-q35-1.4</machine>
+      <machine maxCpus='255'>pc-0.15</machine>
+      <machine maxCpus='255'>pc-0.14</machine>
+      <machine maxCpus='255'>pc-i440fx-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.4</machine>
+      <machine maxCpus='255'>pc-q35-2.0</machine>
+      <machine canonical='pc-q35-2.0' maxCpus='255'>q35</machine>
+      <machine maxCpus='255'>pc-1.1</machine>
+      <machine maxCpus='255'>pc-q35-1.7</machine>
+      <machine maxCpus='255'>pc-1.0</machine>
+      <machine maxCpus='255'>pc-0.13</machine>
+      <domain type='qemu'/>
+      <domain type='kvm'>
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+        <machine maxCpus='240'>pc-i440fx-rhel7.0.0</machine>
+        <machine canonical='pc-i440fx-rhel7.0.0' maxCpus='240'>pc</machine>
+        <machine maxCpus='240'>rhel6.0.0</machine>
+        <machine maxCpus='240'>rhel6.1.0</machine>
+        <machine maxCpus='240'>rhel6.2.0</machine>
+        <machine maxCpus='240'>rhel6.3.0</machine>
+        <machine maxCpus='240'>rhel6.4.0</machine>
+        <machine maxCpus='240'>rhel6.5.0</machine>
+        <machine maxCpus='240'>rhel6.6.0</machine>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default='on' toggle='no'/>
+      <acpi default='on' toggle='yes'/>
+      <apic default='on' toggle='no'/>
+    </features>
+  </guest>
+
+</capabilities>
+
+2017-02-01 00:20:15.665 15967 WARNING nova.compute.monitors [req-965b97ba-6f39-4ed3-8e15-e0ef3e3a6549 - - - - -] Excluding nova.compute.monitors.cpu monitor virt_driver. Not in the list of enabled monitors (CONF.compute_monitors).
+2017-02-01 00:20:15.666 15967 INFO nova.compute.resource_tracker [req-965b97ba-6f39-4ed3-8e15-e0ef3e3a6549 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 00:20:16.393 15967 WARNING nova.scheduler.client.report [req-965b97ba-6f39-4ed3-8e15-e0ef3e3a6549 - - - - -] No authentication information found for placement API. Optional use of placement API for reporting is now disabled.
+2017-02-01 00:20:16.580 15967 INFO nova.compute.resource_tracker [req-965b97ba-6f39-4ed3-8e15-e0ef3e3a6549 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 00:20:16.580 15967 INFO nova.compute.resource_tracker [req-965b97ba-6f39-4ed3-8e15-e0ef3e3a6549 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 00:20:16.699 15967 INFO nova.compute.resource_tracker [req-965b97ba-6f39-4ed3-8e15-e0ef3e3a6549 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 00:20:41.839 15967 WARNING nova.compute.manager [req-53c9e1cd-30eb-4d5f-9b83-7d43e54e6ae0 - - - - -] While synchronizing instance power states, found 0 instances in the database and 1 instances on the hypervisor.
+2017-02-01 00:21:15.028 15967 INFO nova.compute.resource_tracker [req-53c9e1cd-30eb-4d5f-9b83-7d43e54e6ae0 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 00:21:15.835 15967 INFO nova.compute.resource_tracker [req-53c9e1cd-30eb-4d5f-9b83-7d43e54e6ae0 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 00:21:15.836 15967 INFO nova.compute.resource_tracker [req-53c9e1cd-30eb-4d5f-9b83-7d43e54e6ae0 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 00:21:15.909 15967 INFO nova.compute.resource_tracker [req-53c9e1cd-30eb-4d5f-9b83-7d43e54e6ae0 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 00:23:06.251 18696 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:23:06.340 18696 INFO nova.virt.driver [req-7543623a-df3e-48ea-85c9-ffbd2bcc5179 - - - - -] Loading compute driver 'libvirt.LibvirtDriver'
+2017-02-01 00:23:06.593 18696 INFO os_vif [req-7543623a-df3e-48ea-85c9-ffbd2bcc5179 - - - - -] Loaded VIF plugin class '<class 'vif_plug_ovs.ovs.OvsPlugin'>' with name 'ovs'
+2017-02-01 00:23:06.595 18696 INFO os_vif [req-7543623a-df3e-48ea-85c9-ffbd2bcc5179 - - - - -] Loaded VIF plugin class '<class 'vif_plug_linux_bridge.linux_bridge.LinuxBridgePlugin'>' with name 'linux_bridge'
+2017-02-01 00:23:06.629 18696 INFO os_brick.initiator.connectors.disco [req-7543623a-df3e-48ea-85c9-ffbd2bcc5179 - - - - -] Init DISCO connector
+2017-02-01 00:23:06.631 18696 WARNING os_brick.initiator.connectors.remotefs [req-7543623a-df3e-48ea-85c9-ffbd2bcc5179 - - - - -] Connection details not present. RemoteFsClient may not initialize properly.
+2017-02-01 00:23:06.756 18696 INFO nova.service [-] Starting compute node (version 14.0.2-1.el7)
+2017-02-01 00:23:06.773 18696 INFO nova.virt.libvirt.driver [-] Connection event '1' reason 'None'
+2017-02-01 00:23:06.810 18696 INFO nova.virt.libvirt.host [req-6b87d806-f00f-4ea0-9e1d-41b5d960fbe7 - - - - -] Libvirt host capabilities <capabilities>
+
+  <host>
+    <uuid>37353532-3538-435a-3336-313335344145</uuid>
+    <cpu>
+      <arch>x86_64</arch>
+      <model>Haswell-noTSX</model>
+      <vendor>Intel</vendor>
+      <topology sockets='1' cores='10' threads='2'/>
+      <feature name='vme'/>
+      <feature name='ds'/>
+      <feature name='acpi'/>
+      <feature name='ss'/>
+      <feature name='ht'/>
+      <feature name='tm'/>
+      <feature name='pbe'/>
+      <feature name='dtes64'/>
+      <feature name='monitor'/>
+      <feature name='ds_cpl'/>
+      <feature name='vmx'/>
+      <feature name='smx'/>
+      <feature name='est'/>
+      <feature name='tm2'/>
+      <feature name='xtpr'/>
+      <feature name='pdcm'/>
+      <feature name='dca'/>
+      <feature name='osxsave'/>
+      <feature name='f16c'/>
+      <feature name='rdrand'/>
+      <feature name='arat'/>
+      <feature name='tsc_adjust'/>
+      <feature name='cmt'/>
+      <feature name='xsaveopt'/>
+      <feature name='pdpe1gb'/>
+      <feature name='abm'/>
+      <feature name='invtsc'/>
+      <pages unit='KiB' size='4'/>
+      <pages unit='KiB' size='2048'/>
+      <pages unit='KiB' size='1048576'/>
+    </cpu>
+    <power_management>
+      <suspend_mem/>
+    </power_management>
+    <migration_features>
+      <live/>
+      <uri_transports>
+        <uri_transport>tcp</uri_transport>
+        <uri_transport>rdma</uri_transport>
+      </uri_transports>
+    </migration_features>
+    <topology>
+      <cells num='2'>
+        <cell id='0'>
+          <memory unit='KiB'>66980172</memory>
+          <pages unit='KiB' size='4'>16745043</pages>
+          <pages unit='KiB' size='2048'>0</pages>
+          <pages unit='KiB' size='1048576'>0</pages>
+          <distances>
+            <sibling id='0' value='10'/>
+            <sibling id='1' value='21'/>
+          </distances>
+          <cpus num='20'>
+            <cpu id='0' socket_id='0' core_id='0' siblings='0,20'/>
+            <cpu id='1' socket_id='0' core_id='1' siblings='1,21'/>
+            <cpu id='2' socket_id='0' core_id='2' siblings='2,22'/>
+            <cpu id='3' socket_id='0' core_id='3' siblings='3,23'/>
+            <cpu id='4' socket_id='0' core_id='4' siblings='4,24'/>
+            <cpu id='5' socket_id='0' core_id='8' siblings='5,25'/>
+            <cpu id='6' socket_id='0' core_id='9' siblings='6,26'/>
+            <cpu id='7' socket_id='0' core_id='10' siblings='7,27'/>
+            <cpu id='8' socket_id='0' core_id='11' siblings='8,28'/>
+            <cpu id='9' socket_id='0' core_id='12' siblings='9,29'/>
+            <cpu id='20' socket_id='0' core_id='0' siblings='0,20'/>
+            <cpu id='21' socket_id='0' core_id='1' siblings='1,21'/>
+            <cpu id='22' socket_id='0' core_id='2' siblings='2,22'/>
+            <cpu id='23' socket_id='0' core_id='3' siblings='3,23'/>
+            <cpu id='24' socket_id='0' core_id='4' siblings='4,24'/>
+            <cpu id='25' socket_id='0' core_id='8' siblings='5,25'/>
+            <cpu id='26' socket_id='0' core_id='9' siblings='6,26'/>
+            <cpu id='27' socket_id='0' core_id='10' siblings='7,27'/>
+            <cpu id='28' socket_id='0' core_id='11' siblings='8,28'/>
+            <cpu id='29' socket_id='0' core_id='12' siblings='9,29'/>
+          </cpus>
+        </cell>
+        <cell id='1'>
+          <memory unit='KiB'>67108864</memory>
+          <pages unit='KiB' size='4'>16777216</pages>
+          <pages unit='KiB' size='2048'>0</pages>
+          <pages unit='KiB' size='1048576'>0</pages>
+          <distances>
+            <sibling id='0' value='21'/>
+            <sibling id='1' value='10'/>
+          </distances>
+          <cpus num='20'>
+            <cpu id='10' socket_id='1' core_id='0' siblings='10,30'/>
+            <cpu id='11' socket_id='1' core_id='1' siblings='11,31'/>
+            <cpu id='12' socket_id='1' core_id='2' siblings='12,32'/>
+            <cpu id='13' socket_id='1' core_id='3' siblings='13,33'/>
+            <cpu id='14' socket_id='1' core_id='4' siblings='14,34'/>
+            <cpu id='15' socket_id='1' core_id='8' siblings='15,35'/>
+            <cpu id='16' socket_id='1' core_id='9' siblings='16,36'/>
+            <cpu id='17' socket_id='1' core_id='10' siblings='17,37'/>
+            <cpu id='18' socket_id='1' core_id='11' siblings='18,38'/>
+            <cpu id='19' socket_id='1' core_id='12' siblings='19,39'/>
+            <cpu id='30' socket_id='1' core_id='0' siblings='10,30'/>
+            <cpu id='31' socket_id='1' core_id='1' siblings='11,31'/>
+            <cpu id='32' socket_id='1' core_id='2' siblings='12,32'/>
+            <cpu id='33' socket_id='1' core_id='3' siblings='13,33'/>
+            <cpu id='34' socket_id='1' core_id='4' siblings='14,34'/>
+            <cpu id='35' socket_id='1' core_id='8' siblings='15,35'/>
+            <cpu id='36' socket_id='1' core_id='9' siblings='16,36'/>
+            <cpu id='37' socket_id='1' core_id='10' siblings='17,37'/>
+            <cpu id='38' socket_id='1' core_id='11' siblings='18,38'/>
+            <cpu id='39' socket_id='1' core_id='12' siblings='19,39'/>
+          </cpus>
+        </cell>
+      </cells>
+    </topology>
+    <secmodel>
+      <model>none</model>
+      <doi>0</doi>
+    </secmodel>
+    <secmodel>
+      <model>dac</model>
+      <doi>0</doi>
+      <baselabel type='kvm'>+107:+107</baselabel>
+      <baselabel type='qemu'>+107:+107</baselabel>
+    </secmodel>
+  </host>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name='i686'>
+      <wordsize>32</wordsize>
+      <emulator>/usr/bin/qemu-system-i386</emulator>
+      <machine maxCpus='255'>pc-i440fx-2.0</machine>
+      <machine canonical='pc-i440fx-2.0' maxCpus='255'>pc</machine>
+      <machine maxCpus='255'>pc-0.12</machine>
+      <machine maxCpus='255'>pc-1.3</machine>
+      <machine maxCpus='255'>pc-q35-1.6</machine>
+      <machine maxCpus='255'>pc-q35-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.6</machine>
+      <machine maxCpus='255'>pc-i440fx-1.7</machine>
+      <machine maxCpus='255'>pc-0.11</machine>
+      <machine maxCpus='255'>pc-0.10</machine>
+      <machine maxCpus='255'>pc-1.2</machine>
+      <machine maxCpus='1'>isapc</machine>
+      <machine maxCpus='255'>pc-q35-1.4</machine>
+      <machine maxCpus='255'>pc-0.15</machine>
+      <machine maxCpus='255'>pc-0.14</machine>
+      <machine maxCpus='255'>pc-i440fx-1.5</machine>
+      <machine maxCpus='255'>pc-q35-2.0</machine>
+      <machine canonical='pc-q35-2.0' maxCpus='255'>q35</machine>
+      <machine maxCpus='255'>pc-i440fx-1.4</machine>
+      <machine maxCpus='255'>pc-1.1</machine>
+      <machine maxCpus='255'>pc-q35-1.7</machine>
+      <machine maxCpus='255'>pc-1.0</machine>
+      <machine maxCpus='255'>pc-0.13</machine>
+      <domain type='qemu'/>
+      <domain type='kvm'>
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+        <machine maxCpus='240'>pc-i440fx-rhel7.0.0</machine>
+        <machine canonical='pc-i440fx-rhel7.0.0' maxCpus='240'>pc</machine>
+        <machine maxCpus='240'>rhel6.0.0</machine>
+        <machine maxCpus='240'>rhel6.1.0</machine>
+        <machine maxCpus='240'>rhel6.2.0</machine>
+        <machine maxCpus='240'>rhel6.3.0</machine>
+        <machine maxCpus='240'>rhel6.4.0</machine>
+        <machine maxCpus='240'>rhel6.5.0</machine>
+        <machine maxCpus='240'>rhel6.6.0</machine>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default='on' toggle='no'/>
+      <acpi default='on' toggle='yes'/>
+      <apic default='on' toggle='no'/>
+      <pae/>
+      <nonpae/>
+    </features>
+  </guest>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name='x86_64'>
+      <wordsize>64</wordsize>
+      <emulator>/usr/bin/qemu-system-x86_64</emulator>
+      <machine maxCpus='255'>pc-i440fx-2.0</machine>
+      <machine canonical='pc-i440fx-2.0' maxCpus='255'>pc</machine>
+      <machine maxCpus='255'>pc-1.3</machine>
+      <machine maxCpus='255'>pc-0.12</machine>
+      <machine maxCpus='255'>pc-q35-1.6</machine>
+      <machine maxCpus='255'>pc-q35-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.6</machine>
+      <machine maxCpus='255'>pc-i440fx-1.7</machine>
+      <machine maxCpus='255'>pc-0.11</machine>
+      <machine maxCpus='255'>pc-1.2</machine>
+      <machine maxCpus='255'>pc-0.10</machine>
+      <machine maxCpus='1'>isapc</machine>
+      <machine maxCpus='255'>pc-q35-1.4</machine>
+      <machine maxCpus='255'>pc-0.15</machine>
+      <machine maxCpus='255'>pc-0.14</machine>
+      <machine maxCpus='255'>pc-i440fx-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.4</machine>
+      <machine maxCpus='255'>pc-q35-2.0</machine>
+      <machine canonical='pc-q35-2.0' maxCpus='255'>q35</machine>
+      <machine maxCpus='255'>pc-1.1</machine>
+      <machine maxCpus='255'>pc-q35-1.7</machine>
+      <machine maxCpus='255'>pc-1.0</machine>
+      <machine maxCpus='255'>pc-0.13</machine>
+      <domain type='qemu'/>
+      <domain type='kvm'>
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+        <machine maxCpus='240'>pc-i440fx-rhel7.0.0</machine>
+        <machine canonical='pc-i440fx-rhel7.0.0' maxCpus='240'>pc</machine>
+        <machine maxCpus='240'>rhel6.0.0</machine>
+        <machine maxCpus='240'>rhel6.1.0</machine>
+        <machine maxCpus='240'>rhel6.2.0</machine>
+        <machine maxCpus='240'>rhel6.3.0</machine>
+        <machine maxCpus='240'>rhel6.4.0</machine>
+        <machine maxCpus='240'>rhel6.5.0</machine>
+        <machine maxCpus='240'>rhel6.6.0</machine>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default='on' toggle='no'/>
+      <acpi default='on' toggle='yes'/>
+      <apic default='on' toggle='no'/>
+    </features>
+  </guest>
+
+</capabilities>
+
+2017-02-01 00:23:06.993 18696 WARNING nova.compute.monitors [req-6b87d806-f00f-4ea0-9e1d-41b5d960fbe7 - - - - -] Excluding nova.compute.monitors.cpu monitor virt_driver. Not in the list of enabled monitors (CONF.compute_monitors).
+2017-02-01 00:23:06.994 18696 INFO nova.compute.resource_tracker [req-6b87d806-f00f-4ea0-9e1d-41b5d960fbe7 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 00:23:07.751 18696 WARNING nova.scheduler.client.report [req-6b87d806-f00f-4ea0-9e1d-41b5d960fbe7 - - - - -] No authentication information found for placement API. Optional use of placement API for reporting is now disabled.
+2017-02-01 00:23:07.860 18696 INFO nova.compute.resource_tracker [req-6b87d806-f00f-4ea0-9e1d-41b5d960fbe7 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 00:23:07.860 18696 INFO nova.compute.resource_tracker [req-6b87d806-f00f-4ea0-9e1d-41b5d960fbe7 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 00:23:07.919 18696 INFO nova.compute.resource_tracker [req-6b87d806-f00f-4ea0-9e1d-41b5d960fbe7 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 00:24:04.035 18696 WARNING nova.compute.manager [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] While synchronizing instance power states, found 0 instances in the database and 1 instances on the hypervisor.
+2017-02-01 00:24:06.368 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 00:24:07.312 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 00:24:07.313 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 00:24:07.386 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 00:25:06.442 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 00:25:22.971 18696 WARNING nova.servicegroup.drivers.db [-] Lost connection to nova-conductor for reporting service status.
+2017-02-01 00:25:22.973 18696 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 50.01 sec
+2017-02-01 00:25:47.104 18696 INFO oslo_messaging._drivers.amqpdriver [-] No calling threads waiting for msg_id : 0cf3be172506487c980272357a9aac13
+2017-02-01 00:25:47.106 18696 INFO nova.servicegroup.drivers.db [-] Recovered from being unable to report status.
+2017-02-01 00:25:47.107 18696 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 14.13 sec
+2017-02-01 00:25:47.287 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 00:25:47.287 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 00:25:47.354 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 00:26:08.367 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 00:26:09.317 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 00:26:09.317 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 00:26:09.392 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 00:27:09.352 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 00:27:10.207 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 00:27:10.208 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 00:27:10.262 18696 INFO nova.compute.resource_tracker [req-51ef3c9c-8f60-4935-bd5d-be6115be2ae9 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 00:36:02.907 5644 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:36:02.974 5644 INFO nova.virt.driver [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Loading compute driver 'libvirt.LibvirtDriver'
+2017-02-01 00:36:03.175 5644 INFO os_vif [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Loaded VIF plugin class '<class 'vif_plug_ovs.ovs.OvsPlugin'>' with name 'ovs'
+2017-02-01 00:36:03.176 5644 INFO os_vif [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Loaded VIF plugin class '<class 'vif_plug_linux_bridge.linux_bridge.LinuxBridgePlugin'>' with name 'linux_bridge'
+2017-02-01 00:36:03.227 5644 INFO os_brick.initiator.connectors.disco [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Init DISCO connector
+2017-02-01 00:36:03.230 5644 WARNING os_brick.initiator.connectors.remotefs [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Connection details not present. RemoteFsClient may not initialize properly.
+2017-02-01 00:36:43.296 5644 ERROR oslo.messaging._drivers.impl_rabbit [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] [72817da2-fac9-4601-8a6f-04dc111f0657] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 00:37:32.366 5644 INFO oslo.messaging._drivers.impl_rabbit [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] [72817da2-fac9-4601-8a6f-04dc111f0657] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 36892.
+2017-02-01 00:38:30.451 5644 WARNING nova.conductor.api [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:38:40.464 5644 WARNING nova.conductor.api [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:38:50.472 5644 WARNING nova.conductor.api [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:39:00.479 5644 WARNING nova.conductor.api [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:39:10.487 5644 WARNING nova.conductor.api [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:39:20.492 5644 WARNING nova.conductor.api [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:39:28.545 5644 INFO oslo_messaging._drivers.amqpdriver [-] No calling threads waiting for msg_id : 2b1649fa855849e68dfbc1e921962e22
+2017-02-01 00:39:30.498 5644 WARNING nova.conductor.api [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:39:38.552 5644 INFO oslo_messaging._drivers.amqpdriver [-] No calling threads waiting for msg_id : ae03fafcbf8c4cbcb219d11bda880a0e
+2017-02-01 00:39:40.502 5644 WARNING nova.conductor.api [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:39:48.560 5644 INFO oslo_messaging._drivers.amqpdriver [-] No calling threads waiting for msg_id : e0f35d6ddcf54fdbb0704db0d016b445
+2017-02-01 00:39:50.506 5644 WARNING nova.conductor.api [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:39:58.566 5644 INFO oslo_messaging._drivers.amqpdriver [-] No calling threads waiting for msg_id : faff6e32531545279f94a7520a73dfd7
+2017-02-01 00:40:00.510 5644 WARNING nova.conductor.api [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:40:08.570 5644 INFO oslo_messaging._drivers.amqpdriver [-] No calling threads waiting for msg_id : 40cea10597634d268c63324417d77e47
+2017-02-01 00:40:18.577 5644 INFO oslo_messaging._drivers.amqpdriver [-] No calling threads waiting for msg_id : ec957b7b04334e578adf926ffa48cac9
+2017-02-01 00:40:28.581 5644 INFO oslo_messaging._drivers.amqpdriver [-] No calling threads waiting for msg_id : 6644023f72cf4874af92fffe8252f769
+2017-02-01 00:40:38.584 5644 INFO oslo_messaging._drivers.amqpdriver [-] No calling threads waiting for msg_id : 9f1ec1704f7d43aeb79b2dd3b6d9e765
+2017-02-01 00:40:40.604 5644 INFO nova.conductor.api [req-52ed10e4-c532-4e92-a4b5-66e3787542a4 - - - - -] nova-conductor connection established successfully
+2017-02-01 00:40:40.649 5644 INFO nova.service [-] Starting compute node (version 14.0.2-1.el7)
+2017-02-01 00:40:40.757 5644 INFO nova.virt.libvirt.driver [-] Connection event '1' reason 'None'
+2017-02-01 00:41:28.860 5644 INFO nova.virt.libvirt.host [req-2d6f873c-d0cb-48b5-bf38-2341c849e3c6 - - - - -] Libvirt host capabilities <capabilities>
+
+  <host>
+    <uuid>37353532-3538-435a-3336-313335344145</uuid>
+    <cpu>
+      <arch>x86_64</arch>
+      <model>Haswell-noTSX</model>
+      <vendor>Intel</vendor>
+      <topology sockets='1' cores='10' threads='2'/>
+      <feature name='vme'/>
+      <feature name='ds'/>
+      <feature name='acpi'/>
+      <feature name='ss'/>
+      <feature name='ht'/>
+      <feature name='tm'/>
+      <feature name='pbe'/>
+      <feature name='dtes64'/>
+      <feature name='monitor'/>
+      <feature name='ds_cpl'/>
+      <feature name='vmx'/>
+      <feature name='smx'/>
+      <feature name='est'/>
+      <feature name='tm2'/>
+      <feature name='xtpr'/>
+      <feature name='pdcm'/>
+      <feature name='dca'/>
+      <feature name='osxsave'/>
+      <feature name='f16c'/>
+      <feature name='rdrand'/>
+      <feature name='arat'/>
+      <feature name='tsc_adjust'/>
+      <feature name='cmt'/>
+      <feature name='xsaveopt'/>
+      <feature name='pdpe1gb'/>
+      <feature name='abm'/>
+      <feature name='invtsc'/>
+      <pages unit='KiB' size='4'/>
+      <pages unit='KiB' size='2048'/>
+      <pages unit='KiB' size='1048576'/>
+    </cpu>
+    <power_management>
+      <suspend_mem/>
+    </power_management>
+    <migration_features>
+      <live/>
+      <uri_transports>
+        <uri_transport>tcp</uri_transport>
+        <uri_transport>rdma</uri_transport>
+      </uri_transports>
+    </migration_features>
+    <topology>
+      <cells num='2'>
+        <cell id='0'>
+          <memory unit='KiB'>66980172</memory>
+          <pages unit='KiB' size='4'>16745043</pages>
+          <pages unit='KiB' size='2048'>0</pages>
+          <pages unit='KiB' size='1048576'>0</pages>
+          <distances>
+            <sibling id='0' value='10'/>
+            <sibling id='1' value='21'/>
+          </distances>
+          <cpus num='20'>
+            <cpu id='0' socket_id='0' core_id='0' siblings='0,20'/>
+            <cpu id='1' socket_id='0' core_id='1' siblings='1,21'/>
+            <cpu id='2' socket_id='0' core_id='2' siblings='2,22'/>
+            <cpu id='3' socket_id='0' core_id='3' siblings='3,23'/>
+            <cpu id='4' socket_id='0' core_id='4' siblings='4,24'/>
+            <cpu id='5' socket_id='0' core_id='8' siblings='5,25'/>
+            <cpu id='6' socket_id='0' core_id='9' siblings='6,26'/>
+            <cpu id='7' socket_id='0' core_id='10' siblings='7,27'/>
+            <cpu id='8' socket_id='0' core_id='11' siblings='8,28'/>
+            <cpu id='9' socket_id='0' core_id='12' siblings='9,29'/>
+            <cpu id='20' socket_id='0' core_id='0' siblings='0,20'/>
+            <cpu id='21' socket_id='0' core_id='1' siblings='1,21'/>
+            <cpu id='22' socket_id='0' core_id='2' siblings='2,22'/>
+            <cpu id='23' socket_id='0' core_id='3' siblings='3,23'/>
+            <cpu id='24' socket_id='0' core_id='4' siblings='4,24'/>
+            <cpu id='25' socket_id='0' core_id='8' siblings='5,25'/>
+            <cpu id='26' socket_id='0' core_id='9' siblings='6,26'/>
+            <cpu id='27' socket_id='0' core_id='10' siblings='7,27'/>
+            <cpu id='28' socket_id='0' core_id='11' siblings='8,28'/>
+            <cpu id='29' socket_id='0' core_id='12' siblings='9,29'/>
+          </cpus>
+        </cell>
+        <cell id='1'>
+          <memory unit='KiB'>67108864</memory>
+          <pages unit='KiB' size='4'>16777216</pages>
+          <pages unit='KiB' size='2048'>0</pages>
+          <pages unit='KiB' size='1048576'>0</pages>
+          <distances>
+            <sibling id='0' value='21'/>
+            <sibling id='1' value='10'/>
+          </distances>
+          <cpus num='20'>
+            <cpu id='10' socket_id='1' core_id='0' siblings='10,30'/>
+            <cpu id='11' socket_id='1' core_id='1' siblings='11,31'/>
+            <cpu id='12' socket_id='1' core_id='2' siblings='12,32'/>
+            <cpu id='13' socket_id='1' core_id='3' siblings='13,33'/>
+            <cpu id='14' socket_id='1' core_id='4' siblings='14,34'/>
+            <cpu id='15' socket_id='1' core_id='8' siblings='15,35'/>
+            <cpu id='16' socket_id='1' core_id='9' siblings='16,36'/>
+            <cpu id='17' socket_id='1' core_id='10' siblings='17,37'/>
+            <cpu id='18' socket_id='1' core_id='11' siblings='18,38'/>
+            <cpu id='19' socket_id='1' core_id='12' siblings='19,39'/>
+            <cpu id='30' socket_id='1' core_id='0' siblings='10,30'/>
+            <cpu id='31' socket_id='1' core_id='1' siblings='11,31'/>
+            <cpu id='32' socket_id='1' core_id='2' siblings='12,32'/>
+            <cpu id='33' socket_id='1' core_id='3' siblings='13,33'/>
+            <cpu id='34' socket_id='1' core_id='4' siblings='14,34'/>
+            <cpu id='35' socket_id='1' core_id='8' siblings='15,35'/>
+            <cpu id='36' socket_id='1' core_id='9' siblings='16,36'/>
+            <cpu id='37' socket_id='1' core_id='10' siblings='17,37'/>
+            <cpu id='38' socket_id='1' core_id='11' siblings='18,38'/>
+            <cpu id='39' socket_id='1' core_id='12' siblings='19,39'/>
+          </cpus>
+        </cell>
+      </cells>
+    </topology>
+    <secmodel>
+      <model>none</model>
+      <doi>0</doi>
+    </secmodel>
+    <secmodel>
+      <model>dac</model>
+      <doi>0</doi>
+      <baselabel type='kvm'>+107:+107</baselabel>
+      <baselabel type='qemu'>+107:+107</baselabel>
+    </secmodel>
+  </host>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name='i686'>
+      <wordsize>32</wordsize>
+      <emulator>/usr/bin/qemu-system-i386</emulator>
+      <machine maxCpus='255'>pc-i440fx-2.0</machine>
+      <machine canonical='pc-i440fx-2.0' maxCpus='255'>pc</machine>
+      <machine maxCpus='255'>pc-0.12</machine>
+      <machine maxCpus='255'>pc-1.3</machine>
+      <machine maxCpus='255'>pc-q35-1.6</machine>
+      <machine maxCpus='255'>pc-q35-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.6</machine>
+      <machine maxCpus='255'>pc-i440fx-1.7</machine>
+      <machine maxCpus='255'>pc-0.11</machine>
+      <machine maxCpus='255'>pc-0.10</machine>
+      <machine maxCpus='255'>pc-1.2</machine>
+      <machine maxCpus='1'>isapc</machine>
+      <machine maxCpus='255'>pc-q35-1.4</machine>
+      <machine maxCpus='255'>pc-0.15</machine>
+      <machine maxCpus='255'>pc-0.14</machine>
+      <machine maxCpus='255'>pc-i440fx-1.5</machine>
+      <machine maxCpus='255'>pc-q35-2.0</machine>
+      <machine canonical='pc-q35-2.0' maxCpus='255'>q35</machine>
+      <machine maxCpus='255'>pc-i440fx-1.4</machine>
+      <machine maxCpus='255'>pc-1.1</machine>
+      <machine maxCpus='255'>pc-q35-1.7</machine>
+      <machine maxCpus='255'>pc-1.0</machine>
+      <machine maxCpus='255'>pc-0.13</machine>
+      <domain type='qemu'/>
+      <domain type='kvm'>
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+        <machine maxCpus='240'>pc-i440fx-rhel7.0.0</machine>
+        <machine canonical='pc-i440fx-rhel7.0.0' maxCpus='240'>pc</machine>
+        <machine maxCpus='240'>rhel6.0.0</machine>
+        <machine maxCpus='240'>rhel6.1.0</machine>
+        <machine maxCpus='240'>rhel6.2.0</machine>
+        <machine maxCpus='240'>rhel6.3.0</machine>
+        <machine maxCpus='240'>rhel6.4.0</machine>
+        <machine maxCpus='240'>rhel6.5.0</machine>
+        <machine maxCpus='240'>rhel6.6.0</machine>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default='on' toggle='no'/>
+      <acpi default='on' toggle='yes'/>
+      <apic default='on' toggle='no'/>
+      <pae/>
+      <nonpae/>
+    </features>
+  </guest>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name='x86_64'>
+      <wordsize>64</wordsize>
+      <emulator>/usr/bin/qemu-system-x86_64</emulator>
+      <machine maxCpus='255'>pc-i440fx-2.0</machine>
+      <machine canonical='pc-i440fx-2.0' maxCpus='255'>pc</machine>
+      <machine maxCpus='255'>pc-1.3</machine>
+      <machine maxCpus='255'>pc-0.12</machine>
+      <machine maxCpus='255'>pc-q35-1.6</machine>
+      <machine maxCpus='255'>pc-q35-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.6</machine>
+      <machine maxCpus='255'>pc-i440fx-1.7</machine>
+      <machine maxCpus='255'>pc-0.11</machine>
+      <machine maxCpus='255'>pc-1.2</machine>
+      <machine maxCpus='255'>pc-0.10</machine>
+      <machine maxCpus='1'>isapc</machine>
+      <machine maxCpus='255'>pc-q35-1.4</machine>
+      <machine maxCpus='255'>pc-0.15</machine>
+      <machine maxCpus='255'>pc-0.14</machine>
+      <machine maxCpus='255'>pc-i440fx-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.4</machine>
+      <machine maxCpus='255'>pc-q35-2.0</machine>
+      <machine canonical='pc-q35-2.0' maxCpus='255'>q35</machine>
+      <machine maxCpus='255'>pc-1.1</machine>
+      <machine maxCpus='255'>pc-q35-1.7</machine>
+      <machine maxCpus='255'>pc-1.0</machine>
+      <machine maxCpus='255'>pc-0.13</machine>
+      <domain type='qemu'/>
+      <domain type='kvm'>
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+        <machine maxCpus='240'>pc-i440fx-rhel7.0.0</machine>
+        <machine canonical='pc-i440fx-rhel7.0.0' maxCpus='240'>pc</machine>
+        <machine maxCpus='240'>rhel6.0.0</machine>
+        <machine maxCpus='240'>rhel6.1.0</machine>
+        <machine maxCpus='240'>rhel6.2.0</machine>
+        <machine maxCpus='240'>rhel6.3.0</machine>
+        <machine maxCpus='240'>rhel6.4.0</machine>
+        <machine maxCpus='240'>rhel6.5.0</machine>
+        <machine maxCpus='240'>rhel6.6.0</machine>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default='on' toggle='no'/>
+      <acpi default='on' toggle='yes'/>
+      <apic default='on' toggle='no'/>
+    </features>
+  </guest>
+
+</capabilities>
+
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service [req-2d6f873c-d0cb-48b5-bf38-2341c849e3c6 - - - - -] Error starting thread.
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service Traceback (most recent call last):
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service   File "/usr/lib/python2.7/site-packages/oslo_service/service.py", line 708, in run_service
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service     service.start()
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service   File "/usr/lib/python2.7/site-packages/nova/service.py", line 117, in start
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service     self.manager.init_host()
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service   File "/usr/lib/python2.7/site-packages/nova/compute/manager.py", line 1148, in init_host
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service     self._destroy_evacuated_instances(context)
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service   File "/usr/lib/python2.7/site-packages/nova/compute/manager.py", line 643, in _destroy_evacuated_instances
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service     evacuations = objects.MigrationList.get_by_filters(context, filters)
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service   File "/usr/lib/python2.7/site-packages/oslo_versionedobjects/base.py", line 177, in wrapper
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service     args, kwargs)
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service   File "/usr/lib/python2.7/site-packages/nova/conductor/rpcapi.py", line 236, in object_class_action_versions
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service     args=args, kwargs=kwargs)
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 169, in call
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service     retry=self.retry)
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 97, in _send
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service     timeout=timeout, retry=retry)
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 464, in send
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service     retry=retry)
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 453, in _send
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service     result = self._waiter.wait(msg_id, timeout)
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 336, in wait
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service     message = self.waiters.get(msg_id, timeout=timeout)
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 238, in get
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service     'to message ID %s' % msg_id)
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service MessagingTimeout: Timed out waiting for a reply to message ID 704999e6801941d99b2760439629291c
+2017-02-01 00:43:17.017 5644 ERROR oslo_service.service 
+2017-02-01 00:43:19.906 9012 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:43:19.957 9012 INFO nova.virt.driver [req-f443e99d-38fd-4cc8-8edc-032f65a16975 - - - - -] Loading compute driver 'libvirt.LibvirtDriver'
+2017-02-01 00:43:20.070 9012 INFO os_vif [req-f443e99d-38fd-4cc8-8edc-032f65a16975 - - - - -] Loaded VIF plugin class '<class 'vif_plug_ovs.ovs.OvsPlugin'>' with name 'ovs'
+2017-02-01 00:43:20.071 9012 INFO os_vif [req-f443e99d-38fd-4cc8-8edc-032f65a16975 - - - - -] Loaded VIF plugin class '<class 'vif_plug_linux_bridge.linux_bridge.LinuxBridgePlugin'>' with name 'linux_bridge'
+2017-02-01 00:43:20.089 9012 INFO os_brick.initiator.connectors.disco [req-f443e99d-38fd-4cc8-8edc-032f65a16975 - - - - -] Init DISCO connector
+2017-02-01 00:43:20.090 9012 WARNING os_brick.initiator.connectors.remotefs [req-f443e99d-38fd-4cc8-8edc-032f65a16975 - - - - -] Connection details not present. RemoteFsClient may not initialize properly.
+2017-02-01 00:45:06.231 9012 WARNING nova.conductor.api [req-f443e99d-38fd-4cc8-8edc-032f65a16975 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:45:16.238 9012 WARNING nova.conductor.api [req-f443e99d-38fd-4cc8-8edc-032f65a16975 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:45:26.246 9012 WARNING nova.conductor.api [req-f443e99d-38fd-4cc8-8edc-032f65a16975 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:45:36.250 9012 WARNING nova.conductor.api [req-f443e99d-38fd-4cc8-8edc-032f65a16975 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 00:45:44.315 9012 INFO oslo_messaging._drivers.amqpdriver [-] No calling threads waiting for msg_id : 4193cd70a3644d849dbdcee8aad10719
+2017-02-01 00:45:46.258 9012 WARNING nova.conductor.api [req-f443e99d-38fd-4cc8-8edc-032f65a16975 - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 01:00:36.394 5593 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 01:00:36.452 5593 INFO nova.virt.driver [req-6ec7e089-07b4-4195-801d-caefd216179c - - - - -] Loading compute driver 'libvirt.LibvirtDriver'
+2017-02-01 01:00:36.610 5593 INFO os_vif [req-6ec7e089-07b4-4195-801d-caefd216179c - - - - -] Loaded VIF plugin class '<class 'vif_plug_ovs.ovs.OvsPlugin'>' with name 'ovs'
+2017-02-01 01:00:36.611 5593 INFO os_vif [req-6ec7e089-07b4-4195-801d-caefd216179c - - - - -] Loaded VIF plugin class '<class 'vif_plug_linux_bridge.linux_bridge.LinuxBridgePlugin'>' with name 'linux_bridge'
+2017-02-01 01:00:36.638 5593 INFO os_brick.initiator.connectors.disco [req-6ec7e089-07b4-4195-801d-caefd216179c - - - - -] Init DISCO connector
+2017-02-01 01:00:36.639 5593 WARNING os_brick.initiator.connectors.remotefs [req-6ec7e089-07b4-4195-801d-caefd216179c - - - - -] Connection details not present. RemoteFsClient may not initialize properly.
+2017-02-01 01:00:41.658 5593 ERROR oslo.messaging._drivers.impl_rabbit [req-6ec7e089-07b4-4195-801d-caefd216179c - - - - -] [9c52271b-dd13-48c8-b8cd-0b37f77cebd8] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:42.672 5593 INFO oslo.messaging._drivers.impl_rabbit [req-6ec7e089-07b4-4195-801d-caefd216179c - - - - -] [9c52271b-dd13-48c8-b8cd-0b37f77cebd8] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37364.
+2017-02-01 01:00:52.696 5593 WARNING nova.conductor.api [req-6ec7e089-07b4-4195-801d-caefd216179c - - - - -] Timed out waiting for nova-conductor.  Is it running? Or did this service start before nova-conductor?  Reattempting establishment of nova-conductor connection...
+2017-02-01 01:00:52.739 5593 INFO nova.conductor.api [req-6ec7e089-07b4-4195-801d-caefd216179c - - - - -] nova-conductor connection established successfully
+2017-02-01 01:00:52.782 5593 INFO nova.service [-] Starting compute node (version 14.0.2-1.el7)
+2017-02-01 01:00:52.872 5593 INFO nova.virt.libvirt.driver [-] Connection event '1' reason 'None'
+2017-02-01 01:00:52.935 5593 INFO nova.virt.libvirt.host [req-0fdab89c-fbe3-487c-a8bd-da2ec0bb0e35 - - - - -] Libvirt host capabilities <capabilities>
+
+  <host>
+    <uuid>37353532-3538-435a-3336-313335344145</uuid>
+    <cpu>
+      <arch>x86_64</arch>
+      <model>Haswell-noTSX</model>
+      <vendor>Intel</vendor>
+      <topology sockets='1' cores='10' threads='2'/>
+      <feature name='vme'/>
+      <feature name='ds'/>
+      <feature name='acpi'/>
+      <feature name='ss'/>
+      <feature name='ht'/>
+      <feature name='tm'/>
+      <feature name='pbe'/>
+      <feature name='dtes64'/>
+      <feature name='monitor'/>
+      <feature name='ds_cpl'/>
+      <feature name='vmx'/>
+      <feature name='smx'/>
+      <feature name='est'/>
+      <feature name='tm2'/>
+      <feature name='xtpr'/>
+      <feature name='pdcm'/>
+      <feature name='dca'/>
+      <feature name='osxsave'/>
+      <feature name='f16c'/>
+      <feature name='rdrand'/>
+      <feature name='arat'/>
+      <feature name='tsc_adjust'/>
+      <feature name='cmt'/>
+      <feature name='xsaveopt'/>
+      <feature name='pdpe1gb'/>
+      <feature name='abm'/>
+      <feature name='invtsc'/>
+      <pages unit='KiB' size='4'/>
+      <pages unit='KiB' size='2048'/>
+      <pages unit='KiB' size='1048576'/>
+    </cpu>
+    <power_management>
+      <suspend_mem/>
+    </power_management>
+    <migration_features>
+      <live/>
+      <uri_transports>
+        <uri_transport>tcp</uri_transport>
+        <uri_transport>rdma</uri_transport>
+      </uri_transports>
+    </migration_features>
+    <topology>
+      <cells num='2'>
+        <cell id='0'>
+          <memory unit='KiB'>66980172</memory>
+          <pages unit='KiB' size='4'>16745043</pages>
+          <pages unit='KiB' size='2048'>0</pages>
+          <pages unit='KiB' size='1048576'>0</pages>
+          <distances>
+            <sibling id='0' value='10'/>
+            <sibling id='1' value='21'/>
+          </distances>
+          <cpus num='20'>
+            <cpu id='0' socket_id='0' core_id='0' siblings='0,20'/>
+            <cpu id='1' socket_id='0' core_id='1' siblings='1,21'/>
+            <cpu id='2' socket_id='0' core_id='2' siblings='2,22'/>
+            <cpu id='3' socket_id='0' core_id='3' siblings='3,23'/>
+            <cpu id='4' socket_id='0' core_id='4' siblings='4,24'/>
+            <cpu id='5' socket_id='0' core_id='8' siblings='5,25'/>
+            <cpu id='6' socket_id='0' core_id='9' siblings='6,26'/>
+            <cpu id='7' socket_id='0' core_id='10' siblings='7,27'/>
+            <cpu id='8' socket_id='0' core_id='11' siblings='8,28'/>
+            <cpu id='9' socket_id='0' core_id='12' siblings='9,29'/>
+            <cpu id='20' socket_id='0' core_id='0' siblings='0,20'/>
+            <cpu id='21' socket_id='0' core_id='1' siblings='1,21'/>
+            <cpu id='22' socket_id='0' core_id='2' siblings='2,22'/>
+            <cpu id='23' socket_id='0' core_id='3' siblings='3,23'/>
+            <cpu id='24' socket_id='0' core_id='4' siblings='4,24'/>
+            <cpu id='25' socket_id='0' core_id='8' siblings='5,25'/>
+            <cpu id='26' socket_id='0' core_id='9' siblings='6,26'/>
+            <cpu id='27' socket_id='0' core_id='10' siblings='7,27'/>
+            <cpu id='28' socket_id='0' core_id='11' siblings='8,28'/>
+            <cpu id='29' socket_id='0' core_id='12' siblings='9,29'/>
+          </cpus>
+        </cell>
+        <cell id='1'>
+          <memory unit='KiB'>67108864</memory>
+          <pages unit='KiB' size='4'>16777216</pages>
+          <pages unit='KiB' size='2048'>0</pages>
+          <pages unit='KiB' size='1048576'>0</pages>
+          <distances>
+            <sibling id='0' value='21'/>
+            <sibling id='1' value='10'/>
+          </distances>
+          <cpus num='20'>
+            <cpu id='10' socket_id='1' core_id='0' siblings='10,30'/>
+            <cpu id='11' socket_id='1' core_id='1' siblings='11,31'/>
+            <cpu id='12' socket_id='1' core_id='2' siblings='12,32'/>
+            <cpu id='13' socket_id='1' core_id='3' siblings='13,33'/>
+            <cpu id='14' socket_id='1' core_id='4' siblings='14,34'/>
+            <cpu id='15' socket_id='1' core_id='8' siblings='15,35'/>
+            <cpu id='16' socket_id='1' core_id='9' siblings='16,36'/>
+            <cpu id='17' socket_id='1' core_id='10' siblings='17,37'/>
+            <cpu id='18' socket_id='1' core_id='11' siblings='18,38'/>
+            <cpu id='19' socket_id='1' core_id='12' siblings='19,39'/>
+            <cpu id='30' socket_id='1' core_id='0' siblings='10,30'/>
+            <cpu id='31' socket_id='1' core_id='1' siblings='11,31'/>
+            <cpu id='32' socket_id='1' core_id='2' siblings='12,32'/>
+            <cpu id='33' socket_id='1' core_id='3' siblings='13,33'/>
+            <cpu id='34' socket_id='1' core_id='4' siblings='14,34'/>
+            <cpu id='35' socket_id='1' core_id='8' siblings='15,35'/>
+            <cpu id='36' socket_id='1' core_id='9' siblings='16,36'/>
+            <cpu id='37' socket_id='1' core_id='10' siblings='17,37'/>
+            <cpu id='38' socket_id='1' core_id='11' siblings='18,38'/>
+            <cpu id='39' socket_id='1' core_id='12' siblings='19,39'/>
+          </cpus>
+        </cell>
+      </cells>
+    </topology>
+    <secmodel>
+      <model>none</model>
+      <doi>0</doi>
+    </secmodel>
+    <secmodel>
+      <model>dac</model>
+      <doi>0</doi>
+      <baselabel type='kvm'>+107:+107</baselabel>
+      <baselabel type='qemu'>+107:+107</baselabel>
+    </secmodel>
+  </host>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name='i686'>
+      <wordsize>32</wordsize>
+      <emulator>/usr/bin/qemu-system-i386</emulator>
+      <machine maxCpus='255'>pc-i440fx-2.0</machine>
+      <machine canonical='pc-i440fx-2.0' maxCpus='255'>pc</machine>
+      <machine maxCpus='255'>pc-0.12</machine>
+      <machine maxCpus='255'>pc-1.3</machine>
+      <machine maxCpus='255'>pc-q35-1.6</machine>
+      <machine maxCpus='255'>pc-q35-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.6</machine>
+      <machine maxCpus='255'>pc-i440fx-1.7</machine>
+      <machine maxCpus='255'>pc-0.11</machine>
+      <machine maxCpus='255'>pc-0.10</machine>
+      <machine maxCpus='255'>pc-1.2</machine>
+      <machine maxCpus='1'>isapc</machine>
+      <machine maxCpus='255'>pc-q35-1.4</machine>
+      <machine maxCpus='255'>pc-0.15</machine>
+      <machine maxCpus='255'>pc-0.14</machine>
+      <machine maxCpus='255'>pc-i440fx-1.5</machine>
+      <machine maxCpus='255'>pc-q35-2.0</machine>
+      <machine canonical='pc-q35-2.0' maxCpus='255'>q35</machine>
+      <machine maxCpus='255'>pc-i440fx-1.4</machine>
+      <machine maxCpus='255'>pc-1.1</machine>
+      <machine maxCpus='255'>pc-q35-1.7</machine>
+      <machine maxCpus='255'>pc-1.0</machine>
+      <machine maxCpus='255'>pc-0.13</machine>
+      <domain type='qemu'/>
+      <domain type='kvm'>
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+        <machine maxCpus='240'>pc-i440fx-rhel7.0.0</machine>
+        <machine canonical='pc-i440fx-rhel7.0.0' maxCpus='240'>pc</machine>
+        <machine maxCpus='240'>rhel6.0.0</machine>
+        <machine maxCpus='240'>rhel6.1.0</machine>
+        <machine maxCpus='240'>rhel6.2.0</machine>
+        <machine maxCpus='240'>rhel6.3.0</machine>
+        <machine maxCpus='240'>rhel6.4.0</machine>
+        <machine maxCpus='240'>rhel6.5.0</machine>
+        <machine maxCpus='240'>rhel6.6.0</machine>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default='on' toggle='no'/>
+      <acpi default='on' toggle='yes'/>
+      <apic default='on' toggle='no'/>
+      <pae/>
+      <nonpae/>
+    </features>
+  </guest>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name='x86_64'>
+      <wordsize>64</wordsize>
+      <emulator>/usr/bin/qemu-system-x86_64</emulator>
+      <machine maxCpus='255'>pc-i440fx-2.0</machine>
+      <machine canonical='pc-i440fx-2.0' maxCpus='255'>pc</machine>
+      <machine maxCpus='255'>pc-1.3</machine>
+      <machine maxCpus='255'>pc-0.12</machine>
+      <machine maxCpus='255'>pc-q35-1.6</machine>
+      <machine maxCpus='255'>pc-q35-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.6</machine>
+      <machine maxCpus='255'>pc-i440fx-1.7</machine>
+      <machine maxCpus='255'>pc-0.11</machine>
+      <machine maxCpus='255'>pc-1.2</machine>
+      <machine maxCpus='255'>pc-0.10</machine>
+      <machine maxCpus='1'>isapc</machine>
+      <machine maxCpus='255'>pc-q35-1.4</machine>
+      <machine maxCpus='255'>pc-0.15</machine>
+      <machine maxCpus='255'>pc-0.14</machine>
+      <machine maxCpus='255'>pc-i440fx-1.5</machine>
+      <machine maxCpus='255'>pc-i440fx-1.4</machine>
+      <machine maxCpus='255'>pc-q35-2.0</machine>
+      <machine canonical='pc-q35-2.0' maxCpus='255'>q35</machine>
+      <machine maxCpus='255'>pc-1.1</machine>
+      <machine maxCpus='255'>pc-q35-1.7</machine>
+      <machine maxCpus='255'>pc-1.0</machine>
+      <machine maxCpus='255'>pc-0.13</machine>
+      <domain type='qemu'/>
+      <domain type='kvm'>
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+        <machine maxCpus='240'>pc-i440fx-rhel7.0.0</machine>
+        <machine canonical='pc-i440fx-rhel7.0.0' maxCpus='240'>pc</machine>
+        <machine maxCpus='240'>rhel6.0.0</machine>
+        <machine maxCpus='240'>rhel6.1.0</machine>
+        <machine maxCpus='240'>rhel6.2.0</machine>
+        <machine maxCpus='240'>rhel6.3.0</machine>
+        <machine maxCpus='240'>rhel6.4.0</machine>
+        <machine maxCpus='240'>rhel6.5.0</machine>
+        <machine maxCpus='240'>rhel6.6.0</machine>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default='on' toggle='no'/>
+      <acpi default='on' toggle='yes'/>
+      <apic default='on' toggle='no'/>
+    </features>
+  </guest>
+
+</capabilities>
+
+2017-02-01 01:00:53.195 5593 WARNING nova.compute.monitors [req-0fdab89c-fbe3-487c-a8bd-da2ec0bb0e35 - - - - -] Excluding nova.compute.monitors.cpu monitor virt_driver. Not in the list of enabled monitors (CONF.compute_monitors).
+2017-02-01 01:00:53.196 5593 INFO nova.compute.resource_tracker [req-0fdab89c-fbe3-487c-a8bd-da2ec0bb0e35 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:00:54.109 5593 WARNING nova.scheduler.client.report [req-0fdab89c-fbe3-487c-a8bd-da2ec0bb0e35 - - - - -] No authentication information found for placement API. Optional use of placement API for reporting is now disabled.
+2017-02-01 01:00:54.273 5593 INFO nova.compute.resource_tracker [req-0fdab89c-fbe3-487c-a8bd-da2ec0bb0e35 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:00:54.273 5593 INFO nova.compute.resource_tracker [req-0fdab89c-fbe3-487c-a8bd-da2ec0bb0e35 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:00:54.348 5593 INFO nova.compute.resource_tracker [req-0fdab89c-fbe3-487c-a8bd-da2ec0bb0e35 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:01:38.472 5593 WARNING nova.compute.manager [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] While synchronizing instance power states, found 0 instances in the database and 1 instances on the hypervisor.
+2017-02-01 01:01:38.534 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:01:39.474 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:01:39.475 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:01:39.547 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:02:37.367 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:02:38.335 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:02:38.336 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:02:38.405 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:03:37.336 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:03:38.240 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:03:38.240 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:03:38.298 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:04:39.341 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:04:40.205 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:04:40.206 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:04:40.262 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:05:40.336 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:05:41.137 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:05:41.138 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:05:41.181 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:06:40.372 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:06:41.172 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:06:41.173 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:06:41.221 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:07:40.385 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:07:41.158 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:07:41.159 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:07:41.197 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:08:40.383 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:08:41.195 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:08:41.195 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:08:41.238 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:09:42.386 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:09:43.185 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:09:43.186 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:09:43.229 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:10:36.350 5593 INFO nova.compute.manager [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Updating bandwidth usage cache
+2017-02-01 01:10:36.409 5593 INFO nova.compute.manager [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Bandwidth usage not supported by hypervisor.
+2017-02-01 01:10:44.391 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:10:45.159 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:10:45.160 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:10:45.208 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:11:38.498 5593 WARNING nova.compute.manager [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] While synchronizing instance power states, found 0 instances in the database and 1 instances on the hypervisor.
+2017-02-01 01:11:44.342 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:11:45.165 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:11:45.166 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:11:45.223 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:12:45.389 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:12:46.186 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:12:46.187 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:12:46.237 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:13:46.371 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:13:47.237 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:13:47.238 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:13:47.284 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:14:47.392 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:14:48.263 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:14:48.263 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:14:48.317 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:15:48.338 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:15:49.195 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:15:49.196 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:15:49.246 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:16:50.334 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:16:51.158 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:16:51.159 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:16:51.201 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:17:50.330 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:17:51.167 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:17:51.168 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:17:51.223 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:18:52.345 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:18:53.181 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:18:53.182 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:18:53.231 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:19:53.337 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:19:54.184 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:19:54.185 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:19:54.226 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:20:55.341 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:20:56.246 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:20:56.247 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:20:56.297 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:21:38.467 5593 WARNING nova.compute.manager [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] While synchronizing instance power states, found 0 instances in the database and 1 instances on the hypervisor.
+2017-02-01 01:21:57.347 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:21:58.163 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:21:58.164 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:21:58.207 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:22:59.339 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:23:00.153 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:23:00.154 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:23:00.204 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:24:00.379 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:24:01.183 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:24:01.184 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:24:01.225 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com
+2017-02-01 01:25:00.378 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Auditing locally available compute resources for node mysql-001.vassilevski.com
+2017-02-01 01:25:01.179 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Total usable vcpus: 40, total allocated vcpus: 0
+2017-02-01 01:25:01.179 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Final resource view: name=mysql-001.vassilevski.com phys_ram=130946MB used_ram=512MB phys_disk=41GB used_disk=0GB total_vcpus=40 used_vcpus=0 pci_stats=[]
+2017-02-01 01:25:01.224 5593 INFO nova.compute.resource_tracker [req-f2406c6b-9f09-4096-8512-724a61f97757 - - - - -] Compute_service record updated for mysql-001.vassilevski.com:mysql-001.vassilevski.com

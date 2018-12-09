@@ -1,0 +1,286 @@
+2017-02-01T00:20:12.291Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2017-02-01T00:20:12.300Z|00002|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 0
+2017-02-01T00:20:12.300Z|00003|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 1
+2017-02-01T00:20:12.300Z|00004|ovs_numa|INFO|Discovered 2 NUMA nodes and 40 CPU cores
+2017-02-01T00:20:12.300Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2017-02-01T00:20:12.300Z|00006|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2017-02-01T00:20:12.340Z|00007|dpif_netlink|WARN|Generic Netlink family 'ovs_datapath' does not exist. The Open vSwitch kernel module is probably not loaded.
+2017-02-01T00:20:12.340Z|00008|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:20:12.340Z|00009|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:20:12.340Z|00010|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:20:12.340Z|00011|ofproto|ERR|failed to open datapath br-ex: No such file or directory
+2017-02-01T00:20:12.340Z|00012|bridge|ERR|failed to create bridge br-ex: No such file or directory
+2017-02-01T00:20:12.340Z|00013|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:20:12.340Z|00014|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:20:12.340Z|00015|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:20:12.340Z|00016|ofproto|ERR|failed to open datapath br-int: No such file or directory
+2017-02-01T00:20:12.340Z|00017|bridge|ERR|failed to create bridge br-int: No such file or directory
+2017-02-01T00:20:12.340Z|00018|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:20:12.340Z|00019|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:20:12.340Z|00020|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:20:12.340Z|00021|ofproto|ERR|failed to open datapath br-tun: No such file or directory
+2017-02-01T00:20:12.340Z|00022|bridge|ERR|failed to create bridge br-tun: No such file or directory
+2017-02-01T00:20:12.341Z|00023|bridge|INFO|ovs-vswitchd (Open vSwitch) 2.6.1
+2017-02-01T00:30:07.454Z|00024|memory|INFO|10864 kB peak resident set size after 595.2 seconds
+2017-02-01T00:31:32.784Z|00025|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:32.784Z|00026|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:32.785Z|00027|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:32.785Z|00028|ofproto|ERR|failed to open datapath br-ex: No such file or directory
+2017-02-01T00:31:32.785Z|00029|bridge|ERR|failed to create bridge br-ex: No such file or directory
+2017-02-01T00:31:32.785Z|00030|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:32.785Z|00031|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:32.785Z|00032|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:32.785Z|00033|ofproto|ERR|failed to open datapath br-tun: No such file or directory
+2017-02-01T00:31:32.785Z|00034|bridge|ERR|failed to create bridge br-tun: No such file or directory
+2017-02-01T00:31:32.785Z|00035|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:32.785Z|00036|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:32.785Z|00037|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:32.785Z|00038|ofproto|ERR|failed to open datapath br-int: No such file or directory
+2017-02-01T00:31:32.785Z|00039|bridge|ERR|failed to create bridge br-int: No such file or directory
+2017-02-01T00:31:32.835Z|00040|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:32.836Z|00041|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:32.836Z|00042|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:32.836Z|00043|ofproto|ERR|failed to open datapath br-ex: No such file or directory
+2017-02-01T00:31:32.836Z|00044|bridge|ERR|failed to create bridge br-ex: No such file or directory
+2017-02-01T00:31:32.836Z|00045|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:32.836Z|00046|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:32.836Z|00047|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:32.836Z|00048|ofproto|ERR|failed to open datapath br-tun: No such file or directory
+2017-02-01T00:31:32.836Z|00049|bridge|ERR|failed to create bridge br-tun: No such file or directory
+2017-02-01T00:31:32.836Z|00050|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:32.836Z|00051|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:32.836Z|00052|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:32.836Z|00053|ofproto|ERR|failed to open datapath br-int: No such file or directory
+2017-02-01T00:31:32.836Z|00054|bridge|ERR|failed to create bridge br-int: No such file or directory
+2017-02-01T00:31:33.030Z|00055|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:33.030Z|00056|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:33.030Z|00057|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:33.030Z|00058|ofproto|ERR|failed to open datapath br-ex: No such file or directory
+2017-02-01T00:31:33.030Z|00059|bridge|ERR|failed to create bridge br-ex: No such file or directory
+2017-02-01T00:31:33.030Z|00060|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:33.030Z|00061|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:33.030Z|00062|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:33.030Z|00063|ofproto|ERR|failed to open datapath br-tun: No such file or directory
+2017-02-01T00:31:33.030Z|00064|bridge|ERR|failed to create bridge br-tun: No such file or directory
+2017-02-01T00:31:33.030Z|00065|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:33.030Z|00066|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:33.030Z|00067|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:33.030Z|00068|ofproto|ERR|failed to open datapath br-int: No such file or directory
+2017-02-01T00:31:33.030Z|00069|bridge|ERR|failed to create bridge br-int: No such file or directory
+2017-02-01T00:31:33.376Z|00070|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:33.376Z|00071|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:33.376Z|00072|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:33.376Z|00073|ofproto|ERR|failed to open datapath br-ex: No such file or directory
+2017-02-01T00:31:33.376Z|00074|bridge|ERR|failed to create bridge br-ex: No such file or directory
+2017-02-01T00:31:33.376Z|00075|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:33.376Z|00076|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:33.376Z|00077|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:33.376Z|00078|ofproto|ERR|failed to open datapath br-tun: No such file or directory
+2017-02-01T00:31:33.376Z|00079|bridge|ERR|failed to create bridge br-tun: No such file or directory
+2017-02-01T00:31:33.376Z|00080|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:33.376Z|00081|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:33.376Z|00082|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:33.376Z|00083|ofproto|ERR|failed to open datapath br-int: No such file or directory
+2017-02-01T00:31:33.376Z|00084|bridge|ERR|failed to create bridge br-int: No such file or directory
+2017-02-01T00:31:33.975Z|00085|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:33.975Z|00086|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:33.975Z|00087|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:33.975Z|00088|ofproto|ERR|failed to open datapath br-ex: No such file or directory
+2017-02-01T00:31:33.975Z|00089|bridge|ERR|failed to create bridge br-ex: No such file or directory
+2017-02-01T00:31:33.975Z|00090|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:33.975Z|00091|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:33.975Z|00092|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:33.975Z|00093|ofproto|ERR|failed to open datapath br-tun: No such file or directory
+2017-02-01T00:31:33.975Z|00094|bridge|ERR|failed to create bridge br-tun: No such file or directory
+2017-02-01T00:31:33.975Z|00095|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:33.975Z|00096|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:33.975Z|00097|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:33.975Z|00098|ofproto|ERR|failed to open datapath br-int: No such file or directory
+2017-02-01T00:31:33.975Z|00099|bridge|ERR|failed to create bridge br-int: No such file or directory
+2017-02-01T00:31:34.066Z|00100|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:34.066Z|00101|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:34.066Z|00102|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:34.066Z|00103|ofproto|ERR|failed to open datapath br-ex: No such file or directory
+2017-02-01T00:31:34.066Z|00104|bridge|ERR|failed to create bridge br-ex: No such file or directory
+2017-02-01T00:31:34.066Z|00105|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:34.066Z|00106|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:34.066Z|00107|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:34.066Z|00108|ofproto|ERR|failed to open datapath br-tun: No such file or directory
+2017-02-01T00:31:34.066Z|00109|bridge|ERR|failed to create bridge br-tun: No such file or directory
+2017-02-01T00:31:34.066Z|00110|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:34.066Z|00111|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:34.066Z|00112|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:34.066Z|00113|ofproto|ERR|failed to open datapath br-int: No such file or directory
+2017-02-01T00:31:34.066Z|00114|bridge|ERR|failed to create bridge br-int: No such file or directory
+2017-02-01T00:31:36.806Z|00115|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:36.806Z|00116|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:36.806Z|00117|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:36.806Z|00118|ofproto|ERR|failed to open datapath br-ex: No such file or directory
+2017-02-01T00:31:36.806Z|00119|bridge|ERR|failed to create bridge br-ex: No such file or directory
+2017-02-01T00:31:36.806Z|00120|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:36.806Z|00121|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:36.806Z|00122|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:36.806Z|00123|ofproto|ERR|failed to open datapath br-tun: No such file or directory
+2017-02-01T00:31:36.806Z|00124|bridge|ERR|failed to create bridge br-tun: No such file or directory
+2017-02-01T00:31:36.806Z|00125|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:36.806Z|00126|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:36.806Z|00127|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:36.806Z|00128|ofproto|ERR|failed to open datapath br-int: No such file or directory
+2017-02-01T00:31:36.806Z|00129|bridge|ERR|failed to create bridge br-int: No such file or directory
+2017-02-01T00:31:47.609Z|00130|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:47.609Z|00131|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:47.609Z|00132|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:47.609Z|00133|ofproto|ERR|failed to open datapath br-ex: No such file or directory
+2017-02-01T00:31:47.609Z|00134|bridge|ERR|failed to create bridge br-ex: No such file or directory
+2017-02-01T00:31:47.609Z|00135|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:47.609Z|00136|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:47.609Z|00137|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:47.609Z|00138|ofproto|ERR|failed to open datapath br-tun: No such file or directory
+2017-02-01T00:31:47.609Z|00139|bridge|ERR|failed to create bridge br-tun: No such file or directory
+2017-02-01T00:31:47.609Z|00140|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:31:47.609Z|00141|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:31:47.609Z|00142|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:31:47.609Z|00143|ofproto|ERR|failed to open datapath br-int: No such file or directory
+2017-02-01T00:31:47.609Z|00144|bridge|ERR|failed to create bridge br-int: No such file or directory
+2017-02-01T00:32:28.839Z|00145|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:32:28.839Z|00146|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:32:28.839Z|00147|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:32:28.839Z|00148|ofproto|ERR|failed to open datapath br-ex: No such file or directory
+2017-02-01T00:32:28.839Z|00149|bridge|ERR|failed to create bridge br-ex: No such file or directory
+2017-02-01T00:32:28.839Z|00150|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:32:28.839Z|00151|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:32:28.839Z|00152|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:32:28.839Z|00153|ofproto|ERR|failed to open datapath br-tun: No such file or directory
+2017-02-01T00:32:28.839Z|00154|bridge|ERR|failed to create bridge br-tun: No such file or directory
+2017-02-01T00:32:28.839Z|00155|dpif|WARN|failed to enumerate system datapaths: No such file or directory
+2017-02-01T00:32:28.839Z|00156|dpif|WARN|failed to create datapath ovs-system: No such file or directory
+2017-02-01T00:32:28.839Z|00157|ofproto_dpif|ERR|failed to open datapath of type system: No such file or directory
+2017-02-01T00:32:28.839Z|00158|ofproto|ERR|failed to open datapath br-int: No such file or directory
+2017-02-01T00:32:28.839Z|00159|bridge|ERR|failed to create bridge br-int: No such file or directory
+2017-02-01T00:35:55.737Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2017-02-01T00:35:55.748Z|00002|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 0
+2017-02-01T00:35:55.748Z|00003|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 1
+2017-02-01T00:35:55.748Z|00004|ovs_numa|INFO|Discovered 2 NUMA nodes and 40 CPU cores
+2017-02-01T00:35:55.748Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2017-02-01T00:35:55.789Z|00006|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2017-02-01T00:35:55.876Z|00007|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2017-02-01T00:35:55.876Z|00008|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 1
+2017-02-01T00:35:55.876Z|00009|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2017-02-01T00:35:55.876Z|00010|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2017-02-01T00:35:55.876Z|00011|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2017-02-01T00:35:55.876Z|00012|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2017-02-01T00:35:55.876Z|00013|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2017-02-01T00:35:55.876Z|00014|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2017-02-01T00:35:55.876Z|00015|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2017-02-01T00:35:56.157Z|00001|ofproto_dpif_upcall(handler1)|INFO|received packet on unassociated datapath port 0
+2017-02-01T00:35:56.178Z|00016|bridge|INFO|bridge br-ex: added interface eno1 on port 1
+2017-02-01T00:35:56.185Z|00017|bridge|INFO|bridge br-ex: added interface br-ex on port 65534
+2017-02-01T00:35:56.185Z|00018|bridge|INFO|bridge br-ex: added interface phy-br-ex on port 3
+2017-02-01T00:35:56.227Z|00019|bridge|INFO|bridge br-int: added interface br-int on port 65534
+2017-02-01T00:35:56.227Z|00020|bridge|INFO|bridge br-int: added interface int-br-ex on port 2
+2017-02-01T00:35:56.227Z|00021|bridge|INFO|bridge br-int: added interface patch-tun on port 1
+2017-02-01T00:35:56.227Z|00022|bridge|INFO|bridge br-tun: added interface patch-int on port 1
+2017-02-01T00:35:56.234Z|00023|bridge|INFO|bridge br-tun: added interface br-tun on port 65534
+2017-02-01T00:35:56.234Z|00024|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-01T00:35:56.234Z|00025|connmgr|INFO|br-ex: added service controller "punix:/var/run/openvswitch/br-ex.mgmt"
+2017-02-01T00:35:56.234Z|00026|bridge|INFO|bridge br-int: using datapath ID 00002a8abfd3424d
+2017-02-01T00:35:56.235Z|00027|connmgr|INFO|br-int: added service controller "punix:/var/run/openvswitch/br-int.mgmt"
+2017-02-01T00:35:56.235Z|00028|bridge|INFO|bridge br-tun: using datapath ID 0000c660834a4a40
+2017-02-01T00:35:56.235Z|00029|connmgr|INFO|br-tun: added service controller "punix:/var/run/openvswitch/br-tun.mgmt"
+2017-02-01T00:35:56.241Z|00030|bridge|INFO|ovs-vswitchd (Open vSwitch) 2.6.1
+2017-02-01T00:36:06.039Z|00031|memory|INFO|347052 kB peak resident set size after 10.3 seconds
+2017-02-01T00:36:06.039Z|00032|memory|INFO|handlers:29 ports:8 revalidators:11 rules:12 udpif keys:5
+2017-02-01T00:42:59.539Z|00033|bridge|INFO|bridge br-ex: using datapath ID 0000b28381975d45
+2017-02-01T00:43:02.832Z|00034|bridge|INFO|bridge br-ex: added interface eno1 on port 2
+2017-02-01T00:43:02.832Z|00035|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-01T00:50:57.613Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2017-02-01T00:50:57.617Z|00002|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 0
+2017-02-01T00:50:57.617Z|00003|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 1
+2017-02-01T00:50:57.617Z|00004|ovs_numa|INFO|Discovered 2 NUMA nodes and 40 CPU cores
+2017-02-01T00:50:57.617Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2017-02-01T00:50:57.617Z|00006|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2017-02-01T00:50:57.649Z|00007|bridge|INFO|ovs-vswitchd (Open vSwitch) 2.6.1
+2017-02-01T00:51:05.399Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2017-02-01T00:51:05.403Z|00002|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 0
+2017-02-01T00:51:05.403Z|00003|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 1
+2017-02-01T00:51:05.403Z|00004|ovs_numa|INFO|Discovered 2 NUMA nodes and 40 CPU cores
+2017-02-01T00:51:05.403Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2017-02-01T00:51:05.403Z|00006|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2017-02-01T00:51:05.433Z|00007|bridge|INFO|ovs-vswitchd (Open vSwitch) 2.6.1
+2017-02-01T00:53:36.901Z|00008|memory|INFO|10864 kB peak resident set size after 151.5 seconds
+2017-02-01T00:56:04.430Z|00009|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2017-02-01T00:56:04.430Z|00010|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 1
+2017-02-01T00:56:04.430Z|00011|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2017-02-01T00:56:04.430Z|00012|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2017-02-01T00:56:04.430Z|00013|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2017-02-01T00:56:04.430Z|00014|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2017-02-01T00:56:04.430Z|00015|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2017-02-01T00:56:04.430Z|00016|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2017-02-01T00:56:04.430Z|00017|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2017-02-01T00:56:04.669Z|00001|ofproto_dpif_upcall(handler1)|INFO|received packet on unassociated datapath port 0
+2017-02-01T00:56:04.701Z|00018|bridge|INFO|bridge br-ex: added interface br-ex on port 65534
+2017-02-01T00:56:04.701Z|00019|bridge|INFO|bridge br-ex: using datapath ID 00003a69f0183b41
+2017-02-01T00:56:04.701Z|00020|connmgr|INFO|br-ex: added service controller "punix:/var/run/openvswitch/br-ex.mgmt"
+2017-02-01T00:56:14.592Z|00021|memory|INFO|peak resident set size grew 3099% in last 157.7 seconds, from 10864 kB to 347592 kB
+2017-02-01T00:56:14.592Z|00022|memory|INFO|handlers:29 ports:1 revalidators:11 rules:5 udpif keys:7
+2017-02-01T00:56:16.138Z|00023|bridge|INFO|bridge br-ex: added interface eno1 on port 1
+2017-02-01T00:56:16.139Z|00024|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-01T01:00:29.266Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovs-vswitchd.log
+2017-02-01T01:00:29.277Z|00002|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 0
+2017-02-01T01:00:29.277Z|00003|ovs_numa|INFO|Discovered 20 CPU cores on NUMA node 1
+2017-02-01T01:00:29.277Z|00004|ovs_numa|INFO|Discovered 2 NUMA nodes and 40 CPU cores
+2017-02-01T01:00:29.277Z|00005|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connecting...
+2017-02-01T01:00:29.292Z|00006|reconnect|INFO|unix:/var/run/openvswitch/db.sock: connected
+2017-02-01T01:00:29.363Z|00007|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2017-02-01T01:00:29.363Z|00008|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 1
+2017-02-01T01:00:29.363Z|00009|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2017-02-01T01:00:29.363Z|00010|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2017-02-01T01:00:29.363Z|00011|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2017-02-01T01:00:29.363Z|00012|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2017-02-01T01:00:29.364Z|00013|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2017-02-01T01:00:29.364Z|00014|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2017-02-01T01:00:29.364Z|00015|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2017-02-01T01:00:29.621Z|00001|ofproto_dpif_upcall(handler1)|INFO|received packet on unassociated datapath port 0
+2017-02-01T01:00:29.649Z|00016|bridge|INFO|bridge br-ex: added interface eno1 on port 1
+2017-02-01T01:00:29.654Z|00017|bridge|INFO|bridge br-ex: added interface br-ex on port 65534
+2017-02-01T01:00:29.654Z|00018|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-01T01:00:29.654Z|00019|connmgr|INFO|br-ex: added service controller "punix:/var/run/openvswitch/br-ex.mgmt"
+2017-02-01T01:00:29.800Z|00020|bridge|INFO|ovs-vswitchd (Open vSwitch) 2.6.1
+2017-02-01T01:00:39.470Z|00021|memory|INFO|347812 kB peak resident set size after 10.2 seconds
+2017-02-01T01:00:39.470Z|00022|memory|INFO|handlers:29 ports:2 revalidators:11 rules:5 udpif keys:13
+2017-02-01T01:19:45.637Z|00023|ofproto_dpif|INFO|system@ovs-system: Datapath supports recirculation
+2017-02-01T01:19:45.637Z|00024|ofproto_dpif|INFO|system@ovs-system: MPLS label stack length probed as 1
+2017-02-01T01:19:45.637Z|00025|ofproto_dpif|INFO|system@ovs-system: Datapath supports truncate action
+2017-02-01T01:19:45.637Z|00026|ofproto_dpif|INFO|system@ovs-system: Datapath supports unique flow ids
+2017-02-01T01:19:45.637Z|00027|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state
+2017-02-01T01:19:45.637Z|00028|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_zone
+2017-02-01T01:19:45.637Z|00029|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_mark
+2017-02-01T01:19:45.637Z|00030|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_label
+2017-02-01T01:19:45.637Z|00031|ofproto_dpif|INFO|system@ovs-system: Datapath supports ct_state_nat
+2017-02-01T01:19:45.818Z|00001|ofproto_dpif_upcall(handler162)|INFO|received packet on unassociated datapath port 0
+2017-02-01T01:19:45.853Z|00032|bridge|INFO|bridge br-ex: added interface br-ex on port 65534
+2017-02-01T01:19:45.853Z|00033|bridge|INFO|bridge br-ex: using datapath ID 000046d569bdf749
+2017-02-01T01:19:45.853Z|00034|connmgr|INFO|br-ex: added service controller "punix:/var/run/openvswitch/br-ex.mgmt"
+2017-02-01T01:19:48.463Z|00035|bridge|INFO|bridge br-ex: added interface eno1 on port 1
+2017-02-01T01:19:48.463Z|00036|bridge|INFO|bridge br-ex: using datapath ID 00001402ec41b80c
+2017-02-01T01:24:43.644Z|00037|bridge|INFO|bridge br-int: added interface br-int on port 65534
+2017-02-01T01:24:43.644Z|00038|bridge|INFO|bridge br-int: using datapath ID 000062ba3ac9f74a
+2017-02-01T01:24:43.644Z|00039|connmgr|INFO|br-int: added service controller "punix:/var/run/openvswitch/br-int.mgmt"
+2017-02-01T01:24:43.986Z|00040|connmgr|INFO|br-int: re-added service controller "punix:/var/run/openvswitch/br-int.mgmt"
+2017-02-01T01:24:44.316Z|00041|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-01T01:24:44.326Z|00042|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-01T01:24:44.335Z|00043|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-01T01:24:44.646Z|00044|connmgr|INFO|br-ex: re-added service controller "punix:/var/run/openvswitch/br-ex.mgmt"
+2017-02-01T01:24:44.768Z|00045|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-01T01:24:44.777Z|00046|bridge|INFO|bridge br-int: added interface int-br-ex on port 1
+2017-02-01T01:24:44.910Z|00047|bridge|INFO|bridge br-ex: added interface phy-br-ex on port 2
+2017-02-01T01:24:45.043Z|00048|connmgr|INFO|br-int<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-01T01:24:45.051Z|00049|connmgr|INFO|br-ex<->unix: 1 flow_mods in the last 0 s (1 adds)
+2017-02-01T01:24:45.216Z|00050|bridge|INFO|bridge br-tun: added interface br-tun on port 65534
+2017-02-01T01:24:45.216Z|00051|bridge|INFO|bridge br-tun: using datapath ID 0000fa2857679349
+2017-02-01T01:24:45.216Z|00052|connmgr|INFO|br-tun: added service controller "punix:/var/run/openvswitch/br-tun.mgmt"
+2017-02-01T01:24:45.348Z|00053|connmgr|INFO|br-tun: re-added service controller "punix:/var/run/openvswitch/br-tun.mgmt"
+2017-02-01T01:24:45.468Z|00054|bridge|INFO|bridge br-int: added interface patch-tun on port 2
+2017-02-01T01:24:45.598Z|00055|bridge|INFO|bridge br-tun: added interface patch-int on port 1
+2017-02-01T01:24:45.734Z|00056|connmgr|INFO|br-tun<->unix: 9 flow_mods in the last 0 s (9 adds)
+2017-02-01T01:24:45.742Z|00057|connmgr|INFO|br-tun<->unix: 1 flow_mods in the last 0 s (1 adds)

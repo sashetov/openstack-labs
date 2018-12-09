@@ -1,0 +1,23 @@
+2017-02-05 09:44:50.693 11260 INFO neutron.common.config [-] Logging enabled!
+2017-02-05 09:44:50.694 11260 INFO neutron.common.config [-] /usr/bin/neutron-metadata-agent version 9.1.1
+2017-02-05 09:44:50.704 11260 INFO oslo_service.service [req-101ab86d-3c9f-4847-ae47-c699d9402177 - - - - -] Starting 20 workers
+2017-02-05 09:44:50.711 11438 INFO eventlet.wsgi.server [-] (11438) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.712 11440 INFO eventlet.wsgi.server [-] (11440) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.713 11439 INFO eventlet.wsgi.server [-] (11439) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.714 11441 INFO eventlet.wsgi.server [-] (11441) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.715 11442 INFO eventlet.wsgi.server [-] (11442) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.718 11445 INFO eventlet.wsgi.server [-] (11445) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.718 11443 INFO eventlet.wsgi.server [-] (11443) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.718 11444 INFO eventlet.wsgi.server [-] (11444) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.721 11447 INFO eventlet.wsgi.server [-] (11447) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.721 11446 INFO eventlet.wsgi.server [-] (11446) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.722 11448 INFO eventlet.wsgi.server [-] (11448) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.724 11449 INFO eventlet.wsgi.server [-] (11449) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.725 11450 INFO eventlet.wsgi.server [-] (11450) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.728 11451 INFO eventlet.wsgi.server [-] (11451) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.728 11452 INFO eventlet.wsgi.server [-] (11452) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.730 11454 INFO eventlet.wsgi.server [-] (11454) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.731 11455 INFO eventlet.wsgi.server [-] (11455) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.732 11456 INFO eventlet.wsgi.server [-] (11456) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.733 11458 INFO eventlet.wsgi.server [-] (11458) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-05 09:44:50.734 11459 INFO eventlet.wsgi.server [-] (11459) wsgi starting up on http:/var/lib/neutron/metadata_proxy

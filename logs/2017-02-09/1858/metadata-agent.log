@@ -1,0 +1,533 @@
+2017-02-09 07:43:45.027 14588 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 07:43:45.028 14588 INFO neutron.common.config [-] /usr/bin/neutron-metadata-agent version 9.1.1
+2017-02-09 07:43:45.037 14588 INFO oslo_service.service [req-8c0bab72-017a-44dd-a298-2fa8517bcaa0 - - - - -] Starting 20 workers
+2017-02-09 07:43:45.045 14766 INFO eventlet.wsgi.server [-] (14766) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.046 14765 INFO eventlet.wsgi.server [-] (14765) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.046 14767 INFO eventlet.wsgi.server [-] (14767) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.047 14768 INFO eventlet.wsgi.server [-] (14768) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.049 14770 INFO eventlet.wsgi.server [-] (14770) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.050 14771 INFO eventlet.wsgi.server [-] (14771) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.050 14769 INFO eventlet.wsgi.server [-] (14769) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.054 14772 INFO eventlet.wsgi.server [-] (14772) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.055 14773 INFO eventlet.wsgi.server [-] (14773) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.055 14774 INFO eventlet.wsgi.server [-] (14774) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.057 14775 INFO eventlet.wsgi.server [-] (14775) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.057 14776 INFO eventlet.wsgi.server [-] (14776) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.058 14777 INFO eventlet.wsgi.server [-] (14777) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.060 14778 INFO eventlet.wsgi.server [-] (14778) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.062 14779 INFO eventlet.wsgi.server [-] (14779) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.063 14780 INFO eventlet.wsgi.server [-] (14780) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.066 14782 INFO eventlet.wsgi.server [-] (14782) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.066 14781 INFO eventlet.wsgi.server [-] (14781) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.068 14784 INFO eventlet.wsgi.server [-] (14784) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:43:45.069 14785 INFO eventlet.wsgi.server [-] (14785) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent [-] Failed reporting state!
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent Traceback (most recent call last):
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/metadata/agent.py", line 262, in _report_state
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     use_call=self.agent_state.get('start_flag'))
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/rpc.py", line 88, in report_state
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     return method(context, 'report_state', **kwargs)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 169, in call
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     retry=self.retry)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 97, in _send
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     timeout=timeout, retry=retry)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 464, in send
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     retry=retry)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 453, in _send
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     result = self._waiter.wait(msg_id, timeout)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 336, in wait
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     message = self.waiters.get(msg_id, timeout=timeout)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 238, in get
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent     'to message ID %s' % msg_id)
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent MessagingTimeout: Timed out waiting for a reply to message ID d35e35b3430f4e38a0e3112782d07965
+2017-02-09 07:44:45.129 14588 ERROR neutron.agent.metadata.agent 
+2017-02-09 07:44:45.132 14588 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.metadata.agent.UnixDomainMetadataProxy._report_state' run outlasted interval by 30.06 sec
+2017-02-09 08:22:45.295 14588 ERROR oslo.messaging._drivers.impl_rabbit [-] [6c718410-b662-4952-8482-deef1061f2b0] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: timed out. Trying again in 1 seconds. Client port: 33736
+2017-02-09 08:23:00.191 14588 ERROR oslo.messaging._drivers.impl_rabbit [-] [b3f7d479-dd85-4e8d-9b17-819531292cac] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 33732
+2017-02-09 08:23:46.316 14588 INFO oslo.messaging._drivers.impl_rabbit [-] [6c718410-b662-4952-8482-deef1061f2b0] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60096.
+2017-02-09 08:23:46.320 14588 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.metadata.agent.UnixDomainMetadataProxy._report_state' run outlasted interval by 91.03 sec
+2017-02-09 08:24:01.224 14588 INFO oslo.messaging._drivers.impl_rabbit [-] [b3f7d479-dd85-4e8d-9b17-819531292cac] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 60102.
+2017-02-09 08:24:54.296 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Caught SIGTERM, stopping children
+2017-02-09 08:24:54.298 14784 INFO eventlet.wsgi.server [-] (14784) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.317 14769 INFO eventlet.wsgi.server [-] (14769) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.317 14767 INFO eventlet.wsgi.server [-] (14767) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.317 14766 INFO eventlet.wsgi.server [-] (14766) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.321 14785 INFO eventlet.wsgi.server [-] (14785) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.323 14770 INFO eventlet.wsgi.server [-] (14770) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.325 14771 INFO eventlet.wsgi.server [-] (14771) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.326 14768 INFO eventlet.wsgi.server [-] (14768) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.332 14765 INFO eventlet.wsgi.server [-] (14765) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.333 14773 INFO eventlet.wsgi.server [-] (14773) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.333 14772 INFO eventlet.wsgi.server [-] (14772) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.333 14774 INFO eventlet.wsgi.server [-] (14774) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.333 14775 INFO eventlet.wsgi.server [-] (14775) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.345 14776 INFO eventlet.wsgi.server [-] (14776) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.358 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Waiting on 20 children to exit
+2017-02-09 08:24:54.358 14778 INFO eventlet.wsgi.server [-] (14778) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.359 14780 INFO eventlet.wsgi.server [-] (14780) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.359 14779 INFO eventlet.wsgi.server [-] (14779) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.359 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14765 exited with status 0
+2017-02-09 08:24:54.360 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14766 exited with status 0
+2017-02-09 08:24:54.361 14782 INFO eventlet.wsgi.server [-] (14782) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.361 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14767 exited with status 0
+2017-02-09 08:24:54.361 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14768 exited with status 0
+2017-02-09 08:24:54.362 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14769 exited with status 0
+2017-02-09 08:24:54.362 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14770 exited with status 0
+2017-02-09 08:24:54.362 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14771 exited with status 0
+2017-02-09 08:24:54.363 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14772 exited with status 0
+2017-02-09 08:24:54.363 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14773 exited with status 0
+2017-02-09 08:24:54.364 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14774 exited with status 0
+2017-02-09 08:24:54.364 14777 INFO eventlet.wsgi.server [-] (14777) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.364 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14775 exited with status 0
+2017-02-09 08:24:54.365 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14778 exited with status 0
+2017-02-09 08:24:54.365 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14784 exited with status 0
+2017-02-09 08:24:54.365 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14785 exited with status 0
+2017-02-09 08:24:54.359 14781 INFO eventlet.wsgi.server [-] (14781) wsgi exited, is_accepting=True
+2017-02-09 08:24:54.378 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14776 exited with status 0
+2017-02-09 08:24:54.379 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14779 exited with status 0
+2017-02-09 08:24:54.380 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14780 exited with status 0
+2017-02-09 08:24:54.385 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14782 exited with status 0
+2017-02-09 08:24:54.386 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14777 exited with status 0
+2017-02-09 08:24:54.402 14588 INFO oslo_service.service [req-fa0cf3c3-d53f-4c1b-933e-244538669b26 - - - - -] Child 14781 exited with status 0
+2017-02-09 08:30:25.715 23817 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 08:30:25.715 23817 INFO neutron.common.config [-] /usr/bin/neutron-metadata-agent version 9.1.1
+2017-02-09 08:30:25.726 23817 INFO oslo_service.service [req-3c1eaf7a-1262-4b24-9b1b-2939a9e91bfa - - - - -] Starting 20 workers
+2017-02-09 08:30:25.731 23951 INFO eventlet.wsgi.server [-] (23951) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.732 23952 INFO eventlet.wsgi.server [-] (23952) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.734 23953 INFO eventlet.wsgi.server [-] (23953) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.734 23954 INFO eventlet.wsgi.server [-] (23954) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.736 23956 INFO eventlet.wsgi.server [-] (23956) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.736 23955 INFO eventlet.wsgi.server [-] (23955) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.737 23957 INFO eventlet.wsgi.server [-] (23957) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.739 23958 INFO eventlet.wsgi.server [-] (23958) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.741 23960 INFO eventlet.wsgi.server [-] (23960) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.741 23959 INFO eventlet.wsgi.server [-] (23959) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.745 23962 INFO eventlet.wsgi.server [-] (23962) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.745 23961 INFO eventlet.wsgi.server [-] (23961) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.746 23963 INFO eventlet.wsgi.server [-] (23963) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.747 23965 INFO eventlet.wsgi.server [-] (23965) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.747 23964 INFO eventlet.wsgi.server [-] (23964) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.750 23966 INFO eventlet.wsgi.server [-] (23966) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.751 23968 INFO eventlet.wsgi.server [-] (23968) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.751 23969 INFO eventlet.wsgi.server [-] (23969) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.752 23967 INFO eventlet.wsgi.server [-] (23967) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:30:25.753 23970 INFO eventlet.wsgi.server [-] (23970) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent [-] Failed reporting state!
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent Traceback (most recent call last):
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/metadata/agent.py", line 262, in _report_state
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent     use_call=self.agent_state.get('start_flag'))
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/rpc.py", line 88, in report_state
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent     return method(context, 'report_state', **kwargs)
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 169, in call
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent     retry=self.retry)
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 97, in _send
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent     timeout=timeout, retry=retry)
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 464, in send
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent     retry=retry)
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 453, in _send
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent     result = self._waiter.wait(msg_id, timeout)
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 336, in wait
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent     message = self.waiters.get(msg_id, timeout=timeout)
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 238, in get
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent     'to message ID %s' % msg_id)
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent MessagingTimeout: Timed out waiting for a reply to message ID 3dc8f280cbeb4146b76df4411111cef0
+2017-02-09 08:31:30.812 23817 ERROR neutron.agent.metadata.agent 
+2017-02-09 08:31:30.823 23817 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.metadata.agent.UnixDomainMetadataProxy._report_state' run outlasted interval by 35.06 sec
+2017-02-09 13:26:32.855 23817 ERROR oslo.messaging._drivers.impl_rabbit [-] [381aabeb-070d-4021-8655-e534c60b73a3] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: timed out. Trying again in 1 seconds. Client port: 36124
+2017-02-09 13:26:46.371 23817 ERROR oslo.messaging._drivers.impl_rabbit [-] [2d211639-a7d3-48c9-beec-2756d95dfcc2] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 36120
+2017-02-09 13:27:11.880 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Caught SIGTERM, stopping children
+2017-02-09 13:27:11.882 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Waiting on 20 children to exit
+2017-02-09 13:27:11.884 23951 INFO eventlet.wsgi.server [-] (23951) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23969 INFO eventlet.wsgi.server [-] (23969) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23970 INFO eventlet.wsgi.server [-] (23970) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23962 INFO eventlet.wsgi.server [-] (23962) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23961 INFO eventlet.wsgi.server [-] (23961) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23960 INFO eventlet.wsgi.server [-] (23960) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23954 INFO eventlet.wsgi.server [-] (23954) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23952 INFO eventlet.wsgi.server [-] (23952) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23957 INFO eventlet.wsgi.server [-] (23957) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23953 INFO eventlet.wsgi.server [-] (23953) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23956 INFO eventlet.wsgi.server [-] (23956) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23955 INFO eventlet.wsgi.server [-] (23955) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23958 INFO eventlet.wsgi.server [-] (23958) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23963 INFO eventlet.wsgi.server [-] (23963) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23964 INFO eventlet.wsgi.server [-] (23964) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23968 INFO eventlet.wsgi.server [-] (23968) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.884 23959 INFO eventlet.wsgi.server [-] (23959) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.885 23966 INFO eventlet.wsgi.server [-] (23966) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.885 23967 INFO eventlet.wsgi.server [-] (23967) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.885 23965 INFO eventlet.wsgi.server [-] (23965) wsgi exited, is_accepting=True
+2017-02-09 13:27:11.891 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23951 exited with status 0
+2017-02-09 13:27:11.891 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23954 exited with status 0
+2017-02-09 13:27:11.892 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23960 exited with status 0
+2017-02-09 13:27:11.892 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23952 exited with status 0
+2017-02-09 13:27:11.893 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23953 exited with status 0
+2017-02-09 13:27:11.893 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23955 exited with status 0
+2017-02-09 13:27:11.894 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23956 exited with status 0
+2017-02-09 13:27:11.894 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23957 exited with status 0
+2017-02-09 13:27:11.894 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23958 exited with status 0
+2017-02-09 13:27:11.895 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23959 exited with status 0
+2017-02-09 13:27:11.895 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23961 exited with status 0
+2017-02-09 13:27:11.895 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23962 exited with status 0
+2017-02-09 13:27:11.896 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23963 exited with status 0
+2017-02-09 13:27:11.896 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23964 exited with status 0
+2017-02-09 13:27:11.896 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23965 exited with status 0
+2017-02-09 13:27:11.897 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23966 exited with status 0
+2017-02-09 13:27:11.897 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23967 exited with status 0
+2017-02-09 13:27:11.897 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23968 exited with status 0
+2017-02-09 13:27:11.898 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23969 exited with status 0
+2017-02-09 13:27:11.898 23817 INFO oslo_service.service [req-5c281cb3-38f5-4be2-9daf-e46be462e092 - - - - -] Child 23970 exited with status 0
+2017-02-09 13:35:07.966 23025 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 13:35:07.966 23025 INFO neutron.common.config [-] /usr/bin/neutron-metadata-agent version 9.1.1
+2017-02-09 13:35:07.979 23025 INFO oslo_service.service [req-74d96ed6-7ce6-4892-813b-fbe8305abc52 - - - - -] Starting 20 workers
+2017-02-09 13:35:07.986 23226 INFO eventlet.wsgi.server [-] (23226) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:07.988 23227 INFO eventlet.wsgi.server [-] (23227) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:07.989 23228 INFO eventlet.wsgi.server [-] (23228) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:07.990 23229 INFO eventlet.wsgi.server [-] (23229) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:07.991 23231 INFO eventlet.wsgi.server [-] (23231) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:07.991 23230 INFO eventlet.wsgi.server [-] (23230) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:07.993 23232 INFO eventlet.wsgi.server [-] (23232) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:07.994 23233 INFO eventlet.wsgi.server [-] (23233) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:07.995 23234 INFO eventlet.wsgi.server [-] (23234) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:07.996 23236 INFO eventlet.wsgi.server [-] (23236) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:07.997 23235 INFO eventlet.wsgi.server [-] (23235) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:07.999 23237 INFO eventlet.wsgi.server [-] (23237) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:08.001 23238 INFO eventlet.wsgi.server [-] (23238) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:08.002 23239 INFO eventlet.wsgi.server [-] (23239) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:08.002 23240 INFO eventlet.wsgi.server [-] (23240) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:08.005 23241 INFO eventlet.wsgi.server [-] (23241) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:08.006 23242 INFO eventlet.wsgi.server [-] (23242) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:08.007 23243 INFO eventlet.wsgi.server [-] (23243) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:08.008 23245 INFO eventlet.wsgi.server [-] (23245) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:35:08.008 23244 INFO eventlet.wsgi.server [-] (23244) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent [-] Failed reporting state!
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent Traceback (most recent call last):
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/metadata/agent.py", line 262, in _report_state
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent     use_call=self.agent_state.get('start_flag'))
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/rpc.py", line 88, in report_state
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent     return method(context, 'report_state', **kwargs)
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 169, in call
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent     retry=self.retry)
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 97, in _send
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent     timeout=timeout, retry=retry)
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 464, in send
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent     retry=retry)
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 453, in _send
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent     result = self._waiter.wait(msg_id, timeout)
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 336, in wait
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent     message = self.waiters.get(msg_id, timeout=timeout)
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 238, in get
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent     'to message ID %s' % msg_id)
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent MessagingTimeout: Timed out waiting for a reply to message ID 35628bc0f0ed43bfa970c5dc7c21af36
+2017-02-09 13:36:08.056 23025 ERROR neutron.agent.metadata.agent 
+2017-02-09 13:36:08.065 23025 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.metadata.agent.UnixDomainMetadataProxy._report_state' run outlasted interval by 30.05 sec
+2017-02-09 13:43:28.059 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Caught SIGTERM, stopping children
+2017-02-09 13:43:28.061 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Waiting on 20 children to exit
+2017-02-09 13:43:28.062 23233 INFO eventlet.wsgi.server [-] (23233) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23237 INFO eventlet.wsgi.server [-] (23237) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23239 INFO eventlet.wsgi.server [-] (23239) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23238 INFO eventlet.wsgi.server [-] (23238) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23236 INFO eventlet.wsgi.server [-] (23236) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23230 INFO eventlet.wsgi.server [-] (23230) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23243 INFO eventlet.wsgi.server [-] (23243) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23240 INFO eventlet.wsgi.server [-] (23240) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23245 INFO eventlet.wsgi.server [-] (23245) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23231 INFO eventlet.wsgi.server [-] (23231) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23235 INFO eventlet.wsgi.server [-] (23235) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23244 INFO eventlet.wsgi.server [-] (23244) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23241 INFO eventlet.wsgi.server [-] (23241) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23226 INFO eventlet.wsgi.server [-] (23226) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23228 INFO eventlet.wsgi.server [-] (23228) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23227 INFO eventlet.wsgi.server [-] (23227) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23229 INFO eventlet.wsgi.server [-] (23229) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23234 INFO eventlet.wsgi.server [-] (23234) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.063 23242 INFO eventlet.wsgi.server [-] (23242) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.066 23232 INFO eventlet.wsgi.server [-] (23232) wsgi exited, is_accepting=True
+2017-02-09 13:43:28.068 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23239 exited with status 0
+2017-02-09 13:43:28.071 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23233 exited with status 0
+2017-02-09 13:43:28.071 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23236 exited with status 0
+2017-02-09 13:43:28.072 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23230 exited with status 0
+2017-02-09 13:43:28.072 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23237 exited with status 0
+2017-02-09 13:43:28.073 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23238 exited with status 0
+2017-02-09 13:43:28.074 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23240 exited with status 0
+2017-02-09 13:43:28.074 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23231 exited with status 0
+2017-02-09 13:43:28.075 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23228 exited with status 0
+2017-02-09 13:43:28.075 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23226 exited with status 0
+2017-02-09 13:43:28.076 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23227 exited with status 0
+2017-02-09 13:43:28.076 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23229 exited with status 0
+2017-02-09 13:43:28.076 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23232 exited with status 0
+2017-02-09 13:43:28.077 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23234 exited with status 0
+2017-02-09 13:43:28.077 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23235 exited with status 0
+2017-02-09 13:43:28.078 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23241 exited with status 0
+2017-02-09 13:43:28.078 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23242 exited with status 0
+2017-02-09 13:43:28.078 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23243 exited with status 0
+2017-02-09 13:43:28.079 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23244 exited with status 0
+2017-02-09 13:43:28.079 23025 INFO oslo_service.service [req-2cc48b8d-e1da-4269-a40c-8307698b054e - - - - -] Child 23245 exited with status 0
+2017-02-09 14:00:01.266 30524 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 14:00:01.266 30524 INFO neutron.common.config [-] /usr/bin/neutron-metadata-agent version 9.1.1
+2017-02-09 14:00:01.276 30524 INFO oslo_service.service [req-d43cd22a-cf0b-4940-aa54-270a6337664f - - - - -] Starting 20 workers
+2017-02-09 14:00:01.283 30681 INFO eventlet.wsgi.server [-] (30681) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.284 30683 INFO eventlet.wsgi.server [-] (30683) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.285 30682 INFO eventlet.wsgi.server [-] (30682) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.286 30684 INFO eventlet.wsgi.server [-] (30684) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.288 30687 INFO eventlet.wsgi.server [-] (30687) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.288 30686 INFO eventlet.wsgi.server [-] (30686) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.288 30685 INFO eventlet.wsgi.server [-] (30685) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.289 30688 INFO eventlet.wsgi.server [-] (30688) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.290 30689 INFO eventlet.wsgi.server [-] (30689) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.292 30690 INFO eventlet.wsgi.server [-] (30690) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.295 30692 INFO eventlet.wsgi.server [-] (30692) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.295 30691 INFO eventlet.wsgi.server [-] (30691) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.296 30693 INFO eventlet.wsgi.server [-] (30693) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.298 30694 INFO eventlet.wsgi.server [-] (30694) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.300 30696 INFO eventlet.wsgi.server [-] (30696) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.301 30695 INFO eventlet.wsgi.server [-] (30695) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.303 30699 INFO eventlet.wsgi.server [-] (30699) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.303 30697 INFO eventlet.wsgi.server [-] (30697) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.304 30700 INFO eventlet.wsgi.server [-] (30700) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:00:01.304 30698 INFO eventlet.wsgi.server [-] (30698) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent [-] Failed reporting state!
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent Traceback (most recent call last):
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/metadata/agent.py", line 262, in _report_state
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent     use_call=self.agent_state.get('start_flag'))
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/rpc.py", line 88, in report_state
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent     return method(context, 'report_state', **kwargs)
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 169, in call
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent     retry=self.retry)
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 97, in _send
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent     timeout=timeout, retry=retry)
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 464, in send
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent     retry=retry)
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 453, in _send
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent     result = self._waiter.wait(msg_id, timeout)
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 336, in wait
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent     message = self.waiters.get(msg_id, timeout=timeout)
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 238, in get
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent     'to message ID %s' % msg_id)
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent MessagingTimeout: Timed out waiting for a reply to message ID faa6bf45021144419fadd858a2027677
+2017-02-09 14:01:01.359 30524 ERROR neutron.agent.metadata.agent 
+2017-02-09 14:01:01.368 30524 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.metadata.agent.UnixDomainMetadataProxy._report_state' run outlasted interval by 30.06 sec
+2017-02-09 14:14:24.391 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Caught SIGTERM, stopping children
+2017-02-09 14:14:24.395 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Waiting on 20 children to exit
+2017-02-09 14:14:24.395 30690 INFO eventlet.wsgi.server [-] (30690) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.395 30693 INFO eventlet.wsgi.server [-] (30693) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.395 30691 INFO eventlet.wsgi.server [-] (30691) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.395 30692 INFO eventlet.wsgi.server [-] (30692) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.395 30699 INFO eventlet.wsgi.server [-] (30699) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.396 30697 INFO eventlet.wsgi.server [-] (30697) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.396 30687 INFO eventlet.wsgi.server [-] (30687) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.396 30698 INFO eventlet.wsgi.server [-] (30698) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.396 30695 INFO eventlet.wsgi.server [-] (30695) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.396 30682 INFO eventlet.wsgi.server [-] (30682) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.396 30688 INFO eventlet.wsgi.server [-] (30688) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.396 30684 INFO eventlet.wsgi.server [-] (30684) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.397 30694 INFO eventlet.wsgi.server [-] (30694) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.396 30681 INFO eventlet.wsgi.server [-] (30681) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.396 30689 INFO eventlet.wsgi.server [-] (30689) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.397 30686 INFO eventlet.wsgi.server [-] (30686) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.397 30700 INFO eventlet.wsgi.server [-] (30700) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.397 30685 INFO eventlet.wsgi.server [-] (30685) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.397 30696 INFO eventlet.wsgi.server [-] (30696) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.397 30683 INFO eventlet.wsgi.server [-] (30683) wsgi exited, is_accepting=True
+2017-02-09 14:14:24.402 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30690 exited with status 0
+2017-02-09 14:14:24.403 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30687 exited with status 0
+2017-02-09 14:14:24.404 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30693 exited with status 0
+2017-02-09 14:14:24.404 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30699 exited with status 0
+2017-02-09 14:14:24.405 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30691 exited with status 0
+2017-02-09 14:14:24.405 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30692 exited with status 0
+2017-02-09 14:14:24.405 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30697 exited with status 0
+2017-02-09 14:14:24.405 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30686 exited with status 0
+2017-02-09 14:14:24.406 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30696 exited with status 0
+2017-02-09 14:14:24.406 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30700 exited with status 0
+2017-02-09 14:14:24.406 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30688 exited with status 0
+2017-02-09 14:14:24.407 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30682 exited with status 0
+2017-02-09 14:14:24.407 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30681 exited with status 0
+2017-02-09 14:14:24.407 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30683 exited with status 0
+2017-02-09 14:14:24.407 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30684 exited with status 0
+2017-02-09 14:14:24.408 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30685 exited with status 0
+2017-02-09 14:14:24.408 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30689 exited with status 0
+2017-02-09 14:14:24.408 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30694 exited with status 0
+2017-02-09 14:14:24.408 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30695 exited with status 0
+2017-02-09 14:14:24.409 30524 INFO oslo_service.service [req-b4c2d87f-31cd-4c10-9b71-7f15f80c6568 - - - - -] Child 30698 exited with status 0
+2017-02-09 14:16:29.580 35680 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 14:16:29.581 35680 INFO neutron.common.config [-] /usr/bin/neutron-metadata-agent version 9.1.1
+2017-02-09 14:16:29.590 35680 INFO oslo_service.service [req-45980895-0113-4f44-a61c-62aab5cfb6a8 - - - - -] Starting 20 workers
+2017-02-09 14:16:29.597 35860 INFO eventlet.wsgi.server [-] (35860) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.599 35861 INFO eventlet.wsgi.server [-] (35861) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.600 35862 INFO eventlet.wsgi.server [-] (35862) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.601 35863 INFO eventlet.wsgi.server [-] (35863) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.602 35864 INFO eventlet.wsgi.server [-] (35864) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.603 35866 INFO eventlet.wsgi.server [-] (35866) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.603 35865 INFO eventlet.wsgi.server [-] (35865) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.606 35867 INFO eventlet.wsgi.server [-] (35867) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.608 35869 INFO eventlet.wsgi.server [-] (35869) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.608 35868 INFO eventlet.wsgi.server [-] (35868) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.609 35870 INFO eventlet.wsgi.server [-] (35870) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.611 35871 INFO eventlet.wsgi.server [-] (35871) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.614 35872 INFO eventlet.wsgi.server [-] (35872) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.615 35873 INFO eventlet.wsgi.server [-] (35873) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.618 35874 INFO eventlet.wsgi.server [-] (35874) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.620 35875 INFO eventlet.wsgi.server [-] (35875) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.621 35876 INFO eventlet.wsgi.server [-] (35876) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.622 35878 INFO eventlet.wsgi.server [-] (35878) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.622 35877 INFO eventlet.wsgi.server [-] (35877) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:16:29.624 35879 INFO eventlet.wsgi.server [-] (35879) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent [-] Failed reporting state!
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent Traceback (most recent call last):
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/metadata/agent.py", line 262, in _report_state
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent     use_call=self.agent_state.get('start_flag'))
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/rpc.py", line 88, in report_state
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent     return method(context, 'report_state', **kwargs)
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 169, in call
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent     retry=self.retry)
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 97, in _send
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent     timeout=timeout, retry=retry)
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 464, in send
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent     retry=retry)
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 453, in _send
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent     result = self._waiter.wait(msg_id, timeout)
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 336, in wait
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent     message = self.waiters.get(msg_id, timeout=timeout)
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 238, in get
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent     'to message ID %s' % msg_id)
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent MessagingTimeout: Timed out waiting for a reply to message ID 3b8f6e173d64414d9babbf4f06a31cc9
+2017-02-09 14:17:29.666 35680 ERROR neutron.agent.metadata.agent 
+2017-02-09 14:17:29.677 35680 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.metadata.agent.UnixDomainMetadataProxy._report_state' run outlasted interval by 30.05 sec
+2017-02-09 15:06:13.921 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Caught SIGTERM, stopping children
+2017-02-09 15:06:13.939 35872 INFO eventlet.wsgi.server [-] (35872) wsgi exited, is_accepting=True
+2017-02-09 15:06:13.974 35873 INFO eventlet.wsgi.server [-] (35873) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.009 35874 INFO eventlet.wsgi.server [-] (35874) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.022 35875 INFO eventlet.wsgi.server [-] (35875) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.033 35879 INFO eventlet.wsgi.server [-] (35879) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.033 35876 INFO eventlet.wsgi.server [-] (35876) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.035 35877 INFO eventlet.wsgi.server [-] (35877) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.037 35878 INFO eventlet.wsgi.server [-] (35878) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.064 35860 INFO eventlet.wsgi.server [-] (35860) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.077 35862 INFO eventlet.wsgi.server [-] (35862) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.089 35861 INFO eventlet.wsgi.server [-] (35861) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.090 35863 INFO eventlet.wsgi.server [-] (35863) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.114 35865 INFO eventlet.wsgi.server [-] (35865) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.123 35864 INFO eventlet.wsgi.server [-] (35864) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.131 35869 INFO eventlet.wsgi.server [-] (35869) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.131 35866 INFO eventlet.wsgi.server [-] (35866) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.142 35867 INFO eventlet.wsgi.server [-] (35867) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.148 35870 INFO eventlet.wsgi.server [-] (35870) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.151 35868 INFO eventlet.wsgi.server [-] (35868) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.164 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Waiting on 20 children to exit
+2017-02-09 15:06:14.165 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35861 exited with status 0
+2017-02-09 15:06:14.165 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35862 exited with status 0
+2017-02-09 15:06:14.165 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35864 exited with status 0
+2017-02-09 15:06:14.166 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35865 exited with status 0
+2017-02-09 15:06:14.166 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35869 exited with status 0
+2017-02-09 15:06:14.167 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35870 exited with status 0
+2017-02-09 15:06:14.167 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35872 exited with status 0
+2017-02-09 15:06:14.167 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35873 exited with status 0
+2017-02-09 15:06:14.168 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35874 exited with status 0
+2017-02-09 15:06:14.168 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35875 exited with status 0
+2017-02-09 15:06:14.169 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35876 exited with status 0
+2017-02-09 15:06:14.169 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35877 exited with status 0
+2017-02-09 15:06:14.169 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35878 exited with status 0
+2017-02-09 15:06:14.170 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35879 exited with status 0
+2017-02-09 15:06:14.186 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35860 exited with status 0
+2017-02-09 15:06:14.186 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35863 exited with status 0
+2017-02-09 15:06:14.188 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35867 exited with status 0
+2017-02-09 15:06:14.188 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35868 exited with status 0
+2017-02-09 15:06:14.192 35871 INFO eventlet.wsgi.server [-] (35871) wsgi exited, is_accepting=True
+2017-02-09 15:06:14.195 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35866 exited with status 0
+2017-02-09 15:06:14.227 35680 INFO oslo_service.service [req-d3f3286e-fa4a-42b0-ab7f-c6bb72198fe8 - - - - -] Child 35871 exited with status 0
+2017-02-09 15:09:51.059 4692 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 15:09:51.060 4692 INFO neutron.common.config [-] /usr/bin/neutron-metadata-agent version 9.1.1
+2017-02-09 15:09:51.072 4692 INFO oslo_service.service [req-0f5cc67a-17c2-4449-af92-08702514bc9b - - - - -] Starting 20 workers
+2017-02-09 15:09:51.080 6342 INFO eventlet.wsgi.server [-] (6342) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.080 6341 INFO eventlet.wsgi.server [-] (6341) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.081 6343 INFO eventlet.wsgi.server [-] (6343) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.081 6344 INFO eventlet.wsgi.server [-] (6344) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.081 6345 INFO eventlet.wsgi.server [-] (6345) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.083 6346 INFO eventlet.wsgi.server [-] (6346) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.084 6347 INFO eventlet.wsgi.server [-] (6347) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.088 6348 INFO eventlet.wsgi.server [-] (6348) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.090 6350 INFO eventlet.wsgi.server [-] (6350) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.090 6349 INFO eventlet.wsgi.server [-] (6349) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.091 6352 INFO eventlet.wsgi.server [-] (6352) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.092 6351 INFO eventlet.wsgi.server [-] (6351) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.093 6353 INFO eventlet.wsgi.server [-] (6353) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.096 6354 INFO eventlet.wsgi.server [-] (6354) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.097 6355 INFO eventlet.wsgi.server [-] (6355) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.099 6356 INFO eventlet.wsgi.server [-] (6356) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.099 6357 INFO eventlet.wsgi.server [-] (6357) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.101 6358 INFO eventlet.wsgi.server [-] (6358) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.102 6359 INFO eventlet.wsgi.server [-] (6359) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:09:51.103 6360 INFO eventlet.wsgi.server [-] (6360) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent [-] Failed reporting state!
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent Traceback (most recent call last):
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/metadata/agent.py", line 262, in _report_state
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent     use_call=self.agent_state.get('start_flag'))
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/neutron/agent/rpc.py", line 88, in report_state
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent     return method(context, 'report_state', **kwargs)
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/rpc/client.py", line 169, in call
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent     retry=self.retry)
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/transport.py", line 97, in _send
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent     timeout=timeout, retry=retry)
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 464, in send
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent     retry=retry)
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 453, in _send
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent     result = self._waiter.wait(msg_id, timeout)
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 336, in wait
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent     message = self.waiters.get(msg_id, timeout=timeout)
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent   File "/usr/lib/python2.7/site-packages/oslo_messaging/_drivers/amqpdriver.py", line 238, in get
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent     'to message ID %s' % msg_id)
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent MessagingTimeout: Timed out waiting for a reply to message ID 4abd84d7e37d420e80829858187f8148
+2017-02-09 15:11:01.415 4692 ERROR neutron.agent.metadata.agent 
+2017-02-09 15:11:01.423 4692 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.metadata.agent.UnixDomainMetadataProxy._report_state' run outlasted interval by 40.07 sec
+2017-02-09 15:25:01.445 4692 ERROR oslo.messaging._drivers.impl_rabbit [-] [e7ad0565-a858-4be6-8a7d-173ace2b6e6c] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: timed out. Trying again in 1 seconds. Client port: 46862
+2017-02-09 15:25:16.418 4692 ERROR oslo.messaging._drivers.impl_rabbit [-] [99323db2-10fa-4fb6-8e38-17cbdaa574d6] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: Too many heartbeats missed. Trying again in 1 seconds. Client port: 46860
+2017-02-09 15:26:02.471 4692 INFO oslo.messaging._drivers.impl_rabbit [-] [e7ad0565-a858-4be6-8a7d-173ace2b6e6c] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 39276.
+2017-02-09 15:26:02.476 4692 WARNING oslo.service.loopingcall [-] Function 'neutron.agent.metadata.agent.UnixDomainMetadataProxy._report_state' run outlasted interval by 91.03 sec
+2017-02-09 15:26:17.444 4692 INFO oslo.messaging._drivers.impl_rabbit [-] [99323db2-10fa-4fb6-8e38-17cbdaa574d6] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 39292.
+2017-02-09 15:32:35.013 4716 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 15:32:35.013 4716 INFO neutron.common.config [-] /usr/bin/neutron-metadata-agent version 9.1.1
+2017-02-09 15:32:35.025 4716 INFO oslo_service.service [req-da310e5a-ace7-4fc7-a3df-191592a7b3ca - - - - -] Starting 20 workers
+2017-02-09 15:32:35.030 6355 INFO eventlet.wsgi.server [-] (6355) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.032 6357 INFO eventlet.wsgi.server [-] (6357) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.032 6356 INFO eventlet.wsgi.server [-] (6356) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.033 6358 INFO eventlet.wsgi.server [-] (6358) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.034 6359 INFO eventlet.wsgi.server [-] (6359) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.035 6360 INFO eventlet.wsgi.server [-] (6360) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.036 6361 INFO eventlet.wsgi.server [-] (6361) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.037 6362 INFO eventlet.wsgi.server [-] (6362) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.038 6363 INFO eventlet.wsgi.server [-] (6363) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.040 6364 INFO eventlet.wsgi.server [-] (6364) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.041 6365 INFO eventlet.wsgi.server [-] (6365) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.042 6366 INFO eventlet.wsgi.server [-] (6366) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.043 6367 INFO eventlet.wsgi.server [-] (6367) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.044 6368 INFO eventlet.wsgi.server [-] (6368) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.045 6369 INFO eventlet.wsgi.server [-] (6369) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.046 6370 INFO eventlet.wsgi.server [-] (6370) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.048 6371 INFO eventlet.wsgi.server [-] (6371) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.049 6373 INFO eventlet.wsgi.server [-] (6373) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.050 6372 INFO eventlet.wsgi.server [-] (6372) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:35.050 6374 INFO eventlet.wsgi.server [-] (6374) wsgi starting up on http:/var/lib/neutron/metadata_proxy
+2017-02-09 15:32:40.075 4716 ERROR oslo.messaging._drivers.impl_rabbit [-] [b3cc7278-e804-4a73-9702-f1457fff0068] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-09 15:32:41.089 4716 ERROR oslo.messaging._drivers.impl_rabbit [-] [b3cc7278-e804-4a73-9702-f1457fff0068] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 2 seconds. Client port: None
+2017-02-09 15:32:43.115 4716 INFO oslo.messaging._drivers.impl_rabbit [-] [b3cc7278-e804-4a73-9702-f1457fff0068] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 39984.
+2017-02-09 16:11:38.563 6373 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:11:38] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.447801
+2017-02-09 16:11:41.328 6373 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:11:41] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.451133
+2017-02-09 16:11:44.791 6373 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:11:44] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.262453
+2017-02-09 16:11:48.289 6373 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:11:48] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.160377
+2017-02-09 16:11:51.887 6373 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:11:51] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.297580
+2017-02-09 16:11:54.559 6373 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:11:54] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.489753
+2017-02-09 16:11:58.054 6373 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:11:58] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.288347
+2017-02-09 16:12:01.588 6373 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:12:01] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.130906
+2017-02-09 16:12:04.133 6373 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:12:04] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.326302
+2017-02-09 16:12:06.516 6373 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:12:06] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.179405
+2017-02-09 16:12:10.081 6365 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:12:10] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.303748
+2017-02-09 16:12:13.689 6365 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:12:13] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.220709
+2017-02-09 16:12:16.258 6365 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:12:16] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.360187
+2017-02-09 16:12:19.007 6365 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:12:19] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.490781
+2017-02-09 16:12:21.950 6365 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:12:21] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.671201
+2017-02-09 16:12:25.446 6365 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:12:25] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 1.196036
+2017-02-09 16:12:28.332 6365 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:12:28] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.681810
+2017-02-09 16:12:30.972 6360 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:12:30] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.430127
+2017-02-09 16:12:34.144 6373 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:12:34] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.842237
+2017-02-09 16:12:36.845 6364 INFO eventlet.wsgi.server [-] 192.168.2.6,<local> - - [09/Feb/2017 16:12:36] "GET /2009-04-04/meta-data/instance-id HTTP/1.1" 404 176 0.431815
+2017-02-09 18:58:06.338 4716 ERROR oslo.messaging._drivers.impl_rabbit [-] [10289737-fcf3-4298-a84a-47271cf73215] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: timed out. Trying again in 1 seconds. Client port: 39992

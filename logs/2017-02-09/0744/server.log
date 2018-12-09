@@ -1,0 +1,142 @@
+2017-02-09 07:43:45.134 14586 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 07:43:45.135 14586 INFO neutron.common.config [-] /usr/bin/neutron-server version 9.1.1
+2017-02-09 07:43:45.135 14586 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 07:43:45.136 14586 INFO neutron.common.config [-] /usr/bin/neutron-server version 9.1.1
+2017-02-09 07:43:45.148 14586 INFO neutron.manager [-] Loading core plugin: ml2
+2017-02-09 07:43:45.471 14586 INFO neutron.plugins.ml2.managers [-] Configured type driver names: ['flat', 'vxlan']
+2017-02-09 07:43:45.483 14586 INFO neutron.plugins.ml2.drivers.type_flat [-] Arbitrary flat physical_network names allowed
+2017-02-09 07:43:45.488 14586 INFO neutron.plugins.ml2.managers [-] Loaded type driver names: ['flat', 'vxlan']
+2017-02-09 07:43:45.488 14586 INFO neutron.plugins.ml2.managers [-] Registered types: ['flat', 'vxlan']
+2017-02-09 07:43:45.488 14586 INFO neutron.plugins.ml2.managers [-] Tenant network_types: ['flat', 'vxlan']
+2017-02-09 07:43:45.489 14586 INFO neutron.plugins.ml2.managers [-] Configured extension driver names: ['port_security']
+2017-02-09 07:43:45.495 14586 INFO neutron.plugins.ml2.managers [-] Loaded extension driver names: ['port_security']
+2017-02-09 07:43:45.495 14586 INFO neutron.plugins.ml2.managers [-] Registered extension drivers: ['port_security']
+2017-02-09 07:43:45.495 14586 INFO neutron.plugins.ml2.managers [-] Configured mechanism driver names: ['openvswitch', 'l2population']
+2017-02-09 07:43:45.498 14586 WARNING neutron.agent.securitygroups_rpc [-] Driver configuration doesn't match with enable_security_group
+2017-02-09 07:43:45.499 14586 INFO neutron.plugins.ml2.managers [-] Loaded mechanism driver names: ['openvswitch', 'l2population']
+2017-02-09 07:43:45.499 14586 INFO neutron.plugins.ml2.managers [-] Registered mechanism drivers: ['openvswitch', 'l2population']
+2017-02-09 07:43:45.620 14586 INFO neutron.plugins.ml2.managers [-] Initializing driver for type 'flat'
+2017-02-09 07:43:45.621 14586 INFO neutron.plugins.ml2.drivers.type_flat [-] ML2 FlatTypeDriver initialization complete
+2017-02-09 07:43:45.621 14586 INFO neutron.plugins.ml2.managers [-] Initializing driver for type 'vxlan'
+2017-02-09 07:43:45.621 14586 INFO neutron.plugins.ml2.drivers.type_tunnel [-] vxlan ID ranges: [(7777, 8000)]
+2017-02-09 07:43:45.634 14586 WARNING oslo_db.sqlalchemy.engines [-] SQL connection failed. 10 attempts left.
+2017-02-09 07:43:55.846 14586 INFO neutron.plugins.ml2.managers [-] Initializing extension driver 'port_security'
+2017-02-09 07:43:55.846 14586 INFO neutron.plugins.ml2.extensions.port_security [-] PortSecurityExtensionDriver initialization complete
+2017-02-09 07:43:55.846 14586 INFO neutron.plugins.ml2.managers [-] Initializing mechanism driver 'openvswitch'
+2017-02-09 07:43:55.847 14586 INFO neutron.plugins.ml2.managers [-] Initializing mechanism driver 'l2population'
+2017-02-09 07:43:55.849 14586 INFO neutron.plugins.ml2.plugin [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Modular L2 Plugin initialization complete
+2017-02-09 07:43:55.850 14586 INFO neutron.plugins.ml2.managers [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Got port-security extension from driver 'port_security'
+2017-02-09 07:43:55.850 14586 WARNING neutron.agent.securitygroups_rpc [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Driver configuration doesn't match with enable_security_group
+2017-02-09 07:43:55.850 14586 INFO neutron.extensions.vlantransparent [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Disabled vlantransparent extension.
+2017-02-09 07:43:55.851 14586 INFO neutron.manager [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loading Plugin: router
+2017-02-09 07:43:55.871 14586 INFO neutron.db.l3_agentschedulers_db [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Skipping period L3 agent status check because automatic router rescheduling is disabled.
+2017-02-09 07:43:55.873 14586 INFO neutron.services.service_base [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Default provider is not specified for service type L3_ROUTER_NAT
+2017-02-09 07:43:55.874 14586 INFO neutron.manager [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loading Plugin: flavors
+2017-02-09 07:43:55.883 14586 INFO neutron.manager [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loading Plugin: auto_allocate
+2017-02-09 07:43:55.888 14586 INFO neutron.manager [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loading Plugin: timestamp
+2017-02-09 07:43:55.889 14586 INFO neutron.manager [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loading Plugin: network_ip_availability
+2017-02-09 07:43:55.890 14586 INFO neutron.manager [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loading Plugin: tag
+2017-02-09 07:43:55.894 14586 INFO neutron.manager [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loading Plugin: revisions
+2017-02-09 07:43:55.895 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Initializing extension manager.
+2017-02-09 07:43:55.896 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: address-scope
+2017-02-09 07:43:55.897 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: agent
+2017-02-09 07:43:55.902 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: allowed-address-pairs
+2017-02-09 07:43:55.903 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: auto-allocated-topology
+2017-02-09 07:43:55.904 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: availability_zone
+2017-02-09 07:43:55.905 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: default-subnetpools
+2017-02-09 07:43:55.906 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: dhcp_agent_scheduler
+2017-02-09 07:43:55.910 14586 WARNING neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Extension dns-integration not supported by any of loaded plugins
+2017-02-09 07:43:55.911 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: dvr
+2017-02-09 07:43:55.912 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: external-net
+2017-02-09 07:43:55.913 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: extra_dhcp_opt
+2017-02-09 07:43:55.914 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: extraroute
+2017-02-09 07:43:55.916 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: flavors
+2017-02-09 07:43:55.917 14586 WARNING neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Extension ip_allocation not supported by any of loaded plugins
+2017-02-09 07:43:55.917 14586 WARNING neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Extension l2_adjacency not supported by any of loaded plugins
+2017-02-09 07:43:55.919 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: router
+2017-02-09 07:43:55.919 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: ext-gw-mode
+2017-02-09 07:43:55.921 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: l3-ha
+2017-02-09 07:43:55.921 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: l3-flavors
+2017-02-09 07:43:55.922 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: l3_agent_scheduler
+2017-02-09 07:43:55.923 14586 WARNING neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Extension metering not supported by any of loaded plugins
+2017-02-09 07:43:55.926 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: multi-provider
+2017-02-09 07:43:55.926 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: net-mtu
+2017-02-09 07:43:55.927 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: network_availability_zone
+2017-02-09 07:43:55.928 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: network-ip-availability
+2017-02-09 07:43:55.929 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: pagination
+2017-02-09 07:43:55.929 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: binding
+2017-02-09 07:43:55.930 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: port-security
+2017-02-09 07:43:55.931 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: project-id
+2017-02-09 07:43:55.931 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: provider
+2017-02-09 07:43:55.933 14586 WARNING neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Extension qos not supported by any of loaded plugins
+2017-02-09 07:43:55.934 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: quotas
+2017-02-09 07:43:55.935 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: rbac-policies
+2017-02-09 07:43:55.936 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: standard-attr-revisions
+2017-02-09 07:43:55.936 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: router_availability_zone
+2017-02-09 07:43:55.937 14586 WARNING neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Extension router-service-type not supported by any of loaded plugins
+2017-02-09 07:43:55.939 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: security-group
+2017-02-09 07:43:55.940 14586 WARNING neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Extension segment not supported by any of loaded plugins
+2017-02-09 07:43:55.941 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: service-type
+2017-02-09 07:43:55.942 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: sorting
+2017-02-09 07:43:55.942 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: standard-attr-description
+2017-02-09 07:43:55.943 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: subnet-service-types
+2017-02-09 07:43:55.944 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: subnet_allocation
+2017-02-09 07:43:55.945 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: tag
+2017-02-09 07:43:55.946 14586 INFO neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Loaded extension: standard-attr-timestamp
+2017-02-09 07:43:55.946 14586 WARNING neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Extension trunk not supported by any of loaded plugins
+2017-02-09 07:43:55.947 14586 WARNING neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Extension trunk-details not supported by any of loaded plugins
+2017-02-09 07:43:55.948 14586 WARNING neutron.api.extensions [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Extension vlan-transparent not supported by any of loaded plugins
+2017-02-09 07:43:55.950 14586 INFO neutron.quota.resource_registry [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Creating instance of TrackedResource for resource:subnet
+2017-02-09 07:43:55.951 14586 INFO neutron.quota.resource_registry [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Creating instance of TrackedResource for resource:subnetpool
+2017-02-09 07:43:55.952 14586 INFO neutron.quota.resource_registry [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Creating instance of TrackedResource for resource:network
+2017-02-09 07:43:55.953 14586 INFO neutron.quota.resource_registry [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Creating instance of TrackedResource for resource:port
+2017-02-09 07:43:55.956 14586 INFO neutron.quota.resource_registry [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Creating instance of TrackedResource for resource:security_group
+2017-02-09 07:43:55.956 14586 INFO neutron.quota.resource_registry [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Creating instance of TrackedResource for resource:security_group_rule
+2017-02-09 07:43:55.957 14586 INFO neutron.quota.resource_registry [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Creating instance of CountableResource for resource:rbac_policy
+2017-02-09 07:43:55.957 14586 INFO neutron.quota.resource_registry [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Creating instance of TrackedResource for resource:router
+2017-02-09 07:43:55.958 14586 INFO neutron.quota.resource_registry [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Creating instance of TrackedResource for resource:floatingip
+2017-02-09 07:43:55.989 14586 INFO oslo_service.service [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Starting 40 workers
+2017-02-09 07:43:56.000 15427 INFO neutron.wsgi [-] (15427) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.001 15428 INFO neutron.wsgi [-] (15428) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.002 15429 INFO neutron.wsgi [-] (15429) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.004 15430 INFO neutron.wsgi [-] (15430) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.005 15431 INFO neutron.wsgi [-] (15431) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.007 15432 INFO neutron.wsgi [-] (15432) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.009 15433 INFO neutron.wsgi [-] (15433) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.010 15434 INFO neutron.wsgi [-] (15434) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.012 15435 INFO neutron.wsgi [-] (15435) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.012 15436 INFO neutron.wsgi [-] (15436) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.015 15437 INFO neutron.wsgi [-] (15437) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.016 15438 INFO neutron.wsgi [-] (15438) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.018 15439 INFO neutron.wsgi [-] (15439) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.019 15440 INFO neutron.wsgi [-] (15440) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.022 15441 INFO neutron.wsgi [-] (15441) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.023 15442 INFO neutron.wsgi [-] (15442) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.025 15443 INFO neutron.wsgi [-] (15443) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.026 15444 INFO neutron.wsgi [-] (15444) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.028 15445 INFO neutron.wsgi [-] (15445) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.029 15446 INFO neutron.wsgi [-] (15446) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.031 15447 INFO neutron.wsgi [-] (15447) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.032 15448 INFO neutron.wsgi [-] (15448) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.034 15449 INFO neutron.wsgi [-] (15449) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.036 15450 INFO neutron.wsgi [-] (15450) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.037 15451 INFO neutron.wsgi [-] (15451) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.039 15452 INFO neutron.wsgi [-] (15452) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.040 15453 INFO neutron.wsgi [-] (15453) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.043 15454 INFO neutron.wsgi [-] (15454) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.044 15455 INFO neutron.wsgi [-] (15455) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.046 15456 INFO neutron.wsgi [-] (15456) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.048 15457 INFO neutron.wsgi [-] (15457) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.049 15458 INFO neutron.wsgi [-] (15458) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.051 15459 INFO neutron.wsgi [-] (15459) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.052 15460 INFO neutron.wsgi [-] (15460) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.055 15461 INFO neutron.wsgi [-] (15461) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.056 15462 INFO neutron.wsgi [-] (15462) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.057 15463 INFO neutron.wsgi [-] (15463) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.058 14586 INFO neutron.service [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Neutron service started, listening on 0.0.0.0:9696
+2017-02-09 07:43:56.059 15464 INFO neutron.wsgi [-] (15464) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.061 14586 INFO oslo_service.service [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Starting 1 workers
+2017-02-09 07:43:56.061 15466 INFO neutron.wsgi [-] (15466) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.061 15465 INFO neutron.wsgi [-] (15465) wsgi starting up on http://0.0.0.0:9696
+2017-02-09 07:43:56.063 14586 INFO oslo_service.service [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Starting 1 workers
+2017-02-09 07:43:56.067 14586 INFO oslo_service.service [req-ce6d7af0-53bc-4199-8423-ff06965c026a - - - - -] Starting 1 workers

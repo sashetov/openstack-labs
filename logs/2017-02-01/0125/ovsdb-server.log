@@ -1,0 +1,18 @@
+2017-02-01T00:20:12.050Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2017-02-01T00:20:12.211Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.6.1
+2017-02-01T00:20:22.222Z|00003|memory|INFO|2280 kB peak resident set size after 10.2 seconds
+2017-02-01T00:20:22.222Z|00004|memory|INFO|cells:554 json-caches:1 monitors:1 sessions:1
+2017-02-01T00:35:55.507Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2017-02-01T00:35:55.628Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.6.1
+2017-02-01T00:36:05.636Z|00003|memory|INFO|2280 kB peak resident set size after 10.1 seconds
+2017-02-01T00:36:05.636Z|00004|memory|INFO|cells:554 json-caches:1 monitors:1 sessions:1
+2017-02-01T00:50:57.388Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2017-02-01T00:50:57.541Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.6.1
+2017-02-01T00:51:05.178Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2017-02-01T00:51:05.327Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.6.1
+2017-02-01T00:51:15.338Z|00003|memory|INFO|2276 kB peak resident set size after 10.2 seconds
+2017-02-01T00:51:15.338Z|00004|memory|INFO|cells:26 json-caches:1 monitors:1 sessions:1
+2017-02-01T01:00:29.034Z|00001|vlog|INFO|opened log file /var/log/openvswitch/ovsdb-server.log
+2017-02-01T01:00:29.150Z|00002|ovsdb_server|INFO|ovsdb-server (Open vSwitch) 2.6.1
+2017-02-01T01:00:39.158Z|00003|memory|INFO|2532 kB peak resident set size after 10.1 seconds
+2017-02-01T01:00:39.159Z|00004|memory|INFO|cells:164 json-caches:1 monitors:1 sessions:1

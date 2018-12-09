@@ -1,0 +1,67 @@
+session_name: openstack
+start_directory: '/root/'
+windows:
+  - window_name: OS
+    layout: even-vertical
+    panes:
+    - shell_command:
+      - dmesg -H -w
+    - shell_command:
+      - journalctl -f
+    -
+# - window_name: keystone
+#   layout: even-vertical
+#   panes:
+#   - tail -f /var/log/mysqld.log
+#   - tail -f /var/log/httpd/keystone.log
+#   - tail -f /var/log/httpd/keystone_access.log
+#   - tail -f /var/log/keystone/keystone.log
+# - window_name: glance
+#   layout: even-vertical
+#   panes:
+#   - tail -f /var/log/glance/api.log
+#   - tail -f /var/log/glance/registry.log
+# - window_name: ovs
+#   layout: even-vertical
+#   panes:
+#   - tail -f /var/log/openvswitch/ovsdb-server.log
+#   - tail -f /var/log/openvswitch/ovs-vswitchd.log
+# - window_name: neutron
+#   layout: even-vertical
+#   panes:
+#   - tail -f /var/log/neutron/l3-agent.log
+#   - tail -f /var/log/neutron/linuxbridge-agent.log
+#   - tail -f /var/log/neutron/neutron-ns-metadata-proxy-60612993-578d-4568-829e-9501fe305922.log
+#   - tail -f /var/log/neutron/openvswitch-agent.log
+#   - tail -f /var/log/neutron/dhcp-agent.log
+#   - tail -f /var/log/neutron/metadata-agent.log
+#   - tail -f /var/log/neutron/neutron-ns-metadata-proxy-c70c9657-acfc-406b-add0-290f7bff5c67.log
+#   - tail -f /var/log/neutron/server.log
+# - window_name: libvirtd
+#   layout: even-vertical
+#   panes:
+#   - multitail -cs -f /var/log/libvirt/*/*
+# - window_name: nova
+#   layout: even-vertical
+#   panes:
+#   - tail -f /var/log/nova/nova-api.log
+#   - tail -f /var/log/nova/nova-conductor.log
+#   - tail -f /var/log/nova/nova-scheduler.log
+#   - tail -f /var/log/nova/privsep-helper.log
+#   - tail -f /var/log/nova/nova-consoleauth.log
+#   - tail -f /var/log/nova/nova-novncproxy.log
+#   - tail -f /var/log/nova/nova-compute.log
+# - window_name: openstack-cli
+#   layout: even-vertical
+#   panes:
+#   - . /root/demorc
+#   - . /root/adminrc
+# - window_name: logs-vim
+#   layout: even-vertical
+#   panes:
+#   - vim -p `/root/openstack/bin/cp-logs-grep-errs.sh`
+  - window_name: openstack.vim
+    layout: even-vertical
+    panes:
+    - cd /root/openstack && vim -S /root/openstack/openstack.vim
+

@@ -1,0 +1,12 @@
+<network>
+  <name>kvm-vmnet</name>
+  <forward mode='bridge'/>
+  <bridge name='brint' />
+  <virtualport type='openvswitch'>
+  </virtualport>
+  <!--
+  <vlan>
+     <tag id='2001'/>
+  </vlan>
+  -->
+</network>

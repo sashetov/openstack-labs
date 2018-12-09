@@ -1,0 +1,9 @@
+#!/bin/bash
+ . vars.inc
+./02.1-rabbit-install-and-add-users.sh
+./02.2-rabbit-gen-pkis.sh
+./02.3-rabbit-generate-root-ca-pair.sh
+./02.4-generate-intermediate-ca.sh
+./02.5-sign-rabbit-csr.sh
+./02.6-client-certs.sh
+./02.7-update-rabbitmq-config.sh

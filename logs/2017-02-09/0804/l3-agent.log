@@ -1,0 +1,13 @@
+2017-02-09 07:43:45.118 14591 INFO neutron.common.config [-] Logging enabled!
+2017-02-09 07:43:45.118 14591 INFO neutron.common.config [-] /usr/bin/neutron-l3-agent version 9.1.1
+2017-02-09 07:44:45.170 14591 ERROR neutron.common.rpc [req-ca70f015-d67d-4c43-9782-8d633bdb5368 - - - - -] Timeout in RPC method get_service_plugin_list. Waiting for 5 seconds before next attempt. If the server is not down, consider increasing the rpc_response_timeout option as Neutron server(s) may be overloaded and unable to respond quickly enough.
+2017-02-09 07:44:45.172 14591 WARNING neutron.common.rpc [req-ca70f015-d67d-4c43-9782-8d633bdb5368 - - - - -] Increasing timeout for get_service_plugin_list calls to 120 seconds. Restart the agent to restore it to the default value.
+2017-02-09 07:44:50.440 14591 WARNING neutron.agent.l3.agent [req-ca70f015-d67d-4c43-9782-8d633bdb5368 - - - - -] l3-agent cannot contact neutron server to retrieve service plugins enabled. Check connectivity to neutron server. Retrying... Detailed message: Timed out waiting for a reply to message ID dc24125235c2408b9922844ab139c257.
+2017-02-09 07:44:50.478 14591 INFO neutron.agent.agent_extensions_manager [req-2c2456b5-a364-4868-abc7-bd12b9ae62ad - - - - -] Loaded agent extensions: []
+2017-02-09 07:44:50.529 14591 INFO eventlet.wsgi.server [-] (14591) wsgi starting up on http:/var/lib/neutron/keepalived-state-change
+2017-02-09 07:44:50.529 14591 INFO neutron.agent.l3.agent [-] Agent has just been revived. Doing a full sync.
+2017-02-09 07:44:50.549 14591 INFO neutron.agent.l3.agent [-] L3 agent started
+2017-02-09 07:44:50.690 14591 INFO oslo_rootwrap.client [req-c53ddc41-6f7f-4940-9b52-2c8f6bd97a3e - - - - -] Spawned new rootwrap daemon process with pid=15520
+2017-02-09 07:44:51.330 14591 INFO neutron.agent.linux.interface [-] Device qr-19718a44-ed already exists
+2017-02-09 07:44:51.367 14591 INFO neutron.agent.linux.interface [-] Device qr-eb7549e6-f7 already exists
+2017-02-09 07:44:51.417 14591 INFO neutron.agent.linux.interface [-] Device qg-64d35bd2-23 already exists

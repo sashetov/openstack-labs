@@ -1,0 +1,5 @@
+#!/bin/bash
+curl -XPOST --header "Content-Type: application/json" -d '{    "auth": { "identity": { "methods": [ "password" ], "password": { "user": { "name": "admin", "domain": { "name": "default" }, "password": "4f2d248c91d9e72cfbb4" } } } } }' http://mysql-001.vassilevski.com:35357/v3/auth/tokens
+
+#curl -XPOST --header "Content-Type: application/json" -d '{"auth": {"scope": {"project": {"domain": {"id": "default"}, "name": "admin"}}, "identity": {"password": {"user": {"domain": {"id": "default"}, "password": "qqq", "name": "admin"}}, "methods": ["password"]}}}' http://mysql-001.vassilevski.com:35357/v3/auth/tokens
+

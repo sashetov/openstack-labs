@@ -1,0 +1,187 @@
+2017-02-01 00:13:40.286 12711 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:13:40.844 12711 INFO nova.service [-] Starting scheduler node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.456 14451 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:14:07.807 14451 INFO nova.service [-] Starting scheduler node (version 14.0.2-1.el7)
+2017-02-01 00:14:07.943 14451 INFO nova.scheduler.host_manager [req-fdb8f317-783d-48b5-ac2a-ff981aee940e - - - - -] Received an update from an unknown host 'mysql-001.vassilevski.com'. Re-created its InstanceList.
+2017-02-01 00:16:08.361 14451 INFO nova.scheduler.host_manager [req-80b913c9-1677-49f9-a167-094866feb9a0 - - - - -] Successfully synced instances from host 'mysql-001.vassilevski.com'.
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db [-] Unexpected error while reporting service status
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db Traceback (most recent call last):
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/servicegroup/drivers/db.py", line 89, in _report_state
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     service.service_ref.save()
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_versionedobjects/base.py", line 226, in wrapper
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return fn(self, *args, **kwargs)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/objects/service.py", line 313, in save
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     self._check_minimum_version()
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/objects/service.py", line 294, in _check_minimum_version
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     minver = self.get_minimum_version(self._context, self.binary)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_versionedobjects/base.py", line 184, in wrapper
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     result = fn(cls, context, *args, **kwargs)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/objects/service.py", line 388, in get_minimum_version
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     use_slave=use_slave)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_versionedobjects/base.py", line 184, in wrapper
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     result = fn(cls, context, *args, **kwargs)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/objects/service.py", line 365, in get_minimum_version_multi
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     context, binaries, use_slave=use_slave)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 225, in wrapper
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return f(*args, **kwargs)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/objects/service.py", line 351, in _db_service_get_minimum_version
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return db.service_get_minimum_version(context, binaries)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/api.py", line 117, in service_get_minimum_version
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return IMPL.service_get_minimum_version(context, binary)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 270, in wrapped
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return f(context, *args, **kwargs)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 458, in service_get_minimum_version
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return dict(min_versions)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2736, in __iter__
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return self._execute_and_instances(context)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2749, in _execute_and_instances
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     close_with_result=True)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/query.py", line 2740, in _connection_from_session
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     **kw)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 905, in connection
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     execution_options=execution_options)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 910, in _connection_for_bind
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     engine, execution_options)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 334, in _connection_for_bind
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     conn = bind.contextual_connect()
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 2041, in contextual_connect
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     **kwargs)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 92, in __init__
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     self.dispatch.engine_connect(self, self.__branch)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/event/attr.py", line 256, in __call__
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     fn(*args, **kw)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/engines.py", line 80, in _connect_ping_listener
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     connection.scalar(select([1]))
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 844, in scalar
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return self.execute(object, *multiparams, **params).scalar()
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return meth(self, multiparams, params)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return connection._execute_clauseelement(self, multiparams, params)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     compiled_sql, distilled_params
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 1078, in _execute_context
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     None, None)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 1337, in _handle_dbapi_exception
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     util.raise_from_cause(newraise, exc_info)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     reraise(type(exception), exception, tb=exc_tb)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 1071, in _execute_context
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     conn = self._revalidate_connection()
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 393, in _revalidate_connection
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     self.__connection = self.engine.raw_connection(_connection=self)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 2104, in raw_connection
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     self.pool.unique_connection, _connection)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 2080, in _wrap_pool_connect
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     util.reraise(*sys.exc_info())
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 2074, in _wrap_pool_connect
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return fn()
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 318, in unique_connection
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return _ConnectionFairy._checkout(self)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 713, in _checkout
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     fairy = _ConnectionRecord.checkout(pool)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 485, in checkout
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     rec.checkin()
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 60, in __exit__
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     compat.reraise(exc_type, exc_value, exc_tb)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 482, in checkout
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     dbapi_connection = rec.get_connection()
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 594, in get_connection
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     self.connection = self.__connect()
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/pool.py", line 607, in __connect
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     connection = self.__pool._invoke_creator(self)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 97, in connect
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return dialect.connect(*cargs, **cparams)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/default.py", line 385, in connect
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return self.dbapi.connect(*cargs, **cparams)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/pymysql/__init__.py", line 90, in Connect
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     return Connection(*args, **kwargs)
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/pymysql/connections.py", line 694, in __init__
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     self.connect()
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/pymysql/connections.py", line 947, in connect
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db     raise exc
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db DBConnectionError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'mysql-001.vassilevski.com' ([Errno 111] ECONNREFUSED)") [SQL: u'SELECT 1']
+2017-02-01 00:16:52.955 14451 ERROR nova.servicegroup.drivers.db 
+2017-02-01 00:20:14.618 15901 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:20:15.221 15901 INFO nova.service [-] Starting scheduler node (version 14.0.2-1.el7)
+2017-02-01 00:20:15.642 15901 INFO nova.scheduler.host_manager [req-020778d9-9f08-482d-ba2d-22377200bfb5 - - - - -] Received an update from an unknown host 'mysql-001.vassilevski.com'. Re-created its InstanceList.
+2017-02-01 00:23:06.303 18665 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:23:06.848 18665 INFO nova.service [-] Starting scheduler node (version 14.0.2-1.el7)
+2017-02-01 00:25:47.069 18665 WARNING oslo.service.loopingcall [-] Function 'nova.servicegroup.drivers.db.DbDriver._report_state' run outlasted interval by 75.10 sec
+2017-02-01 00:25:47.467 18665 INFO nova.scheduler.host_manager [req-45525879-0ba2-41fa-b01c-3bab0e026119 - - - - -] Received a sync request from an unknown host 'mysql-001.vassilevski.com'. Re-created its InstanceList.
+2017-02-01 00:27:11.372 18665 INFO nova.scheduler.host_manager [req-c6770d67-58fb-4d4d-a26c-ae07ef7fcf15 - - - - -] Successfully synced instances from host 'mysql-001.vassilevski.com'.
+2017-02-01 00:27:47.124 18665 ERROR oslo_db.sqlalchemy.exc_filters [-] DB exception wrapped.
+2017-02-01 00:27:47.124 18665 ERROR oslo_db.sqlalchemy.exc_filters Traceback (most recent call last):
+2017-02-01 00:27:47.124 18665 ERROR oslo_db.sqlalchemy.exc_filters   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 316, in connection
+2017-02-01 00:27:47.124 18665 ERROR oslo_db.sqlalchemy.exc_filters     return self._revalidate_connection()
+2017-02-01 00:27:47.124 18665 ERROR oslo_db.sqlalchemy.exc_filters   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 391, in _revalidate_connection
+2017-02-01 00:27:47.124 18665 ERROR oslo_db.sqlalchemy.exc_filters     "Can't reconnect until invalid "
+2017-02-01 00:27:47.124 18665 ERROR oslo_db.sqlalchemy.exc_filters InvalidRequestError: Can't reconnect until invalid transaction is rolled back
+2017-02-01 00:27:47.124 18665 ERROR oslo_db.sqlalchemy.exc_filters 
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db [-] Unexpected error while reporting service status
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db Traceback (most recent call last):
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/servicegroup/drivers/db.py", line 89, in _report_state
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     service.service_ref.save()
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_versionedobjects/base.py", line 226, in wrapper
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     return fn(self, *args, **kwargs)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/objects/service.py", line 313, in save
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     self._check_minimum_version()
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/objects/service.py", line 294, in _check_minimum_version
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     minver = self.get_minimum_version(self._context, self.binary)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_versionedobjects/base.py", line 184, in wrapper
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     result = fn(cls, context, *args, **kwargs)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/objects/service.py", line 388, in get_minimum_version
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     use_slave=use_slave)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_versionedobjects/base.py", line 184, in wrapper
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     result = fn(cls, context, *args, **kwargs)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/objects/service.py", line 365, in get_minimum_version_multi
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     context, binaries, use_slave=use_slave)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/nova/db/sqlalchemy/api.py", line 225, in wrapper
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     return f(*args, **kwargs)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/contextlib.py", line 35, in __exit__
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     self.gen.throw(type, value, traceback)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/enginefacade.py", line 875, in _transaction_scope
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     yield resource
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/contextlib.py", line 35, in __exit__
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     self.gen.throw(type, value, traceback)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/enginefacade.py", line 524, in _session
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     self.session.rollback()
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 777, in rollback
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     self.transaction.rollback()
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 423, in rollback
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     transaction._rollback_impl()
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/orm/session.py", line 461, in _rollback_impl
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     t[1].rollback()
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 1563, in rollback
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     self._do_rollback()
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 1601, in _do_rollback
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     self.connection._rollback_impl()
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 662, in _rollback_impl
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     self.dispatch.rollback(self)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/event/attr.py", line 256, in __call__
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     fn(*args, **kw)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib/python2.7/site-packages/oslo_db/sqlalchemy/exc_filters.py", line 459, in pop_exc_tx
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     conn.info.pop(ROLLBACK_CAUSE_KEY, None)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 425, in info
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     return self.connection.info
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 318, in connection
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     self._handle_dbapi_exception(e, None, None, None, None)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 1337, in _handle_dbapi_exception
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     util.raise_from_cause(newraise, exc_info)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     reraise(type(exception), exception, tb=exc_tb)
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 316, in connection
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     return self._revalidate_connection()
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db   File "/usr/lib64/python2.7/site-packages/sqlalchemy/engine/base.py", line 391, in _revalidate_connection
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db     "Can't reconnect until invalid "
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db DBError: Can't reconnect until invalid transaction is rolled back
+2017-02-01 00:27:47.127 18665 ERROR nova.servicegroup.drivers.db 
+2017-02-01 00:36:02.511 4703 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 00:38:23.294 4703 INFO nova.service [-] Starting scheduler node (version 14.0.2-1.el7)
+2017-02-01 00:43:17.055 4703 INFO nova.scheduler.host_manager [req-1fb659aa-8a03-4558-9e0a-854604c9eb40 - - - - -] Received an update from an unknown host 'mysql-001.vassilevski.com'. Re-created its InstanceList.
+2017-02-01 01:00:36.087 4710 WARNING oslo_reports.guru_meditation_report [-] Guru meditation now registers SIGUSR1 and SIGUSR2 by default for backward compatibility. SIGUSR1 will no longer be registered in a future release, so please use SIGUSR2 to generate reports.
+2017-02-01 01:00:41.676 4710 INFO nova.service [-] Starting scheduler node (version 14.0.2-1.el7)
+2017-02-01 01:00:41.726 4710 ERROR oslo.messaging._drivers.impl_rabbit [req-d88a58f2-9191-4132-aad1-ee479fde92ea - - - - -] [1bfb89e4-5450-4f47-965e-a48667867657] AMQP server on mysql-001.vassilevski.com:5672 is unreachable: [Errno 111] ECONNREFUSED. Trying again in 1 seconds. Client port: None
+2017-02-01 01:00:42.739 4710 INFO oslo.messaging._drivers.impl_rabbit [req-d88a58f2-9191-4132-aad1-ee479fde92ea - - - - -] [1bfb89e4-5450-4f47-965e-a48667867657] Reconnected to AMQP server on mysql-001.vassilevski.com:5672 via [amqp] clientwith port 37368.
+2017-02-01 01:00:53.137 4710 INFO nova.scheduler.host_manager [req-2dc4d301-bd1d-4109-937f-94ca9c4c611b - - - - -] Received an update from an unknown host 'mysql-001.vassilevski.com'. Re-created its InstanceList.
+2017-02-01 01:02:36.443 4710 INFO nova.scheduler.host_manager [req-941a46b9-33b2-4fee-890c-80486ef0febe - - - - -] Successfully synced instances from host 'mysql-001.vassilevski.com'.

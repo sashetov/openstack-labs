@@ -1,0 +1,16 @@
+2017-02-05 09:44:50.701 11262 INFO neutron.common.config [-] Logging enabled!
+2017-02-05 09:44:50.701 11262 INFO neutron.common.config [-] /usr/bin/neutron-l3-agent version 9.1.1
+2017-02-05 09:45:50.767 11262 ERROR neutron.common.rpc [req-e0004aec-1f08-42ce-8118-321920c462da - - - - -] Timeout in RPC method get_service_plugin_list. Waiting for 37 seconds before next attempt. If the server is not down, consider increasing the rpc_response_timeout option as Neutron server(s) may be overloaded and unable to respond quickly enough.
+2017-02-05 09:45:50.771 11262 WARNING neutron.common.rpc [req-e0004aec-1f08-42ce-8118-321920c462da - - - - -] Increasing timeout for get_service_plugin_list calls to 120 seconds. Restart the agent to restore it to the default value.
+2017-02-05 09:46:28.092 11262 WARNING neutron.agent.l3.agent [req-e0004aec-1f08-42ce-8118-321920c462da - - - - -] l3-agent cannot contact neutron server to retrieve service plugins enabled. Check connectivity to neutron server. Retrying... Detailed message: Timed out waiting for a reply to message ID 16ef6a4ca6ff41128683c1f513369e59.
+2017-02-05 09:46:28.128 11262 INFO neutron.agent.agent_extensions_manager [req-f4b08c55-8218-4745-8239-b57855a034b7 - - - - -] Loaded agent extensions: []
+2017-02-05 09:46:28.181 11262 INFO eventlet.wsgi.server [-] (11262) wsgi starting up on http:/var/lib/neutron/keepalived-state-change
+2017-02-05 09:46:28.182 11262 INFO neutron.agent.l3.agent [-] Agent has just been revived. Doing a full sync.
+2017-02-05 09:46:28.204 11262 INFO neutron.agent.l3.agent [-] L3 agent started
+2017-02-05 09:46:30.361 11262 INFO oslo_rootwrap.client [req-300a592f-6166-495d-95df-29e6d9dc3cad - - - - -] Spawned new rootwrap daemon process with pid=12334
+2017-02-05 09:46:30.956 11262 INFO neutron.agent.linux.interface [-] Device qr-2e39d198-16 already exists
+2017-02-05 09:46:30.995 11262 INFO neutron.agent.linux.interface [-] Device qr-8f512736-11 already exists
+2017-02-05 09:46:31.046 11262 INFO neutron.agent.linux.interface [-] Device qg-a6bbc680-f0 already exists
+2017-02-05 09:51:28.203 11262 INFO oslo_rootwrap.client [req-17057581-3206-4334-ac7c-930460e1c86b - - - - -] Stopping rootwrap daemon process with pid=12334
+2017-02-05 09:51:29.267 13689 INFO neutron.common.config [-] Logging enabled!
+2017-02-05 09:51:29.267 13689 INFO neutron.common.config [-] /usr/bin/neutron-l3-agent version 9.1.1
